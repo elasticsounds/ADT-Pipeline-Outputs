@@ -47,10 +47,3 @@ python main.py --textbook accessible_digital_textbooks/few_shot/adt_examples/tex
 mkdir math2ndgrade_tts_output
 
 python adt.py --pdf_path accessible_digital_textbooks/few_shot/adt_examples/textbooks/math2ndgrade.pdf --input_dir math2ndgrade_extraction_outputs --output_dir math2ndgrade_web_assets_result --base_language en --languages es --overwrite --tts_input_dir math2ndgrade_tts_output
-
-## World History since 1500
-python main.py --textbook accessible_digital_textbooks/few_shot/adt_examples/textbooks/worldhistory.pdf --output_dir worldhistory_extraction_outputs --translation_targets es --base_language en --start 10 --end 30
-
-mkdir worldhistory_tts_output
-
-python adt.py --pdf_path accessible_digital_textbooks/few_shot/adt_examples/textbooks/worldhistory.pdf --input_dir worldhistory_extraction_outputs --output_dir worldhistory_web_assets_result --base_language en --languages es --overwrite --tts_input_dir worldhistory_tts_output
