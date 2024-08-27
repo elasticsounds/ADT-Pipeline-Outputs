@@ -20,7 +20,7 @@ python adt.py --pdf_path accessible_digital_textbooks/few_shot/adt_examples/text
 ## Cuaderno 3 page 10 - 30
 python main.py --textbook accessible_digital_textbooks/few_shot/adt_examples/textbooks/cuaderno3.pdf --output_dir c3_10_30_extraction_outputs --translation_targets en --base_language es --start 10 --end 30
 
-### Many elements were still enqued - so ran with --retry_errored_and_enqueued
+### Many elements were still enqueued - so ran with --retry_errored_and_enqueued
 python main.py --textbook accessible_digital_textbooks/few_shot/adt_examples/textbooks/LivingUruguay1.pdf --output_dir lu_1_extraction_outputs --translation_targets en --base_language es --start 10 --end 30 --retry_errored_and_enqueued
 
 mkdir c3_10_30_tts_output
