@@ -1,0 +1,230 @@
+page_index,id,language_code,text,type
+21,text-21-0,en,Final Task:,instruction_text
+21,text-21-1,en,Describe two patterns of change to Earth’s features and how they occur.,instruction_text
+16,text-16-0,en,Focus Questions,section_heading
+16,text-16-1,en,1. Where do you see the most volcanoes?,activity_number
+16,text-16-2,en,Where do you see the most volcanoes?,activity_option
+16,text-16-3,en,2. Where do you see the least volcanoes?,activity_number
+16,text-16-4,en,Where do you see the least volcanoes?,activity_option
+16,text-16-5,en,3. What patterns do you see in the location of the active volcanoes?,activity_number
+16,text-16-6,en,What patterns do you see in the location of the active volcanoes?,activity_option
+15,text-15-0,en,1.1 Patterns in Earth’s Features (5.1.1),section_heading
+15,text-15-1,en,Phenomenon,section_heading
+15,text-15-2,en,"In the Pacific Ocean there is a pathway of active volcanoes with frequent earthquakes, called the Ring of Fire.",section_text
+15,text-15-3,en,The dots represent active volcanoes.,section_text
+15,text-15-4,en,"Active Volcanoes, Plate Tectonics, and the ""Ring of Fire""",image_label
+15,text-15-5,en,"Image by USGS, https://commons.wikimedia.org/wiki/File:Map_plate_tectonics_world.gif; public domain",image_caption
+15,text-15-6,en,Observations & Wonderings,section_heading
+15,text-15-7,en,1. What are you observing about this phenomenon?,instruction_text
+15,text-15-8,en,2. What are you wondering about this phenomenon?,instruction_text
+24,text-24-0,en,Focus Questions,section_heading
+24,text-24-1,en,1. The image above shows how water is distributed on Earth. How much water on Earth is salt water (saline water)?,instruction_text
+24,text-24-2,en,"2. How much water on Earth is surface water (lakes, swamps, or rivers)?",instruction_text
+24,text-24-3,en,3. What do you find surprising about this data?,instruction_text
+13,text-13-0,en,CHAPTER 1,chapter_title
+13,text-13-1,en,Strand 1: Characteristics and Interactions of Earth’s Systems,section_heading
+13,text-13-2,en,Chapter Outline,section_heading
+13,text-13-3,en,1.1 Patterns in Earth’s Features (5.1.1),section_text
+13,text-13-4,en,1.2 Earth’s Water (5.1.2),section_text
+13,text-13-5,en,1.3 Weathering and Erosion (5.1.3),section_text
+13,text-13-6,en,1.4 Interactions between Systems (5.1.4),section_text
+13,text-13-7,en,1.5 Impact on Humans (5.1.5),section_text
+13,text-13-8,en,"Image by Julius Silver, pixabay.com, CC0",image_caption
+13,text-13-9,en,"Earth’s major systems are the geosphere (solid and molten rock, soil, and sediments), the hydrosphere (water and ice), the atmosphere (air), and the biosphere (living things, including humans).",section_text
+13,text-13-10,en,These systems interact in multiple ways.,section_text
+13,text-13-11,en,Weathering and erosion are examples of interactions between Earth’s systems.,section_text
+13,text-13-12,en,"Some interactions cause landslides, earthquakes, and volcanic eruptions that impact humans and other organisms.",section_text
+13,text-13-13,en,Humans cannot eliminate natural hazards; solutions can be designed to reduce their impact.,section_text
+20,text-20-0,en,Putting It Together,section_heading
+20,text-20-1,en,"Active Volcanoes, Plate Tectonics, and the ""Ring of Fire""",image_label
+20,text-20-2,en,"Image by USGS, https://commons.wikimedia.org/wiki/File:Map_plate_tectonics_world.gif; public domain",image_caption
+20,text-20-3,en,Focus Questions:,section_heading
+20,text-20-4,en,1. The dots represent active volcanoes.,instruction_text
+20,text-20-5,en,What do you notice about the location of most volcanoes shown?,instruction_text
+20,text-20-6,en,2. The dark lines represent plate boundaries.,instruction_text
+20,text-20-7,en,What do we know about plate boundaries and earthquakes?,instruction_text
+20,text-20-8,en,"3. Based on what you know about volcanoes and earthquakes,",instruction_text
+20,text-20-9,en,what predictions can you make about changes to Earth’s surface in the future?,instruction_text
+19,text-19-0,en,rolling motions that cause most of the damage.,section_text
+19,text-19-1,en,Earthquakes can create landforms on the Earth’s surface.,section_text
+19,text-19-2,en,Mountains can form during an earthquake as the edges of the tectonic plates push together.,section_text
+19,text-19-3,en,"During an earthquake, a fault may slip deep underground and leave no evidence on the surface that an earthquake has occurred.",section_text
+19,text-19-4,en,"Earthquakes in the ocean may cause a tsunami, a large ocean wave.",section_text
+19,text-19-5,en,Ocean Floor,section_heading
+19,text-19-6,en,"In the oceans, plates move apart at mid-ocean ridges, causing volcanoes, creating openings for lava to rise upward, erupt, and cool.",section_text
+19,text-19-7,en,"As more lava erupts and pushes the original seafloor outward, the seafloor spreads and forms new oceanic crust.",section_text
+19,text-19-8,en,This is why there is a mountain range running through the oceans.,section_text
+19,text-19-9,en,The plates pulling apart cause earthquakes.,section_text
+19,text-19-10,en,Most mid-ocean ridges are located deep below the sea.,section_text
+19,text-19-11,en,The island of Iceland sits right on the Mid-Atlantic ridge.,section_text
+19,text-19-12,en,"Mid Atlantic Ridge by Mangwanani, public domain",image_label
+19,text-19-13,en,The rift valley in Iceland is part of the Mid-Atlantic Ridge.,image_label
+29,text-29-0,en,Final Task,section_heading
+29,text-29-1,en,Draw a bar graph to show salt water on Earth compared to freshwater on Earth.,instruction_text
+10,text-10-0,en,What is involved in Engineering Design?,section_heading
+10,text-10-1,en,"Engineering is a creative process where each new version of a design is tested and then modified, based on what has been learned up to that point.",section_text
+10,text-10-2,en,This process includes a number of components:,section_text
+10,text-10-3,en,1. Identifying the problem and defining criteria and constraints.,activity_number
+10,text-10-4,en,2. Generating ideas for how to solve the problem.,activity_number
+10,text-10-5,en,"Engineers use research, brainstorming, and collaboration with others to come up with ideas for solutions and designs.",section_text
+10,text-10-6,en,3. Use criteria and constraints to evaluate possible design solutions to identify the one(s) that best address these parameters for the problem in context.,activity_number
+10,text-10-7,en,4. Build and test the prototypes.,activity_number
+10,text-10-8,en,"Using data collected, the engineer analyzes how well prototypes meet the given criteria and constraints.",section_text
+10,text-10-9,en,5. Suggest or make improvements to prototypes to optimize the design.,activity_number
+10,text-10-10,en,"In the Science with Engineering Education (SEEd) Standards, specific engineering standards generally involve two types of tasks:",section_text
+10,text-10-11,en,"1. If the standard includes the idea of designing, then the design process will contain components of defining the problem (along with identifying the criteria and constraints), developing many possible solutions, and optimizing a solution (e.g., determining a best solution for the situation based on the criteria and constraints, testing the solution, refining the solution).",activity_number
+10,text-10-12,en,"2. If the standard includes the idea of evaluating, then the design process will contain components of defining the problem (along with identifying the criteria and constraints) and optimizing a solution.",activity_number
+10,text-10-13,en,The idea of developing many possible solutions is not included because various solutions will be provided.,section_text
+10,text-10-14,en,The idea of evaluating then means determining a best solution from the provided solutions for the situation based on meeting the criteria and constraints requirements.,section_text
+18,text-18-0,en,The many volcanoes and earthquakes along the Ring of Fire are caused by the amount of movement of tectonic plates in the area.,section_text
+18,text-18-1,en,"Along the Ring of Fire, plates overlap.",section_text
+18,text-18-2,en,The magma near Earth’s surface creates volcanic activity.,section_text
+18,text-18-3,en,"The border between the Pacific and North American Plates (Phenomenon image) is a transform boundary, where plates move sideways past one another.",section_text
+18,text-18-4,en,This type of boundary generates a large number of earthquakes as tension in Earth’s crust builds up and is released.,section_text
+18,text-18-5,en,Plates can also move away from each other within a continent.,section_text
+18,text-18-6,en,This is called continental rifting.,section_text
+18,text-18-7,en,"When this happens, the crust thins, breaks, and then splits apart.",section_text
+18,text-18-8,en,Earthquakes,section_heading
+18,text-18-9,en,"Earthquakes are waves of energy that pass through Earth caused by a sudden shift of tectonic plates along fault lines, a long crack in the surface of the Earth.",section_text
+18,text-18-10,en,Earthquakes can cause sudden changes that alter the Earth’s landscape dramatically.,section_text
+18,text-18-11,en,"Tremendous forces under Earth’s surface build up pressure, which is released in waves along a fault.",section_text
+18,text-18-12,en,"Portions of Earth’s crust move, creating waves.",section_text
+18,text-18-13,en,Some of the waves are surface waves because they travel along the surface of the Earth.,section_text
+18,text-18-14,en,"Other waves, called body waves, travel through the Earth’s interior.",section_text
+18,text-18-15,en,"In an earthquake, body waves are responsible for the sharp jolts.",section_text
+18,text-18-16,en,Surface waves are responsible for the,section_text
+18,text-18-17,en,"Pacific Ring of Fire by Gringer, https://en.wikipedia.org/wiki/File:Pacific_Ring_of_Fire.svg, public domain",image_caption
+11,text-11-0,en,Table of Contents,standalone_text
+11,text-11-1,en,CHAPTER 1-Earth’s Systems,chapter_title
+11,text-11-3,en,1.1 Patterns in Earth’s Features (5.1.1),section_heading
+11,text-11-5,en,1.2 Earth’s Water (5.1.2),section_heading
+11,text-11-7,en,1.3 Weathering and Erosion (5.1.3),section_heading
+11,text-11-9,en,1.4 Interactions between Systems (5.1.4),section_heading
+11,text-11-11,en,1.5 Impact on Humans (5.1.5),section_heading
+11,text-11-13,en,CHAPTER 2-Properties and Changes in Matter,chapter_title
+11,text-11-15,en,2.1 Too Small to See (5.2.1),section_heading
+11,text-11-17,en,2.2 Identifying Substances (5.2.2),section_heading
+11,text-11-19,en,2.3 Combining Substances (5.2.3),section_heading
+11,text-11-21,en,2.4 Conservation of Matter (5.2.4),section_heading
+11,text-11-23,en,CHAPTER 3-Cycling of Matter in Earth’s Systems,chapter_title
+11,text-11-25,en,3.1 Building Plants (5.3.1),section_heading
+11,text-11-27,en,3.2 Consuming Food (5.3.2),section_heading
+11,text-11-29,en,3.3 Movement of Matter (5.3.3),section_heading
+11,text-11-31,en,3.4 Conserving Resources (5.3.4),section_heading
+23,text-23-0,en,1.2 Earth’s Water (5.1.2),section_heading
+23,text-23-1,en,Phenomenon,section_text
+23,text-23-2,en,"Most of the water found on the Earth is saltwater, not freshwater.",section_text
+23,text-23-3,en,Saltwater and freshwater,image_label
+23,text-23-4,en,Total Water on Earth,image_label
+23,text-23-5,en,97%,image_label
+23,text-23-6,en,Saline water (oceans),image_label
+23,text-23-7,en,3%,image_label
+23,text-23-8,en,Fresh water,image_label
+23,text-23-9,en,Icecaps and Glaciers 68.7%,image_label
+23,text-23-10,en,Ground Water 30.1%,image_label
+23,text-23-11,en,Other 0.9%,image_label
+23,text-23-12,en,Surface Water,image_label
+23,text-23-13,en,87% Lakes,image_label
+23,text-23-14,en,11% Swamps,image_label
+23,text-23-15,en,2% Rivers,image_label
+23,text-23-16,en,"Most of the water on Earth is saltwater (97%), and only a little is freshwater (3%).",image_caption
+23,text-23-18,en,Observations & Wonderings,section_heading
+23,text-23-19,en,1. What are you observing about this phenomenon?,instruction_text
+23,text-23-20,en,2. What are you wondering about this phenomenon?,instruction_text
+25,text-25-0,en,5.1.2 Earth’s Water,section_heading
+25,text-25-1,en,Use mathematics and computational thinking to compare the quantity of saltwater and freshwater in various reservoirs to provide evidence for the distribution of water on Earth.,instruction_text
+25,text-25-2,en,"Emphasize reservoirs such as oceans, lakes, rivers, glaciers, groundwater, and polar ice caps.",instruction_text
+25,text-25-3,en,"Examples of using mathematics and computational thinking could include measuring, estimating, graphing, or finding percentages of quantities.",instruction_text
+25,text-25-5,en,"In this section, focus on comparing the quantity of saltwater with freshwater found on the Earth.",instruction_text
+25,text-25-6,en,Where is Earth’s Water?,section_heading
+25,text-25-7,en,Earth's water is (almost) everywhere:,section_text
+25,text-25-8,en,"above the Earth in the air and clouds (atmosphere),",section_text
+25,text-25-9,en,"on the surface of the Earth in rivers, oceans, ice (hydrosphere),",section_text
+25,text-25-10,en,"plants, in living organisms (biosphere),",section_text
+25,text-25-11,en,and inside the Earth (geosphere).,section_text
+17,text-17-0,en,5.1.1 Patterns in Earth’s Features,section_heading
+17,text-17-1,en,Analyze and interpret data to describe patterns of Earth’s features.,instruction_text
+17,text-17-2,en,Emphasize most earthquakes and volcanoes occur in bands that are often along the boundaries between continents and oceans while major mountain chains may be found inside continents or near their edges.,section_text
+17,text-17-3,en,Examples of data could include maps showing locations of mountains on continents and the ocean floor or the locations of volcanoes and earthquakes.,section_text
+17,text-17-5,en,"In this chapter, you will be looking at different patterns we see in Earth’s Features.",section_text
+17,text-17-6,en,"Volcanoes, Earthquakes, and Ocean Floor",section_heading
+17,text-17-7,en,Volcanoes,section_heading
+17,text-17-8,en,"Volcanoes are openings in the Earth’s crust that allow hot, melted rock (magma), ash, and gases to erupt outward.",section_text
+17,text-17-9,en,Volcanoes change the Earth’s surface in a short period of time.,section_text
+17,text-17-10,en,More than half of Earth’s surface is made up of volcanic rock.,section_text
+17,text-17-11,en,"Volcanoes are evidence that we live on an active, changing planet.",section_text
+17,text-17-12,en,Do you know how a volcano forms?,section_text
+17,text-17-13,en,"Far below Earth’s surface, temperatures are hot enough to melt rock.",section_text
+17,text-17-14,en,"The melted rock comes out of cracks in the Earth’s crust, resulting in a volcano.",section_text
+17,text-17-15,en,Some eruptions pour out rivers of lava while other volcanoes have larger eruptions.,section_text
+17,text-17-16,en,"Volcanoes can erupt underwater, forming huge ranges of volcanic mountains on the ocean floor.",section_text
+17,text-17-17,en,Pacific Ring of Fire,section_heading
+17,text-17-18,en,Most earthquakes and volcanic eruptions take place along the edges of the Pacific Ocean (see image below).,section_text
+17,text-17-19,en,The Earth’s crust is broken up into a series of massive sections called plates.,section_text
+17,text-17-20,en,"The movements of these plates can account for noticeable changes to the Earth, such as earthquakes, volcanic eruptions, and the building of mountains.",section_text
+28,text-28-0,en,Putting It Together,section_heading
+28,text-28-1,en,Saltwater and freshwater,image_overlay
+28,text-28-2,en,Total Water on Earth,image_overlay
+28,text-28-3,en,97%,image_overlay
+28,text-28-4,en,Saline water (oceans),image_overlay
+28,text-28-5,en,3%,image_overlay
+28,text-28-6,en,Fresh water,image_overlay
+28,text-28-7,en,Icecaps and Glaciers,image_overlay
+28,text-28-8,en,68.7%,image_overlay
+28,text-28-9,en,Ground Water,image_overlay
+28,text-28-10,en,30.1%,image_overlay
+28,text-28-11,en,Other,image_overlay
+28,text-28-12,en,0.9%,image_overlay
+28,text-28-13,en,Surface Water,image_overlay
+28,text-28-14,en,0.3%,image_overlay
+28,text-28-15,en,Lakes,image_overlay
+28,text-28-16,en,87%,image_overlay
+28,text-28-17,en,Swamps,image_overlay
+28,text-28-18,en,11%,image_overlay
+28,text-28-19,en,Rivers,image_overlay
+28,text-28-20,en,2%,image_overlay
+28,text-28-21,en,"Most of the water on Earth is saltwater (97%), and only a little is freshwater (3%).",image_caption
+28,text-28-22,en,"Image by Mariana Ruiz Villarreal (LadyofHats) for the CK-12 Foundation, CC BY-NC 3.0",image_caption
+28,text-28-23,en,Focus Questions,section_heading
+28,text-28-24,en,1. List three places where freshwater is found on Earth.,instruction_text
+28,text-28-25,en,2. What water resources contribute to Earth’s surface water?,instruction_text
+27,text-27-0,en,"air (as water vapor), rivers and lakes, icecaps and glaciers, the ground (as soil moisture and in aquifers).",section_text
+27,text-27-1,en,Freshwater,section_heading
+27,text-27-2,en,"Even though you may only notice water on the Earth's surface, more freshwater is stored in the ground than there is in liquid form on the surface.",section_text
+27,text-27-3,en,"In fact, some of the water you see flowing in rivers comes from water seeping into Earth's surface to become groundwater.",section_text
+27,text-27-4,en,"Water from precipitation continually seeps into the ground to fill aquifers (underground reservoirs),",section_text
+27,text-27-5,en,while at the same time water in the ground continually fills rivers through seepage.,section_text
+27,text-27-6,en,Humans make use of both surface water and groundwater.,section_text
+27,text-27-7,en,"In the United States in 2010, we used about 275 billion gallons (1,041 billion liters) of surface water per day",section_text
+27,text-27-8,en,and about 79.3 billion gallons (300.2 billion liters) of groundwater per day.,section_text
+27,text-27-9,en,"Although surface water is used more often to supply drinking water and to irrigate crops,",section_text
+27,text-27-10,en,"groundwater is vital because it fills rivers and lakes and provides water for people in places where water is scarce,",section_text
+27,text-27-11,en,such as in desert towns of the western United States.,section_text
+26,text-26-0,en,Here is a chart showing the distribution of water on Earth.,section_text
+26,text-26-1,en,"• In the first column, notice that 2.5% of Earth's water is freshwater - the amount needed for life to survive.",section_text
+26,text-26-2,en,"• The middle column shows the breakdown of freshwater. Almost all of it is found in ice and in the ground. Only a little more than 1.2% of all freshwater is surface water, which provides most of life's needs.",section_text
+26,text-26-3,en,"• The right column shows the breakdown of surface freshwater. Most of the surface freshwater is found in ice, and another 20.9% is found in lakes.",section_text
+26,text-26-4,en,Rivers make up 0.49% of surface freshwater.,section_text
+26,text-26-5,en,"Although rivers account for only a small amount of freshwater, rivers are the source of most usable water.",section_text
+26,text-26-6,en,Where is Earth’s Water?,section_heading
+26,text-26-7,en,Oceans 96.5%,image_label
+26,text-26-8,en,Freshwater 2.5%,image_label
+26,text-26-9,en,Other saline water 0.9%,image_label
+26,text-26-10,en,Glaciers and ice caps 68.7%,image_label
+26,text-26-11,en,Groundwater 30.1%,image_label
+26,text-26-12,en,Surface/other freshwater 1.2%,image_label
+26,text-26-13,en,Ground ice and permafrost 69.0%,image_label
+26,text-26-14,en,Lakes 20.9%,image_label
+26,text-26-15,en,Soil moisture 3.8%,image_label
+26,text-26-16,en,"Swamps, marshes 2.6%",image_label
+26,text-26-17,en,Rivers 0.49%,image_label
+26,text-26-18,en,Living things 0.26%,image_label
+26,text-26-19,en,Atmosphere 3.0%,image_label
+26,text-26-20,en,Total global water,image_caption
+26,text-26-21,en,Freshwater,image_caption
+26,text-26-22,en,Surface water and other freshwater,image_caption
+26,text-26-23,en,"Source: Igor Shiklomanov’s chapter “World fresh water resources” in Peter H. Gleick (editor), 1993, Water in Crisis: A Guide to the World’s Fresh Water Resources. (Numbers are rounded).",image_caption
+26,text-26-24,en,"How Much Water is There On, In, and Above the Earth?",section_heading
+26,text-26-25,en,The Earth is a watery place. But just how much water exists on our planet?,section_text
+26,text-26-26,en,"About 71 percent of the Earth's surface is covered with water, and the oceans hold about 96 percent of all Earth's water.",section_text
+26,text-26-27,en,Water also exists in the,section_text

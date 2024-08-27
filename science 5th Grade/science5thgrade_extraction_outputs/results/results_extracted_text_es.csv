@@ -1,0 +1,230 @@
+page_index,id,language_code_orig,type,section_id,section_type,language_code,text,status
+21,text-21-0,en,instruction_text,0,activity_open_ended_answer,es,Tarea Final,success
+21,text-21-1,en,instruction_text,0,activity_open_ended_answer,es,Describa dos patrones de cambio en las características de la Tierra y cómo ocurren.,success
+16,text-16-0,en,section_heading,0,activity_open_ended_answer,es,Preguntas de enfoque,success
+16,text-16-1,en,activity_number,0,activity_open_ended_answer,es,1. ¿Dónde se ven más volcanes?,success
+16,text-16-2,en,activity_option,0,activity_open_ended_answer,es,¿Dónde ves la mayoría de los volcanes?,success
+16,text-16-3,en,activity_number,1,activity_open_ended_answer,es,2. ¿Dónde ves los menos volcanes?,success
+16,text-16-4,en,activity_option,1,activity_open_ended_answer,es,¿Dónde se ven menos volcanes?,success
+16,text-16-5,en,activity_number,2,activity_open_ended_answer,es,3. ¿Qué patrones observas en la ubicación de los volcanes activos?,success
+16,text-16-6,en,activity_option,2,activity_open_ended_answer,es,¿Qué patrones ves en la ubicación de los volcanes activos?,success
+15,text-15-0,en,section_heading,0,text_and_images,es,1.1 Patrones en las características de la Tierra (5.1.1),success
+15,text-15-1,en,section_heading,0,text_and_images,es,Fenómeno,success
+15,text-15-2,en,section_text,0,text_and_images,es,"En el Océano Pacífico hay un camino de volcanes activos con frecuentes terremotos, llamado el Cinturón de Fuego.",success
+15,text-15-3,en,section_text,0,text_and_images,es,Los puntos representan volcanes activos.,success
+15,text-15-4,en,image_label,0,text_and_images,es,"Volcanes activos, Tectónica de placas y el ""Cinturón de Fuego""",success
+15,text-15-5,en,image_caption,0,text_and_images,es,"Imagen por USGS, https://commons.wikimedia.org/wiki/File:Map_plate_tectonics_world.gif; dominio público",success
+15,text-15-6,en,section_heading,1,activity_open_ended_answer,es,Observaciones y preguntas,success
+15,text-15-7,en,instruction_text,1,activity_open_ended_answer,es,1. ¿Qué observas sobre este fenómeno?,success
+15,text-15-8,en,instruction_text,1,activity_open_ended_answer,es,2. ¿Qué te preguntas sobre este fenómeno?,success
+24,text-24-0,en,section_heading,0,activity_open_ended_answer,es,Preguntas de enfoque,success
+24,text-24-1,en,instruction_text,0,activity_open_ended_answer,es,1. La imagen de arriba muestra cómo se distribuye el agua en la Tierra. ¿Cuánta agua en la Tierra es agua salada (agua salina)?,success
+24,text-24-2,en,instruction_text,0,activity_open_ended_answer,es,"2. ¿Cuánta agua en la Tierra es agua superficial (lagos, pantanos o ríos)?",success
+24,text-24-3,en,instruction_text,0,activity_open_ended_answer,es,3. ¿Qué encuentras sorprendente sobre estos datos?,success
+13,text-13-0,en,chapter_title,0,table_of_contents,es,CAPÍTULO 1,success
+13,text-13-1,en,section_heading,0,table_of_contents,es,Tramo 1: Características e Interacciones de los Sistemas de la Tierra,success
+13,text-13-2,en,section_heading,0,table_of_contents,es,Esquema del capítulo,success
+13,text-13-3,en,section_text,0,table_of_contents,es,1.1 Patrones en las características de la Tierra (5.1.1),success
+13,text-13-4,en,section_text,0,table_of_contents,es,1.2 Agua de la Tierra (5.1.2),success
+13,text-13-5,en,section_text,0,table_of_contents,es,1.3 Meteorización y erosión (5.1.3),success
+13,text-13-6,en,section_text,0,table_of_contents,es,1.4 Interacciones entre Sistemas (5.1.4),success
+13,text-13-7,en,section_text,0,table_of_contents,es,1.5 Impacto en los Humanos (5.1.5),success
+13,text-13-8,en,image_caption,1,text_and_images,es,"Imagen de Julius Silver, pixabay.com, CC0",success
+13,text-13-9,en,section_text,1,text_and_images,es,"Los principales sistemas de la Tierra son la geosfera (roca sólida y fundida, suelo y sedimentos), la hidrosfera (agua y hielo), la atmósfera (aire) y la biosfera (seres vivos, incluidos los humanos).",success
+13,text-13-10,en,section_text,1,text_and_images,es,Estos sistemas interactúan de múltiples maneras.,success
+13,text-13-11,en,section_text,1,text_and_images,es,La meteorización y la erosión son ejemplos de interacciones entre los sistemas de la Tierra.,success
+13,text-13-12,en,section_text,1,text_and_images,es,"Algunas interacciones provocan deslizamientos de tierra, terremotos y erupciones volcánicas que impactan a los humanos y otros organismos.",success
+13,text-13-13,en,section_text,1,text_and_images,es,Los humanos no pueden eliminar los peligros naturales; se pueden diseñar soluciones para reducir su impacto.,success
+20,text-20-0,en,section_heading,0,text_and_images,es,Juntando Todo,success
+20,text-20-1,en,image_label,0,text_and_images,es,"Volcanes Activos, Tectónica de Placas y el ""Cinturón de Fuego""",success
+20,text-20-2,en,image_caption,0,text_and_images,es,"Imagen de USGS, https://commons.wikimedia.org/wiki/File:Map_plate_tectonics_world.gif; dominio público",success
+20,text-20-3,en,section_heading,3,activity_open_ended_answer,es,Preguntas de Enfoque,success
+20,text-20-4,en,instruction_text,1,activity_open_ended_answer,es,Los puntos representan volcanes activos.,success
+20,text-20-5,en,instruction_text,1,activity_open_ended_answer,es,¿Qué notas sobre la ubicación de la mayoría de los volcanes mostrados?,success
+20,text-20-6,en,instruction_text,2,activity_open_ended_answer,es,2. Las líneas oscuras representan los límites de las placas.,success
+20,text-20-7,en,instruction_text,2,activity_open_ended_answer,es,¿Qué sabemos sobre los límites de las placas y los terremotos?,success
+20,text-20-8,en,instruction_text,3,activity_open_ended_answer,es,"Basado en lo que sabes sobre volcanes y terremotos,",success
+20,text-20-9,en,instruction_text,3,activity_open_ended_answer,es,¿Qué predicciones se pueden hacer sobre los cambios en la superficie de la Tierra en el futuro?,success
+19,text-19-0,en,section_text,0,text_only,es,movimientos de rodamiento que causan la mayor parte del daño.,success
+19,text-19-1,en,section_text,0,text_only,es,Los terremotos pueden crear formaciones terrestres en la superficie de la Tierra.,success
+19,text-19-2,en,section_text,0,text_only,es,Las montañas pueden formarse durante un terremoto cuando los bordes de las placas tectónicas se empujan entre sí.,success
+19,text-19-3,en,section_text,0,text_only,es,"Durante un terremoto, una falla puede deslizarse profundamente bajo tierra y no dejar evidencia en la superficie de que un terremoto ha ocurrido.",success
+19,text-19-4,en,section_text,0,text_only,es,"Los terremotos en el océano pueden causar un tsunami, una gran ola de océano.",success
+19,text-19-5,en,section_heading,1,text_and_images,es,Fondo del Océano,success
+19,text-19-6,en,section_text,1,text_and_images,es,"En los océanos, las placas se separan en las dorsales oceánicas, causando volcanes, creando aberturas para que la lava suba, haga erupción y se enfríe.",success
+19,text-19-7,en,section_text,1,text_and_images,es,"A medida que más lava entra en erupción y empuja el fondo marino original hacia afuera, el fondo marino se expande y forma nueva corteza oceánica.",success
+19,text-19-8,en,section_text,1,text_and_images,es,Esta es la razón por la cual hay una cadena montañosa que atraviesa los océanos.,success
+19,text-19-9,en,section_text,1,text_and_images,es,Las placas al separarse causan terremotos.,success
+19,text-19-10,en,section_text,1,text_and_images,es,La mayoría de las dorsales oceánicas se encuentran en lo profundo del mar.,success
+19,text-19-11,en,section_text,1,text_and_images,es,La isla de Islandia se encuentra justo en la dorsal mesoatlántica.,success
+19,text-19-12,en,image_label,1,text_and_images,es,"Dorsal Mesoatlántica por Mangwanani, dominio público",success
+19,text-19-13,en,image_label,1,text_and_images,es,El valle del rift en Islandia es parte de la Dorsal Mesoatlántica.,success
+29,text-29-0,en,section_heading,0,activity_open_ended_answer,es,Tarea Final,success
+29,text-29-1,en,instruction_text,0,activity_open_ended_answer,es,Dibuja un gráfico de barras para mostrar el agua salada en la Tierra comparada con el agua dulce en la Tierra.,success
+10,text-10-0,en,section_heading,0,text_only,es,¿Qué implica el Diseño de Ingeniería?,success
+10,text-10-1,en,section_text,0,text_only,es,"La ingeniería es un proceso creativo en el que se prueba cada nueva versión de un diseño y luego se modifica, basándose en lo aprendido hasta ese momento.",success
+10,text-10-2,en,section_text,0,text_only,es,Este proceso incluye una serie de componentes:,success
+10,text-10-3,en,activity_number,0,text_only,es,1. Identificar el problema y definir criterios y restricciones.,success
+10,text-10-4,en,activity_number,0,text_only,es,2. Generando ideas para cómo resolver el problema.,success
+10,text-10-5,en,section_text,0,text_only,es,"Los ingenieros usan la investigación, la lluvia de ideas y la colaboración con otros para generar ideas para soluciones y diseños.",success
+10,text-10-6,en,activity_number,0,text_only,es,3. Utilizar criterios y restricciones para evaluar posibles soluciones de diseño e identificar la(s) que mejor aborden estos parámetros para el problema en contexto.,success
+10,text-10-7,en,activity_number,0,text_only,es,4. Construir y probar los prototipos.,success
+10,text-10-8,en,section_text,0,text_only,es,"Usando los datos recogidos, el ingeniero analiza qué tan bien los prototipos cumplen con los criterios y restricciones dados.",success
+10,text-10-9,en,activity_number,0,text_only,es,5. Sugerir o hacer mejoras en los prototipos para optimizar el diseño.,success
+10,text-10-10,en,section_text,1,text_only,es,"En los estándares de Ciencia con Educación en Ingeniería (SEEd), los estándares específicos de ingeniería generalmente implican dos tipos de tareas:",success
+10,text-10-11,en,activity_number,1,text_only,es,"Si el estándar incluye la idea de diseñar, entonces el proceso de diseño contendrá componentes de definición del problema (junto con la identificación de los criterios y restricciones), desarrollando muchas soluciones posibles, y optimizando una solución (por ejemplo, determinando la mejor solución para la situación basada en los criterios y restricciones, probando la solución, refinando la solución).",success
+10,text-10-12,en,activity_number,1,text_only,es,"2. Si la norma incluye la idea de evaluar, entonces el proceso de diseño contendrá componentes de definir el problema (junto con la identificación de los criterios y restricciones) y optimizar una solución.",success
+10,text-10-13,en,section_text,1,text_only,es,La idea de desarrollar muchas soluciones posibles no está incluida porque se proporcionarán diversas soluciones.,success
+10,text-10-14,en,section_text,1,text_only,es,La idea de evaluar significa determinar la mejor solución entre las soluciones proporcionadas para la situación basándose en cumplir con los requisitos de criterios y restricciones.,success
+18,text-18-0,en,section_text,0,text_and_images,es,Los muchos volcanes y terremotos a lo largo del Anillo de Fuego son causados por la cantidad de movimiento de las placas tectónicas en la zona.,success
+18,text-18-1,en,section_text,0,text_and_images,es,"A lo largo del Cinturón de Fuego, las placas se superponen.",success
+18,text-18-2,en,section_text,0,text_and_images,es,El magma cerca de la superficie de la Tierra crea actividad volcánica.,success
+18,text-18-3,en,section_text,0,text_and_images,es,"La frontera entre las placas del Pacífico y de América del Norte (imagen del fenómeno) es un límite transformante, donde las placas se desplazan lateralmente una junto a la otra.",success
+18,text-18-4,en,section_text,0,text_and_images,es,Este tipo de límite genera una gran cantidad de terremotos a medida que la tensión en la corteza terrestre se acumula y se libera.,success
+18,text-18-5,en,section_text,0,text_and_images,es,Las placas también pueden alejarse unas de otras dentro de un continente.,success
+18,text-18-6,en,section_text,0,text_and_images,es,Esto se llama rifteo continental.,success
+18,text-18-7,en,section_text,0,text_and_images,es,"Cuando esto ocurre, la corteza se adelgaza, se rompe y luego se divide.",success
+18,text-18-8,en,section_heading,1,text_only,es,Terremotos,success
+18,text-18-9,en,section_text,1,text_only,es,"Los terremotos son ondas de energía que atraviesan la Tierra causadas por un desplazamiento repentino de las placas tectónicas a lo largo de las líneas de falla, una larga grieta en la superficie de la Tierra.",success
+18,text-18-10,en,section_text,1,text_only,es,Los terremotos pueden causar cambios repentinos que alteran dramáticamente el paisaje de la Tierra.,success
+18,text-18-11,en,section_text,1,text_only,es,"Tremendas fuerzas bajo la superficie de la Tierra acumulan presión, que se libera en ondas a lo largo de una falla.",success
+18,text-18-12,en,section_text,1,text_only,es,"Las porciones de la corteza terrestre se mueven, creando ondas.",success
+18,text-18-13,en,section_text,1,text_only,es,Algunas de las ondas son ondas superficiales porque viajan a lo largo de la superficie de la Tierra.,success
+18,text-18-14,en,section_text,1,text_only,es,"Otras ondas, llamadas ondas de cuerpo, viajan a través del interior de la Tierra.",success
+18,text-18-15,en,section_text,1,text_only,es,"En un terremoto, las ondas internas son responsables de los golpes bruscos.",success
+18,text-18-16,en,section_text,1,text_only,es,Las ondas superficiales son responsables de la,success
+18,text-18-17,en,image_caption,0,text_and_images,es,"Cinturón de Fuego del Pacífico por Gringer, https://en.wikipedia.org/wiki/File:Pacific_Ring_of_Fire.svg, dominio público",success
+11,text-11-0,en,standalone_text,0,table_of_contents,es,Tabla de contenidos,success
+11,text-11-1,en,chapter_title,0,table_of_contents,es,CAPÍTULO 1-Sistemas de la Tierra,success
+11,text-11-3,en,section_heading,0,table_of_contents,es,Patrones en las características de la Tierra (5.1.1),success
+11,text-11-5,en,section_heading,0,table_of_contents,es,1.2 Agua de la Tierra (5.1.2),success
+11,text-11-7,en,section_heading,0,table_of_contents,es,1.3 Meteorización y Erosión (5.1.3),success
+11,text-11-9,en,section_heading,0,table_of_contents,es,1.4 Interacciones entre Sistemas (5.1.4),success
+11,text-11-11,en,section_heading,0,table_of_contents,es,1.5 Impacto en los Humanos (5.1.5),success
+11,text-11-13,en,chapter_title,0,table_of_contents,es,CAPÍTULO 2-Propiedades y Cambios en la Materia,success
+11,text-11-15,en,section_heading,0,table_of_contents,es,Demasiado pequeño para ver,success
+11,text-11-17,en,section_heading,0,table_of_contents,es,2.2 Identificación de Sustancias (5.2.2),success
+11,text-11-19,en,section_heading,0,table_of_contents,es,2.3 Combinando Sustancias (5.2.3),success
+11,text-11-21,en,section_heading,0,table_of_contents,es,2.4 Conservación de la Materia (5.2.4),success
+11,text-11-23,en,chapter_title,0,table_of_contents,es,CAPÍTULO 3 - Ciclo de la Materia en los Sistemas de la Tierra,success
+11,text-11-25,en,section_heading,0,table_of_contents,es,3.1 Plantas de Construcción (5.3.1),success
+11,text-11-27,en,section_heading,0,table_of_contents,es,3.2 Consumiendo Alimentos (5.3.2),success
+11,text-11-29,en,section_heading,0,table_of_contents,es,Movimiento de la materia (5.3.3),success
+11,text-11-31,en,section_heading,0,table_of_contents,es,3.4 Conservación de recursos (5.3.4),success
+23,text-23-0,en,section_heading,0,text_and_images,es,1.2 Agua de la Tierra (5.1.2),success
+23,text-23-1,en,section_text,0,text_and_images,es,Fenómeno,success
+23,text-23-2,en,section_text,0,text_and_images,es,"La mayoría del agua que se encuentra en la Tierra es agua salada, no agua dulce.",success
+23,text-23-3,en,image_label,0,text_and_images,es,Agua salada y agua dulce,success
+23,text-23-4,en,image_label,0,text_and_images,es,Agua Total en la Tierra,success
+23,text-23-5,en,image_label,0,text_and_images,es,97%,success
+23,text-23-6,en,image_label,0,text_and_images,es,agua salina (océanos),success
+23,text-23-7,en,image_label,0,text_and_images,es,3%,success
+23,text-23-8,en,image_label,0,text_and_images,es,Agua dulce,success
+23,text-23-9,en,image_label,0,text_and_images,es,Casquetes polares y glaciares 68.7%,success
+23,text-23-10,en,image_label,0,text_and_images,es,Agua subterránea 30.1%,success
+23,text-23-11,en,image_label,0,text_and_images,es,Otros 0.9%,success
+23,text-23-12,en,image_label,0,text_and_images,es,Agua superficial,success
+23,text-23-13,en,image_label,0,text_and_images,es,87% Lagos,success
+23,text-23-14,en,image_label,0,text_and_images,es,11% Pantanos,success
+23,text-23-15,en,image_label,0,text_and_images,es,2% Ríos,success
+23,text-23-16,en,image_caption,0,text_and_images,es,"La mayor parte del agua en la Tierra es agua salada (97%), y solo una pequeña parte es agua dulce (3%).",success
+23,text-23-18,en,section_heading,1,activity_open_ended_answer,es,Observaciones y reflexiones,success
+23,text-23-19,en,instruction_text,1,activity_open_ended_answer,es,1. ¿Qué estás observando acerca de este fenómeno?,success
+23,text-23-20,en,instruction_text,1,activity_open_ended_answer,es,2. ¿Qué te preguntas sobre este fenómeno?,success
+25,text-25-0,en,section_heading,0,text_and_images,es,5.1.2 Agua de la Tierra,success
+25,text-25-1,en,instruction_text,0,text_and_images,es,Usar las matemáticas y el pensamiento computacional para comparar la cantidad de agua salada y agua dulce en varios reservorios para proporcionar evidencia de la distribución del agua en la Tierra.,success
+25,text-25-2,en,instruction_text,0,text_and_images,es,"Enfatizar reservorios como océanos, lagos, ríos, glaciares, aguas subterráneas y casquetes polares.",success
+25,text-25-3,en,instruction_text,0,text_and_images,es,"Los ejemplos de usar matemáticas y pensamiento computacional podrían incluir medir, estimar, graficar o encontrar porcentajes de cantidades.",success
+25,text-25-5,en,instruction_text,0,text_and_images,es,"En esta sección, concéntrese en comparar la cantidad de agua salada con el agua dulce que se encuentra en la Tierra.",success
+25,text-25-6,en,section_heading,1,text_only,es,¿Dónde está el agua de la Tierra?,success
+25,text-25-7,en,section_text,1,text_only,es,El agua de la Tierra está (casi) en todas partes.,success
+25,text-25-8,en,section_text,1,text_only,es,"sobre la Tierra en el aire y las nubes (atmósfera),",success
+25,text-25-9,en,section_text,1,text_only,es,"en la superficie de la Tierra en ríos, océanos, hielo (hidrosfera)",success
+25,text-25-10,en,section_text,1,text_only,es,"plantas, en organismos vivos (biosfera),",success
+25,text-25-11,en,section_text,1,text_only,es,y dentro de la Tierra (geosfera).,success
+17,text-17-0,en,section_heading,0,text_only,es,5.1.1 Patrones en las características de la Tierra,success
+17,text-17-1,en,instruction_text,0,text_only,es,Analizar e interpretar datos para describir patrones de las características de la Tierra.,success
+17,text-17-2,en,section_text,0,text_only,es,"La mayoría de los terremotos y volcanes ocurren en bandas que a menudo se encuentran a lo largo de los límites entre continentes y océanos, mientras que las principales cadenas montañosas pueden encontrarse dentro de los continentes o cerca de sus bordes.",success
+17,text-17-3,en,section_text,0,text_only,es,"Ejemplos de datos podrían incluir mapas que muestren las ubicaciones de montañas en los continentes y el fondo oceánico, o las ubicaciones de volcanes y terremotos.",success
+17,text-17-5,en,section_text,1,text_only,es,"En este capítulo, veremos los diferentes patrones que observamos en las características de la Tierra.",success
+17,text-17-6,en,section_heading,2,text_only,es,"Volcanes, Terremotos, y Fondo del Océano",success
+17,text-17-7,en,section_heading,3,text_only,es,Volcanes,success
+17,text-17-8,en,section_text,3,text_only,es,"Los volcanes son aberturas en la corteza terrestre que permiten que la roca caliente y derretida (magma), cenizas y gases erupcionen hacia afuera.",success
+17,text-17-9,en,section_text,3,text_only,es,Los volcanes cambian la superficie de la Tierra en un corto período de tiempo.,success
+17,text-17-10,en,section_text,3,text_only,es,Más de la mitad de la superficie de la Tierra está compuesta de roca volcánica.,success
+17,text-17-11,en,section_text,3,text_only,es,Los volcanes son evidencia de que vivimos en un planeta activo y cambiante.,success
+17,text-17-12,en,section_text,4,text_only,es,¿Sabes cómo se forma un volcán?,success
+17,text-17-13,en,section_text,4,text_only,es,"Muy por debajo de la superficie de la Tierra, las temperaturas son lo suficientemente altas como para derretir la roca.",success
+17,text-17-14,en,section_text,4,text_only,es,"La roca fundida sale de las grietas en la corteza terrestre, resultando en un volcán.",success
+17,text-17-15,en,section_text,4,text_only,es,Algunas erupciones derraman ríos de lava mientras que otros volcanes tienen erupciones más grandes.,success
+17,text-17-16,en,section_text,4,text_only,es,"Los volcanes pueden entrar en erupción bajo el agua, formando enormes cadenas de montañas volcánicas en el fondo del océano.",success
+17,text-17-17,en,section_heading,5,text_only,es,Cinturón de Fuego del Pacífico.,success
+17,text-17-18,en,section_text,5,text_only,es,La mayoría de los terremotos y erupciones volcánicas ocurren a lo largo de los bordes del Océano Pacífico (ver imagen abajo).,success
+17,text-17-19,en,section_text,5,text_only,es,La corteza terrestre está dividida en una serie de secciones masivas llamadas placas.,success
+17,text-17-20,en,section_text,5,text_only,es,"Los movimientos de estas placas pueden explicar cambios notables en la Tierra, como terremotos, erupciones volcánicas y la formación de montañas.",success
+28,text-28-0,en,section_heading,0,text_and_images,es,Juntándolo Todo,success
+28,text-28-1,en,image_overlay,0,text_and_images,es,Agua salada y agua dulce,success
+28,text-28-2,en,image_overlay,0,text_and_images,es,Agua total en la Tierra,success
+28,text-28-3,en,image_overlay,0,text_and_images,es,97%,success
+28,text-28-4,en,image_overlay,0,text_and_images,es,Agua salina (océanos),success
+28,text-28-5,en,image_overlay,0,text_and_images,es,3%,success
+28,text-28-6,en,image_overlay,0,text_and_images,es,Agua dulce,success
+28,text-28-7,en,image_overlay,0,text_and_images,es,Casquetes de hielo y glaciares,success
+28,text-28-8,en,image_overlay,0,text_and_images,es,68.7%,success
+28,text-28-9,en,image_overlay,0,text_and_images,es,Agua subterránea,success
+28,text-28-10,en,image_overlay,0,text_and_images,es,30.1%,success
+28,text-28-11,en,image_overlay,0,text_and_images,es,Otro,success
+28,text-28-12,en,image_overlay,0,text_and_images,es,0.9%,success
+28,text-28-13,en,image_overlay,0,text_and_images,es,Agua Superficial,success
+28,text-28-14,en,image_overlay,0,text_and_images,es,0.3%,success
+28,text-28-15,en,image_overlay,0,text_and_images,es,Lagos,success
+28,text-28-16,en,image_overlay,0,text_and_images,es,87%,success
+28,text-28-17,en,image_overlay,0,text_and_images,es,Pantanos,success
+28,text-28-18,en,image_overlay,0,text_and_images,es,11%,success
+28,text-28-19,en,image_overlay,0,text_and_images,es,Ríos,success
+28,text-28-20,en,image_overlay,0,text_and_images,es,2%,success
+28,text-28-21,en,image_caption,0,text_and_images,es,"La mayor parte del agua en la Tierra es agua salada (97%), y sólo una pequeña parte es agua dulce (3%).",success
+28,text-28-22,en,image_caption,0,text_and_images,es,"Imagen de Mariana Ruiz Villarreal (LadyofHats) para la Fundación CK-12, CC BY-NC 3.0",success
+28,text-28-23,en,section_heading,2,activity_open_ended_answer,es,Preguntas de enfoque,success
+28,text-28-24,en,instruction_text,1,activity_open_ended_answer,es,1. Enumera tres lugares donde se encuentra agua dulce en la Tierra.,success
+28,text-28-25,en,instruction_text,2,activity_open_ended_answer,es,¿Qué recursos hídricos contribuyen al agua superficial de la Tierra?,success
+27,text-27-0,en,section_text,0,text_only,es,"aire (como vapor de agua), ríos y lagos, capas de hielo y glaciares, el suelo (como humedad del suelo y en acuíferos).",success
+27,text-27-1,en,section_heading,0,text_only,es,Agua dulce,success
+27,text-27-2,en,section_text,0,text_only,es,"Aunque solo puedas notar agua en la superficie de la Tierra, hay más agua dulce almacenada en el suelo que en forma líquida en la superficie.",success
+27,text-27-3,en,section_text,0,text_only,es,"De hecho, parte del agua que ves fluir en los ríos proviene del agua que se filtra en la superficie de la Tierra para convertirse en agua subterránea.",success
+27,text-27-4,en,section_text,0,text_only,es,El agua de la precipitación se filtra continuamente en el suelo para llenar los acuíferos (reservorios subterráneos).,success
+27,text-27-5,en,section_text,0,text_only,es,mientras que al mismo tiempo el agua en el suelo llena continuamente los ríos a través de la filtración.,success
+27,text-27-6,en,section_text,1,text_only,es,Los humanos utilizan tanto el agua superficial como el agua subterránea.,success
+27,text-27-7,en,section_text,1,text_only,es,"En los Estados Unidos en 2010, usamos alrededor de 275 mil millones de galones (1,041 mil millones de litros) de agua superficial por día.",success
+27,text-27-8,en,section_text,1,text_only,es,y alrededor de 79.3 mil millones de galones (300.2 mil millones de litros) de agua subterránea por día.,success
+27,text-27-9,en,section_text,1,text_only,es,"Aunque el agua superficial se utiliza más a menudo para abastecer agua potable y regar cultivos,",success
+27,text-27-10,en,section_text,1,text_only,es,El agua subterránea es vital porque llena ríos y lagos y proporciona agua a las personas en lugares donde el agua escasea.,success
+27,text-27-11,en,section_text,1,text_only,es,como en las ciudades desérticas del oeste de los Estados Unidos.,success
+26,text-26-0,en,section_text,0,text_and_images,es,Aquí hay un gráfico que muestra la distribución del agua en la Tierra.,success
+26,text-26-1,en,section_text,0,text_and_images,es,"• En la primera columna, observe que el 2.5% del agua de la Tierra es agua dulce, la cantidad necesaria para que la vida sobreviva.",success
+26,text-26-2,en,section_text,0,text_and_images,es,"La columna del medio muestra la descomposición del agua dulce. Casi toda se encuentra en el hielo y en el suelo. Solo un poco más del 1.2% de toda el agua dulce es agua superficial, que proporciona la mayor parte de las necesidades de la vida.",success
+26,text-26-3,en,section_text,0,text_and_images,es,• La columna derecha muestra la descomposición del agua dulce superficial. La mayor parte del agua dulce superficial se encuentra en hielo y otro 20.9% se encuentra en lagos.,success
+26,text-26-4,en,section_text,0,text_and_images,es,Los ríos constituyen el 0.49% del agua dulce superficial.,success
+26,text-26-5,en,section_text,0,text_and_images,es,"Aunque los ríos representan solo una pequeña cantidad de agua dulce, los ríos son la fuente de la mayor parte del agua utilizable.",success
+26,text-26-6,en,section_heading,0,text_and_images,es,¿Dónde está el agua de la Tierra?,success
+26,text-26-7,en,image_label,0,text_and_images,es,Océanos 96.5%,success
+26,text-26-8,en,image_label,0,text_and_images,es,Agua dulce 2.5%,success
+26,text-26-9,en,image_label,0,text_and_images,es,Otra solución salina 0.9%,success
+26,text-26-10,en,image_label,0,text_and_images,es,Glaciares y casquetes polares 68.7%,success
+26,text-26-11,en,image_label,0,text_and_images,es,Agua subterránea 30.1%,success
+26,text-26-12,en,image_label,0,text_and_images,es,Superficie/otros de agua dulce 1.2%,success
+26,text-26-13,en,image_label,0,text_and_images,es,Hielo del suelo y permafrost 69.0%,success
+26,text-26-14,en,image_label,0,text_and_images,es,Lagos 20.9%,success
+26,text-26-15,en,image_label,0,text_and_images,es,Humedad del suelo 3.8%,success
+26,text-26-16,en,image_label,0,text_and_images,es,"Pantanos, marismas 2.6%",success
+26,text-26-17,en,image_label,0,text_and_images,es,Ríos 0.49%,success
+26,text-26-18,en,image_label,0,text_and_images,es,Seres vivos 0.26%,success
+26,text-26-19,en,image_label,0,text_and_images,es,Atmósfera 3.0%,success
+26,text-26-20,en,image_caption,0,text_and_images,es,Total de agua global,success
+26,text-26-21,en,image_caption,0,text_and_images,es,Agua dulce,success
+26,text-26-22,en,image_caption,0,text_and_images,es,Agua superficial y otros tipos de agua dulce,success
+26,text-26-23,en,image_caption,0,text_and_images,es,"Fuente: capítulo de Igor Shiklomanov “Recursos de agua dulce en el mundo” en Peter H. Gleick (editor), 1993, Agua en crisis: Una guía de los recursos de agua dulce del mundo. (Los números están redondeados).",success
+26,text-26-24,en,section_heading,1,text_only,es,"¿Cuánta agua hay en, sobre y por encima de la Tierra?",success
+26,text-26-25,en,section_text,1,text_only,es,"La Tierra es un lugar acuoso. Pero, ¿cuánta agua existe en nuestro planeta?",success
+26,text-26-26,en,section_text,1,text_only,es,"Alrededor del 71 por ciento de la superficie de la Tierra está cubierta por agua, y los océanos contienen alrededor del 96 por ciento de toda el agua de la Tierra.",success
+26,text-26-27,en,section_text,1,text_only,es,El agua también existe en la,success
