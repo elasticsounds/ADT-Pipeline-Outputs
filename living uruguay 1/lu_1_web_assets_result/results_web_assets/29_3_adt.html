@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Let's Watch the Trailer!</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"></script>
+<meta content="29_3" name="page-section-id"/>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body class="bg-gray-100 p-5 font-sans">
+<!-- Main interface components -->
+<div id="interface-container"></div>
+<div id="nav-container"></div>
+<!-- Main content container -->
+<main class="container mx-auto bg-white max-w-5xl p-5 rounded-lg shadow-lg">
+<h1 class="text-3xl font-bold mb-4">Let's Watch the Trailer!</h1>
+<section aria-labelledby="section-heading" data-id="sectioneli5-29-3" data-section-type="activity_sorting">
+<p class="mb-4 text-lg" data-id="text-29-20">The movie is set in Andy's room.</p>
+<h2 class="text-xl font-bold mb-4" data-id="text-29-21">Highlight the objects you think Andy has in his room.</h2>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+<button class="item-card p-4 bg-gray-200 text-left rounded transition hover:bg-blue-100" data-activity-item="item-1">wardrobe</button>
+<button class="item-card p-4 bg-gray-200 text-left rounded transition hover:bg-blue-100" data-activity-item="item-2">window</button>
+<button class="item-card p-4 bg-gray-200 text-left rounded transition hover:bg-blue-100" data-activity-item="item-3">television</button>
+<button class="item-card p-4 bg-gray-200 text-left rounded transition hover:bg-blue-100" data-activity-item="item-4">night table</button>
+<button class="item-card p-4 bg-gray-200 text-left rounded transition hover:bg-blue-100" data-activity-item="item-5">computer</button>
+<button class="item-card p-4 bg-gray-200 text-left rounded transition hover:bg-blue-100" data-activity-item="item-6">bulletin board</button>
+<button class="item-card p-4 bg-gray-200 text-left rounded transition hover:bg-blue-100" data-activity-item="item-7">lamp</button>
+<button class="item-card p-4 bg-gray-200 text-left rounded transition hover:bg-blue-100" data-activity-item="item-8">poster</button>
+<button class="item-card p-4 bg-gray-200 text-left rounded transition hover:bg-blue-100" data-activity-item="item-9">books</button>
+<button class="item-card p-4 bg-gray-200 text-left rounded transition hover:bg-blue-100" data-activity-item="item-10">chest of drawers</button>
+<button class="item-card p-4 bg-gray-200 text-left rounded transition hover:bg-blue-100" data-activity-item="item-11">clock</button>
+<button class="item-card p-4 bg-gray-200 text-left rounded transition hover:bg-blue-100" data-activity-item="item-12">chair</button>
+<button class="item-card p-4 bg-gray-200 text-left rounded transition hover:bg-blue-100" data-activity-item="item-13">carpet</button>
+<button class="item-card p-4 bg-gray-200 text-left rounded transition hover:bg-blue-100" data-activity-item="item-14">door</button>
+<button class="item-card p-4 bg-gray-200 text-left rounded transition hover:bg-blue-100" data-activity-item="item-15">bucket</button>
+</div>
+</section>
+</main>
+<script>
+        // Interactivity to highlight selected items
+        document.querySelectorAll('.item-card').forEach(item => {
+            item.addEventListener('click', () => {
+                item.classList.toggle('bg-blue-200');
+            });
+        });
+    </script>
+
+<script src="assets/base.js"></script>
+</body>
+</html>

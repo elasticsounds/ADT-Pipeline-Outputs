@@ -1,0 +1,469 @@
+page_index,id,language_code_orig,type,section_id,section_type,language_code,text,status
+21,text-21-0,en,book_title,3.0,other,es,#livingUruguay1,success
+21,text-21-1,en,image_caption,0.0,text_and_images,es,Esta es Caroline.,success
+21,text-21-2,en,image_caption,0.0,text_and_images,es,"Ella tiene grandes ojos azules, una nariz pequeña y una boca grande.",success
+21,text-21-3,en,image_caption,0.0,text_and_images,es,"Su cabello es rubio, largo y lacio.",success
+21,text-21-4,en,image_caption,1.0,text_and_images,es,Este es Miguel.,success
+21,text-21-5,en,image_caption,1.0,text_and_images,es,"Tiene ojos pequeños y verdes, una nariz grande y una boca pequeña.",success
+21,text-21-6,en,image_caption,1.0,text_and_images,es,"Su cabello es marrón, corto y rizado.",success
+21,text-21-7,en,section_heading,2.0,activity_open_ended_answer,es,Yo en el espejo,success
+21,text-21-8,en,instruction_text,2.0,activity_open_ended_answer,es,"Mira al espejo, dibuja tu cara o pega una foto tuya allí.",success
+21,text-21-9,en,instruction_text,2.0,activity_open_ended_answer,es,Descríbete en el espejo.,success
+21,text-21-10,en,chapter_title,3.0,other,es,UNIDAD 1,success
+21,text-21-11,en,chapter_title,3.0,other,es,Hola y bienvenidos,success
+15,text-15-0,en,book_title,2.0,other,es,#viviendoUruguay1,success
+15,text-15-1,en,instruction_text,0.0,activity_fill_in_the_blank,es,¡Genial! Ahora escribe un informe sobre tu compañero de clase.,success
+15,text-15-2,en,instruction_text,0.0,activity_fill_in_the_blank,es,Usa el modelo a continuación para ayudarte.,success
+15,text-15-3,en,activity_input_placeholder_text,0.0,activity_fill_in_the_blank,es,¡Hola! Mi nombre es,success
+15,text-15-4,en,section_text,0.0,activity_fill_in_the_blank,es,Voy a presentarte a mi amigo.,success
+15,text-15-5,en,section_text,0.0,activity_fill_in_the_blank,es,Este es mi compañero.,success
+15,text-15-6,en,activity_input_placeholder_text,0.0,activity_fill_in_the_blank,es,Su nombre es,success
+15,text-15-7,en,activity_input_placeholder_text,0.0,activity_fill_in_the_blank,es,Puedes llamarlo/la a él/ella,success
+15,text-15-8,en,activity_input_placeholder_text,0.0,activity_fill_in_the_blank,es,Su cumpleaños es el,success
+15,text-15-9,en,activity_input_placeholder_text,0.0,activity_fill_in_the_blank,es,Su color favorito es,success
+15,text-15-10,en,activity_input_placeholder_text,0.0,activity_fill_in_the_blank,es,y su número favorito es,success
+15,text-15-11,en,instruction_text,0.0,activity_fill_in_the_blank,es,Presenta a tu compañero de clase al resto del grupo.,success
+15,text-15-12,en,instruction_text,1.0,activity_other,es,Mira nuestro aula.,success
+15,text-15-13,en,section_text,1.0,activity_other,es,Una foto es después de la clase de matemáticas.,success
+15,text-15-14,en,section_text,1.0,activity_other,es,La otra imagen es después de la clase de inglés.,success
+15,text-15-15,en,instruction_text,1.0,activity_other,es,Encuentra las diferencias entre las dos imágenes.,success
+15,text-15-16,en,section_text,1.0,activity_other,es,"En la imagen A hay un borrador en la mesa,",success
+15,text-15-17,en,section_text,1.0,activity_other,es,en la imagen B hay un borrador en la silla.,success
+15,text-15-18,en,image_caption,2.0,other,es,Foto de Aldo Rodriguez,success
+15,text-15-19,en,chapter_title,2.0,other,es,UNIDAD 1,success
+15,text-15-20,en,chapter_title,2.0,other,es,Hola y bienvenido,success
+22,text-22-0,en,section_heading,0.0,foreword,es,Unidad 2,success
+22,text-22-1,en,section_heading,0.0,foreword,es,YO MISMO,success
+22,text-22-2,en,section_heading,0.0,foreword,es,"AL FINAL DE ESTA UNIDAD, PODRÁS",success
+22,text-22-3,en,section_text,0.0,foreword,es,reconocer tipos de casas leyendo y escuchando diferentes descripciones.,success
+22,text-22-4,en,section_text,0.0,foreword,es,nombra las habitaciones en una casa.,success
+22,text-22-5,en,section_text,0.0,foreword,es,Describe tu casa.,success
+22,text-22-6,en,section_text,0.0,foreword,es,describe tu dormitorio ideal.,success
+22,text-22-7,en,section_text,0.0,foreword,es,nombra objetos en un dormitorio y menciona su ubicación.,success
+22,text-22-8,en,section_text,0.0,foreword,es,organizar vocabulario nuevo creando un diccionario ilustrado.,success
+22,text-22-9,en,section_text,0.0,foreword,es,Reflexiona y habla sobre tu juguete favorito de la infancia.,success
+22,text-22-10,en,section_text,0.0,foreword,es,Familiarízate con el vocabulario relacionado con la ropa.,success
+22,text-22-11,en,section_text,0.0,foreword,es,distinguir entre ropa de invierno y ropa de verano.,success
+22,text-22-12,en,section_text,0.0,foreword,es,describe tu atuendo y el de tus compañeros.,success
+22,text-22-13,en,section_text,0.0,foreword,es,expresar preferencias hacia las prendas de vestir.,success
+14,text-14-0,en,book_title,3.0,other,es,#viviendoUruguay1,success
+14,text-14-1,en,instruction_text,0.0,activity_fill_in_the_blank,es,Nico se presentó. Ahora es tu turno. Completa este cuadro.,success
+14,text-14-2,en,activity_input_placeholder_text,0.0,activity_fill_in_the_blank,es,¡¡Hola!! Mi nombre es,success
+14,text-14-3,en,activity_input_placeholder_text,0.0,activity_fill_in_the_blank,es,Mi apellido es,success
+14,text-14-4,en,activity_input_placeholder_text,0.0,activity_fill_in_the_blank,es,Yo soy,success
+14,text-14-5,en,activity_input_placeholder_text,0.0,activity_fill_in_the_blank,es,años de edad,success
+14,text-14-6,en,activity_input_placeholder_text,0.0,activity_fill_in_the_blank,es,Yo vivo en,success
+14,text-14-7,en,activity_input_placeholder_text,0.0,activity_fill_in_the_blank,es,Yo voy a,success
+14,text-14-8,en,activity_input_placeholder_text,0.0,activity_fill_in_the_blank,es,escuela,success
+14,text-14-9,en,activity_input_placeholder_text,0.0,activity_fill_in_the_blank,es,Mis padres son,success
+14,text-14-10,en,activity_input_placeholder_text,0.0,activity_fill_in_the_blank,es,Mi comida favorita es,success
+14,text-14-11,en,section_text,1.0,text_only,es,Soy un estudiante.,success
+14,text-14-12,en,section_text,1.0,text_only,es,Soy un estudiante.,success
+14,text-14-13,en,boxed_text,1.0,text_only,es,"""Yo soy"" versus ""Yo soy"" (contracción)",success
+14,text-14-14,en,boxed_text,1.0,text_only,es,Yo soy.,success
+14,text-14-15,en,boxed_text,1.0,text_only,es,Soy (pron) /aɪm/.,success
+14,text-14-16,en,section_heading,2.0,activity_open_ended_answer,es,¡Conociendo a tu pareja!,success
+14,text-14-17,en,instruction_text,2.0,activity_open_ended_answer,es,El maestro te pide que aprendas más sobre uno de tus compañeros de clase.,success
+14,text-14-18,en,instruction_text,2.0,activity_open_ended_answer,es,Pónganse en parejas y pregúntenle a él/ella sobre su información personal.,success
+14,text-14-19,en,instruction_text,2.0,activity_open_ended_answer,es,Tu Pareja,success
+14,text-14-20,en,activity_input_placeholder_text,2.0,activity_open_ended_answer,es,nombre,success
+14,text-14-21,en,activity_input_placeholder_text,2.0,activity_open_ended_answer,es,Apodo,success
+14,text-14-22,en,activity_input_placeholder_text,2.0,activity_open_ended_answer,es,Cumpleaños,success
+14,text-14-23,en,activity_input_placeholder_text,2.0,activity_open_ended_answer,es,Color favorito,success
+14,text-14-24,en,activity_input_placeholder_text,2.0,activity_open_ended_answer,es,número favorito,success
+14,text-14-25,en,image_label,3.0,other,es,Caja S.O.S.,success
+14,text-14-26,en,chapter_title,3.0,other,es,UNIDAD 1,success
+14,text-14-27,en,chapter_title,3.0,other,es,Hola y bienvenidos,success
+17,text-17-0,en,book_title,5.0,other,es,#viviendoUruguay1,success
+17,text-17-1,en,section_heading,0.0,activity_labeling,es,¡Mira los diferentes colores!,success
+17,text-17-2,en,activity_number,0.0,activity_labeling,es,1,success
+17,text-17-3,en,activity_number,0.0,activity_labeling,es,2,success
+17,text-17-4,en,activity_number,0.0,activity_labeling,es,3,success
+17,text-17-5,en,activity_number,0.0,activity_labeling,es,4,success
+17,text-17-6,en,activity_number,0.0,activity_labeling,es,5,success
+17,text-17-7,en,activity_number,0.0,activity_labeling,es,6,success
+17,text-17-8,en,activity_number,0.0,activity_labeling,es,7,success
+17,text-17-9,en,activity_number,0.0,activity_labeling,es,8,success
+17,text-17-10,en,activity_number,0.0,activity_labeling,es,9,success
+17,text-17-11,en,activity_number,0.0,activity_labeling,es,10,success
+17,text-17-12,en,activity_number,0.0,activity_labeling,es,11,success
+17,text-17-13,en,activity_number,0.0,activity_labeling,es,12,success
+17,text-17-14,en,instruction_text,1.0,activity_matching,es,Empareja los colores con los nombres en la paleta.,success
+17,text-17-15,en,instruction_text,2.0,activity_open_ended_answer,es,Encuentra objetos para cada color.,success
+17,text-17-16,en,image_label,2.0,activity_open_ended_answer,es,e.g. rojo: manzana,success
+17,text-17-17,en,instruction_text,3.0,activity_open_ended_answer,es,"Ahora, escribe oraciones verdaderas.",success
+17,text-17-18,en,image_label,3.0,activity_open_ended_answer,es,La manzana es roja.,success
+17,text-17-19,en,instruction_text,4.0,activity_open_ended_answer,es,Pónganse en parejas. Pregunten y respondan.,success
+17,text-17-20,en,instruction_text,4.0,activity_open_ended_answer,es,¿De qué color es la manzana?,success
+17,text-17-21,en,instruction_text,4.0,activity_open_ended_answer,es,Es rojo.,success
+17,text-17-22,en,image_caption,5.0,other,es,Foto por Aldo Rodriguez,success
+17,text-17-23,en,chapter_title,5.0,other,es,UNIDAD 1,success
+17,text-17-24,en,chapter_title,5.0,other,es,Hola y bienvenido,success
+17,text-17-25,en,image_overlay,1.0,activity_matching,es,rojo,success
+17,text-17-26,en,image_overlay,1.0,activity_matching,es,amarillo,success
+17,text-17-27,en,image_overlay,1.0,activity_matching,es,gris,success
+17,text-17-28,en,image_overlay,1.0,activity_matching,es,marrón,success
+17,text-17-29,en,image_overlay,1.0,activity_matching,es,verde,success
+17,text-17-30,en,image_overlay,1.0,activity_matching,es,blanco,success
+17,text-17-31,en,image_overlay,1.0,activity_matching,es,azul,success
+17,text-17-32,en,image_overlay,1.0,activity_matching,es,azul claro,success
+17,text-17-33,en,image_overlay,1.0,activity_matching,es,negro,success
+17,text-17-34,en,image_overlay,1.0,activity_matching,es,naranja,success
+17,text-17-35,en,image_overlay,1.0,activity_matching,es,violeta,success
+17,text-17-36,en,image_overlay,1.0,activity_matching,es,rosado,success
+16,text-16-0,en,section_heading,0.0,activity_fill_in_a_table,es,¡Juego de adivinanzas!,success
+16,text-16-1,en,instruction_text,0.0,activity_fill_in_a_table,es,¡Juguemos un juego! Ven y adivina los objetos de la bolsa.,success
+16,text-16-2,en,instruction_text,0.0,activity_fill_in_a_table,es,"Luego, escribe los objetos en el gráfico.",success
+16,text-16-3,en,section_text,0.0,activity_fill_in_a_table,es,Hay algunos objetos en la bolsa.,success
+16,text-16-4,en,instruction_text,0.0,activity_fill_in_a_table,es,Un miembro del grupo va al frente de la clase.,success
+16,text-16-5,en,instruction_text,0.0,activity_fill_in_a_table,es,Él / ella toca el objeto y lo describe a su grupo.,success
+16,text-16-6,en,standalone_text,0.0,activity_fill_in_a_table,es,Por ejemplo:,success
+16,text-16-7,en,section_text,0.0,activity_fill_in_a_table,es,Es grande. / Es pequeño.,success
+16,text-16-8,en,section_text,0.0,activity_fill_in_a_table,es,Parece ser (fruta).,success
+16,text-16-9,en,section_text,0.0,activity_fill_in_a_table,es,Creo que puedes comerlo.,success
+16,text-16-10,en,instruction_text,0.0,activity_fill_in_a_table,es,Escribe los objetos que tu grupo y el otro grupo adivinaron.,success
+16,text-16-11,en,section_heading,0.0,activity_fill_in_a_table,es,Tu grupo,success
+16,text-16-12,en,section_heading,0.0,activity_fill_in_a_table,es,El otro grupo,success
+16,text-16-13,en,image_caption,1.0,other,es,Foto de Aldo Rodriguez,success
+16,text-16-14,en,book_subtitle,1.0,other,es,UNIDAD 1,success
+16,text-16-15,en,chapter_title,1.0,other,es,Hola y bienvenidos,success
+16,text-16-17,en,book_title,1.0,other,es,#vivirUruguay1,success
+12,text-12-0,en,book_title,0.0,text_and_images,es,#vivirUruguay1,success
+12,text-12-1,en,boxed_text,0.0,text_and_images,es,S.O.S. CAJA,success
+12,text-12-12,en,section_text,0.0,text_and_images,es,Profesor: Luis?,success
+12,text-12-13,en,section_text,0.0,text_and_images,es,¡Presente!,success
+12,text-12-14,en,section_text,0.0,text_and_images,es,¿Maestra: Emma?,success
+12,text-12-15,en,section_text,0.0,text_and_images,es,¡Aquí!,success
+12,text-12-16,en,section_text,0.0,text_and_images,es,Maestro: ¿Fernando?,success
+12,text-12-17,en,section_text,0.0,text_and_images,es,"¡Está ausente, maestro!",success
+12,text-12-18,en,instruction_text,1.0,activity_open_ended_answer,es,"Mira a Nico, Lua y Emma y responde sus preguntas.",success
+12,text-12-19,en,section_text,1.0,activity_open_ended_answer,es,Me llamo Emma. ¿Cómo te llamas?,success
+12,text-12-20,en,image_label,1.0,activity_open_ended_answer,es,Tú,success
+12,text-12-21,en,section_text,2.0,activity_open_ended_answer,es,Tengo 13 años. ¿Cuántos años tienes tú?,success
+12,text-12-22,en,image_label,2.0,activity_open_ended_answer,es,Tú,success
+12,text-12-23,en,section_text,3.0,activity_open_ended_answer,es,Mi color favorito es azul. ¿Cuál es tu color favorito?,success
+12,text-12-24,en,image_label,3.0,activity_open_ended_answer,es,Tú,success
+12,text-12-25,en,chapter_title,4.0,other,es,UNIDAD 1,success
+12,text-12-26,en,chapter_title,4.0,other,es,Hola y bienvenido,success
+25,text-25-0,en,book_title,3.0,other,es,#viviendoUruguay1,success
+25,text-25-1,en,instruction_text,0.0,activity_open_ended_answer,es,Descripción general de mi casa.,success
+25,text-25-2,en,instruction_text,0.0,activity_open_ended_answer,es,Si quieres incluir una imagen.,success
+25,text-25-3,en,section_text,1.0,activity_matching,es,Emma está aprendiendo las diferentes partes de la casa en inglés.,success
+25,text-25-4,en,section_text,1.0,activity_matching,es,Ella tiene algunas definiciones y los nombres. Haz coincidirlos.,success
+25,text-25-5,en,activity_option,1.0,activity_matching,es,En esta habitación hay una nevera y se puede cocinar.,success
+25,text-25-6,en,activity_option,1.0,activity_matching,es,En esta habitación hay sofás y puedes ver televisión.,success
+25,text-25-7,en,activity_option,1.0,activity_matching,es,En esta habitación hay una cama y tú duermes allí.,success
+25,text-25-8,en,activity_option,1.0,activity_matching,es,En esta habitación hay una ducha y un inodoro y puedes cepillarte los dientes.,success
+25,text-25-9,en,activity_option,1.0,activity_matching,es,Desde este lugar se puede ver la calle y el barrio.,success
+25,text-25-10,en,activity_option,1.0,activity_matching,es,En esta sala hay una mesa y hay sillas y se puede comer allí.,success
+25,text-25-11,en,activity_option,1.0,activity_matching,es,sala de estar,success
+25,text-25-12,en,activity_option,1.0,activity_matching,es,dormitorio,success
+25,text-25-13,en,activity_option,1.0,activity_matching,es,comedor,success
+25,text-25-14,en,activity_option,1.0,activity_matching,es,baño,success
+25,text-25-15,en,activity_option,1.0,activity_matching,es,cocina,success
+25,text-25-16,en,activity_option,1.0,activity_matching,es,balcón,success
+25,text-25-17,en,instruction_text,2.0,activity_other,es,Este mapa de burbujas trata sobre el texto de la página anterior.,success
+25,text-25-18,en,instruction_text,2.0,activity_other,es,Échale un vistazo.,success
+25,text-25-19,en,instruction_text,2.0,activity_other,es,Crea un mapa de burbujas sobre tu casa.,success
+18,text-18-0,en,section_heading,0.0,text_and_images,es,Más lenguaje de aula...,success
+18,text-18-1,en,image_overlay,0.0,text_and_images,es,"¿Puede esperar un minuto, por favor?",success
+18,text-18-2,en,image_overlay,0.0,text_and_images,es,"Escúchame, por favor.",success
+18,text-18-3,en,image_overlay,0.0,text_and_images,es,Copiar,success
+18,text-18-4,en,image_overlay,0.0,text_and_images,es,"Por favor, preste atención.",success
+18,text-18-5,en,image_overlay,1.0,text_and_images,es,¿Puedo escribir la fecha?,success
+18,text-18-6,en,image_overlay,1.0,text_and_images,es,"¿Puedes escribir la fecha, por favor?",success
+18,text-18-7,en,image_overlay,1.0,text_and_images,es,"¿Puedes venir al tablero, por favor?",success
+18,text-18-8,en,image_overlay,1.0,text_and_images,es,¿Has terminado?,success
+18,text-18-9,en,image_overlay,1.0,text_and_images,es,Sí. He terminado.,success
+18,text-18-10,en,section_heading,2.0,activity_other,es,¡Mimetismo!,success
+18,text-18-11,en,instruction_text,2.0,activity_other,es,Utiliza estas frases de lenguaje de aula y las anteriores.,success
+18,text-18-12,en,book_title,3.0,other,es,#viviendoUruguay1,success
+18,text-18-13,en,chapter_title,3.0,other,es,UNIDAD 1,success
+18,text-18-14,en,chapter_title,3.0,other,es,Hola y bienvenido,success
+13,text-13-0,en,instruction_text,0.0,activity_open_ended_answer,es,"Hablaste con Nico, Lua y Emma.",success
+13,text-13-1,en,instruction_text,0.0,activity_open_ended_answer,es,Escribe un párrafo sobre ti.,success
+13,text-13-2,en,instruction_text,0.0,activity_open_ended_answer,es,Usa este gráfico para ayudarte.,success
+13,text-13-3,en,section_heading,0.0,activity_open_ended_answer,es,Expresiones,success
+13,text-13-4,en,section_heading,0.0,activity_open_ended_answer,es,Preséntate,success
+13,text-13-5,en,image_label,0.0,activity_open_ended_answer,es,Saludo,success
+13,text-13-6,en,image_label,0.0,activity_open_ended_answer,es,Nombre,success
+13,text-13-7,en,image_label,0.0,activity_open_ended_answer,es,Apodo,success
+13,text-13-8,en,image_label,0.0,activity_open_ended_answer,es,Cumpleaños,success
+13,text-13-9,en,image_label,0.0,activity_open_ended_answer,es,Color favorito,success
+13,text-13-10,en,image_label,0.0,activity_open_ended_answer,es,Número favorito,success
+13,text-13-11,en,boxed_text,0.0,activity_open_ended_answer,es,¡Hola! / ¡Hola! / ¡Encantado de conocerte! / ¡Hola!,success
+13,text-13-12,en,boxed_text,0.0,activity_open_ended_answer,es,Me llamo Emma.,success
+13,text-13-13,en,boxed_text,0.0,activity_open_ended_answer,es,Soy Emma.,success
+13,text-13-14,en,boxed_text,0.0,activity_open_ended_answer,es,Puedes llamarme Em.,success
+13,text-13-15,en,boxed_text,0.0,activity_open_ended_answer,es,"Por favor, llámame Em.",success
+13,text-13-16,en,boxed_text,0.0,activity_open_ended_answer,es,Mi cumpleaños es el 19 de octubre.,success
+13,text-13-17,en,boxed_text,0.0,activity_open_ended_answer,es,Mi color favorito es rosa.,success
+13,text-13-18,en,boxed_text,0.0,activity_open_ended_answer,es,Mi número favorito es catorce.,success
+13,text-13-19,en,section_text,1.0,text_only,es,¡Hola! Mi nombre es Nico y mi apellido es Romero.,success
+13,text-13-20,en,section_text,1.0,text_only,es,Tengo 13 años y vivo en una ciudad concurrida en Uruguay.,success
+13,text-13-21,en,section_text,1.0,text_only,es,Voy a la escuela secundaria #5.,success
+13,text-13-22,en,section_text,1.0,text_only,es,Mis padres están divorciados.,success
+13,text-13-23,en,section_text,1.0,text_only,es,Mi padre es Ismael y mi madre es Teresa.,success
+13,text-13-24,en,section_text,1.0,text_only,es,Mi comida favorita es la pizza.,success
+13,text-13-25,en,section_heading,2.0,other,es,UNIDAD 1,success
+13,text-13-26,en,section_heading,2.0,other,es,Hola y bienvenido,success
+23,text-23-0,en,book_title,1.0,other,es,#viviendoUruguay1,success
+23,text-23-1,en,section_heading,0.0,activity_other,es,"Mi casa, mi hogar",success
+23,text-23-2,en,image_caption,0.0,activity_other,es,Estas fotos son de algunas casas del vecindario.,success
+23,text-23-3,en,instruction_text,0.0,activity_other,es,Mira los diferentes tipos de casas.,success
+23,text-23-4,en,image_label,0.0,activity_other,es,A,success
+23,text-23-5,en,image_label,0.0,activity_other,es,B,success
+23,text-23-6,en,image_label,0.0,activity_other,es,C,success
+23,text-23-7,en,image_label,0.0,activity_other,es,D,success
+23,text-23-8,en,image_label,0.0,activity_other,es,E,success
+23,text-23-9,en,instruction_text,0.0,activity_other,es,Escucha la descripción de las casas y escribe la letra a la que se refiere el hablante.,success
+23,text-23-10,en,instruction_text,0.0,activity_other,es,¿A cuál casa se refieren?,success
+23,text-23-11,en,activity_number,0.0,activity_other,es,Altavoz 1,success
+23,text-23-12,en,activity_number,0.0,activity_other,es,Orador 2,success
+23,text-23-13,en,activity_number,0.0,activity_other,es,Altavoz 3,success
+23,text-23-14,en,activity_number,0.0,activity_other,es,Orador 4,success
+23,text-23-15,en,instruction_text,0.0,activity_other,es,Lee y escucha para comprobar tus respuestas.,success
+11,text-11-0,en,section_heading,0.0,text_and_images,es,Cuando conoces a una persona.,success
+11,text-11-1,en,standalone_text,0.0,text_and_images,es,¡Hola! ¿Cómo estás?,success
+11,text-11-2,en,standalone_text,0.0,text_and_images,es,"Estoy bien, ¿cómo estás tú?",success
+11,text-11-3,en,standalone_text,0.0,text_and_images,es,Estoy maravilloso. ¡Gracias!,success
+11,text-11-4,en,section_text,1.0,activity_fill_in_the_blank,es,Nico y su compañero de clase Luis están en la puerta de la escuela.,success
+11,text-11-5,en,instruction_text,1.0,activity_fill_in_the_blank,es,Mira su conversación y complétala con las palabras del recuadro.,success
+11,text-11-6,en,section_text,1.0,activity_fill_in_the_blank,es,Luis:,success
+11,text-11-7,en,activity_input_placeholder_text,1.0,activity_fill_in_the_blank,es,!,success
+11,text-11-8,en,section_text,1.0,activity_fill_in_the_blank,es,Nico,success
+11,text-11-9,en,activity_input_placeholder_text,1.0,activity_fill_in_the_blank,es,¡Buenos días! ¿Cómo estás?,success
+11,text-11-10,en,section_text,1.0,activity_fill_in_the_blank,es,Luis:,success
+11,text-11-11,en,activity_input_placeholder_text,1.0,activity_fill_in_the_blank,es,"Estoy bien, gracias. ¿Cómo estás?",success
+11,text-11-12,en,activity_input_placeholder_text,1.0,activity_fill_in_the_blank,es,¿?,success
+11,text-11-13,en,section_text,1.0,activity_fill_in_the_blank,es,Nico:,success
+11,text-11-14,en,activity_input_placeholder_text,1.0,activity_fill_in_the_blank,es,!,success
+11,text-11-15,en,activity_input_placeholder_text,1.0,activity_fill_in_the_blank,es,¿Es esta niña pequeña?,success
+11,text-11-16,en,section_text,1.0,activity_fill_in_the_blank,es,Luis,success
+11,text-11-17,en,activity_input_placeholder_text,1.0,activity_fill_in_the_blank,es,es mi hermana.,success
+11,text-11-18,en,activity_option,1.0,activity_fill_in_the_blank,es,hola,success
+11,text-11-19,en,activity_option,1.0,activity_fill_in_the_blank,es,muy bien,success
+11,text-11-20,en,activity_option,1.0,activity_fill_in_the_blank,es,quién,success
+11,text-11-21,en,activity_option,1.0,activity_fill_in_the_blank,es,bueno,success
+11,text-11-22,en,activity_option,1.0,activity_fill_in_the_blank,es,ella,success
+11,text-11-23,en,activity_option,1.0,activity_fill_in_the_blank,es,Yo,success
+11,text-11-24,en,activity_option,1.0,activity_fill_in_the_blank,es,tú,success
+11,text-11-25,en,section_text,2.0,text_and_images,es,Hoy es el primer día de clases; el maestro está pasando lista.,success
+11,text-11-26,en,image_caption,3.0,other,es,Foto por Aldo Rodriguez,success
+11,text-11-27,en,chapter_title,3.0,other,es,UNIDAD 1,success
+11,text-11-28,en,chapter_title,3.0,other,es,Hola y bienvenido,success
+20,text-20-0,en,section_heading,0.0,activity_labeling,es,Las emociones se pueden percibir en tu rostro...,success
+20,text-20-1,en,instruction_text,0.0,activity_labeling,es,¿Cuáles son las diferentes partes de la cabeza?,success
+20,text-20-2,en,image_label,0.0,activity_labeling,es,boca,success
+20,text-20-3,en,image_label,0.0,activity_labeling,es,nariz,success
+20,text-20-4,en,image_label,0.0,activity_labeling,es,dientes,success
+20,text-20-5,en,image_label,0.0,activity_labeling,es,ojos,success
+20,text-20-6,en,image_label,0.0,activity_labeling,es,cabello,success
+20,text-20-7,en,image_label,0.0,activity_labeling,es,cejas,success
+20,text-20-8,en,standalone_text,0.0,activity_labeling,es,Tengo ojos (marrones).,success
+20,text-20-9,en,standalone_text,0.0,activity_labeling,es,Tengo la boca pequeña/grande.,success
+20,text-20-10,en,standalone_text,0.0,activity_labeling,es,Tengo dientes blancos.,success
+20,text-20-11,en,standalone_text,0.0,activity_labeling,es,Tengo el pelo corto/largo.,success
+20,text-20-12,en,standalone_text,0.0,activity_labeling,es,Tengo cejas pobladas/delgadas.,success
+20,text-20-13,en,standalone_text,0.0,activity_labeling,es,Tengo una nariz pequeña/grande.,success
+20,text-20-14,en,section_heading,1.0,activity_open_ended_answer,es,Adivina los personajes...,success
+20,text-20-15,en,instruction_text,1.0,activity_open_ended_answer,es,Tenemos dos nuevos compañeros de clase en la clase.,success
+20,text-20-16,en,instruction_text,1.0,activity_open_ended_answer,es,Mira las descripciones que escribimos de Caroline y Michael.,success
+20,text-20-17,en,instruction_text,1.0,activity_open_ended_answer,es,Dibuja sus caras.,success
+20,text-20-18,en,boxed_text,2.0,other,es,S.O.S. CAJA,success
+20,text-20-19,en,chapter_title,2.0,other,es,UNIDAD 1,success
+20,text-20-20,en,chapter_title,2.0,other,es,Hola y bienvenido,success
+26,text-26-1,en,instruction_text,0.0,activity_open_ended_answer,es,Dibuja el interior de tu casa.,success
+26,text-26-2,en,instruction_text,0.0,activity_open_ended_answer,es,Descríbelo usando las palabras de los ejercicios anteriores y las palabras del recuadro.,success
+26,text-26-3,en,instruction_text,1.0,activity_open_ended_answer,es,Describe tu casa.,success
+26,text-26-4,en,instruction_text,1.0,activity_open_ended_answer,es,Usa el vocabulario de la unidad y de la Caja S.O.S.,success
+26,text-26-5,en,standalone_text,2.0,other,es,Rúbricas para actividades de escritura al final de este libro.,success
+26,text-26-6,en,image_label,2.0,other,es,S.O.S. CAJA,success
+26,text-26-20,en,chapter_title,3.0,other,es,UNIDAD 2,success
+26,text-26-21,en,chapter_title,3.0,other,es,me mismo,success
+27,text-27-0,en,book_title,2.0,other,es,#livingUruguay1,success
+27,text-27-1,en,section_heading,0.0,activity_other,es,diccionario ilustrado,success
+27,text-27-2,en,activity_number,0.0,activity_other,es,1,success
+27,text-27-3,en,instruction_text,0.0,activity_other,es,Toma todas las palabras de la Caja S.O.S. y busca imágenes de cada lugar.,success
+27,text-27-4,en,activity_number,0.0,activity_other,es,2,success
+27,text-27-5,en,instruction_text,0.0,activity_other,es,Pega las imágenes y etiquétalas.,success
+27,text-27-6,en,activity_number,0.0,activity_other,es,3,success
+27,text-27-7,en,instruction_text,0.0,activity_other,es,Haz esto regularmente cuando aprendas nuevas palabras.,success
+27,text-27-8,en,image_label,0.0,activity_other,es,sala de estar,success
+27,text-27-9,en,section_heading,1.0,activity_matching,es,Mi dormitorio es mi mundo,success
+27,text-27-10,en,section_text,1.0,activity_matching,es,Me encanta mi dormitorio.,success
+27,text-27-11,en,section_text,1.0,activity_matching,es,Tengo mi propia habitación.,success
+27,text-27-12,en,section_text,1.0,activity_matching,es,Es grande y cómodo.,success
+27,text-27-13,en,section_text,1.0,activity_matching,es,Las paredes son blancas.,success
+27,text-27-14,en,section_text,1.0,activity_matching,es,Hay una cama doble en él.,success
+27,text-27-15,en,section_text,1.0,activity_matching,es,En mi dormitorio hay más objetos.,success
+27,text-27-16,en,instruction_text,1.0,activity_matching,es,Vincula el objeto con su nombre.,success
+27,text-27-17,en,image_label,1.0,activity_matching,es,A,success
+27,text-27-18,en,image_label,1.0,activity_matching,es,B,success
+27,text-27-19,en,image_label,1.0,activity_matching,es,C,success
+27,text-27-20,en,image_label,1.0,activity_matching,es,D,success
+27,text-27-21,en,image_label,1.0,activity_matching,es,E,success
+27,text-27-22,en,image_label,1.0,activity_matching,es,F,success
+27,text-27-23,en,image_label,1.0,activity_matching,es,G,success
+27,text-27-24,en,image_label,1.0,activity_matching,es,H,success
+27,text-27-25,en,image_label,1.0,activity_matching,es,Yo,success
+27,text-27-26,en,image_label,1.0,activity_matching,es,J,success
+30,text-30-0,en,book_title,3.0,other,es,#livingUruguay1,success
+30,text-30-1,en,section_text,0.0,activity_true_false,es,Mi padre está enojado.,success
+30,text-30-2,en,section_text,0.0,activity_true_false,es,El dormitorio de mi hermana está muy desordenado.,success
+30,text-30-3,en,section_text,0.0,activity_true_false,es,Es difícil para ella encontrar las cosas.,success
+30,text-30-4,en,instruction_text,0.0,activity_true_false,es,¿Están estas cosas en la imagen?,success
+30,text-30-5,en,instruction_text,0.0,activity_true_false,es,Mira la imagen y verifica si las oraciones son correctas.,success
+30,text-30-6,en,activity_option,0.0,activity_true_false,es,Hay un cuaderno en el escritorio.,success
+30,text-30-7,en,activity_option,0.0,activity_true_false,es,¡CORRECTO!,success
+30,text-30-8,en,activity_option,0.0,activity_true_false,es,Hay un libro negro debajo de otro libro.,success
+30,text-30-9,en,activity_option,0.0,activity_true_false,es,¡CORRECTO!,success
+30,text-30-10,en,activity_option,0.0,activity_true_false,es,Hay un contenedor de papel entre el escritorio y la cama.,success
+30,text-30-11,en,activity_option,0.0,activity_true_false,es,Hay un crayón de juguete grande detrás de la cama.,success
+30,text-30-12,en,activity_option,0.0,activity_true_false,es,Hay basura en el cubo de papel.,success
+30,text-30-13,en,activity_option,0.0,activity_true_false,es,Hay una impresora frente al escritorio.,success
+30,text-30-14,en,activity_option,0.0,activity_true_false,es,Hay una mesa de noche al lado de la cama.,success
+30,text-30-15,en,image_label,1.0,activity_labeling,es,en,success
+30,text-30-16,en,image_label,1.0,activity_labeling,es,junto a,success
+30,text-30-17,en,image_label,1.0,activity_labeling,es,en,success
+30,text-30-18,en,image_label,1.0,activity_labeling,es,detrás,success
+30,text-30-19,en,image_label,1.0,activity_labeling,es,delante de,success
+30,text-30-20,en,image_label,1.0,activity_labeling,es,entre,success
+30,text-30-21,en,image_label,1.0,activity_labeling,es,debajo de,success
+30,text-30-22,en,instruction_text,2.0,activity_open_ended_answer,es,"Ahora, es momento de describir tu dormitorio ideal.",success
+30,text-30-23,en,chapter_title,3.0,other,es,UNIDAD 2 Yo mismo,success
+10,text-10-0,en,book_title,3.0,other,es,#viviendoUruguay1,success
+10,text-10-1,en,instruction_text,0.0,activity_other,es,Dibuja los dos lugares que no están en el organizador gráfico anterior.,success
+10,text-10-2,en,section_text,1.0,activity_matching,es,Para comunicarse en inglés es importante saber cómo responder preguntas.,success
+10,text-10-3,en,section_text,1.0,activity_matching,es,Estas son algunas preguntas y respuestas que utilizamos todo el tiempo.,success
+10,text-10-4,en,instruction_text,1.0,activity_matching,es,¡Desafío! Une las preguntas con las respuestas.,success
+10,text-10-5,en,activity_option,1.0,activity_matching,es,A,success
+10,text-10-6,en,activity_number,1.0,activity_matching,es,¿Cuál es tu nombre?,success
+10,text-10-7,en,activity_option,1.0,activity_matching,es,B,success
+10,text-10-8,en,activity_number,1.0,activity_matching,es,¿Quién es él?,success
+10,text-10-9,en,activity_option,1.0,activity_matching,es,C,success
+10,text-10-10,en,activity_number,1.0,activity_matching,es,¿Cómo está el clima?,success
+10,text-10-11,en,activity_option,1.0,activity_matching,es,D,success
+10,text-10-12,en,activity_number,1.0,activity_matching,es,¿Cómo estás?,success
+10,text-10-13,en,activity_option,1.0,activity_matching,es,E,success
+10,text-10-14,en,activity_number,1.0,activity_matching,es,¿Qué día es hoy?,success
+10,text-10-15,en,activity_number,1.0,activity_matching,es,1,success
+10,text-10-16,en,activity_option,1.0,activity_matching,es,"Estoy bien, ¡gracias!",success
+10,text-10-17,en,activity_number,1.0,activity_matching,es,2,success
+10,text-10-18,en,activity_option,1.0,activity_matching,es,Es lunes.,success
+10,text-10-19,en,activity_number,1.0,activity_matching,es,3,success
+10,text-10-20,en,activity_option,1.0,activity_matching,es,Mi nombre es Pedro.,success
+10,text-10-21,en,activity_number,1.0,activity_matching,es,4,success
+10,text-10-22,en,activity_option,1.0,activity_matching,es,Está nublado y lluvioso.,success
+10,text-10-23,en,activity_number,1.0,activity_matching,es,5,success
+10,text-10-24,en,activity_option,1.0,activity_matching,es,Ese es John.,success
+10,text-10-25,en,standalone_text,2.0,activity_open_ended_answer,es,¡¡¡Bien hecho!!!,success
+10,text-10-26,en,instruction_text,2.0,activity_open_ended_answer,es,"Ahora, interpreta el diálogo con un compañero de clase.",success
+10,text-10-27,en,chapter_title,3.0,other,es,UNIDAD 1,success
+10,text-10-28,en,chapter_title,3.0,other,es,Hola y bienvenidos,success
+28,text-28-0,en,book_title,2.0,other,es,#viviendoUruguay1,success
+28,text-28-1,en,image_label,0.0,activity_matching,es,estantes,success
+28,text-28-2,en,image_label,0.0,activity_matching,es,cómoda,success
+28,text-28-3,en,image_label,0.0,activity_matching,es,cesto de papeles,success
+28,text-28-4,en,image_label,0.0,activity_matching,es,sillón,success
+28,text-28-5,en,image_label,0.0,activity_matching,es,mesa de noche,success
+28,text-28-6,en,image_label,0.0,activity_matching,es,escritorio,success
+28,text-28-7,en,image_label,0.0,activity_matching,es,alfombra,success
+28,text-28-8,en,image_label,0.0,activity_matching,es,armario,success
+28,text-28-9,en,image_label,0.0,activity_matching,es,cama individual,success
+28,text-28-10,en,image_label,0.0,activity_matching,es,cojín,success
+28,text-28-16,en,image_label,0.0,activity_matching,es,cama individual,success
+28,text-28-22,en,boxed_text,1.0,activity_open_ended_answer,es,Tipos de cama,success
+28,text-28-23,en,boxed_text,1.0,activity_open_ended_answer,es,"twin, full, queen, king y California king.",success
+28,text-28-24,en,instruction_text,1.0,activity_open_ended_answer,es,¿Cuál de estos objetos tienes en tu dormitorio?,success
+28,text-28-25,en,instruction_text,1.0,activity_open_ended_answer,es,Describe los objetos que tienes en tu habitación.,success
+24,text-24-0,en,book_title,0.0,text_only,es,#livingUruguay1,success
+24,text-24-1,en,activity_number,1.0,text_only,es,1,success
+24,text-24-2,en,section_text,1.0,text_only,es,Esta casa es pequeña y solo tiene un piso.,success
+24,text-24-3,en,section_text,1.0,text_only,es,Sus paredes son blancas y su techo es amarillo.,success
+24,text-24-4,en,section_text,1.0,text_only,es,"En esta casa hay un dormitorio, una cocina pequeña y un baño.",success
+24,text-24-5,en,section_text,1.0,text_only,es,También hay un jardín.,success
+24,text-24-6,en,activity_number,2.0,text_only,es,2,success
+24,text-24-7,en,section_text,2.0,text_only,es,Esta casa es independiente.,success
+24,text-24-8,en,section_text,2.0,text_only,es,Tiene dos pisos.,success
+24,text-24-9,en,section_text,2.0,text_only,es,"Hay una cocina, un comedor, una sala de estar y un baño en la planta baja.",success
+24,text-24-10,en,section_text,2.0,text_only,es,Hay tres dormitorios y otro baño en el primer piso.,success
+24,text-24-11,en,section_text,2.0,text_only,es,También hay un garaje.,success
+24,text-24-12,en,activity_number,3.0,text_only,es,3,success
+24,text-24-13,en,section_text,3.0,text_only,es,Este es un edificio de cinco pisos con diez apartamentos.,success
+24,text-24-14,en,section_text,3.0,text_only,es,"En los apartamentos hay dos dormitorios, una cocina, una sala de estar y un baño.",success
+24,text-24-15,en,section_text,3.0,text_only,es,También hay un garaje.,success
+24,text-24-16,en,activity_number,4.0,text_only,es,4,success
+24,text-24-17,en,section_text,4.0,text_only,es,Esta es una casa adosada.,success
+24,text-24-18,en,section_text,4.0,text_only,es,Ambos tienen el mismo número de habitaciones.,success
+24,text-24-19,en,section_text,4.0,text_only,es,Cada uno de ellos tiene dos pisos.,success
+24,text-24-20,en,section_text,4.0,text_only,es,"Hay una cocina, un comedor y una sala de estar en la planta baja.",success
+24,text-24-21,en,section_text,4.0,text_only,es,"y hay tres grandes dormitorios, una sala de estudio y otro baño.",success
+24,text-24-22,en,section_text,4.0,text_only,es,Hay un ático en el tercer piso.,success
+24,text-24-23,en,section_text,4.0,text_only,es,Hay un balcón.,success
+24,text-24-24,en,instruction_text,5.0,activity_open_ended_answer,es,Esta es la descripción de la quinta casa en esta unidad.,success
+24,text-24-25,en,instruction_text,5.0,activity_open_ended_answer,es,"¿Es A, B, C, D o E?",success
+24,text-24-26,en,section_text,5.0,activity_open_ended_answer,es,Este es un bloque de apartamentos.,success
+24,text-24-27,en,section_text,5.0,activity_open_ended_answer,es,"Los edificios son diferentes, algunos son más altos que otros y están pintados con una variedad de colores.",success
+24,text-24-28,en,section_text,5.0,activity_open_ended_answer,es,El más alto es naranja y su techo es verde.,success
+24,text-24-29,en,section_text,5.0,activity_open_ended_answer,es,En este edificio los apartamentos son pequeños.,success
+24,text-24-30,en,section_text,5.0,activity_open_ended_answer,es,"En cada uno hay dos dormitorios, una cocina, un baño y una pequeña sala de estar.",success
+24,text-24-31,en,section_text,5.0,activity_open_ended_answer,es,No tiene balcón ni comedor.,success
+24,text-24-32,en,instruction_text,6.0,activity_labeling,es,"En la descripción anterior, hay seis habitaciones/partes de la casa.",success
+24,text-24-33,en,instruction_text,6.0,activity_labeling,es,Ayuda a Nico a encontrarlos.,success
+24,text-24-34,en,activity_input_placeholder_text,6.0,activity_labeling,es,habitaciones,success
+24,text-24-35,en,instruction_text,7.0,activity_open_ended_answer,es,"Después de leer el texto y ayudar a Nico con la actividad, ¿qué recuerdas del texto?",success
+24,text-24-36,en,activity_number,7.0,activity_open_ended_answer,es,1,success
+24,text-24-37,en,activity_option,7.0,activity_open_ended_answer,es,¿De qué color es el edificio más alto?,success
+24,text-24-38,en,activity_number,7.0,activity_open_ended_answer,es,2,success
+24,text-24-39,en,activity_option,7.0,activity_open_ended_answer,es,¿Son todos los apartamentos iguales?,success
+24,text-24-40,en,activity_number,7.0,activity_open_ended_answer,es,3,success
+24,text-24-41,en,activity_option,7.0,activity_open_ended_answer,es,¿Son grandes los apartamentos?,success
+24,text-24-42,en,activity_number,7.0,activity_open_ended_answer,es,4,success
+24,text-24-43,en,activity_option,7.0,activity_open_ended_answer,es,¿Cuántos dormitorios hay?,success
+24,text-24-44,en,activity_number,7.0,activity_open_ended_answer,es,5,success
+24,text-24-45,en,activity_option,7.0,activity_open_ended_answer,es,¿Hay un balcón?,success
+24,text-24-46,en,chapter_title,8.0,other,es,UNIDAD 2,success
+24,text-24-47,en,chapter_title,8.0,other,es,Yo mismo / Yo misma,success
+29,text-29-0,en,section_heading,0.0,activity_open_ended_answer,es,Tiempo para la reflexión,success
+29,text-29-1,en,instruction_text,0.0,activity_open_ended_answer,es,"Cuando eras niño, ¿tenías un juguete favorito?",success
+29,text-29-2,en,instruction_text,0.0,activity_open_ended_answer,es,¿Todavía lo tienes?,success
+29,text-29-3,en,instruction_text,0.0,activity_open_ended_answer,es,¿Lo tienes en tu dormitorio?,success
+29,text-29-4,en,instruction_text,0.0,activity_open_ended_answer,es,Busca una pareja y comparte tus ideas.,success
+29,text-29-5,en,section_heading,2.0,activity_multiple_choice,es,¡Vamos a ver el tráiler de una película animada!,success
+29,text-29-6,en,instruction_text,1.0,activity_multiple_choice,es,¿De qué trata la historia?,success
+29,text-29-7,en,activity_option,1.0,activity_multiple_choice,es,a,success
+29,text-29-8,en,activity_option,1.0,activity_multiple_choice,es,La historia es sobre un niño.,success
+29,text-29-9,en,activity_option,1.0,activity_multiple_choice,es,b,success
+29,text-29-10,en,activity_option,1.0,activity_multiple_choice,es,La historia es sobre una ciudad.,success
+29,text-29-11,en,activity_option,1.0,activity_multiple_choice,es,c,success
+29,text-29-12,en,activity_option,1.0,activity_multiple_choice,es,La historia trata sobre los juguetes.,success
+29,text-29-13,en,instruction_text,2.0,activity_multiple_choice,es,¿Quiénes son los personajes principales?,success
+29,text-29-14,en,activity_option,2.0,activity_multiple_choice,es,a,success
+29,text-29-15,en,activity_option,2.0,activity_multiple_choice,es,Perros,success
+29,text-29-16,en,activity_option,2.0,activity_multiple_choice,es,b,success
+29,text-29-17,en,activity_option,2.0,activity_multiple_choice,es,Juguetes.,success
+29,text-29-18,en,activity_option,2.0,activity_multiple_choice,es,c,success
+29,text-29-19,en,activity_option,2.0,activity_multiple_choice,es,Niños,success
+29,text-29-20,en,section_text,3.0,activity_sorting,es,La película está ambientada en la habitación de Andy.,success
+29,text-29-21,en,instruction_text,3.0,activity_sorting,es,Resalta los objetos que crees que Andy tiene en su habitación.,success
+29,text-29-37,en,instruction_text,4.0,activity_other,es,Mira el tráiler que el profesor va a reproducir,success
+29,text-29-38,en,instruction_text,4.0,activity_other,es,haga clic aquí,success
+29,text-29-39,en,instruction_text,4.0,activity_other,es,¿Tenías razón? ¿Qué objetos de la lista tiene Andy en su habitación?,success
+29,text-29-40,en,instruction_text,5.0,activity_open_ended_answer,es,"Reúnanse en grupos de 4,",success
+29,text-29-41,en,instruction_text,5.0,activity_open_ended_answer,es,mira el tráiler de nuevo,success
+29,text-29-42,en,instruction_text,5.0,activity_open_ended_answer,es,y responde las siguientes preguntas.,success
+29,text-29-43,en,activity_option,5.0,activity_open_ended_answer,es,a,success
+29,text-29-44,en,activity_option,5.0,activity_open_ended_answer,es,¿Hay un balde de muñecas?,success
+29,text-29-45,en,activity_option,5.0,activity_open_ended_answer,es,b,success
+29,text-29-46,en,activity_option,5.0,activity_open_ended_answer,es,¿De qué color es la manta de Andy?,success
+29,text-29-47,en,activity_option,5.0,activity_open_ended_answer,es,c,success
+29,text-29-48,en,activity_option,5.0,activity_open_ended_answer,es,¿Cuántas camas hay en el dormitorio?,success
+29,text-29-49,en,activity_option,5.0,activity_open_ended_answer,es,d,success
+29,text-29-50,en,activity_option,5.0,activity_open_ended_answer,es,¿Qué juguetes de animales tiene Andy?,success
+29,text-29-51,en,activity_option,5.0,activity_open_ended_answer,es,e,success
+29,text-29-52,en,activity_option,5.0,activity_open_ended_answer,es,¿Está la ventana junto a la puerta?,success
+29,text-29-53,en,activity_option,5.0,activity_open_ended_answer,es,f,success
+29,text-29-54,en,activity_option,5.0,activity_open_ended_answer,es,¿Qué otras cosas cuelgan de las paredes?,success
+29,text-29-55,en,chapter_title,6.0,other,es,UNIDAD 2,success
+29,text-29-56,en,chapter_title,6.0,other,es,Yo mismo,success

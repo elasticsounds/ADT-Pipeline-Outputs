@@ -1,0 +1,494 @@
+page_index,id,language_code,text,type
+21,text-21-0,en,#livingUruguay1,book_title
+21,text-21-1,en,This is Caroline.,image_caption
+21,text-21-2,en,"She has big blue eyes, a small nose and a big mouth.",image_caption
+21,text-21-3,en,"Her hair is blonde, long and straight.",image_caption
+21,text-21-4,en,This is Michael.,image_caption
+21,text-21-5,en,"He has small green eyes, a big nose and a small mouth.",image_caption
+21,text-21-6,en,"His hair is brown, short and curly.",image_caption
+21,text-21-7,en,Me in the mirror:,section_heading
+21,text-21-8,en,"Look at the mirror, draw your face or paste a picture of you there.",instruction_text
+21,text-21-9,en,Describe yourself in the mirror.,instruction_text
+21,text-21-10,en,UNIT 1,chapter_title
+21,text-21-11,en,Hello and welcome,chapter_title
+15,text-15-0,en,#livingUruguay1,book_title
+15,text-15-1,en,Great! Now write a report about your classmate.,instruction_text
+15,text-15-2,en,Use the model below to help you.,instruction_text
+15,text-15-3,en,Hello! My name is,activity_input_placeholder_text
+15,text-15-4,en,I will introduce my friend to you.,section_text
+15,text-15-5,en,This is my partner.,section_text
+15,text-15-6,en,His/Her name is,activity_input_placeholder_text
+15,text-15-7,en,You can call him/her,activity_input_placeholder_text
+15,text-15-8,en,His/Her birthday is on,activity_input_placeholder_text
+15,text-15-9,en,His/Her favorite color is,activity_input_placeholder_text
+15,text-15-10,en,and his/her favorite number is,activity_input_placeholder_text
+15,text-15-11,en,Introduce your classmate to the rest of the group.,instruction_text
+15,text-15-12,en,Have a look at our classroom.,instruction_text
+15,text-15-13,en,One picture is after the Math class.,section_text
+15,text-15-14,en,The other picture is after the English class.,section_text
+15,text-15-15,en,Find the differences between the two pictures.,instruction_text
+15,text-15-16,en,"In pic A there is an eraser on the table,",section_text
+15,text-15-17,en,in pic B there is an eraser on the chair.,section_text
+15,text-15-18,en,Photo by Aldo Rodriguez,image_caption
+15,text-15-19,en,UNIT 1,chapter_title
+15,text-15-20,en,Hello and welcome,chapter_title
+22,text-22-0,en,Unit 2,section_heading
+22,text-22-1,en,MYSELF,section_heading
+22,text-22-2,en,"AT THE END OF THIS UNIT, YOU WILL BE ABLE TO",section_heading
+22,text-22-3,en,recognize types of houses by reading and listening to different descriptions.,section_text
+22,text-22-4,en,name rooms in a house.,section_text
+22,text-22-5,en,describe your house.,section_text
+22,text-22-6,en,describe your ideal bedroom.,section_text
+22,text-22-7,en,name objects in a bedroom and refer to their location.,section_text
+22,text-22-8,en,organize new vocabulary by creating a picture dictionary.,section_text
+22,text-22-9,en,reflect and talk about your favorite toy from your childhood.,section_text
+22,text-22-10,en,get acquainted with vocabulary related to clothing.,section_text
+22,text-22-11,en,distinguish between winter and summer clothes.,section_text
+22,text-22-12,en,describe your and your partners’ outfits.,section_text
+22,text-22-13,en,express preferences towards clothing items.,section_text
+14,text-14-0,en,#livingUruguay1,book_title
+14,text-14-1,en,"Nico introduced himself. Now, it’s your turn. Complete this chart.",instruction_text
+14,text-14-2,en,Hello!! My name is,activity_input_placeholder_text
+14,text-14-3,en,My last name is,activity_input_placeholder_text
+14,text-14-4,en,I am,activity_input_placeholder_text
+14,text-14-5,en,years old.,activity_input_placeholder_text
+14,text-14-6,en,I live in,activity_input_placeholder_text
+14,text-14-7,en,I go to,activity_input_placeholder_text
+14,text-14-8,en,school.,activity_input_placeholder_text
+14,text-14-9,en,My parents are,activity_input_placeholder_text
+14,text-14-10,en,My favorite food is,activity_input_placeholder_text
+14,text-14-11,en,I am a student.,section_text
+14,text-14-12,en,I’m a student.,section_text
+14,text-14-13,en,“I am” versus “I’m” (contraction),boxed_text
+14,text-14-14,en,I am (pron) /aɪǝm/.,boxed_text
+14,text-14-15,en,I’m (pron) /aɪm/.,boxed_text
+14,text-14-16,en,Getting to know your partner!,section_heading
+14,text-14-17,en,The teacher asks you to learn more about one of your classmates.,instruction_text
+14,text-14-18,en,Get in pairs and ask him / her about his / her personal information.,instruction_text
+14,text-14-19,en,Your Partner,instruction_text
+14,text-14-20,en,1. Name,activity_input_placeholder_text
+14,text-14-21,en,2. Nickname,activity_input_placeholder_text
+14,text-14-22,en,3. Birthday,activity_input_placeholder_text
+14,text-14-23,en,4. Favorite color,activity_input_placeholder_text
+14,text-14-24,en,5. Favorite number,activity_input_placeholder_text
+14,text-14-25,en,S.O.S. BOX,image_label
+14,text-14-26,en,UNIT 1,chapter_title
+14,text-14-27,en,Hello and welcome,chapter_title
+17,text-17-0,en,#livingUruguay1,book_title
+17,text-17-1,en,Look at the different colors!,section_heading
+17,text-17-2,en,1,activity_number
+17,text-17-3,en,2,activity_number
+17,text-17-4,en,3,activity_number
+17,text-17-5,en,4,activity_number
+17,text-17-6,en,5,activity_number
+17,text-17-7,en,6,activity_number
+17,text-17-8,en,7,activity_number
+17,text-17-9,en,8,activity_number
+17,text-17-10,en,9,activity_number
+17,text-17-11,en,10,activity_number
+17,text-17-12,en,11,activity_number
+17,text-17-13,en,12,activity_number
+17,text-17-14,en,Match the colors with the names on the palette.,instruction_text
+17,text-17-15,en,Find objects for each color.,instruction_text
+17,text-17-16,en,e.g. red: apple,image_label
+17,text-17-17,en,"Now, write true sentences.",instruction_text
+17,text-17-18,en,The apple is red.,image_label
+17,text-17-19,en,Get in pairs. Ask and answer.,instruction_text
+17,text-17-20,en,What color is the apple?,instruction_text
+17,text-17-21,en,It's red.,instruction_text
+17,text-17-22,en,Photo by Aldo Rodriguez,image_caption
+17,text-17-23,en,UNIT 1,chapter_title
+17,text-17-24,en,Hello and welcome,chapter_title
+17,text-17-25,en,red,image_overlay
+17,text-17-26,en,yellow,image_overlay
+17,text-17-27,en,grey,image_overlay
+17,text-17-28,en,brown,image_overlay
+17,text-17-29,en,green,image_overlay
+17,text-17-30,en,white,image_overlay
+17,text-17-31,en,blue,image_overlay
+17,text-17-32,en,light blue,image_overlay
+17,text-17-33,en,black,image_overlay
+17,text-17-34,en,orange,image_overlay
+17,text-17-35,en,violet,image_overlay
+17,text-17-36,en,pink,image_overlay
+16,text-16-0,en,Guessing game!,section_heading
+16,text-16-1,en,Let's play a game! Come and guess the objects from the bag.,instruction_text
+16,text-16-2,en,"Then, write the objects on the chart.",instruction_text
+16,text-16-3,en,There are some objects in the bag.,section_text
+16,text-16-4,en,One member of the group goes to the front of the class.,instruction_text
+16,text-16-5,en,He / she touches the object and describes it to his / her group.,instruction_text
+16,text-16-6,en,For example:,standalone_text
+16,text-16-7,en,It is big. / It is small.,section_text
+16,text-16-8,en,It seems to be (fruit).,section_text
+16,text-16-9,en,I think you can eat it.,section_text
+16,text-16-10,en,Write the objects your group and the other group guessed.,instruction_text
+16,text-16-11,en,Your group,section_heading
+16,text-16-12,en,The other group,section_heading
+16,text-16-13,en,Photo by Aldo Rodriguez,image_caption
+16,text-16-14,en,UNIT 1,book_subtitle
+16,text-16-15,en,Hello and welcome,chapter_title
+16,text-16-17,en,#livingUruguay1,book_title
+12,text-12-0,en,#livingUruguay1,book_title
+12,text-12-1,en,S.O.S. BOX,boxed_text
+12,text-12-12,en,Teacher: Luis?,section_text
+12,text-12-13,en,Luis: Present!,section_text
+12,text-12-14,en,Teacher: Emma?,section_text
+12,text-12-15,en,Emma: Here!,section_text
+12,text-12-16,en,Teacher: Fernando?,section_text
+12,text-12-17,en,"Children: He is absent, teacher!",section_text
+12,text-12-18,en,"Look at Nico, Lua and Emma and answer their questions.",instruction_text
+12,text-12-19,en,My name is Emma. What’s your name?,section_text
+12,text-12-20,en,You,image_label
+12,text-12-21,en,I am 13. How old are you?,section_text
+12,text-12-22,en,You,image_label
+12,text-12-23,en,My favorite color is blue. What’s your favorite color?,section_text
+12,text-12-24,en,You,image_label
+12,text-12-25,en,UNIT 1,chapter_title
+12,text-12-26,en,Hello and welcome,chapter_title
+25,text-25-0,en,#livingUruguay1,book_title
+25,text-25-1,en,Now write a general description of your house.,instruction_text
+25,text-25-2,en,If you want include a picture.,instruction_text
+25,text-25-3,en,Emma is learning the different parts of the house in English.,section_text
+25,text-25-4,en,She has some definitions and the names. Match them.,section_text
+25,text-25-5,en,In this room there is a fridge and you can cook.,activity_option
+25,text-25-6,en,In this room there are sofas and you can watch TV.,activity_option
+25,text-25-7,en,In this room there is a bed and you sleep there.,activity_option
+25,text-25-8,en,In this room there is a shower and toilet and you can brush your teeth.,activity_option
+25,text-25-9,en,From this place you can see the street and the neighborhood.,activity_option
+25,text-25-10,en,In this room there is a table and there are chairs and you can eat there.,activity_option
+25,text-25-11,en,living room,activity_option
+25,text-25-12,en,bedroom,activity_option
+25,text-25-13,en,dining room,activity_option
+25,text-25-14,en,bathroom,activity_option
+25,text-25-15,en,kitchen,activity_option
+25,text-25-16,en,balcony,activity_option
+25,text-25-17,en,This bubble map is about the text on the previous page.,instruction_text
+25,text-25-18,en,Have a look at it.,instruction_text
+25,text-25-19,en,Create a bubble map about your house.,instruction_text
+18,text-18-0,en,More classroom language...,section_heading
+18,text-18-1,en,"Can you wait a minute, please?",image_overlay
+18,text-18-2,en,"Listen to me, please.",image_overlay
+18,text-18-3,en,"Copy, please.",image_overlay
+18,text-18-4,en,"Pay attention, please.",image_overlay
+18,text-18-5,en,Can I write the date?,image_overlay
+18,text-18-6,en,"Can you write the date, please?",image_overlay
+18,text-18-7,en,"Can you come to the board, please?",image_overlay
+18,text-18-8,en,Have you finished?,image_overlay
+18,text-18-9,en,Yes. I have finished.,image_overlay
+18,text-18-10,en,Mimicry!,section_heading
+18,text-18-11,en,Use these classroom language phrases and the previous ones.,instruction_text
+18,text-18-12,en,#livingUruguay1,book_title
+18,text-18-13,en,UNIT 1,chapter_title
+18,text-18-14,en,Hello and welcome,chapter_title
+13,text-13-0,en,"You talked with Nico, Lua and Emma.",instruction_text
+13,text-13-1,en,Now write a paragraph about you.,instruction_text
+13,text-13-2,en,Use this chart to help you.,instruction_text
+13,text-13-3,en,Expressions,section_heading
+13,text-13-4,en,Introduce yourself,section_heading
+13,text-13-5,en,Greeting,image_label
+13,text-13-6,en,Name,image_label
+13,text-13-7,en,Nickname,image_label
+13,text-13-8,en,Birthday,image_label
+13,text-13-9,en,Favorite color,image_label
+13,text-13-10,en,Favorite number,image_label
+13,text-13-11,en,Hi! / Hello! / Nice to meet you! / Hi there!,boxed_text
+13,text-13-12,en,My name is Emma.,boxed_text
+13,text-13-13,en,I'm Emma.,boxed_text
+13,text-13-14,en,You can call me Em.,boxed_text
+13,text-13-15,en,Please call me Em.,boxed_text
+13,text-13-16,en,My birthday is on October 19th.,boxed_text
+13,text-13-17,en,My favorite color is pink.,boxed_text
+13,text-13-18,en,My favorite number is fourteen.,boxed_text
+13,text-13-19,en,Hello! My name is Nico and my last name is Romero.,section_text
+13,text-13-20,en,I am 13 years old and I live in a crowded city in Uruguay.,section_text
+13,text-13-21,en,I go to #5 middle school.,section_text
+13,text-13-22,en,My parents are divorced.,section_text
+13,text-13-23,en,My father is Ismael and my mother is Teresa.,section_text
+13,text-13-24,en,My favorite food is pizza.,section_text
+13,text-13-25,en,UNIT 1,section_heading
+13,text-13-26,en,Hello and welcome,section_heading
+19,text-19-0,en,#livingUruguay1,book_title
+19,text-19-1,en,The feeling good chain!,section_heading
+19,text-19-2,en,Look at the feeling good chain of the characters…,instruction_text
+19,text-19-3,en,How are you today?,standalone_text
+19,text-19-4,en,I’m good. How about you?,standalone_text
+19,text-19-5,en,I’m good. How are you?,standalone_text
+19,text-19-6,en,I’m good. How are you?,standalone_text
+19,text-19-7,en,"Now, it’s your turn.",instruction_text
+19,text-19-8,en,All of you stand up and do your own feel good chain.,instruction_text
+19,text-19-9,en,Great!,standalone_text
+19,text-19-10,en,Wonderful!,standalone_text
+19,text-19-11,en,OK!,standalone_text
+19,text-19-12,en,Terrific!,standalone_text
+19,text-19-13,en,How do you feel today?,section_heading
+19,text-19-14,en,Write sentences about your feelings today.,instruction_text
+19,text-19-15,en,"e.g. Today, I feel great! I love school and I love my classmates.",instruction_text
+19,text-19-16,en,"Today, I feel",activity_input_placeholder_text
+19,text-19-17,en,How do you feel when…,section_heading
+19,text-19-18,en,you are with friends?,instruction_text
+19,text-19-19,en,you sleep well?,instruction_text
+19,text-19-20,en,you go to a party?,instruction_text
+19,text-19-21,en,you practice sports?,instruction_text
+19,text-19-22,en,you tidy your bedroom?,instruction_text
+19,text-19-23,en,UNIT 1,section_heading
+19,text-19-24,en,Hello and welcome,chapter_title
+23,text-23-0,en,#livingUruguay1,book_title
+23,text-23-1,en,"My house, my home",section_heading
+23,text-23-2,en,These pictures are from some houses in the neighborhood.,image_caption
+23,text-23-3,en,Take a look at the different types of houses.,instruction_text
+23,text-23-4,en,A,image_label
+23,text-23-5,en,B,image_label
+23,text-23-6,en,C,image_label
+23,text-23-7,en,D,image_label
+23,text-23-8,en,E,image_label
+23,text-23-9,en,Listen to the description of the houses and write the letter the speaker is referring to.,instruction_text
+23,text-23-10,en,Which house do they refer to?,instruction_text
+23,text-23-11,en,Speaker 1,activity_number
+23,text-23-12,en,Speaker 2,activity_number
+23,text-23-13,en,Speaker 3,activity_number
+23,text-23-14,en,Speaker 4,activity_number
+23,text-23-15,en,Read and listen to check your answers.,instruction_text
+11,text-11-0,en,When you meet a person.,section_heading
+11,text-11-1,en,Hello! How are you?,standalone_text
+11,text-11-2,en,"I’m good, how are you?",standalone_text
+11,text-11-3,en,I’m wonderful. Thanks!,standalone_text
+11,text-11-4,en,Nico and his classmate Luis are at the school door.,section_text
+11,text-11-5,en,Look at their conversation and complete it with the words from the box.,instruction_text
+11,text-11-6,en,Luis:,section_text
+11,text-11-7,en,!,activity_input_placeholder_text
+11,text-11-8,en,Nico:,section_text
+11,text-11-9,en,morning! How are you?,activity_input_placeholder_text
+11,text-11-10,en,Luis:,section_text
+11,text-11-11,en,"am fine, thanks. How are",activity_input_placeholder_text
+11,text-11-12,en,?,activity_input_placeholder_text
+11,text-11-13,en,Nico:,section_text
+11,text-11-14,en,!,activity_input_placeholder_text
+11,text-11-15,en,is this little girl?,activity_input_placeholder_text
+11,text-11-16,en,Luis:,section_text
+11,text-11-17,en,is my sister.,activity_input_placeholder_text
+11,text-11-18,en,hello,activity_option
+11,text-11-19,en,very well,activity_option
+11,text-11-20,en,who,activity_option
+11,text-11-21,en,good,activity_option
+11,text-11-22,en,she,activity_option
+11,text-11-23,en,I,activity_option
+11,text-11-24,en,you,activity_option
+11,text-11-25,en,Today is the first day of classes; the teacher is calling the roll.,section_text
+11,text-11-26,en,Photo by Aldo Rodriguez,image_caption
+11,text-11-27,en,UNIT 1,chapter_title
+11,text-11-28,en,Hello and welcome,chapter_title
+20,text-20-0,en,Emotions can be perceived on your face...,section_heading
+20,text-20-1,en,What are the different parts of the head?,instruction_text
+20,text-20-2,en,mouth,image_label
+20,text-20-3,en,nose,image_label
+20,text-20-4,en,teeth,image_label
+20,text-20-5,en,eyes,image_label
+20,text-20-6,en,hair,image_label
+20,text-20-7,en,eyebrows,image_label
+20,text-20-8,en,I have (brown) eyes.,standalone_text
+20,text-20-9,en,I have a small/big mouth.,standalone_text
+20,text-20-10,en,I have white teeth.,standalone_text
+20,text-20-11,en,I have short/long hair.,standalone_text
+20,text-20-12,en,I have bushy/thin eyebrows.,standalone_text
+20,text-20-13,en,I have a small/big nose.,standalone_text
+20,text-20-14,en,Guess the characters...,section_heading
+20,text-20-15,en,We have two new classmates in the class.,instruction_text
+20,text-20-16,en,Look at the descriptions we wrote of Caroline and Michael.,instruction_text
+20,text-20-17,en,Draw their faces.,instruction_text
+20,text-20-18,en,S.O.S. BOX,boxed_text
+20,text-20-19,en,UNIT 1,chapter_title
+20,text-20-20,en,Hello and welcome,chapter_title
+26,text-26-1,en,Draw the interior of your house.,instruction_text
+26,text-26-2,en,Describe it using the words from the previous exercises and the words from the box.,instruction_text
+26,text-26-3,en,Describe your house.,instruction_text
+26,text-26-4,en,Use vocabulary from the unit and from the S.O.S. Box.,instruction_text
+26,text-26-5,en,Rubrics for writing activities at the end of this book.,standalone_text
+26,text-26-6,en,S.O.S. BOX,image_label
+26,text-26-20,en,UNIT 2,chapter_title
+26,text-26-21,en,Myself,chapter_title
+27,text-27-0,en,#livingUruguay1,book_title
+27,text-27-1,en,Picture dictionary,section_heading
+27,text-27-2,en,1,activity_number
+27,text-27-3,en,Take all the words from the S.O.S. Box and find pictures about each place.,instruction_text
+27,text-27-4,en,2,activity_number
+27,text-27-5,en,Paste the pictures and label them.,instruction_text
+27,text-27-6,en,3,activity_number
+27,text-27-7,en,Do this regularly when you learn new words.,instruction_text
+27,text-27-8,en,sitting room,image_label
+27,text-27-9,en,My bedroom is my world,section_heading
+27,text-27-10,en,I love my bedroom.,section_text
+27,text-27-11,en,I have my own bedroom.,section_text
+27,text-27-12,en,It is big and comfortable.,section_text
+27,text-27-13,en,The walls are white.,section_text
+27,text-27-14,en,There is a twin bed in it.,section_text
+27,text-27-15,en,In my bedroom there are more objects.,section_text
+27,text-27-16,en,Link the object with its name.,instruction_text
+27,text-27-17,en,A,image_label
+27,text-27-18,en,B,image_label
+27,text-27-19,en,C,image_label
+27,text-27-20,en,D,image_label
+27,text-27-21,en,E,image_label
+27,text-27-22,en,F,image_label
+27,text-27-23,en,G,image_label
+27,text-27-24,en,H,image_label
+27,text-27-25,en,I,image_label
+27,text-27-26,en,J,image_label
+30,text-30-0,en,#livingUruguay1,book_title
+30,text-30-1,en,My father is angry.,section_text
+30,text-30-2,en,My sister's bedroom is very messy.,section_text
+30,text-30-3,en,It's difficult for her to find the things.,section_text
+30,text-30-4,en,Are these things in the picture?,instruction_text
+30,text-30-5,en,Look at the picture and see if the sentences are correct.,instruction_text
+30,text-30-6,en,a There is a notebook on the desk.,activity_option
+30,text-30-7,en,CORRECT!,activity_option
+30,text-30-8,en,b There is a black book under another book.,activity_option
+30,text-30-9,en,CORRECT!,activity_option
+30,text-30-10,en,c There is a paper bin between the desk and the bed.,activity_option
+30,text-30-11,en,d There is a big toy crayon behind the bed.,activity_option
+30,text-30-12,en,e There is trash in the paper bin.,activity_option
+30,text-30-13,en,f There is a printer in front of the desk.,activity_option
+30,text-30-14,en,g There is a night table next to the bed.,activity_option
+30,text-30-15,en,in,image_label
+30,text-30-16,en,next to,image_label
+30,text-30-17,en,on,image_label
+30,text-30-18,en,behind,image_label
+30,text-30-19,en,in front of,image_label
+30,text-30-20,en,between,image_label
+30,text-30-21,en,under,image_label
+30,text-30-22,en,"Now, it's time to describe your ideal bedroom.",instruction_text
+30,text-30-23,en,UNIT 2 Myself,chapter_title
+10,text-10-0,en,#livingUruguay1,book_title
+10,text-10-1,en,Draw the two places that are not in the previous graphic organizer.,instruction_text
+10,text-10-2,en,To communicate in English it is important to know how to answer questions.,section_text
+10,text-10-3,en,These are some questions and answers we use all the time.,section_text
+10,text-10-4,en,Challenge! Match the questions with the answers.,instruction_text
+10,text-10-5,en,A,activity_option
+10,text-10-6,en,What's your name?,activity_number
+10,text-10-7,en,B,activity_option
+10,text-10-8,en,Who is he?,activity_number
+10,text-10-9,en,C,activity_option
+10,text-10-10,en,What's the weather like?,activity_number
+10,text-10-11,en,D,activity_option
+10,text-10-12,en,How are you?,activity_number
+10,text-10-13,en,E,activity_option
+10,text-10-14,en,What day is it today?,activity_number
+10,text-10-15,en,1,activity_number
+10,text-10-16,en,"I am fine, thank you!",activity_option
+10,text-10-17,en,2,activity_number
+10,text-10-18,en,It's Monday.,activity_option
+10,text-10-19,en,3,activity_number
+10,text-10-20,en,My name is Peter.,activity_option
+10,text-10-21,en,4,activity_number
+10,text-10-22,en,It's cloudy and rainy.,activity_option
+10,text-10-23,en,5,activity_number
+10,text-10-24,en,That is John.,activity_option
+10,text-10-25,en,Well done!!!,standalone_text
+10,text-10-26,en,"Now, roleplay the dialogue with a classmate.",instruction_text
+10,text-10-27,en,UNIT 1,chapter_title
+10,text-10-28,en,Hello and welcome,chapter_title
+28,text-28-0,en,#livingUruguay1,book_title
+28,text-28-1,en,shelves,image_label
+28,text-28-2,en,chest of drawers,image_label
+28,text-28-3,en,paper bin,image_label
+28,text-28-4,en,armchair,image_label
+28,text-28-5,en,night table,image_label
+28,text-28-6,en,desk,image_label
+28,text-28-7,en,carpet,image_label
+28,text-28-8,en,wardrobe,image_label
+28,text-28-9,en,twin bed,image_label
+28,text-28-10,en,cushion,image_label
+28,text-28-16,en,twin bed,image_label
+28,text-28-22,en,Types of bed:,boxed_text
+28,text-28-23,en,"twin, full, queen, king and California king.",boxed_text
+28,text-28-24,en,Which of these objects do you have in your bedroom?,instruction_text
+28,text-28-25,en,Describe the objects you have in your room.,instruction_text
+24,text-24-0,en,#livingUruguay1,book_title
+24,text-24-1,en,1,activity_number
+24,text-24-2,en,This house is small and it only has one floor.,section_text
+24,text-24-3,en,Its walls are white and its roof is yellow.,section_text
+24,text-24-4,en,"In this house there is one bedroom, a small kitchen and a bathroom.",section_text
+24,text-24-5,en,There is also a garden.,section_text
+24,text-24-6,en,2,activity_number
+24,text-24-7,en,This house is a detached one.,section_text
+24,text-24-8,en,It has two floors.,section_text
+24,text-24-9,en,"There is a kitchen, a dining room, a living room and a bathroom on the ground floor.",section_text
+24,text-24-10,en,There are three bedrooms and another bathroom on the first floor.,section_text
+24,text-24-11,en,There is also a garage.,section_text
+24,text-24-12,en,3,activity_number
+24,text-24-13,en,This is a five-floor building with ten apartments.,section_text
+24,text-24-14,en,"In the apartments there are two bedrooms, a kitchen, a living room and a bathroom.",section_text
+24,text-24-15,en,There is also a garage.,section_text
+24,text-24-16,en,4,activity_number
+24,text-24-17,en,This is a semi-detached house.,section_text
+24,text-24-18,en,Both have the same number of rooms.,section_text
+24,text-24-19,en,Each of them has two floors.,section_text
+24,text-24-20,en,"There is a kitchen, a dining room, and a living room on the ground floor",section_text
+24,text-24-21,en,"and there are three big bedrooms, a study room and another bathroom.",section_text
+24,text-24-22,en,There is an attic on the third floor.,section_text
+24,text-24-23,en,There is a balcony.,section_text
+24,text-24-24,en,This is the description of the fifth house in this unit.,instruction_text
+24,text-24-25,en,"Is it A, B, C, D or E?",instruction_text
+24,text-24-26,en,This is a block of apartments.,section_text
+24,text-24-27,en,"The buildings are different, some are higher than others and they are painted with a variety of colors.",section_text
+24,text-24-28,en,The highest is orange and its roof is green.,section_text
+24,text-24-29,en,In this building the apartments are small.,section_text
+24,text-24-30,en,"In each one there are two bedrooms, a kitchen, a bathroom and a small living room.",section_text
+24,text-24-31,en,It doesn’t have a balcony or a dining room.,section_text
+24,text-24-32,en,"In the previous description, there are six rooms/parts of the house.",instruction_text
+24,text-24-33,en,Help Nico find them.,instruction_text
+24,text-24-34,en,bedrooms,activity_input_placeholder_text
+24,text-24-35,en,"After reading the text and helping Nico with the activity, what do you remember from the text?",instruction_text
+24,text-24-36,en,1,activity_number
+24,text-24-37,en,What color is the highest building?,activity_option
+24,text-24-38,en,2,activity_number
+24,text-24-39,en,Are all the apartments the same?,activity_option
+24,text-24-40,en,3,activity_number
+24,text-24-41,en,Are the apartments big?,activity_option
+24,text-24-42,en,4,activity_number
+24,text-24-43,en,How many bedrooms are there?,activity_option
+24,text-24-44,en,5,activity_number
+24,text-24-45,en,Is there a balcony?,activity_option
+24,text-24-46,en,UNIT 2,chapter_title
+24,text-24-47,en,Myself,chapter_title
+29,text-29-0,en,Time for reflection,section_heading
+29,text-29-1,en,"When you were a kid, did you have a favorite toy?",instruction_text
+29,text-29-2,en,Do you still have it?,instruction_text
+29,text-29-3,en,Do you have it in your bedroom?,instruction_text
+29,text-29-4,en,Get with a pair and share your ideas.,instruction_text
+29,text-29-5,en,Let's watch the trailer of an animated movie!,section_heading
+29,text-29-6,en,What is the story about?,instruction_text
+29,text-29-7,en,a,activity_option
+29,text-29-8,en,The story is about a child.,activity_option
+29,text-29-9,en,b,activity_option
+29,text-29-10,en,The story is about a city.,activity_option
+29,text-29-11,en,c,activity_option
+29,text-29-12,en,The story is about the toys.,activity_option
+29,text-29-13,en,Who are the main characters?,instruction_text
+29,text-29-14,en,a,activity_option
+29,text-29-15,en,Dogs.,activity_option
+29,text-29-16,en,b,activity_option
+29,text-29-17,en,Toys.,activity_option
+29,text-29-18,en,c,activity_option
+29,text-29-19,en,Children.,activity_option
+29,text-29-20,en,The movie is set in Andy's room.,section_text
+29,text-29-21,en,Highlight the objects you think Andy has in his room.,instruction_text
+29,text-29-37,en,Watch the trailer the teacher will play,instruction_text
+29,text-29-38,en,click here,instruction_text
+29,text-29-39,en,Were you right? What objects from the list does Andy have in his room?,instruction_text
+29,text-29-40,en,"Get in groups of 4,",instruction_text
+29,text-29-41,en,watch the trailer again,instruction_text
+29,text-29-42,en,and answer the following questions.,instruction_text
+29,text-29-43,en,a,activity_option
+29,text-29-44,en,Is there a bucket of dolls?,activity_option
+29,text-29-45,en,b,activity_option
+29,text-29-46,en,What color is Andy’s blanket?,activity_option
+29,text-29-47,en,c,activity_option
+29,text-29-48,en,How many beds are there in the bedroom?,activity_option
+29,text-29-49,en,d,activity_option
+29,text-29-50,en,What animal toys does Andy have?,activity_option
+29,text-29-51,en,e,activity_option
+29,text-29-52,en,Is the window next to the door?,activity_option
+29,text-29-53,en,f,activity_option
+29,text-29-54,en,What other things are hanging on the walls?,activity_option
+29,text-29-55,en,UNIT 2,chapter_title
+29,text-29-56,en,Myself,chapter_title

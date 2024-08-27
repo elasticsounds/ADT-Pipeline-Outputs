@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Guessing Game Activity</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"></script>
+<!-- Mathjax script to use for rendering math. -->
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<meta content="16_0" name="page-section-id"/>
+</head>
+<body class="bg-gray-100 lg:p-5 md:p-5 sm:p-0 mb-12 font-sans text-lg">
+<!-- The main interface components -->
+<div id="interface-container"></div>
+<div id="nav-container"></div>
+<!-- The main content container -->
+<main class="container interactive content bg-white border-t-4 border-orange-500 max-w-5xl mx-auto p-5 rounded-lg shadow-lg lg:px-24 md:px-12 sm:px-6" id="content">
+<h1 class="text-3xl font-bold text-left mb-4" data-id="text-16-0">Guessing game!</h1>
+<section aria-labelledby="main-heading" data-id="sectioneli5-16-0" data-section-type="activity_fill_in_a_table">
+<div class="mb-6">
+<p class="mb-4"><i class="fas fa-play-circle text-orange-500 mr-2"></i><span data-id="text-16-1">Let's play a game! Come and guess the objects from the bag.</span></p>
+<ul class="list-disc list-inside" id="game-instructions">
+<li data-id="text-16-3">There are some objects in the bag.</li>
+<li data-id="text-16-4">One member of the group goes to the front of the class.</li>
+<li data-id="text-16-5">He / she touches the object and describes it to his / her group.</li>
+</ul>
+<p class="mt-4 mb-4" data-id="text-16-6">For example:</p>
+<ul class="list-disc list-inside">
+<li data-id="text-16-7">It is big. / It is small.</li>
+<li data-id="text-16-8">It seems to be (fruit).</li>
+<li data-id="text-16-9">I think you can eat it.</li>
+</ul>
+<img alt="A person reaching into a bag as part of a guessing game." aria-label="A person reaching into a bag as part of a guessing game." class="w-full md:w-1/2 mx-auto mt-6 block" data-id="img-16-1" src="images/16_img-16-1.png"/>
+</div>
+<p class="mb-4 mt-6"><i class="fas fa-pencil-alt text-orange-500 mr-2"></i><span data-id="text-16-10">Write the objects your group and the other group guessed.</span></p>
+<div class="grid grid-cols-2 gap-4 mb-4">
+<div>
+<h2 class="text-lg font-bold mb-2" data-id="text-16-11">Your group</h2>
+<textarea class="w-full p-2 mb-2 border border-gray-300 rounded resize-none" placeholder="Enter items here..." rows="3"></textarea>
+<textarea class="w-full p-2 mb-2 border border-gray-300 rounded resize-none" placeholder="Enter items here..." rows="3"></textarea>
+<textarea class="w-full p-2 border border-gray-300 rounded resize-none" placeholder="Enter items here..." rows="3"></textarea>
+</div>
+<div>
+<h2 class="text-lg font-bold mb-2" data-id="text-16-12">The other group</h2>
+<textarea class="w-full p-2 mb-2 border border-gray-300 rounded resize-none" placeholder="Enter items here..." rows="3"></textarea>
+<textarea class="w-full p-2 mb-2 border border-gray-300 rounded resize-none" placeholder="Enter items here..." rows="3"></textarea>
+<textarea class="w-full p-2 border border-gray-300 rounded resize-none" placeholder="Enter items here..." rows="3"></textarea>
+</div>
+</div>
+</section>
+</main>
+
+<script src="assets/base.js"></script>
+</body>
+</html>
