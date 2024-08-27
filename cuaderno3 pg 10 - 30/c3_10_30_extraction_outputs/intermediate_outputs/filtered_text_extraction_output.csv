@@ -1,0 +1,31 @@
+page_index,id,language_code,text,type
+11,text-11-0,es,10,page_number
+10,text-10-2,es,9,page_number
+12,text-12-7,es,Puedes verificar la respuesta leyendo el cuento en la página 12.,footer_text
+12,text-12-8,es,11,page_number
+17,text-17-9,es,16,page_number
+19,text-19-19,es,18,page_number
+18,text-18-8,es,17,page_number
+20,text-20-20,es,19,page_number
+16,text-16-13,es,15,page_number
+27,text-27-2,es,Artificial,other
+27,text-27-3,es,Creado por el hombre.,other
+27,text-27-4,es,Estrella,other
+27,text-27-5,es,Cuerpo celeste que brilla con luz propia.,other
+27,text-27-6,es,Luminoso,other
+27,text-27-7,es,Cuerpo que emite luz.,other
+27,text-27-18,es,26,page_number
+29,text-29-12,es,28,page_number
+24,text-24-17,es,23,page_number
+28,text-28-20,es,27,page_number
+26,text-26-17,es,25,page_number
+30,text-30-14,es,29,page_number
+21,text-21-19,es,20,page_number
+23,text-23-14,es,22,page_number
+22,text-22-27,es,21,page_number
+14,text-14-28,es,13,page_number
+13,text-13-27,es,12,page_number
+25,text-25-18,es,"Para saber más sobre la luz y la sombra, busca en tu XO en http://www.educaplus.org/luz/index.html",footer_text
+25,text-25-19,es,24,page_number
+15,text-15-0,es,14,page_number
+15,text-15-39,es,"Ruth Kaufman (Argentina), Sudamericana.",other

@@ -1,0 +1,506 @@
+page_index,id,language_code_orig,type,section_id,section_type,language_code,text,status
+10,text-10-0,es,boxed_text,0,activity_other,en,I would like to meet your best friends.,success
+10,text-10-1,es,instruction_text,0,activity_other,en,Draw one of your friends or paste their photo in the central box.,success
+10,text-10-2,es,instruction_text,0,activity_other,en,Complete the other boxes by adding information.,success
+10,text-10-3,es,activity_input_placeholder_text,0,activity_other,en,It's called,success
+10,text-10-4,es,activity_input_placeholder_text,0,activity_other,en,His/her friends call him/her,success
+10,text-10-5,es,activity_input_placeholder_text,0,activity_other,en,Always play with,success
+10,text-10-6,es,activity_input_placeholder_text,0,activity_other,en,it's what he/she likes the most.,success
+10,text-10-7,es,activity_input_placeholder_text,0,activity_other,en,He/She dislikes it,success
+10,text-10-8,es,activity_input_placeholder_text,0,activity_other,en,if he/she is sad.,success
+10,text-10-9,es,activity_input_placeholder_text,0,activity_other,en,when he/she is happy.,success
+10,text-10-10,es,activity_input_placeholder_text,0,activity_other,en,Has the hair,success
+10,text-10-11,es,activity_input_placeholder_text,0,activity_other,en,and the eyes,success
+10,text-10-12,es,instruction_text,1,activity_open_ended_answer,en,Write a portrait of your friend using the information from the schema and any other information you want to include.,success
+18,text-18-0,es,section_heading,0,activity_multiselect,en,What are the relationships?,success
+18,text-18-1,es,instruction_text,0,activity_multiselect,en,Point out the most suitable image to illustrate the information in the box 'Biomes of the World'.,success
+18,text-18-2,es,image_label,0,activity_multiselect,en,A,success
+18,text-18-3,es,image_overlay,0,activity_multiselect,en,Condensation,success
+18,text-18-4,es,image_overlay,0,activity_multiselect,en,Rain,success
+18,text-18-5,es,image_overlay,0,activity_multiselect,en,Warm and humid winds,success
+18,text-18-6,es,image_overlay,0,activity_multiselect,en,Rainforests,success
+18,text-18-7,es,image_overlay,0,activity_multiselect,en,Without rain,success
+18,text-18-8,es,image_overlay,0,activity_multiselect,en,Dry and warm air.,success
+18,text-18-9,es,image_overlay,0,activity_multiselect,en,Vegetation of arid zones,success
+18,text-18-10,es,image_label,0,activity_multiselect,en,B,success
+18,text-18-11,es,image_overlay,0,activity_multiselect,en,Summit,success
+18,text-18-12,es,image_overlay,0,activity_multiselect,en,Slope,success
+18,text-18-13,es,image_overlay,0,activity_multiselect,en,Foot,success
+18,text-18-14,es,image_overlay,0,activity_multiselect,en,Valley,success
+18,text-18-15,es,instruction_text,1,activity_labeling,en,Add this data in the correct image and place.,success
+18,text-18-16,es,image_label,1,activity_labeling,en,Wet slope,success
+18,text-18-17,es,image_label,1,activity_labeling,en,Arid slope,success
+18,text-18-18,es,instruction_text,2,activity_open_ended_answer,en,Justify your choice.,success
+18,text-18-19,es,instruction_text,2,activity_open_ended_answer,en,Complete one of the two explanations.,success
+12,text-12-0,es,chapter_title,0,text_and_images,en,For certain,success
+12,text-12-1,es,section_heading,0,text_and_images,en,The explanation,success
+12,text-12-2,es,image_label,0,text_and_images,en,Tropical rainforest,success
+12,text-12-3,es,image_label,0,text_and_images,en,Meadow,success
+12,text-12-4,es,image_label,0,text_and_images,en,Temperate forest,success
+12,text-12-5,es,image_label,0,text_and_images,en,DESERT,success
+12,text-12-6,es,image_label,0,text_and_images,en,Steppe,success
+12,text-12-7,es,image_label,0,text_and_images,en,Tundra,success
+12,text-12-8,es,image_label,0,text_and_images,en,Taiga,success
+12,text-12-9,es,instruction_text,1,activity_open_ended_answer,en,How is the rainforest different from the desert? And the tundra from the prairie?,success
+12,text-12-10,es,instruction_text,2,activity_open_ended_answer,en,And what is the difference between a temperate forest and a tropical forest?,success
+12,text-12-11,es,instruction_text,3,activity_open_ended_answer,en,What similarities do the prairie and the savanna have?,success
+12,text-12-12,es,instruction_text,4,activity_open_ended_answer,en,Why do some living beings inhabit one region and not another?,success
+20,text-20-0,es,chapter_title,0,activity_fill_in_a_table,en,From text to painting,success
+20,text-20-1,es,instruction_text,0,activity_fill_in_a_table,en,Reread the section 'Types of biomes'.,success
+20,text-20-2,es,instruction_text,0,activity_fill_in_a_table,en,Complete the table with the characterization of the different biomes.,success
+20,text-20-3,es,hint,0,activity_fill_in_a_table,en,Can you underline in the text the data that you will then transfer to the table.,success
+20,text-20-4,es,boxed_text,0,activity_fill_in_a_table,en,TYPE OF BIOME,success
+20,text-20-5,es,boxed_text,0,activity_fill_in_a_table,en,Climate,success
+20,text-20-6,es,boxed_text,0,activity_fill_in_a_table,en,Vegetation,success
+20,text-20-7,es,boxed_text,0,activity_fill_in_a_table,en,Fauna,success
+20,text-20-8,es,boxed_text,0,activity_fill_in_a_table,en,ECONOMIC ACTIVITIES,success
+20,text-20-9,es,boxed_text,0,activity_fill_in_a_table,en,Jungles,success
+20,text-20-10,es,boxed_text,0,activity_fill_in_a_table,en,Forests,success
+20,text-20-11,es,boxed_text,0,activity_fill_in_a_table,en,temperate climates,success
+20,text-20-12,es,boxed_text,0,activity_fill_in_a_table,en,Prairies,success
+20,text-20-13,es,boxed_text,0,activity_fill_in_a_table,en,cold climates,success
+20,text-20-14,es,instruction_text,1,activity_fill_in_a_table,en,Complete the schema on the right that summarizes the factors characterizing biomes.,success
+20,text-20-15,es,instruction_text,1,activity_fill_in_a_table,en,Use all the concepts from the list.,success
+13,text-13-0,es,chapter_title,0,text_and_images,en,THE BIOMES,success
+13,text-13-1,es,section_text,0,text_and_images,en,"Life on our planet depends on the energy from the sun, the availability of water, and the existence of nutrients in the soils, among other factors.",success
+13,text-13-2,es,section_text,0,text_and_images,en,But not all regions of the world have the same conditions.,success
+13,text-13-3,es,section_text,0,text_and_images,en,"In each region of the planet, there are different climates, landforms, and soil types, which create the environmental conditions for the development of life in that place.",success
+13,text-13-4,es,section_text,0,text_and_images,en,In each region lives a group of beings adapted to the place they inhabit.,success
+13,text-13-5,es,section_text,0,text_and_images,en,"For example, in the desert, both plants and animals are adapted to the scarce availability of water.",success
+13,text-13-6,es,section_text,0,text_and_images,en,"The living beings that inhabit a region also relate to each other, for example, some are food for others.",success
+13,text-13-7,es,section_text,0,text_and_images,en,Each of the regions where living beings interact with each other and with the place they live in is called an ecosystem.,success
+13,text-13-8,es,section_text,0,text_and_images,en,"On Earth, we find similar ecosystems in places very far apart from each other.",success
+13,text-13-9,es,section_text,0,text_and_images,en,"For example, there are jungles or tropical forests in the center of Africa, the north of South America, and the southwest of Asia.",success
+13,text-13-10,es,section_text,0,text_and_images,en,Ecosystems can be classified into different types called biomes.,success
+13,text-13-11,es,section_text,0,text_and_images,en,"For example: jungles, deserts, forests, or grasslands.",success
+13,text-13-12,es,section_heading,1,text_only,en,THE BIOMES AND THE ACTION OF MAN,success
+13,text-13-13,es,section_text,1,text_only,en,Human beings are part of the living beings that inhabit biomes.,success
+13,text-13-14,es,section_text,1,text_only,en,"To satisfy their needs, humans modify the natural environment.",success
+13,text-13-15,es,section_text,1,text_only,en,"For example, they cultivate fields, build buildings, bridges, highways, among other transformations.",success
+13,text-13-16,es,section_text,1,text_only,en,"Specialists point out that currently there are no completely natural environments left, that is, ones that have not been modified by human action.",success
+13,text-13-17,es,section_text,1,text_only,en,"The transformation of nature is essential for human life, but it is often carried out without the necessary precautions, resulting in damage that can be irreparable.",success
+13,text-13-18,es,boxed_text,2,text_only,en,Biomes of the world,success
+13,text-13-19,es,boxed_text,2,text_only,en,Climate and topography are very important in the formation of biomes.,success
+13,text-13-20,es,boxed_text,2,text_only,en,"For example, some mountain ranges are like huge walls interposed in the path of moist winds coming from the ocean.",success
+13,text-13-21,es,boxed_text,2,text_only,en,"When colliding with the mountain, these winds release their moisture on the slope facing the sea, while the other slope is arid.",success
+13,text-13-22,es,boxed_text,2,text_only,en,"Likewise, altitude is a determining factor: in the mountains, biomes are distributed in layers, depending on the altitude.",success
+20,text-20-31,es,image_caption,1,activity_fill_in_a_table,en,Factors that characterize biomes,success
+20,text-20-32,es,image_label,1,activity_fill_in_a_table,en,type of soil,success
+20,text-20-33,es,image_label,1,activity_fill_in_a_table,en,temperature,success
+15,text-15-0,es,section_heading,0,text_and_images,en,Forests,success
+15,text-15-1,es,section_text,0,text_and_images,en,They develop in regions with temperate and cold climates.,success
+15,text-15-2,es,section_text,0,text_and_images,en,The trees in the forests are arranged in a single layer and are very spaced apart.,success
+15,text-15-3,es,section_text,0,text_and_images,en,and they have a rest period during the winter.,success
+15,text-15-4,es,section_text,0,text_and_images,en,There is less variety of vegetables and animals than in the jungle.,success
+15,text-15-5,es,section_text,0,text_and_images,en,"In temperate zones, the forests consist of trees and shrubs with deciduous foliage.",success
+15,text-15-6,es,section_text,0,text_and_images,en,"and those in the colder regions are conifers, trees with evergreen foliage.",success
+15,text-15-7,es,section_text,0,text_and_images,en,"The fauna of the forests is mainly composed of predators,",success
+15,text-15-8,es,section_text,0,text_and_images,en,"like foxes, wolves, pumas, and lynxes.",success
+15,text-15-9,es,section_text,0,text_and_images,en,"In temperate forests, deforestation for timber use or the development of agriculture and livestock farming leads to the loss of animal and plant species.",success
+15,text-15-10,es,section_text,0,text_and_images,en,The taiga is a forest characteristic of the cold climates of the northern hemisphere;,success
+15,text-15-11,es,section_text,0,text_and_images,en,it develops in Canada and Siberia.,success
+15,text-15-12,es,section_text,0,text_and_images,en,"The characteristic species are firs, pines, larches, and birches.",success
+15,text-15-13,es,section_text,0,text_and_images,en,Its fauna is composed of animals that withstand the cold:,success
+15,text-15-14,es,section_text,0,text_and_images,en,"moose, bison, wolves, bears, lynxes, squirrels, marmots, beavers, and deer;",success
+15,text-15-15,es,section_text,0,text_and_images,en,many of them hibernate.,success
+15,text-15-16,es,section_heading,1,text_and_images,en,Grasslands,success
+15,text-15-17,es,section_text,1,text_and_images,en,They develop in areas with a temperate and humid climate.,success
+15,text-15-18,es,section_text,1,text_and_images,en,They are almost completely devoid of trees and have a large amount of soft and even grass.,success
+15,text-15-19,es,section_text,1,text_and_images,en,They are ideal for the development of agricultural activities.,success
+15,text-15-20,es,section_text,1,text_and_images,en,"such as cereal and oilseed crops,",success
+15,text-15-21,es,section_text,1,text_and_images,en,"and livestock activities, for example, cattle farming.",success
+15,text-15-23,es,image_label,1,text_and_images,en,"Pradera, Uruguay",success
+15,text-15-24,es,image_label,0,text_and_images,en,"Coniferous forest, Chile",success
+17,text-17-0,es,section_heading,0,text_and_images,en,Source: the study manual,success
+17,text-17-1,es,section_text,0,text_and_images,en,"At school, there are various resources available for studying.",success
+17,text-17-2,es,instruction_text,0,text_and_images,en,Explain what you use each of the illustrated items for.,success
+17,text-17-3,es,image_label,0,text_and_images,en,Dictionary,success
+17,text-17-4,es,image_label,0,text_and_images,en,Sciences,success
+17,text-17-5,es,image_label,0,text_and_images,en,My Notes,success
+17,text-17-6,es,boxed_text,0,text_and_images,en,"Manuals are generally organized by areas of study: natural sciences, social sciences, language, mathematics, and others.",success
+17,text-17-7,es,instruction_text,1,activity_matching,en,"If you have to study these topics, on which shelves in the library do you look for the books?",success
+17,text-17-8,es,instruction_text,1,activity_matching,en,Match them with the corresponding area.,success
+17,text-17-9,es,activity_option,1,activity_matching,en,The digital image,success
+17,text-17-10,es,activity_option,1,activity_matching,en,Homonyms,success
+17,text-17-11,es,activity_option,1,activity_matching,en,Rivers of Uruguay,success
+17,text-17-12,es,activity_option,1,activity_matching,en,The biomes,success
+17,text-17-13,es,activity_option,1,activity_matching,en,The classes of polygons,success
+17,text-17-14,es,activity_option,1,activity_matching,en,The Eastern Revolution,success
+17,text-17-15,es,activity_option,1,activity_matching,en,Myths and legends,success
+17,text-17-16,es,activity_option,1,activity_matching,en,The digestive system,success
+17,text-17-17,es,instruction_text,2,activity_sorting,en,Enclose with two different colors the areas of study that belong to natural sciences and social sciences.,success
+17,text-17-18,es,image_label,2,activity_sorting,en,geography,success
+17,text-17-19,es,image_label,2,activity_sorting,en,chemistry,success
+17,text-17-20,es,image_label,2,activity_sorting,en,history,success
+17,text-17-21,es,image_label,2,activity_sorting,en,geology,success
+17,text-17-22,es,image_label,2,activity_sorting,en,astronomy,success
+17,text-17-23,es,image_label,2,activity_sorting,en,physics,success
+17,text-17-24,es,image_label,2,activity_sorting,en,biology,success
+22,text-22-0,es,section_heading,0,activity_fill_in_the_blank,en,To define better,success
+22,text-22-1,es,instruction_text,0,activity_fill_in_the_blank,en,Complete these biome definitions with the words from the list.,success
+22,text-22-2,es,instruction_text,0,activity_fill_in_the_blank,en,"Write in the box, below each definition, which one was extracted from a study manual and which one from a dictionary.",success
+22,text-22-3,es,section_text,0,activity_fill_in_the_blank,en,"The climate, the",success
+22,text-22-5,es,section_text,0,activity_fill_in_the_blank,en,the,success
+22,text-22-6,es,math,0,activity_fill_in_the_blank,en,........................,success
+22,text-22-7,es,section_text,0,activity_fill_in_the_blank,en,right away,success
+22,text-22-8,es,math,0,activity_fill_in_the_blank,en,.........................................,success
+22,text-22-9,es,section_text,0,activity_fill_in_the_blank,en,and the,success
+22,text-22-10,es,math,0,activity_fill_in_the_blank,en,.........................................,success
+22,text-22-11,es,section_text,0,activity_fill_in_the_blank,en,y,success
+22,text-22-12,es,math,0,activity_fill_in_the_blank,en,.........................................,success
+22,text-22-13,es,section_text,0,activity_fill_in_the_blank,en,characteristic that inhabit and interact within it form a set which we call a biome.,success
+22,text-22-14,es,section_text,0,activity_fill_in_the_blank,en,Definition extracted from,success
+22,text-22-15,es,math,0,activity_fill_in_the_blank,en,..................................................................................,success
+22,text-22-16,es,section_text,1,activity_fill_in_the_blank,en,Biome: community of,success
+22,text-22-17,es,math,1,activity_fill_in_the_blank,en,.........................................,success
+22,text-22-18,es,section_text,1,activity_fill_in_the_blank,en,that is defined by some factors,success
+22,text-22-19,es,math,1,activity_fill_in_the_blank,en,.........................................,success
+22,text-22-20,es,section_text,1,activity_fill_in_the_blank,en,y,success
+22,text-22-21,es,math,1,activity_fill_in_the_blank,en,.........................................,success
+22,text-22-22,es,section_text,1,activity_fill_in_the_blank,en,a,success
+22,text-22-23,es,math,1,activity_fill_in_the_blank,en,.........................................,success
+22,text-22-24,es,section_text,1,activity_fill_in_the_blank,en,and a,success
+22,text-22-25,es,math,1,activity_fill_in_the_blank,en,.........................................,success
+22,text-22-26,es,section_text,1,activity_fill_in_the_blank,en,"characteristic: the equatorial rainforest, the savanna, and the tundra are",success
+22,text-22-27,es,math,1,activity_fill_in_the_blank,en,..................................................................................,success
+22,text-22-28,es,section_text,1,activity_fill_in_the_blank,en,Definition extracted from,success
+22,text-22-29,es,math,1,activity_fill_in_the_blank,en,.................................................................................,success
+22,text-22-30,es,boxed_text,0,activity_fill_in_the_blank,en,relieve,success
+22,text-22-31,es,boxed_text,0,activity_fill_in_the_blank,en,vegetables,success
+22,text-22-32,es,boxed_text,0,activity_fill_in_the_blank,en,region,success
+22,text-22-33,es,boxed_text,0,activity_fill_in_the_blank,en,vegetation,success
+22,text-22-34,es,boxed_text,0,activity_fill_in_the_blank,en,living beings,success
+22,text-22-35,es,boxed_text,0,activity_fill_in_the_blank,en,animals,success
+22,text-22-36,es,boxed_text,0,activity_fill_in_the_blank,en,floor,success
+22,text-22-37,es,boxed_text,0,activity_fill_in_the_blank,en,climatic,success
+22,text-22-38,es,boxed_text,0,activity_fill_in_the_blank,en,biomes,success
+22,text-22-39,es,boxed_text,0,activity_fill_in_the_blank,en,geological,success
+22,text-22-40,es,boxed_text,0,activity_fill_in_the_blank,en,Fauna,success
+22,text-22-41,es,instruction_text,2,activity_open_ended_answer,en,Explain over the dotted lines the meaning of the highlighted terms.,success
+22,text-22-42,es,section_text,2,activity_open_ended_answer,en,"In temperate zones, forests have deciduous trees and shrubs, that is,",success
+22,text-22-43,es,section_text,2,activity_open_ended_answer,en,leaves that fall during the cold season.,success
+22,text-22-44,es,section_text,2,activity_open_ended_answer,en,"The fauna of the forests is mainly composed of predators, that is,",success
+22,text-22-45,es,math,2,activity_open_ended_answer,en,There is no text to translate.,success
+22,text-22-46,es,math,2,activity_open_ended_answer,en,..................................................................................,success
+22,text-22-47,es,section_text,2,activity_open_ended_answer,en,"The prairies are ideal for the cultivation of oilseeds, that is,",success
+22,text-22-48,es,math,2,activity_open_ended_answer,en,...................................,success
+22,text-22-49,es,math,2,activity_open_ended_answer,en,..................................................................................,success
+22,text-22-50,es,math,2,activity_open_ended_answer,en,..................................................................................,success
+25,text-25-0,es,section_heading,0,activity_matching,en,WordSum,success
+25,text-25-1,es,instruction_text,0,activity_matching,en,Place each of these words next to the pair with which it is related.,success
+25,text-25-2,es,image_label,0,activity_matching,en,relieve,success
+25,text-25-3,es,image_label,0,activity_matching,en,floor,success
+21,text-21-0,es,section_heading,0,text_and_images,en,Expanding ideas,success
+21,text-21-1,es,instruction_text,0,text_and_images,en,Read these notes which will later help you write about the prairies of Uruguay.,success
+21,text-21-2,es,image_label,0,text_and_images,en,Vegetation,success
+21,text-21-3,es,section_text,0,text_and_images,en,"The prairie vegetation is composed of grasses, legumes, and shrubs, such as the chirca.",success
+21,text-21-4,es,image_label,0,text_and_images,en,Economic activities,success
+21,text-21-5,es,section_text,0,text_and_images,en,"In Uruguay, the natural grassland occupies 80% of the territory.",success
+21,text-21-6,es,section_text,0,text_and_images,en,"For this reason, agricultural activities constitute the main productive sector of the country.",success
+21,text-21-7,es,image_label,0,text_and_images,en,Climate,success
+21,text-21-8,es,section_text,0,text_and_images,en,The prairies are characterized by having average temperatures of 15 °C and precipitation ranging from 500 to 1000 mm.,success
+21,text-21-9,es,instruction_text,1,activity_open_ended_answer,en,"Reread the section ""Praderas"" and pay attention to the three marks indicating where to insert new information.",success
+21,text-21-10,es,instruction_text,1,activity_open_ended_answer,en,Match each brand with the note that serves to expand the text.,success
+25,text-25-4,es,image_label,0,activity_matching,en,prairie,success
+25,text-25-5,es,image_label,0,activity_matching,en,South America,success
+25,text-25-6,es,image_label,0,activity_matching,en,lynxes,success
+25,text-25-7,es,image_label,0,activity_matching,en,bushes,success
+25,text-25-8,es,image_label,0,activity_matching,en,humid,success
+25,text-25-9,es,image_label,0,activity_matching,en,foliage,success
+25,text-25-10,es,image_overlay,0,activity_matching,en,What is the relationship you found in each case?,success
+25,text-25-11,es,activity_option,0,activity_matching,en,mountain,success
+25,text-25-12,es,activity_option,0,activity_matching,en,trees,success
+25,text-25-13,es,activity_option,0,activity_matching,en,temperate,success
+25,text-25-14,es,activity_option,0,activity_matching,en,perennial,success
+25,text-25-15,es,activity_option,0,activity_matching,en,slope,success
+25,text-25-16,es,activity_option,0,activity_matching,en,forests,success
+25,text-25-17,es,activity_option,0,activity_matching,en,cold,success
+25,text-25-18,es,activity_option,0,activity_matching,en,perishable,success
+25,text-25-19,es,activity_option,0,activity_matching,en,cougars,success
+25,text-25-20,es,activity_option,0,activity_matching,en,deserts,success
+25,text-25-21,es,activity_option,0,activity_matching,en,Sun,success
+25,text-25-22,es,activity_option,0,activity_matching,en,Africa,success
+25,text-25-23,es,activity_option,0,activity_matching,en,foxes,success
+25,text-25-24,es,activity_option,0,activity_matching,en,rainforests,success
+25,text-25-25,es,activity_option,0,activity_matching,en,water,success
+25,text-25-26,es,activity_option,0,activity_matching,en,Asia,success
+25,text-25-27,es,instruction_text,1,activity_fill_in_the_blank,en,Write a word that relates to the other two.,success
+25,text-25-28,es,activity_option,1,activity_fill_in_the_blank,en,liquid,success
+25,text-25-29,es,activity_option,1,activity_fill_in_the_blank,en,soda,success
+25,text-25-30,es,activity_option,1,activity_fill_in_the_blank,en,entangled,success
+25,text-25-31,es,activity_option,1,activity_fill_in_the_blank,en,entangled,success
+25,text-25-32,es,activity_option,1,activity_fill_in_the_blank,en,trees,success
+25,text-25-33,es,activity_option,1,activity_fill_in_the_blank,en,araucarias,success
+25,text-25-34,es,activity_option,1,activity_fill_in_the_blank,en,modified,success
+25,text-25-35,es,activity_option,1,activity_fill_in_the_blank,en,transformed,success
+25,text-25-36,es,activity_option,1,activity_fill_in_the_blank,en,indiscriminate,success
+25,text-25-37,es,activity_option,1,activity_fill_in_the_blank,en,exaggerated,success
+21,text-21-12,es,section_text,1,activity_open_ended_answer,en,They develop in areas with temperate and humid climates.,success
+21,text-21-13,es,section_text,1,activity_open_ended_answer,en,They are almost completely devoid of trees and have a large amount of soft and level grass.,success
+21,text-21-14,es,section_text,1,activity_open_ended_answer,en,"They are ideal for developing agricultural activities, such as cereal and oilseed crops, and livestock activities, for example, cattle breeding.",success
+21,text-21-15,es,instruction_text,1,activity_open_ended_answer,en,Rewrite the previous text including the information from the notebook notes.,success
+21,text-21-16,es,instruction_text,1,activity_open_ended_answer,en,"When modifying it, check the use of punctuation marks.",success
+21,text-21-17,es,section_heading,1,activity_open_ended_answer,en,Uruguayan Grasslands,success
+23,text-23-0,es,section_heading,0,activity_fill_in_the_blank,en,In other words,success
+23,text-23-1,es,instruction_text,0,activity_fill_in_the_blank,en,"Complete this fragment based on ""Biomes and Human Action"" with the expressions that appear below.",success
+23,text-23-2,es,instruction_text,0,activity_fill_in_the_blank,en,Select the ones that maintain the sense of the original explanation.,success
+23,text-23-3,es,section_heading,0,activity_fill_in_the_blank,en,BIOMES AND HUMAN ACTION,success
+23,text-23-4,es,section_text,0,activity_fill_in_the_blank,en,Human beings,success
+23,text-23-5,es,math,0,activity_fill_in_the_blank,en,are part of the biome they inhabit,success
+23,text-23-6,es,section_text,0,activity_fill_in_the_blank,en,To meet your needs,success
+23,text-23-7,es,section_text,0,activity_fill_in_the_blank,en,"For example, they sow the land or build buildings.",success
+23,text-23-8,es,section_text,0,activity_fill_in_the_blank,en,The specialists state that,success
+23,text-23-9,es,section_text,0,activity_fill_in_the_blank,en,"In reality, to transform the nature",success
+23,text-23-10,es,section_text,0,activity_fill_in_the_blank,en,"However, the changes that occur in the environment due to human actions",success
+23,text-23-11,es,activity_option,0,activity_fill_in_the_blank,en,It is necessary for human life.,success
+23,text-23-12,es,activity_option,0,activity_fill_in_the_blank,en,it is absolutely unnecessary for human life.,success
+23,text-23-13,es,activity_option,0,activity_fill_in_the_blank,en,they are not related to biomes.,success
+23,text-23-14,es,activity_option,0,activity_fill_in_the_blank,en,they are part of the biome they inhabit.,success
+23,text-23-15,es,activity_option,0,activity_fill_in_the_blank,en,they modify the natural environment.,success
+23,text-23-16,es,activity_option,0,activity_fill_in_the_blank,en,they do not need to modify the environment.,success
+23,text-23-17,es,activity_option,0,activity_fill_in_the_blank,en,can cause irreparable damage.,success
+23,text-23-18,es,activity_option,0,activity_fill_in_the_blank,en,can only be beneficial for the environment.,success
+23,text-23-19,es,activity_option,0,activity_fill_in_the_blank,en,There are large areas of the planet that remain unexplored.,success
+23,text-23-20,es,activity_option,0,activity_fill_in_the_blank,en,All environments have been modified in some way by humans.,success
+23,text-23-21,es,instruction_text,1,activity_fill_in_a_table,en,Complete this outline on human activities that can harm natural environments.,success
+23,text-23-22,es,instruction_text,1,activity_fill_in_a_table,en,"In the last boxes, write some of the consequences of those activities.",success
+23,text-23-23,es,instruction_text,1,activity_fill_in_a_table,en,You can extract information from the text or consult other sources.,success
+23,text-23-24,es,image_label,1,activity_fill_in_a_table,en,Activities that can harm the planet,success
+23,text-23-25,es,image_label,1,activity_fill_in_a_table,en,deforestation,success
+23,text-23-26,es,image_label,1,activity_fill_in_a_table,en,loss of soils,success
+23,text-23-27,es,image_label,1,activity_fill_in_a_table,en,loss of biodiversity,success
+14,text-14-0,es,section_text,0,text_only,en,"Excessive deforestation, indiscriminate hunting of some species, intensive fishing (hake, for example), land drilling for mining exploitation (oil, coal, and other minerals) are some examples of activities that can cause damage to the planet.",success
+14,text-14-1,es,section_text,0,text_only,en,Environmental specialists propose that human activities be carried out with consideration for the needs of future generations.,success
+14,text-14-2,es,section_text,0,text_only,en,This type of development is called sustainable development.,success
+14,text-14-3,es,section_text,0,text_only,en,"The World Commission on Environment of the United Nations (UN) defines sustainable development as ""development that meets the needs of the present without compromising the ability of future generations to meet their own needs.""",success
+14,text-14-4,es,section_heading,1,text_and_images,en,Types of Biomes,success
+14,text-14-5,es,section_heading,1,text_and_images,en,Rainforests,success
+14,text-14-6,es,section_text,1,text_and_images,en,They are also called tropical forests. They develop in areas with high temperatures and abundant rainfall during much of the year.,success
+14,text-14-7,es,section_text,1,text_and_images,en,"They extend on both sides of the equator in Central America, South America, Africa, Asia, and Australia.",success
+14,text-14-8,es,section_text,1,text_and_images,en,The Amazon rainforest is the largest and coincides with the Amazon River basin.,success
+14,text-14-9,es,section_text,1,text_and_images,en,"Its approximate area is 7,000,000 km².",success
+14,text-14-10,es,section_text,1,text_and_images,en,"They possess a large quantity and variety of plants: large, medium, and small trees, lianas, vines, ferns, shrubs, and herbaceous vegetation, distributed in layers (the tallest trees form a canopy, under which other species live in a disorderly and tangled manner).",success
+14,text-14-11,es,section_text,1,text_and_images,en,"They also present a large quantity and variety of animals, for example, monkeys, reptiles, birds, insects, and predatory mammals.",success
+14,text-14-12,es,section_text,1,text_and_images,en,Economic activities are linked to the exploitation of forest and mineral resources.,success
+14,text-14-13,es,section_text,1,text_and_images,en,"Deforestation or the felling of species leads to serious consequences, for example, loss of biodiversity, global climate changes, disappearance of animal and plant species, and loss of soils.",success
+14,text-14-14,es,image_label,1,text_and_images,en,"Amazon rainforest, Brazil",success
+14,text-14-15,es,image_label,1,text_and_images,en,Ecuadorian jungle,success
+30,text-30-0,es,section_heading,0,activity_other,en,To write correctly,success
+30,text-30-1,es,instruction_text,0,activity_other,en,Solve the crossword according to the references.,success
+30,text-30-2,es,activity_number,0,activity_other,en,1.,success
+30,text-30-3,es,activity_number,0,activity_other,en,2,success
+30,text-30-4,es,activity_number,0,activity_other,en,3,success
+30,text-30-5,es,activity_number,0,activity_other,en,4,success
+30,text-30-6,es,activity_number,0,activity_other,en,5,success
+30,text-30-7,es,section_heading,0,activity_other,en,References,success
+30,text-30-8,es,section_text,0,activity_other,en,Science that deals with living beings.,success
+30,text-30-9,es,section_text,0,activity_other,en,"Unicellular organism only visible under a microscope, such as bacteria.",success
+30,text-30-10,es,section_text,0,activity_other,en,3. Fuel obtained through the physical or chemical treatment of plant material or organic waste.,success
+30,text-30-11,es,section_text,0,activity_other,en,"Each of the ecological communities in which a type of vegetation dominates, for example, tropical rainforest, desert, tundra.",success
+30,text-30-12,es,section_text,0,activity_other,en,Life story of a person.,success
+30,text-30-13,es,instruction_text,1,activity_open_ended_answer,en,What do all these words have in common?,success
+30,text-30-14,es,instruction_text,1,activity_open_ended_answer,en,What conclusion can you draw in relation to their spelling?,success
+30,text-30-15,es,instruction_text,1,activity_open_ended_answer,en,Write in your own words what this part of the word that they share means:,success
+30,text-30-16,es,instruction_text,2,activity_matching,en,Match each of these words with its picture.,success
+30,text-30-17,es,activity_option,2,activity_matching,en,twin-engine,success
+30,text-30-18,es,activity_option,2,activity_matching,en,bookmobile,success
+30,text-30-19,es,activity_option,2,activity_matching,en,bilingual,success
+30,text-30-20,es,activity_option,2,activity_matching,en,library,success
+30,text-30-21,es,activity_option,2,activity_matching,en,bicolor,success
+30,text-30-22,es,activity_option,2,activity_matching,en,bibliomania,success
+30,text-30-23,es,section_text,3,text_only,en,The parts that those words share are called compositional elements; bi- and biblio- have their own meaning.,success
+30,text-30-24,es,section_text,3,text_only,en,"When combined with other elements, they form new words.",success
+30,text-30-25,es,section_text,3,text_only,en,For example: the word bibliography is formed like this: biblio + graphy and the word bimesual with bi + monthly.,success
+30,text-30-26,es,section_text,3,text_only,en,Bi- and biblio- are always written with b.,success
+30,text-30-27,es,instruction_text,4,activity_open_ended_answer,en,Write the meaning of the following compositional elements in your own words:,success
+30,text-30-28,es,activity_input_placeholder_text,4,activity_open_ended_answer,en,bi-,success
+30,text-30-29,es,activity_input_placeholder_text,4,activity_open_ended_answer,en,biblio-,success
+19,text-19-0,es,section_heading,0,activity_other,en,Questions,success
+19,text-19-1,es,image_label,3,text_only,en,I don't know if I understood this well.,success
+19,text-19-2,es,image_label,3,text_only,en,Better I am going to reread.,success
+19,text-19-3,es,instruction_text,0,activity_other,en,Indicate which of these questions can be answered after reading 'The Biomes'.,success
+19,text-19-4,es,instruction_text,0,activity_other,en,Write yes or no on the dotted line.,success
+19,text-19-5,es,activity_number,0,activity_other,en,1. How did life arise on our planet?,success
+19,text-19-6,es,activity_number,0,activity_other,en,2. In what ways does man modify the environment?,success
+19,text-19-7,es,activity_number,0,activity_other,en,3. What is the definition of sustainable development?,success
+19,text-19-8,es,activity_number,0,activity_other,en,4. In what areas of the planet do jungles exist?,success
+19,text-19-9,es,activity_number,0,activity_other,en,5. What types of biomes are found in Uruguay?,success
+19,text-19-10,es,instruction_text,1,activity_open_ended_answer,en,Write three questions that can be answered by reading the section 'Types of Biomes'.,success
+19,text-19-11,es,instruction_text,1,activity_open_ended_answer,en,Share them with your peers.,success
+19,text-19-12,es,activity_number,1,activity_open_ended_answer,en,1.,success
+19,text-19-13,es,activity_number,1,activity_open_ended_answer,en,2,success
+19,text-19-14,es,activity_number,1,activity_open_ended_answer,en,3.,success
+19,text-19-15,es,instruction_text,2,activity_open_ended_answer,en,Copy two questions that your classmates have written and draft their answers.,success
+19,text-19-16,es,instruction_text,2,activity_open_ended_answer,en,Question,success
+19,text-19-17,es,instruction_text,2,activity_open_ended_answer,en,Answer:,success
+19,text-19-18,es,instruction_text,2,activity_open_ended_answer,en,Question:,success
+19,text-19-19,es,instruction_text,2,activity_open_ended_answer,en,Response:,success
+19,text-19-20,es,image_label,3,text_only,en,"Did you notice!? Sometimes, to find an answer, it's necessary to read more than once.",success
+19,text-19-21,es,image_label,3,text_only,en,Social Sciences,success
+29,text-29-0,es,section_heading,0,text_and_images,en,Think the written language,success
+29,text-29-1,es,section_heading,0,text_and_images,en,The verb,success
+29,text-29-2,es,instruction_text,0,text_and_images,en,Indicate what the highlighted verbs express.,success
+29,text-29-3,es,boxed_text,0,text_and_images,en,"Join us, plant a tree.",success
+29,text-29-4,es,boxed_text,0,text_and_images,en,Be part of the solution.,success
+29,text-29-5,es,section_text,0,text_and_images,en,You are asked to plant a tree.,success
+29,text-29-6,es,section_text,0,text_and_images,en,They explain to you how to plant trees.,success
+29,text-29-7,es,section_text,0,text_and_images,en,You are ordered to plant a tree.,success
+29,text-29-8,es,section_text,0,text_and_images,en,They ask you how to plant trees.,success
+29,text-29-9,es,section_text,0,text_and_images,en,In conclusion:,success
+29,text-29-10,es,section_text,0,text_and_images,en,when a speaker...,success
+29,text-29-11,es,section_text,0,text_and_images,en,o le...,success
+29,text-29-12,es,section_text,0,text_and_images,en,"something to another, use verbs in the imperative mood.",success
+29,text-29-13,es,instruction_text,1,activity_fill_in_the_blank,en,Complete the guide to plant trees.,success
+29,text-29-14,es,instruction_text,1,activity_fill_in_the_blank,en,Write the verbs from the list in the imperative mood following the example.,success
+29,text-29-15,es,activity_option,1,activity_fill_in_the_blank,en,to loosen,success
+29,text-29-16,es,activity_option,1,activity_fill_in_the_blank,en,open,success
+29,text-29-17,es,activity_option,1,activity_fill_in_the_blank,en,take,success
+29,text-29-18,es,activity_option,1,activity_fill_in_the_blank,en,mistreat,success
+29,text-29-19,es,activity_option,1,activity_fill_in_the_blank,en,to touch / to play,success
+29,text-29-20,es,activity_option,1,activity_fill_in_the_blank,en,to take care,success
+29,text-29-21,es,activity_option,1,activity_fill_in_the_blank,en,cover,success
+29,text-29-22,es,activity_option,1,activity_fill_in_the_blank,en,press,success
+29,text-29-23,es,activity_option,1,activity_fill_in_the_blank,en,add,success
+29,text-29-24,es,activity_option,1,activity_fill_in_the_blank,en,to protect,success
+29,text-29-25,es,activity_number,1,activity_fill_in_the_blank,en,1,success
+29,text-29-26,es,section_text,1,activity_fill_in_the_blank,en,Loosen the soil on a surface of about 40 x 40 cm.,success
+29,text-29-27,es,activity_number,1,activity_fill_in_the_blank,en,2,success
+29,text-29-28,es,section_text,1,activity_fill_in_the_blank,en,In the center...,success
+29,text-29-29,es,section_text,1,activity_fill_in_the_blank,en,a hole to place the tree's root.,success
+29,text-29-30,es,activity_number,1,activity_fill_in_the_blank,en,3,success
+29,text-29-31,es,section_text,1,activity_fill_in_the_blank,en,the tree from the lowest part of the stem.,success
+29,text-29-32,es,section_text,1,activity_fill_in_the_blank,en,Not it...,success
+29,text-29-33,es,section_text,1,activity_fill_in_the_blank,en,ni,success
+29,text-29-34,es,section_text,1,activity_fill_in_the_blank,en,the root,success
+29,text-29-35,es,activity_number,1,activity_fill_in_the_blank,en,4,success
+29,text-29-36,es,section_text,1,activity_fill_in_the_blank,en,that the tree remains level with the ground and...,success
+29,text-29-37,es,section_text,1,activity_fill_in_the_blank,en,the root with soil.,success
+29,text-29-38,es,activity_number,1,activity_fill_in_the_blank,en,5,success
+29,text-29-39,es,section_text,1,activity_fill_in_the_blank,en,the soil with the hands.,success
+29,text-29-40,es,section_text,1,activity_fill_in_the_blank,en,It should not be too tight nor too loose.,success
+29,text-29-41,es,activity_number,1,activity_fill_in_the_blank,en,6,success
+29,text-29-42,es,section_text,1,activity_fill_in_the_blank,en,"If the soil is poor,",success
+29,text-29-43,es,section_text,1,activity_fill_in_the_blank,en,organic fertilizer,success
+29,text-29-44,es,activity_number,1,activity_fill_in_the_blank,en,7,success
+29,text-29-45,es,section_text,1,activity_fill_in_the_blank,en,"After planting,",success
+29,text-29-46,es,section_text,1,activity_fill_in_the_blank,en,the tree of the action of herbivores or domestic animals.,success
+16,text-16-0,es,section_heading,0,activity_fill_in_a_table,en,What is the topic?,success
+16,text-16-1,es,instruction_text,0,activity_fill_in_a_table,en,Observe the parts that make up the text you have read.,success
+16,text-16-2,es,instruction_text,0,activity_fill_in_a_table,en,Complete this diagram:,success
+16,text-16-3,es,image_label,0,activity_fill_in_a_table,en,Main Title,success
+16,text-16-4,es,image_label,0,activity_fill_in_a_table,en,First subtitle,success
+16,text-16-5,es,image_label,0,activity_fill_in_a_table,en,Second Subtitle,success
+16,text-16-6,es,image_label,0,activity_fill_in_a_table,en,First subtitle,success
+16,text-16-7,es,image_label,0,activity_fill_in_a_table,en,Second subtitle,success
+16,text-16-8,es,image_label,0,activity_fill_in_a_table,en,Third subtitle,success
+16,text-16-9,es,image_caption,0,activity_fill_in_a_table,en,The word that is most repeated in the title and subtitles announces what the developing topic is.,success
+16,text-16-10,es,instruction_text,1,activity_open_ended_answer,en,Complete this conclusion:,success
+16,text-16-11,es,instruction_text,1,activity_open_ended_answer,en,The topic developed in this text is,success
+16,text-16-12,es,boxed_text,2,text_only,en,Biomes of the world,success
+16,text-16-13,es,boxed_text,2,text_only,en,Climate and terrain are of great importance in the formation of biomes.,success
+16,text-16-14,es,boxed_text,2,text_only,en,"For example, some mountain ranges are like huge walls interposed in the path of moist winds coming from the ocean.",success
+16,text-16-15,es,boxed_text,2,text_only,en,"Upon colliding with the mountain, these winds release their moisture on the side facing the sea, while the other side is arid.",success
+16,text-16-16,es,boxed_text,2,text_only,en,"Likewise, height is a determining factor: in the mountains, biomes are distributed in layers according to height.",success
+16,text-16-17,es,instruction_text,3,activity_open_ended_answer,en,"On page 12, this box appears providing more information related to the main topic.",success
+16,text-16-18,es,instruction_text,3,activity_open_ended_answer,en,Underline the statement that summarizes the subject.,success
+16,text-16-19,es,instruction_text,3,activity_open_ended_answer,en,Complete:,success
+16,text-16-20,es,instruction_text,3,activity_open_ended_answer,en,The informational box explains that,success
+27,text-27-0,es,section_heading,0,text_and_images,en,Think the written language,success
+27,text-27-1,es,section_heading,0,text_and_images,en,The verb and personal pronouns,success
+27,text-27-2,es,instruction_text,0,text_and_images,en,Read this poster in which its parts are pointed out.,success
+27,text-27-3,es,image_label,0,text_and_images,en,August 29,success
+27,text-27-4,es,image_label,0,text_and_images,en,Arbor Day,success
+27,text-27-5,es,image_label,0,text_and_images,en,you are the air that I breathe,success
+27,text-27-6,es,image_label,0,text_and_images,en,1,success
+27,text-27-7,es,image_label,0,text_and_images,en,They generate oxygen.,success
+27,text-27-8,es,image_label,0,text_and_images,en,They reduce atmospheric warming and help regulate the planet's climate.,success
+27,text-27-9,es,image_label,0,text_and_images,en,"They capture carbon dioxide (CO2) and absorb ozone, carbon monoxide, and sulfur dioxide.",success
+27,text-27-10,es,image_label,0,text_and_images,en,2,success
+27,text-27-11,es,image_label,0,text_and_images,en,3,success
+27,text-27-12,es,image_label,0,text_and_images,en,"Join, plant a tree. Be part of the solution.",success
+27,text-27-13,es,image_label,0,text_and_images,en,4,success
+27,text-27-14,es,image_label,0,text_and_images,en,Electric Cooperative,success
+27,text-27-15,es,instruction_text,1,activity_matching,en,Number the table according to the function of each part of the poster.,success
+27,text-27-16,es,section_text,1,activity_matching,en,This part of the text explains the environmental functions of trees.,success
+27,text-27-17,es,section_text,1,activity_matching,en,This part of the text invites people to plant trees.,success
+27,text-27-18,es,section_text,1,activity_matching,en,This part of the text provides the information of the people responsible for the campaign.,success
+27,text-27-19,es,section_text,1,activity_matching,en,This part of the text is the slogan of the campaign.,success
+27,text-27-20,es,activity_number,1,activity_matching,en,2,success
+27,text-27-21,es,boxed_text,2,text_only,en,A slogan is a brief and catchy phrase.,success
+27,text-27-22,es,boxed_text,2,text_only,en,It is used in advertising and propaganda.,success
+27,text-27-23,es,boxed_text,2,text_only,en,The slogan makes us associate ideas.,success
+27,text-27-24,es,boxed_text,2,text_only,en,"In this case, ""You are the air that I breathe"" invites us to think about the need to plant trees.",success
+24,text-24-0,es,chapter_title,0,activity_fill_in_a_table,en,From the painting to the text,success
+24,text-24-1,es,section_heading,0,activity_fill_in_a_table,en,Biomes of America,success
+24,text-24-2,es,instruction_text,0,activity_fill_in_a_table,en,Write the headers and the missing information to complete the table about some of the biomes of America.,success
+24,text-24-3,es,boxed_text,0,activity_fill_in_a_table,en,Type of Biome,success
+24,text-24-4,es,boxed_text,0,activity_fill_in_a_table,en,Savannah,success
+24,text-24-5,es,boxed_text,0,activity_fill_in_a_table,en,tropical climate,success
+24,text-24-6,es,boxed_text,0,activity_fill_in_a_table,en,a dry season and a rainy season are distinguished,success
+24,text-24-7,es,boxed_text,0,activity_fill_in_a_table,en,jaguar,success
+24,text-24-8,es,boxed_text,0,activity_fill_in_a_table,en,deer,success
+24,text-24-9,es,boxed_text,0,activity_fill_in_a_table,en,anteater,success
+24,text-24-10,es,boxed_text,0,activity_fill_in_a_table,en,hare,success
+24,text-24-11,es,boxed_text,0,activity_fill_in_a_table,en,coati,success
+24,text-24-12,es,boxed_text,0,activity_fill_in_a_table,en,little armadillo,success
+24,text-24-13,es,boxed_text,0,activity_fill_in_a_table,en,-lizard,success
+24,text-24-14,es,boxed_text,0,activity_fill_in_a_table,en,Economic activities,success
+24,text-24-15,es,boxed_text,0,activity_fill_in_a_table,en,agriculture,success
+24,text-24-16,es,boxed_text,0,activity_fill_in_a_table,en,livestock farming,success
+24,text-24-17,es,boxed_text,0,activity_fill_in_a_table,en,exploitation of mineral resources,success
+24,text-24-18,es,boxed_text,0,activity_fill_in_a_table,en,Desert,success
+24,text-24-19,es,boxed_text,0,activity_fill_in_a_table,en,arid climate,success
+24,text-24-20,es,boxed_text,0,activity_fill_in_a_table,en,elevated temperature,success
+24,text-24-21,es,boxed_text,0,activity_fill_in_a_table,en,scarcity of rain,success
+24,text-24-22,es,boxed_text,0,activity_fill_in_a_table,en,high thermal variation,success
+24,text-24-23,es,boxed_text,0,activity_fill_in_a_table,en,xerophytic plants (cactus),success
+24,text-24-24,es,boxed_text,0,activity_fill_in_a_table,en,exploitation of mineral resources,success
+24,text-24-25,es,instruction_text,1,activity_open_ended_answer,en,Describe these biomes in a text of two paragraphs.,success
+24,text-24-26,es,instruction_text,1,activity_open_ended_answer,en,"In the appropriate paragraph, include the definition of xerophytic plants using the information that appears below.",success
+24,text-24-27,es,boxed_text,1,activity_open_ended_answer,en,Xerophile.,success
+24,text-24-28,es,boxed_text,1,activity_open_ended_answer,en,Plant or fungus adapted to a limited water supply and capable of withstanding drought.,success
+26,text-26-0,es,section_heading,0,text_and_images,en,Committed to the environment,success
+26,text-26-1,es,image_label,1,text_and_images,en,Photo: Martin Rowe,success
+26,text-26-2,es,boxed_text,1,text_and_images,en,The Kenyan biologist Wangari Maathai wanted to combat the poverty that deforestation was causing in her country.,success
+26,text-26-3,es,boxed_text,1,text_and_images,en,"To do this, he started planting trees and invited others to imitate the initiative.",success
+26,text-26-4,es,boxed_text,1,text_and_images,en,"Thus, with its Green Belt project, it promoted the planting of over 47 million trees in Africa.",success
+26,text-26-5,es,boxed_text,1,text_and_images,en,"In 2004, he/she received the Nobel Peace Prize for his/her defense of sustainable development and the environment.",success
+26,text-26-6,es,image_label,2,text_and_images,en,Photo: Miranda Smith,success
+26,text-26-7,es,boxed_text,2,text_and_images,en,Chico Mendes was a rubber-tapper worker who fought peacefully for the preservation of the Brazilian rainforest.,success
+26,text-26-8,es,boxed_text,2,text_and_images,en,He denounced the damage of indiscriminate logging and managed to mobilize many people who joined his cause.,success
+26,text-26-9,es,boxed_text,2,text_and_images,en,"The landowners harmed by his fight killed him, but he raised environmental awareness in Brazil, America, and the entire world.",success
+26,text-26-10,es,image_label,3,text_and_images,en,Photo: Stephen Eggleston,success
+26,text-26-11,es,boxed_text,3,text_and_images,en,Jacques-Yves Cousteau was a French explorer who traveled around the world investigating marine biomes.,success
+26,text-26-12,es,boxed_text,3,text_and_images,en,He filmed underwater documentaries and spread knowledge about the different forms of life that inhabit the sea.,success
+26,text-26-13,es,boxed_text,3,text_and_images,en,"He organized campaigns to stop the dumping of radioactive waste into the sea and, with the support of many people, succeeded on more than one occasion.",success
+26,text-26-14,es,image_label,4,text_and_images,en,Photo: Goldman Environmental Foundation,success
+26,text-26-15,es,boxed_text,4,text_and_images,en,"The Inuit, inhabitants of the Arctic, know the magnificent biodiversity of the area they inhabit and are direct witnesses to the environmental damage in the region.",success
+26,text-26-16,es,boxed_text,4,text_and_images,en,"Caroline Cannon, a member of this community, has faced powerful companies interested in the oil wealth of the Arctic region for years.",success
+26,text-26-17,es,boxed_text,4,text_and_images,en,Works alongside groups of scientists to halt the destruction of the environment in which they live.,success
+28,text-28-0,es,section_heading,0,activity_fill_in_a_table,en,Think the written language,success
+28,text-28-1,es,instruction_text,0,activity_fill_in_a_table,en,Write the verbs from the poster under the personal pronoun with which they agree.,success
+28,text-28-8,es,image_overlay,0,activity_fill_in_a_table,en,Join,success
+28,text-28-9,es,image_overlay,0,activity_fill_in_a_table,en,they generate,success
+28,text-28-10,es,instruction_text,1,activity_fill_in_the_blank,en,Complete the following comic strip by conjugating the verbs as appropriate.,success
+28,text-28-11,es,instruction_text,1,activity_fill_in_the_blank,en,"In each speech bubble, pay attention to the personal pronouns.",success
+28,text-28-12,es,image_overlay,1,activity_fill_in_the_blank,en,I'll take care of it!,success
+28,text-28-13,es,activity_input_placeholder_text,1,activity_fill_in_the_blank,en,to handle,success
+28,text-28-14,es,image_overlay,1,activity_fill_in_the_blank,en,from the well!,success
+28,text-28-15,es,image_overlay,1,activity_fill_in_the_blank,en,What about you...? (plural),success
+28,text-28-16,es,activity_input_placeholder_text,1,activity_fill_in_the_blank,en,do/make,success
+28,text-28-17,es,image_overlay,1,activity_fill_in_the_blank,en,I ................. water!,success
+28,text-28-18,es,activity_input_placeholder_text,1,activity_fill_in_the_blank,en,to bring,success
+28,text-28-19,es,image_overlay,1,activity_fill_in_the_blank,en,Can you ................. for me?,success
+28,text-28-20,es,activity_input_placeholder_text,1,activity_fill_in_the_blank,en,help,success
+28,text-28-21,es,image_overlay,1,activity_fill_in_the_blank,en,"Come on, we...",success
+28,text-28-22,es,activity_input_placeholder_text,1,activity_fill_in_the_blank,en,bring the water.,success
+28,text-28-23,es,image_overlay,1,activity_fill_in_the_blank,en,They already,success
+28,text-28-24,es,activity_input_placeholder_text,1,activity_fill_in_the_blank,en,to be able to/can,success
+28,text-28-25,es,image_overlay,1,activity_fill_in_the_blank,en,..........................,success
+28,text-28-26,es,image_overlay,1,activity_fill_in_the_blank,en,alone,success
+28,text-28-27,es,boxed_text,2,text_only,en,Personal pronouns refer to the people involved in the communication.,success
+28,text-28-28,es,boxed_text,2,text_only,en,This chart summarizes the different forms of personal pronouns.,success
+28,text-28-29,es,instruction_text,3,activity_fill_in_the_blank,en,Look on the poster for the conjugated form of the following verbs in their infinitive form:,success
+28,text-28-34,es,instruction_text,3,activity_fill_in_the_blank,en,Search for and write three other verbs and their infinitives:,success
+28,text-28-35,es,math,3,activity_fill_in_the_blank,en,generate,success
+28,text-28-36,es,math,3,activity_fill_in_the_blank,en,generate,success

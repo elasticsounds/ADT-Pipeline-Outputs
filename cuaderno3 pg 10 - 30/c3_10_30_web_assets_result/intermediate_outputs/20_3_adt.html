@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Activity: Matching</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"></script>
+<!-- Mathjax script to use for rendering math. -->
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<meta content="20_3" name="page-section-id"/></head>
+<body class="bg-gray-100 lg:p-5 md:p-5 sm:p-0 mb-12 font-sans text-lg">
+<!-- The main interface components -->
+<!-- Contains the bottom bar, next back buttons, submit button, right sidebar, ai language, eli5 and tts toggles -->
+<div id="interface-container"></div>
+<!-- Contains the left nav bar, html page list -->
+<div id="nav-container"></div>
+<!-- The main content container -->
+<main class="container mx-auto bg-white mt-auto max-w-5xl p-5 rounded-lg shadow-lg lg:px-24 md:px-12 sm:px-6" id="content">
+<section class="py-6" data-id="sectioneli5-20-3" data-section-type="activity_matching" id="activity-matching">
+<h1 class="text-3xl font-bold mb-4">Actividad de Emparejamiento</h1>
+<p class="text-lg mb-4"><span data-id="text-20-0">Lee el texto de cada libretita donde se presenta un episodio del cuento.</span>
+</p>
+<p class="text-lg mb-4"><span data-id="text-20-1">Elige el enunciado de la derecha que lo resume mejor.</span></p>
+<div class="flex flex-col space-y-8">
+<div class="flex justify-between items-start gap-8">
+<div class="bg-orange-100 p-4 rounded shadow flex-1">
+<p data-id="text-20-9">El abuelo le enseñó un secreto para vencer a la sombra.</p>
+<p data-id="text-20-10">Elena lo aprendió de memoria.</p>
+</div>
+<div class="flex flex-col space-y-2 justify-center">
+<button aria-label="Option 1" class="bg-gray-200 hover:bg-gray-300 p-2 rounded" data-id="text-20-18">El desafío del abuelo.</button>
+<button aria-label="Option 2" class="bg-gray-200 hover:bg-gray-300 p-2 rounded" data-id="text-20-19">Las victorias de Elena.</button>
+</div>
+</div>
+<div class="mt-10">
+<label class="font-bold" for="summary">Escribe un enunciado que resuma el episodio.</label>
+<textarea class="w-full mt-2 rounded border border-gray-300 p-2" id="summary" placeholder="Escribe aquí..." rows="4"></textarea>
+</div>
+</div>
+</section>
+</main>
+</body>
+</html>

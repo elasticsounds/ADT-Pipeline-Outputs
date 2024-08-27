@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Elena's Matching Activity</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"></script>
+<meta content="20_1" name="page-section-id"/></head>
+<body class="bg-gray-100 lg:p-5 md:p-5 sm:p-0 mb-12 font-sans text-lg">
+<div id="interface-container"></div>
+<div id="nav-container"></div>
+<main class="container mx-auto bg-white mt-auto max-w-5xl p-5 rounded-lg shadow-lg lg:px-24 md:px-12 sm:px-6">
+<section data-id="sectioneli5-20-1" data-section-type="activity_matching" role="application">
+<p class="text-lg mb-4"><i class="fas fa-link text-blue-700 mr-2"></i><span data-id="instruction">Lee el texto de cada libreta donde se presenta un episodio del cuento. Elige el enunciado de la derecha que lo resume mejor.</span></p>
+<div class="flex flex-col md:flex-row md:space-x-10">
+<div class="md:w-1/2">
+<div class="bg-gray-200 p-4 rounded mb-4">
+<p class="mb-2" data-id="text-20-5">En la casa de su abuelo, Elena no tenía contra quién correr y se aburrió.</p>
+<div class="mt-2">
+<select aria-label="Match option for boredom reflection" class="cursor-pointer mt-2 p-2 border rounded w-full bg-white hover:bg-gray-50 focus:outline-none" data-activity-item="item-1">
+<option disabled="" selected="">Elige un resumen...</option>
+<option data-id="text-20-14">Los juegos de Elena.</option>
+<option data-id="text-20-15">El aburrimiento de Elena.</option>
+<option data-id="text-20-16">Las carreras de Elena.</option>
+</select>
+</div>
+</div>
+</div>
+</div>
+<p class="text-md mt-6"><span>Escribe un enunciado que resuma el episodio:</span></p>
+<textarea aria-label="Escribe un enunciado" class="w-full mt-2 p-2 border rounded h-24 resize-none" data-activity-item="summary-text" placeholder="Escribe aquí..."></textarea>
+</section>
+</main>
+</body>
+</html>

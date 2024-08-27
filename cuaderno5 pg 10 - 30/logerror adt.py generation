@@ -1,0 +1,1008 @@
+│    57 │   │   try:                                                                               │
+│ ❱  58 │   │   │   result = self.fn(*self.args, **self.kwargs)                                    │
+│    59 │   │   except BaseException as exc:                                                       │
+│    60 │   │   │   self.future.set_exception(exc)                                                 │
+│    61 │   │   │   # Break a reference cycle with the exception 'exc'                             │
+│                                                                                                  │
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/async_tasks/adt_generation/task_adt_ │
+│ generation.py:118 in generate_adt                                                                │
+│                                                                                                  │
+│   115 │   for img in images:                                                                     │
+│   116 │   │   img_id = img.id                                                                    │
+│   117 │   │   image_path = img.image_path                                                        │
+│ ❱ 118 │   │   img_b64 = image_helpers.get_b64_from_path(image_path)                              │
+│   119 │   │   user_messages.extend(                                                              │
+│   120 │   │   │   [                                                                              │
+│   121 │   │   │   │   {                                                                          │
+│                                                                                                  │
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/image_utils/image_helpers.py:77 in   │
+│ get_b64_from_path                                                                                │
+│                                                                                                  │
+│    74                                                                                            │
+│    75                                                                                            │
+│    76 def get_b64_from_path(path: str) -> str:                                                   │
+│ ❱  77 │   with open(path, "rb") as f:                                                            │
+│    78 │   │   img_bytes = f.read()                                                               │
+│    79 │   img_b64 = base64.b64encode(img_bytes).decode("utf-8")                                  │
+│    80 │   return img_b64                                                                         │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────╯
+⠙ ADT generation tasks       ━━━━━━━━━━━━━━━━━━━━━━━━━╸━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10/35
+⠙ ADT generate answers tasks ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0/0  ╭─────────────────────────────── Traceback (most recent call last) ────────────────────────────────╮
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/adt_generation.py:184 in             │
+│ callback_adt_generation                                                                          │
+│                                                                                                  │
+│   181 │   │   """                                                                                │
+│   182 │   │   task_data = self.futures_adt_generation[adt_future]                                │
+│   183 │   │   try:                                                                               │
+│ ❱ 184 │   │   │   adt_web_asset = adt_future.result()                                            │
+│   185 │   │   │   self._output_adt_generation_writer.write_row(                                  │
+│   186 │   │   │   │   [                                                                          │
+│   187 │   │   │   │   │   task_data.page_index,                                                  │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/_base.py:449 in result                              │
+│                                                                                                  │
+│   446 │   │   │   │   if self._state in [CANCELLED, CANCELLED_AND_NOTIFIED]:                     │
+│   447 │   │   │   │   │   raise CancelledError()                                                 │
+│   448 │   │   │   │   elif self._state == FINISHED:                                              │
+│ ❱ 449 │   │   │   │   │   return self.__get_result()                                             │
+│   450 │   │   │   │                                                                              │
+│   451 │   │   │   │   self._condition.wait(timeout)                                              │
+│   452                                                                                            │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/_base.py:401 in __get_result                        │
+│                                                                                                  │
+│   398 │   def __get_result(self):                                                                │
+│   399 │   │   if self._exception:                                                                │
+│   400 │   │   │   try:                                                                           │
+│ ❱ 401 │   │   │   │   raise self._exception                                                      │
+│   402 │   │   │   finally:                                                                       │
+│   403 │   │   │   │   # Break a reference cycle with the exception in self._exception            │
+│   404 │   │   │   │   self = None                                                                │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/thread.py:58 in run                                 │
+│                                                                                                  │
+│    55 │   │   │   return                                                                         │
+│    56 │   │                                                                                      │
+│    57 │   │   try:                                                                               │
+│ ❱  58 │   │   │   result = self.fn(*self.args, **self.kwargs)                                    │
+│    59 │   │   except BaseException as exc:                                                       │
+│    60 │   │   │   self.future.set_exception(exc)                                                 │
+│    61 │   │   │   # Break a reference cycle with the exception 'exc'                             │
+│                                                                                                  │
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/async_tasks/adt_generation/task_adt_ │
+│ generation.py:118 in generate_adt                                                                │
+│                                                                                                  │
+│   115 │   for img in images:                                                                     │
+│   116 │   │   img_id = img.id                                                                    │
+│   117 │   │   image_path = img.image_path                                                        │
+│ ❱ 118 │   │   img_b64 = image_helpers.get_b64_from_path(image_path)                              │
+│   119 │   │   user_messages.extend(                                                              │
+│   120 │   │   │   [                                                                              │
+│   121 │   │   │   │   {                                                                          │
+│                                                                                                  │
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/image_utils/image_helpers.py:77 in   │
+│ get_b64_from_path                                                                                │
+│                                                                                                  │
+│    74                                                                                            │
+│    75                                                                                            │
+│    76 def get_b64_from_path(path: str) -> str:                                                   │
+│ ❱  77 │   with open(path, "rb") as f:                                                            │
+│    78 │   │   img_bytes = f.read()                                                               │
+│    79 │   img_b64 = base64.b64encode(img_bytes).decode("utf-8")                                  │
+│    80 │   return img_b64                                                                         │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────╯
+FileNotFoundError: [Errno 2] No such file or directory: 'extraction_outputs/images_cropped/19_img-19-2.png'
+╭─────────────────────────────── Traceback (most recent call last) ────────────────────────────────╮
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/adt_generation.py:184 in             │
+│ callback_adt_generation                                                                          │
+│                                                                                                  │
+│   181 │   │   """                                                                                │
+│   182 │   │   task_data = self.futures_adt_generation[adt_future]                                │
+│   183 │   │   try:                                                                               │
+│ ❱ 184 │   │   │   adt_web_asset = adt_future.result()                                            │
+│   185 │   │   │   self._output_adt_generation_writer.write_row(                                  │
+│   186 │   │   │   │   [                                                                          │
+│   187 │   │   │   │   │   task_data.page_index,                                                  │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/_base.py:449 in result                              │
+│                                                                                                  │
+│   446 │   │   │   │   if self._state in [CANCELLED, CANCELLED_AND_NOTIFIED]:                     │
+│   447 │   │   │   │   │   raise CancelledError()                                                 │
+│   448 │   │   │   │   elif self._state == FINISHED:                                              │
+│ ❱ 449 │   │   │   │   │   return self.__get_result()                                             │
+│   450 │   │   │   │                                                                              │
+│   451 │   │   │   │   self._condition.wait(timeout)                                              │
+│   452                                                                                            │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/_base.py:401 in __get_result                        │
+│                                                                                                  │
+│   398 │   def __get_result(self):                                                                │
+│   399 │   │   if self._exception:                                                                │
+│   400 │   │   │   try:                                                                           │
+│ ❱ 401 │   │   │   │   raise self._exception                                                      │
+│   402 │   │   │   finally:                                                                       │
+│   403 │   │   │   │   # Break a reference cycle with the exception in self._exception            │
+│   404 │   │   │   │   self = None                                                                │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/thread.py:58 in run                                 │
+│                                                                                                  │
+│    55 │   │   │   return                                                                         │
+│    56 │   │                                                                                      │
+│    57 │   │   try:                                                                               │
+│ ❱  58 │   │   │   result = self.fn(*self.args, **self.kwargs)                                    │
+│    59 │   │   except BaseException as exc:                                                       │
+│    60 │   │   │   self.future.set_exception(exc)                                                 │
+│    61 │   │   │   # Break a reference cycle with the exception 'exc'                             │
+│                                                                                                  │
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/async_tasks/adt_generation/task_adt_ │
+│ generation.py:118 in generate_adt                                                                │
+│                                                                                                  │
+│   115 │   for img in images:                                                                     │
+│   116 │   │   img_id = img.id                                                                    │
+│   117 │   │   image_path = img.image_path                                                        │
+│ ❱ 118 │   │   img_b64 = image_helpers.get_b64_from_path(image_path)                              │
+│   119 │   │   user_messages.extend(                                                              │
+│   120 │   │   │   [                                                                              │
+│   121 │   │   │   │   {                                                                          │
+│                                                                                                  │
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/image_utils/image_helpers.py:77 in   │
+│ get_b64_from_path                                                                                │
+│                                                                                                  │
+│    74                                                                                            │
+│    75                                                                                            │
+│    76 def get_b64_from_path(path: str) -> str:                                                   │
+│ ❱  77 │   with open(path, "rb") as f:                                                            │
+│    78 │   │   img_bytes = f.read()                                                               │
+│    79 │   img_b64 = base64.b64encode(img_bytes).decode("utf-8")                                  │
+│    80 │   return img_b64                                                                         │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────╯
+⠙ ADT generation tasks       ━━━━━━━━━━━━━━━━━━━━━━━━━━━╸━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11/36
+⠙ ADT generate answers tasks ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0/0  ╭─────────────────────────────── Traceback (most recent call last) ────────────────────────────────╮
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/adt_generation.py:184 in             │
+│ callback_adt_generation                                                                          │
+│                                                                                                  │
+│   181 │   │   """                                                                                │
+│   182 │   │   task_data = self.futures_adt_generation[adt_future]                                │
+│   183 │   │   try:                                                                               │
+│ ❱ 184 │   │   │   adt_web_asset = adt_future.result()                                            │
+│   185 │   │   │   self._output_adt_generation_writer.write_row(                                  │
+│   186 │   │   │   │   [                                                                          │
+│   187 │   │   │   │   │   task_data.page_index,                                                  │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/_base.py:449 in result                              │
+│                                                                                                  │
+│   446 │   │   │   │   if self._state in [CANCELLED, CANCELLED_AND_NOTIFIED]:                     │
+│   447 │   │   │   │   │   raise CancelledError()                                                 │
+│   448 │   │   │   │   elif self._state == FINISHED:                                              │
+│ ❱ 449 │   │   │   │   │   return self.__get_result()                                             │
+│   450 │   │   │   │                                                                              │
+│   451 │   │   │   │   self._condition.wait(timeout)                                              │
+│   452                                                                                            │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/_base.py:401 in __get_result                        │
+│                                                                                                  │
+│   398 │   def __get_result(self):                                                                │
+│   399 │   │   if self._exception:                                                                │
+│   400 │   │   │   try:                                                                           │
+│ ❱ 401 │   │   │   │   raise self._exception                                                      │
+│   402 │   │   │   finally:                                                                       │
+│   403 │   │   │   │   # Break a reference cycle with the exception in self._exception            │
+│   404 │   │   │   │   self = None                                                                │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/thread.py:58 in run                                 │
+│                                                                                                  │
+│    55 │   │   │   return                                                                         │
+│    56 │   │                                                                                      │
+│    57 │   │   try:                                                                               │
+│ ❱  58 │   │   │   result = self.fn(*self.args, **self.kwargs)                                    │
+│    59 │   │   except BaseException as exc:                                                       │
+│    60 │   │   │   self.future.set_exception(exc)                                                 │
+│    61 │   │   │   # Break a reference cycle with the exception 'exc'                             │
+│                                                                                                  │
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/async_tasks/adt_generation/task_adt_ │
+│ generation.py:118 in generate_adt                                                                │
+│                                                                                                  │
+│   115 │   for img in images:                                                                     │
+│   116 │   │   img_id = img.id                                                                    │
+│   117 │   │   image_path = img.image_path                                                        │
+│ ❱ 118 │   │   img_b64 = image_helpers.get_b64_from_path(image_path)                              │
+│   119 │   │   user_messages.extend(                                                              │
+│   120 │   │   │   [                                                                              │
+│   121 │   │   │   │   {                                                                          │
+│                                                                                                  │
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/image_utils/image_helpers.py:77 in   │
+│ get_b64_from_path                                                                                │
+│                                                                                                  │
+│    74                                                                                            │
+│    75                                                                                            │
+│    76 def get_b64_from_path(path: str) -> str:                                                   │
+│ ❱  77 │   with open(path, "rb") as f:                                                            │
+│    78 │   │   img_bytes = f.read()                                                               │
+│    79 │   img_b64 = base64.b64encode(img_bytes).decode("utf-8")                                  │
+│    80 │   return img_b64                                                                         │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────╯
+⠇ ADT generation tasks       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13/37
+⠇ ADT generate answers tasks ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0/0  ╭─────────────────────────────── Traceback (most recent call last) ────────────────────────────────╮
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/adt_generation.py:184 in             │
+│ callback_adt_generation                                                                          │
+│                                                                                                  │
+│   181 │   │   """                                                                                │
+│   182 │   │   task_data = self.futures_adt_generation[adt_future]                                │
+│   183 │   │   try:                                                                               │
+│ ❱ 184 │   │   │   adt_web_asset = adt_future.result()                                            │
+│   185 │   │   │   self._output_adt_generation_writer.write_row(                                  │
+│   186 │   │   │   │   [                                                                          │
+│   187 │   │   │   │   │   task_data.page_index,                                                  │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/_base.py:449 in result                              │
+│                                                                                                  │
+│   446 │   │   │   │   if self._state in [CANCELLED, CANCELLED_AND_NOTIFIED]:                     │
+│   447 │   │   │   │   │   raise CancelledError()                                                 │
+│   448 │   │   │   │   elif self._state == FINISHED:                                              │
+│ ❱ 449 │   │   │   │   │   return self.__get_result()                                             │
+│   450 │   │   │   │                                                                              │
+│   451 │   │   │   │   self._condition.wait(timeout)                                              │
+│   452                                                                                            │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/_base.py:401 in __get_result                        │
+│                                                                                                  │
+│   398 │   def __get_result(self):                                                                │
+│   399 │   │   if self._exception:                                                                │
+│   400 │   │   │   try:                                                                           │
+│ ❱ 401 │   │   │   │   raise self._exception                                                      │
+│   402 │   │   │   finally:                                                                       │
+│   403 │   │   │   │   # Break a reference cycle with the exception in self._exception            │
+│   404 │   │   │   │   self = None                                                                │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/thread.py:58 in run                                 │
+│                                                                                                  │
+│    55 │   │   │   return                                                                         │
+│    56 │   │                                                                                      │
+│    57 │   │   try:                                                                               │
+│ ❱  58 │   │   │   result = self.fn(*self.args, **self.kwargs)                                    │
+│    59 │   │   except BaseException as exc:                                                       │
+│    60 │   │   │   self.future.set_exception(exc)                                                 │
+│    61 │   │   │   # Break a reference cycle with the exception 'exc'                             │
+│                                                                                                  │
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/async_tasks/adt_generation/task_adt_ │
+│ generation.py:118 in generate_adt                                                                │
+│                                                                                                  │
+│   115 │   for img in images:                                                                     │
+│   116 │   │   img_id = img.id                                                                    │
+│   117 │   │   image_path = img.image_path                                                        │
+│ ❱ 118 │   │   img_b64 = image_helpers.get_b64_from_path(image_path)                              │
+│   119 │   │   user_messages.extend(                                                              │
+│   120 │   │   │   [                                                                              │
+│   121 │   │   │   │   {                                                                          │
+│                                                                                                  │
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/image_utils/image_helpers.py:77 in   │
+│ get_b64_from_path                                                                                │
+│                                                                                                  │
+│    74                                                                                            │
+│    75                                                                                            │
+│    76 def get_b64_from_path(path: str) -> str:                                                   │
+│ ❱  77 │   with open(path, "rb") as f:                                                            │
+│    78 │   │   img_bytes = f.read()                                                               │
+│    79 │   img_b64 = base64.b64encode(img_bytes).decode("utf-8")                                  │
+│    80 │   return img_b64                                                                         │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────╯
+⠏ ADT generation tasks       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╺━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 14/42
+⠏ ADT generate answers tasks ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0/0  ╭─────────────────────────────── Traceback (most recent call last) ────────────────────────────────╮
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/adt_generation.py:184 in             │
+│ callback_adt_generation                                                                          │
+│                                                                                                  │
+│   181 │   │   """                                                                                │
+│   182 │   │   task_data = self.futures_adt_generation[adt_future]                                │
+│   183 │   │   try:                                                                               │
+│ ❱ 184 │   │   │   adt_web_asset = adt_future.result()                                            │
+│   185 │   │   │   self._output_adt_generation_writer.write_row(                                  │
+│   186 │   │   │   │   [                                                                          │
+│   187 │   │   │   │   │   task_data.page_index,                                                  │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/_base.py:449 in result                              │
+│                                                                                                  │
+│   446 │   │   │   │   if self._state in [CANCELLED, CANCELLED_AND_NOTIFIED]:                     │
+│   447 │   │   │   │   │   raise CancelledError()                                                 │
+│   448 │   │   │   │   elif self._state == FINISHED:                                              │
+│ ❱ 449 │   │   │   │   │   return self.__get_result()                                             │
+│   450 │   │   │   │                                                                              │
+│   451 │   │   │   │   self._condition.wait(timeout)                                              │
+│   452                                                                                            │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/_base.py:401 in __get_result                        │
+│                                                                                                  │
+│   398 │   def __get_result(self):                                                                │
+│   399 │   │   if self._exception:                                                                │
+│   400 │   │   │   try:                                                                           │
+│ ❱ 401 │   │   │   │   raise self._exception                                                      │
+│   402 │   │   │   finally:                                                                       │
+│   403 │   │   │   │   # Break a reference cycle with the exception in self._exception            │
+│   404 │   │   │   │   self = None                                                                │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/thread.py:58 in run                                 │
+│                                                                                                  │
+│    55 │   │   │   return                                                                         │
+│    56 │   │                                                                                      │
+│    57 │   │   try:                                                                               │
+│ ❱  58 │   │   │   result = self.fn(*self.args, **self.kwargs)                                    │
+│    59 │   │   except BaseException as exc:                                                       │
+│    60 │   │   │   self.future.set_exception(exc)                                                 │
+│    61 │   │   │   # Break a reference cycle with the exception 'exc'                             │
+│                                                                                                  │
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/async_tasks/adt_generation/task_adt_ │
+│ generation.py:118 in generate_adt                                                                │
+│                                                                                                  │
+│   115 │   for img in images:                                                                     │
+│   116 │   │   img_id = img.id                                                                    │
+│   117 │   │   image_path = img.image_path                                                        │
+│ ❱ 118 │   │   img_b64 = image_helpers.get_b64_from_path(image_path)                              │
+│   119 │   │   user_messages.extend(                                                              │
+│   120 │   │   │   [                                                                              │
+│   121 │   │   │   │   {                                                                          │
+│                                                                                                  │
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/image_utils/image_helpers.py:77 in   │
+│ get_b64_from_path                                                                                │
+│                                                                                                  │
+│    74                                                                                            │
+│    75                                                                                            │
+│    76 def get_b64_from_path(path: str) -> str:                                                   │
+│ ❱  77 │   with open(path, "rb") as f:                                                            │
+│    78 │   │   img_bytes = f.read()                                                               │
+│    79 │   img_b64 = base64.b64encode(img_bytes).decode("utf-8")                                  │
+│    80 │   return img_b64                                                                         │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────╯
+⠦ ADT generation tasks       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╺━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 15/45
+⠦ ADT generate answers tasks ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0/0  ╭─────────────────────────────── Traceback (most recent call last) ────────────────────────────────╮
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/adt_generation.py:184 in             │
+│ callback_adt_generation                                                                          │
+│                                                                                                  │
+│   181 │   │   """                                                                                │
+│   182 │   │   task_data = self.futures_adt_generation[adt_future]                                │
+│   183 │   │   try:                                                                               │
+│ ❱ 184 │   │   │   adt_web_asset = adt_future.result()                                            │
+│   185 │   │   │   self._output_adt_generation_writer.write_row(                                  │
+│   186 │   │   │   │   [                                                                          │
+│   187 │   │   │   │   │   task_data.page_index,                                                  │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/_base.py:449 in result                              │
+│                                                                                                  │
+│   446 │   │   │   │   if self._state in [CANCELLED, CANCELLED_AND_NOTIFIED]:                     │
+│   447 │   │   │   │   │   raise CancelledError()                                                 │
+│   448 │   │   │   │   elif self._state == FINISHED:                                              │
+│ ❱ 449 │   │   │   │   │   return self.__get_result()                                             │
+│   450 │   │   │   │                                                                              │
+│   451 │   │   │   │   self._condition.wait(timeout)                                              │
+│   452                                                                                            │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/_base.py:401 in __get_result                        │
+│                                                                                                  │
+│   398 │   def __get_result(self):                                                                │
+│   399 │   │   if self._exception:                                                                │
+│   400 │   │   │   try:                                                                           │
+│ ❱ 401 │   │   │   │   raise self._exception                                                      │
+│   402 │   │   │   finally:                                                                       │
+│   403 │   │   │   │   # Break a reference cycle with the exception in self._exception            │
+│   404 │   │   │   │   self = None                                                                │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/thread.py:58 in run                                 │
+│                                                                                                  │
+│    55 │   │   │   return                                                                         │
+│    56 │   │                                                                                      │
+│    57 │   │   try:                                                                               │
+│ ❱  58 │   │   │   result = self.fn(*self.args, **self.kwargs)                                    │
+│    59 │   │   except BaseException as exc:                                                       │
+│    60 │   │   │   self.future.set_exception(exc)                                                 │
+│    61 │   │   │   # Break a reference cycle with the exception 'exc'                             │
+│                                                                                                  │
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/async_tasks/adt_generation/task_adt_ │
+│ generation.py:118 in generate_adt                                                                │
+│                                                                                                  │
+│   115 │   for img in images:                                                                     │
+│   116 │   │   img_id = img.id                                                                    │
+│   117 │   │   image_path = img.image_path                                                        │
+│ ❱ 118 │   │   img_b64 = image_helpers.get_b64_from_path(image_path)                              │
+│   119 │   │   user_messages.extend(                                                              │
+│   120 │   │   │   [                                                                              │
+│   121 │   │   │   │   {                                                                          │
+│                                                                                                  │
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/image_utils/image_helpers.py:77 in   │
+│ get_b64_from_path                                                                                │
+│                                                                                                  │
+│    74                                                                                            │
+│    75                                                                                            │
+│    76 def get_b64_from_path(path: str) -> str:                                                   │
+│ ❱  77 │   with open(path, "rb") as f:                                                            │
+│    78 │   │   img_bytes = f.read()                                                               │
+│    79 │   img_b64 = base64.b64encode(img_bytes).decode("utf-8")                                  │
+│    80 │   return img_b64                                                                         │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────╯
+⠧ ADT generation tasks       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╺━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 15/46
+⠧ ADT generate answers tasks ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0/0  ╭─────────────────────────────── Traceback (most recent call last) ────────────────────────────────╮
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/adt_generation.py:184 in             │
+│ callback_adt_generation                                                                          │
+│                                                                                                  │
+│   181 │   │   """                                                                                │
+│   182 │   │   task_data = self.futures_adt_generation[adt_future]                                │
+│   183 │   │   try:                                                                               │
+│ ❱ 184 │   │   │   adt_web_asset = adt_future.result()                                            │
+│   185 │   │   │   self._output_adt_generation_writer.write_row(                                  │
+│   186 │   │   │   │   [                                                                          │
+│   187 │   │   │   │   │   task_data.page_index,                                                  │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/_base.py:449 in result                              │
+│                                                                                                  │
+│   446 │   │   │   │   if self._state in [CANCELLED, CANCELLED_AND_NOTIFIED]:                     │
+│   447 │   │   │   │   │   raise CancelledError()                                                 │
+│   448 │   │   │   │   elif self._state == FINISHED:                                              │
+│ ❱ 449 │   │   │   │   │   return self.__get_result()                                             │
+│   450 │   │   │   │                                                                              │
+│   451 │   │   │   │   self._condition.wait(timeout)                                              │
+│   452                                                                                            │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/_base.py:401 in __get_result                        │
+│                                                                                                  │
+│   398 │   def __get_result(self):                                                                │
+│   399 │   │   if self._exception:                                                                │
+│   400 │   │   │   try:                                                                           │
+│ ❱ 401 │   │   │   │   raise self._exception                                                      │
+│   402 │   │   │   finally:                                                                       │
+│   403 │   │   │   │   # Break a reference cycle with the exception in self._exception            │
+│   404 │   │   │   │   self = None                                                                │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/thread.py:58 in run                                 │
+│                                                                                                  │
+│    55 │   │   │   return                                                                         │
+│    56 │   │                                                                                      │
+│    57 │   │   try:                                                                               │
+│ ❱  58 │   │   │   result = self.fn(*self.args, **self.kwargs)                                    │
+│    59 │   │   except BaseException as exc:                                                       │
+│    60 │   │   │   self.future.set_exception(exc)                                                 │
+│    61 │   │   │   # Break a reference cycle with the exception 'exc'                             │
+│                                                                                                  │
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/async_tasks/adt_generation/task_adt_ │
+│ generation.py:118 in generate_adt                                                                │
+│                                                                                                  │
+│   115 │   for img in images:                                                                     │
+│   116 │   │   img_id = img.id                                                                    │
+│   117 │   │   image_path = img.image_path                                                        │
+│ ❱ 118 │   │   img_b64 = image_helpers.get_b64_from_path(image_path)                              │
+│   119 │   │   user_messages.extend(                                                              │
+│   120 │   │   │   [                                                                              │
+│   121 │   │   │   │   {                                                                          │
+│                                                                                                  │
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/image_utils/image_helpers.py:77 in   │
+│ get_b64_from_path                                                                                │
+│                                                                                                  │
+│    74                                                                                            │
+│    75                                                                                            │
+│    76 def get_b64_from_path(path: str) -> str:                                                   │
+│ ❱  77 │   with open(path, "rb") as f:                                                            │
+│    78 │   │   img_bytes = f.read()                                                               │
+│    79 │   img_b64 = base64.b64encode(img_bytes).decode("utf-8")                                  │
+│    80 │   return img_b64                                                                         │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────╯
+⠹ ADT generation tasks       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╺━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 17/49
+⠹ ADT generate answers tasks ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0/0  ╭─────────────────────────────── Traceback (most recent call last) ────────────────────────────────╮
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/adt_generation.py:184 in             │
+│ callback_adt_generation                                                                          │
+│                                                                                                  │
+│   181 │   │   """                                                                                │
+│   182 │   │   task_data = self.futures_adt_generation[adt_future]                                │
+│   183 │   │   try:                                                                               │
+│ ❱ 184 │   │   │   adt_web_asset = adt_future.result()                                            │
+│   185 │   │   │   self._output_adt_generation_writer.write_row(                                  │
+│   186 │   │   │   │   [                                                                          │
+│   187 │   │   │   │   │   task_data.page_index,                                                  │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/_base.py:449 in result                              │
+│                                                                                                  │
+│   446 │   │   │   │   if self._state in [CANCELLED, CANCELLED_AND_NOTIFIED]:                     │
+│   447 │   │   │   │   │   raise CancelledError()                                                 │
+│   448 │   │   │   │   elif self._state == FINISHED:                                              │
+│ ❱ 449 │   │   │   │   │   return self.__get_result()                                             │
+│   450 │   │   │   │                                                                              │
+│   451 │   │   │   │   self._condition.wait(timeout)                                              │
+│   452                                                                                            │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/_base.py:401 in __get_result                        │
+│                                                                                                  │
+│   398 │   def __get_result(self):                                                                │
+│   399 │   │   if self._exception:                                                                │
+│   400 │   │   │   try:                                                                           │
+│ ❱ 401 │   │   │   │   raise self._exception                                                      │
+│   402 │   │   │   finally:                                                                       │
+│   403 │   │   │   │   # Break a reference cycle with the exception in self._exception            │
+│   404 │   │   │   │   self = None                                                                │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/thread.py:58 in run                                 │
+│                                                                                                  │
+│    55 │   │   │   return                                                                         │
+│    56 │   │                                                                                      │
+│    57 │   │   try:                                                                               │
+│ ❱  58 │   │   │   result = self.fn(*self.args, **self.kwargs)                                    │
+│    59 │   │   except BaseException as exc:                                                       │
+│    60 │   │   │   self.future.set_exception(exc)                                                 │
+│    61 │   │   │   # Break a reference cycle with the exception 'exc'                             │
+│                                                                                                  │
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/async_tasks/adt_generation/task_adt_ │
+│ generation.py:118 in generate_adt                                                                │
+│                                                                                                  │
+│   115 │   for img in images:                                                                     │
+│   116 │   │   img_id = img.id                                                                    │
+│   117 │   │   image_path = img.image_path                                                        │
+│ ❱ 118 │   │   img_b64 = image_helpers.get_b64_from_path(image_path)                              │
+│   119 │   │   user_messages.extend(                                                              │
+│   120 │   │   │   [                                                                              │
+│   121 │   │   │   │   {                                                                          │
+│                                                                                                  │
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/image_utils/image_helpers.py:77 in   │
+│ get_b64_from_path                                                                                │
+│                                                                                                  │
+│    74                                                                                            │
+│    75                                                                                            │
+│    76 def get_b64_from_path(path: str) -> str:                                                   │
+│ ❱  77 │   with open(path, "rb") as f:                                                            │
+│    78 │   │   img_bytes = f.read()                                                               │
+│    79 │   img_b64 = base64.b64encode(img_bytes).decode("utf-8")                                  │
+│    80 │   return img_b64                                                                         │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────╯
+⠼ ADT generation tasks       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╺━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18/50
+⠼ ADT generate answers tasks ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0/0  ╭─────────────────────────────── Traceback (most recent call last) ────────────────────────────────╮
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/adt_generation.py:184 in             │
+│ callback_adt_generation                                                                          │
+│                                                                                                  │
+│   181 │   │   """                                                                                │
+│   182 │   │   task_data = self.futures_adt_generation[adt_future]                                │
+│   183 │   │   try:                                                                               │
+│ ❱ 184 │   │   │   adt_web_asset = adt_future.result()                                            │
+│   185 │   │   │   self._output_adt_generation_writer.write_row(                                  │
+│   186 │   │   │   │   [                                                                          │
+│   187 │   │   │   │   │   task_data.page_index,                                                  │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/_base.py:449 in result                              │
+│                                                                                                  │
+│   446 │   │   │   │   if self._state in [CANCELLED, CANCELLED_AND_NOTIFIED]:                     │
+│   447 │   │   │   │   │   raise CancelledError()                                                 │
+│   448 │   │   │   │   elif self._state == FINISHED:                                              │
+│ ❱ 449 │   │   │   │   │   return self.__get_result()                                             │
+│   450 │   │   │   │                                                                              │
+│   451 │   │   │   │   self._condition.wait(timeout)                                              │
+│   452                                                                                            │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/_base.py:401 in __get_result                        │
+│                                                                                                  │
+│   398 │   def __get_result(self):                                                                │
+│   399 │   │   if self._exception:                                                                │
+│   400 │   │   │   try:                                                                           │
+│ ❱ 401 │   │   │   │   raise self._exception                                                      │
+│   402 │   │   │   finally:                                                                       │
+│   403 │   │   │   │   # Break a reference cycle with the exception in self._exception            │
+│   404 │   │   │   │   self = None                                                                │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/thread.py:58 in run                                 │
+│                                                                                                  │
+│    55 │   │   │   return                                                                         │
+│    56 │   │                                                                                      │
+│    57 │   │   try:                                                                               │
+│ ❱  58 │   │   │   result = self.fn(*self.args, **self.kwargs)                                    │
+│    59 │   │   except BaseException as exc:                                                       │
+│    60 │   │   │   self.future.set_exception(exc)                                                 │
+│    61 │   │   │   # Break a reference cycle with the exception 'exc'                             │
+│                                                                                                  │
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/async_tasks/adt_generation/task_adt_ │
+│ generation.py:118 in generate_adt                                                                │
+│                                                                                                  │
+│   115 │   for img in images:                                                                     │
+│   116 │   │   img_id = img.id                                                                    │
+│   117 │   │   image_path = img.image_path                                                        │
+│ ❱ 118 │   │   img_b64 = image_helpers.get_b64_from_path(image_path)                              │
+│   119 │   │   user_messages.extend(                                                              │
+│   120 │   │   │   [                                                                              │
+│   121 │   │   │   │   {                                                                          │
+│                                                                                                  │
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/image_utils/image_helpers.py:77 in   │
+│ get_b64_from_path                                                                                │
+│                                                                                                  │
+│    74                                                                                            │
+│    75                                                                                            │
+│    76 def get_b64_from_path(path: str) -> str:                                                   │
+│ ❱  77 │   with open(path, "rb") as f:                                                            │
+│    78 │   │   img_bytes = f.read()                                                               │
+│    79 │   img_b64 = base64.b64encode(img_bytes).decode("utf-8")                                  │
+│    80 │   return img_b64                                                                         │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────╯
+⠸ ADT generation tasks       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 19/52
+⠸ ADT generate answers tasks ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0/0  ╭─────────────────────────────── Traceback (most recent call last) ────────────────────────────────╮
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/adt_generation.py:184 in             │
+│ callback_adt_generation                                                                          │
+│                                                                                                  │
+│   181 │   │   """                                                                                │
+│   182 │   │   task_data = self.futures_adt_generation[adt_future]                                │
+│   183 │   │   try:                                                                               │
+│ ❱ 184 │   │   │   adt_web_asset = adt_future.result()                                            │
+│   185 │   │   │   self._output_adt_generation_writer.write_row(                                  │
+│   186 │   │   │   │   [                                                                          │
+│   187 │   │   │   │   │   task_data.page_index,                                                  │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/_base.py:449 in result                              │
+│                                                                                                  │
+│   446 │   │   │   │   if self._state in [CANCELLED, CANCELLED_AND_NOTIFIED]:                     │
+│   447 │   │   │   │   │   raise CancelledError()                                                 │
+│   448 │   │   │   │   elif self._state == FINISHED:                                              │
+│ ❱ 449 │   │   │   │   │   return self.__get_result()                                             │
+│   450 │   │   │   │                                                                              │
+│   451 │   │   │   │   self._condition.wait(timeout)                                              │
+│   452                                                                                            │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/_base.py:401 in __get_result                        │
+│                                                                                                  │
+│   398 │   def __get_result(self):                                                                │
+│   399 │   │   if self._exception:                                                                │
+│   400 │   │   │   try:                                                                           │
+│ ❱ 401 │   │   │   │   raise self._exception                                                      │
+│   402 │   │   │   finally:                                                                       │
+│   403 │   │   │   │   # Break a reference cycle with the exception in self._exception            │
+│   404 │   │   │   │   self = None                                                                │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/thread.py:58 in run                                 │
+│                                                                                                  │
+│    55 │   │   │   return                                                                         │
+│    56 │   │                                                                                      │
+│    57 │   │   try:                                                                               │
+│ ❱  58 │   │   │   result = self.fn(*self.args, **self.kwargs)                                    │
+│    59 │   │   except BaseException as exc:                                                       │
+│    60 │   │   │   self.future.set_exception(exc)                                                 │
+│    61 │   │   │   # Break a reference cycle with the exception 'exc'                             │
+│                                                                                                  │
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/async_tasks/adt_generation/task_adt_ │
+│ generation.py:118 in generate_adt                                                                │
+│                                                                                                  │
+│   115 │   for img in images:                                                                     │
+│   116 │   │   img_id = img.id                                                                    │
+│   117 │   │   image_path = img.image_path                                                        │
+│ ❱ 118 │   │   img_b64 = image_helpers.get_b64_from_path(image_path)                              │
+│   119 │   │   user_messages.extend(                                                              │
+│   120 │   │   │   [                                                                              │
+│   121 │   │   │   │   {                                                                          │
+│                                                                                                  │
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/image_utils/image_helpers.py:77 in   │
+│ get_b64_from_path                                                                                │
+│                                                                                                  │
+│    74                                                                                            │
+│    75                                                                                            │
+│    76 def get_b64_from_path(path: str) -> str:                                                   │
+│ ❱  77 │   with open(path, "rb") as f:                                                            │
+│    78 │   │   img_bytes = f.read()                                                               │
+│    79 │   img_b64 = base64.b64encode(img_bytes).decode("utf-8")                                  │
+│    80 │   return img_b64                                                                         │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────╯
+⠸ ADT generation tasks       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╺━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 19/53
+⠸ ADT generate answers tasks ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0/0  ╭─────────────────────────────── Traceback (most recent call last) ────────────────────────────────╮
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/adt_generation.py:184 in             │
+│ callback_adt_generation                                                                          │
+│                                                                                                  │
+│   181 │   │   """                                                                                │
+│   182 │   │   task_data = self.futures_adt_generation[adt_future]                                │
+│   183 │   │   try:                                                                               │
+│ ❱ 184 │   │   │   adt_web_asset = adt_future.result()                                            │
+│   185 │   │   │   self._output_adt_generation_writer.write_row(                                  │
+│   186 │   │   │   │   [                                                                          │
+│   187 │   │   │   │   │   task_data.page_index,                                                  │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/_base.py:449 in result                              │
+│                                                                                                  │
+│   446 │   │   │   │   if self._state in [CANCELLED, CANCELLED_AND_NOTIFIED]:                     │
+│   447 │   │   │   │   │   raise CancelledError()                                                 │
+│   448 │   │   │   │   elif self._state == FINISHED:                                              │
+│ ❱ 449 │   │   │   │   │   return self.__get_result()                                             │
+│   450 │   │   │   │                                                                              │
+│   451 │   │   │   │   self._condition.wait(timeout)                                              │
+│   452                                                                                            │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/_base.py:401 in __get_result                        │
+│                                                                                                  │
+│   398 │   def __get_result(self):                                                                │
+│   399 │   │   if self._exception:                                                                │
+│   400 │   │   │   try:                                                                           │
+│ ❱ 401 │   │   │   │   raise self._exception                                                      │
+│   402 │   │   │   finally:                                                                       │
+│   403 │   │   │   │   # Break a reference cycle with the exception in self._exception            │
+│   404 │   │   │   │   self = None                                                                │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/thread.py:58 in run                                 │
+│                                                                                                  │
+│    55 │   │   │   return                                                                         │
+│    56 │   │                                                                                      │
+│    57 │   │   try:                                                                               │
+│ ❱  58 │   │   │   result = self.fn(*self.args, **self.kwargs)                                    │
+│    59 │   │   except BaseException as exc:                                                       │
+│    60 │   │   │   self.future.set_exception(exc)                                                 │
+│    61 │   │   │   # Break a reference cycle with the exception 'exc'                             │
+│                                                                                                  │
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/async_tasks/adt_generation/task_adt_ │
+│ generation.py:118 in generate_adt                                                                │
+│                                                                                                  │
+│   115 │   for img in images:                                                                     │
+│   116 │   │   img_id = img.id                                                                    │
+│   117 │   │   image_path = img.image_path                                                        │
+│ ❱ 118 │   │   img_b64 = image_helpers.get_b64_from_path(image_path)                              │
+│   119 │   │   user_messages.extend(                                                              │
+│   120 │   │   │   [                                                                              │
+│   121 │   │   │   │   {                                                                          │
+│                                                                                                  │
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/image_utils/image_helpers.py:77 in   │
+│ get_b64_from_path                                                                                │
+│                                                                                                  │
+│    74                                                                                            │
+│    75                                                                                            │
+│    76 def get_b64_from_path(path: str) -> str:                                                   │
+│ ❱  77 │   with open(path, "rb") as f:                                                            │
+│    78 │   │   img_bytes = f.read()                                                               │
+│    79 │   img_b64 = base64.b64encode(img_bytes).decode("utf-8")                                  │
+│    80 │   return img_b64                                                                         │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────╯
+FileNotFoundError: [Errno 2] No such file or directory: 'extraction_outputs/images_cropped/26_img-26-4.png'
+╭─────────────────────────────── Traceback (most recent call last) ────────────────────────────────╮
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/adt_generation.py:184 in             │
+│ callback_adt_generation                                                                          │
+│                                                                                                  │
+│   181 │   │   """                                                                                │
+│   182 │   │   task_data = self.futures_adt_generation[adt_future]                                │
+│   183 │   │   try:                                                                               │
+│ ❱ 184 │   │   │   adt_web_asset = adt_future.result()                                            │
+│   185 │   │   │   self._output_adt_generation_writer.write_row(                                  │
+│   186 │   │   │   │   [                                                                          │
+│   187 │   │   │   │   │   task_data.page_index,                                                  │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/_base.py:449 in result                              │
+│                                                                                                  │
+│   446 │   │   │   │   if self._state in [CANCELLED, CANCELLED_AND_NOTIFIED]:                     │
+│   447 │   │   │   │   │   raise CancelledError()                                                 │
+│   448 │   │   │   │   elif self._state == FINISHED:                                              │
+│ ❱ 449 │   │   │   │   │   return self.__get_result()                                             │
+│   450 │   │   │   │                                                                              │
+│   451 │   │   │   │   self._condition.wait(timeout)                                              │
+│   452                                                                                            │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/_base.py:401 in __get_result                        │
+│                                                                                                  │
+│   398 │   def __get_result(self):                                                                │
+│   399 │   │   if self._exception:                                                                │
+│   400 │   │   │   try:                                                                           │
+│ ❱ 401 │   │   │   │   raise self._exception                                                      │
+│   402 │   │   │   finally:                                                                       │
+│   403 │   │   │   │   # Break a reference cycle with the exception in self._exception            │
+│   404 │   │   │   │   self = None                                                                │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/thread.py:58 in run                                 │
+│                                                                                                  │
+│    55 │   │   │   return                                                                         │
+│    56 │   │                                                                                      │
+│    57 │   │   try:                                                                               │
+│ ❱  58 │   │   │   result = self.fn(*self.args, **self.kwargs)                                    │
+│    59 │   │   except BaseException as exc:                                                       │
+│    60 │   │   │   self.future.set_exception(exc)                                                 │
+│    61 │   │   │   # Break a reference cycle with the exception 'exc'                             │
+│                                                                                                  │
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/async_tasks/adt_generation/task_adt_ │
+│ generation.py:118 in generate_adt                                                                │
+│                                                                                                  │
+│   115 │   for img in images:                                                                     │
+│   116 │   │   img_id = img.id                                                                    │
+│   117 │   │   image_path = img.image_path                                                        │
+│ ❱ 118 │   │   img_b64 = image_helpers.get_b64_from_path(image_path)                              │
+│   119 │   │   user_messages.extend(                                                              │
+│   120 │   │   │   [                                                                              │
+│   121 │   │   │   │   {                                                                          │
+│                                                                                                  │
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/image_utils/image_helpers.py:77 in   │
+│ get_b64_from_path                                                                                │
+│                                                                                                  │
+│    74                                                                                            │
+│    75                                                                                            │
+│    76 def get_b64_from_path(path: str) -> str:                                                   │
+│ ❱  77 │   with open(path, "rb") as f:                                                            │
+│    78 │   │   img_bytes = f.read()                                                               │
+│    79 │   img_b64 = base64.b64encode(img_bytes).decode("utf-8")                                  │
+│    80 │   return img_b64                                                                         │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────╯
+⠙ ADT generation tasks       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╺━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 22/56
+⠙ ADT generate answers tasks ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0/0  ╭─────────────────────────────── Traceback (most recent call last) ────────────────────────────────╮
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/adt_generation.py:184 in             │
+│ callback_adt_generation                                                                          │
+│                                                                                                  │
+│   181 │   │   """                                                                                │
+│   182 │   │   task_data = self.futures_adt_generation[adt_future]                                │
+│   183 │   │   try:                                                                               │
+│ ❱ 184 │   │   │   adt_web_asset = adt_future.result()                                            │
+│   185 │   │   │   self._output_adt_generation_writer.write_row(                                  │
+│   186 │   │   │   │   [                                                                          │
+│   187 │   │   │   │   │   task_data.page_index,                                                  │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/_base.py:449 in result                              │
+│                                                                                                  │
+│   446 │   │   │   │   if self._state in [CANCELLED, CANCELLED_AND_NOTIFIED]:                     │
+│   447 │   │   │   │   │   raise CancelledError()                                                 │
+│   448 │   │   │   │   elif self._state == FINISHED:                                              │
+│ ❱ 449 │   │   │   │   │   return self.__get_result()                                             │
+│   450 │   │   │   │                                                                              │
+│   451 │   │   │   │   self._condition.wait(timeout)                                              │
+│   452                                                                                            │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/_base.py:401 in __get_result                        │
+│                                                                                                  │
+│   398 │   def __get_result(self):                                                                │
+│   399 │   │   if self._exception:                                                                │
+│   400 │   │   │   try:                                                                           │
+│ ❱ 401 │   │   │   │   raise self._exception                                                      │
+│   402 │   │   │   finally:                                                                       │
+│   403 │   │   │   │   # Break a reference cycle with the exception in self._exception            │
+│   404 │   │   │   │   self = None                                                                │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/thread.py:58 in run                                 │
+│                                                                                                  │
+│    55 │   │   │   return                                                                         │
+│    56 │   │                                                                                      │
+│    57 │   │   try:                                                                               │
+│ ❱  58 │   │   │   result = self.fn(*self.args, **self.kwargs)                                    │
+│    59 │   │   except BaseException as exc:                                                       │
+│    60 │   │   │   self.future.set_exception(exc)                                                 │
+│    61 │   │   │   # Break a reference cycle with the exception 'exc'                             │
+│                                                                                                  │
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/async_tasks/adt_generation/task_adt_ │
+│ generation.py:118 in generate_adt                                                                │
+│                                                                                                  │
+│   115 │   for img in images:                                                                     │
+│   116 │   │   img_id = img.id                                                                    │
+│   117 │   │   image_path = img.image_path                                                        │
+│ ❱ 118 │   │   img_b64 = image_helpers.get_b64_from_path(image_path)                              │
+│   119 │   │   user_messages.extend(                                                              │
+│   120 │   │   │   [                                                                              │
+│   121 │   │   │   │   {                                                                          │
+│                                                                                                  │
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/image_utils/image_helpers.py:77 in   │
+│ get_b64_from_path                                                                                │
+│                                                                                                  │
+│    74                                                                                            │
+│    75                                                                                            │
+│    76 def get_b64_from_path(path: str) -> str:                                                   │
+│ ❱  77 │   with open(path, "rb") as f:                                                            │
+│    78 │   │   img_bytes = f.read()                                                               │
+│    79 │   img_b64 = base64.b64encode(img_bytes).decode("utf-8")                                  │
+│    80 │   return img_b64                                                                         │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────╯
+⠸ ADT generation tasks       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 23/58
+⠸ ADT generate answers tasks ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0/0  ╭─────────────────────────────── Traceback (most recent call last) ────────────────────────────────╮
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/adt_generation.py:184 in             │
+│ callback_adt_generation                                                                          │
+│                                                                                                  │
+│   181 │   │   """                                                                                │
+│   182 │   │   task_data = self.futures_adt_generation[adt_future]                                │
+│   183 │   │   try:                                                                               │
+│ ❱ 184 │   │   │   adt_web_asset = adt_future.result()                                            │
+│   185 │   │   │   self._output_adt_generation_writer.write_row(                                  │
+│   186 │   │   │   │   [                                                                          │
+│   187 │   │   │   │   │   task_data.page_index,                                                  │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/_base.py:449 in result                              │
+│                                                                                                  │
+│   446 │   │   │   │   if self._state in [CANCELLED, CANCELLED_AND_NOTIFIED]:                     │
+│   447 │   │   │   │   │   raise CancelledError()                                                 │
+│   448 │   │   │   │   elif self._state == FINISHED:                                              │
+│ ❱ 449 │   │   │   │   │   return self.__get_result()                                             │
+│   450 │   │   │   │                                                                              │
+│   451 │   │   │   │   self._condition.wait(timeout)                                              │
+│   452                                                                                            │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/_base.py:401 in __get_result                        │
+│                                                                                                  │
+│   398 │   def __get_result(self):                                                                │
+│   399 │   │   if self._exception:                                                                │
+│   400 │   │   │   try:                                                                           │
+│ ❱ 401 │   │   │   │   raise self._exception                                                      │
+│   402 │   │   │   finally:                                                                       │
+│   403 │   │   │   │   # Break a reference cycle with the exception in self._exception            │
+│   404 │   │   │   │   self = None                                                                │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/thread.py:58 in run                                 │
+│                                                                                                  │
+│    55 │   │   │   return                                                                         │
+│    56 │   │                                                                                      │
+│    57 │   │   try:                                                                               │
+│ ❱  58 │   │   │   result = self.fn(*self.args, **self.kwargs)                                    │
+│    59 │   │   except BaseException as exc:                                                       │
+│    60 │   │   │   self.future.set_exception(exc)                                                 │
+│    61 │   │   │   # Break a reference cycle with the exception 'exc'                             │
+│                                                                                                  │
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/async_tasks/adt_generation/task_adt_ │
+│ generation.py:118 in generate_adt                                                                │
+│                                                                                                  │
+│   115 │   for img in images:                                                                     │
+│   116 │   │   img_id = img.id                                                                    │
+│   117 │   │   image_path = img.image_path                                                        │
+│ ❱ 118 │   │   img_b64 = image_helpers.get_b64_from_path(image_path)                              │
+│   119 │   │   user_messages.extend(                                                              │
+│   120 │   │   │   [                                                                              │
+│   121 │   │   │   │   {                                                                          │
+│                                                                                                  │
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/image_utils/image_helpers.py:77 in   │
+│ get_b64_from_path                                                                                │
+│                                                                                                  │
+│    74                                                                                            │
+│    75                                                                                            │
+│    76 def get_b64_from_path(path: str) -> str:                                                   │
+│ ❱  77 │   with open(path, "rb") as f:                                                            │
+│    78 │   │   img_bytes = f.read()                                                               │
+│    79 │   img_b64 = base64.b64encode(img_bytes).decode("utf-8")                                  │
+│    80 │   return img_b64                                                                         │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────╯
+⠦ ADT generation tasks       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╺━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 24/60
+⠦ ADT generate answers tasks ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0/0  ╭─────────────────────────────── Traceback (most recent call last) ────────────────────────────────╮
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/adt_generation.py:184 in             │
+│ callback_adt_generation                                                                          │
+│                                                                                                  │
+│   181 │   │   """                                                                                │
+│   182 │   │   task_data = self.futures_adt_generation[adt_future]                                │
+│   183 │   │   try:                                                                               │
+│ ❱ 184 │   │   │   adt_web_asset = adt_future.result()                                            │
+│   185 │   │   │   self._output_adt_generation_writer.write_row(                                  │
+│   186 │   │   │   │   [                                                                          │
+│   187 │   │   │   │   │   task_data.page_index,                                                  │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/_base.py:449 in result                              │
+│                                                                                                  │
+│   446 │   │   │   │   if self._state in [CANCELLED, CANCELLED_AND_NOTIFIED]:                     │
+│   447 │   │   │   │   │   raise CancelledError()                                                 │
+│   448 │   │   │   │   elif self._state == FINISHED:                                              │
+│ ❱ 449 │   │   │   │   │   return self.__get_result()                                             │
+│   450 │   │   │   │                                                                              │
+│   451 │   │   │   │   self._condition.wait(timeout)                                              │
+│   452                                                                                            │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/_base.py:401 in __get_result                        │
+│                                                                                                  │
+│   398 │   def __get_result(self):                                                                │
+│   399 │   │   if self._exception:                                                                │
+│   400 │   │   │   try:                                                                           │
+│ ❱ 401 │   │   │   │   raise self._exception                                                      │
+│   402 │   │   │   finally:                                                                       │
+│   403 │   │   │   │   # Break a reference cycle with the exception in self._exception            │
+│   404 │   │   │   │   self = None                                                                │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/thread.py:58 in run                                 │
+│                                                                                                  │
+│    55 │   │   │   return                                                                         │
+│    56 │   │                                                                                      │
+│    57 │   │   try:                                                                               │
+│ ❱  58 │   │   │   result = self.fn(*self.args, **self.kwargs)                                    │
+│    59 │   │   except BaseException as exc:                                                       │
+│    60 │   │   │   self.future.set_exception(exc)                                                 │
+│    61 │   │   │   # Break a reference cycle with the exception 'exc'                             │
+│                                                                                                  │
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/async_tasks/adt_generation/task_adt_ │
+│ generation.py:118 in generate_adt                                                                │
+│                                                                                                  │
+│   115 │   for img in images:                                                                     │
+│   116 │   │   img_id = img.id                                                                    │
+│   117 │   │   image_path = img.image_path                                                        │
+│ ❱ 118 │   │   img_b64 = image_helpers.get_b64_from_path(image_path)                              │
+│   119 │   │   user_messages.extend(                                                              │
+│   120 │   │   │   [                                                                              │
+│   121 │   │   │   │   {                                                                          │
+│                                                                                                  │
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/image_utils/image_helpers.py:77 in   │
+│ get_b64_from_path                                                                                │
+│                                                                                                  │
+│    74                                                                                            │
+│    75                                                                                            │
+│    76 def get_b64_from_path(path: str) -> str:                                                   │
+│ ❱  77 │   with open(path, "rb") as f:                                                            │
+│    78 │   │   img_bytes = f.read()                                                               │
+│    79 │   img_b64 = base64.b64encode(img_bytes).decode("utf-8")                                  │
+│    80 │   return img_b64                                                                         │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────╯
+  ADT generation tasks       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 60/60
+  ADT generate answers tasks ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6/6  
+[09:44:36] ADT Generation completed.                                                                    adt_generation.py:295
+           ADT Generation Pipeline completed.                                                           adt_generation.py:302
+root@6b92c76374b9:/accesssible_digital_textbooks# 

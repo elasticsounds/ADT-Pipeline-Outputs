@@ -1,0 +1,596 @@
+page_index,section_id,status,error
+10,0,enqueued,
+10,1,enqueued,
+12,0,enqueued,
+12,1,enqueued,
+12,2,enqueued,
+10,0,error,"Traceback (most recent call last):
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/adt_generation.py"", line 184, in callback_adt_generation
+    adt_web_asset = adt_future.result()
+                    ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.11/concurrent/futures/thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/async_tasks/adt_generation/task_adt_generation.py"", line 118, in generate_adt
+    img_b64 = image_helpers.get_b64_from_path(image_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/image_utils/image_helpers.py"", line 77, in get_b64_from_path
+    with open(path, ""rb"") as f:
+         ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'extraction_outputs/images_cropped/10_img-10-1.png'
+"
+12,0,error,"Traceback (most recent call last):
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/adt_generation.py"", line 184, in callback_adt_generation
+    adt_web_asset = adt_future.result()
+                    ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.11/concurrent/futures/thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/async_tasks/adt_generation/task_adt_generation.py"", line 118, in generate_adt
+    img_b64 = image_helpers.get_b64_from_path(image_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/image_utils/image_helpers.py"", line 77, in get_b64_from_path
+    with open(path, ""rb"") as f:
+         ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'extraction_outputs/images_cropped/12_img-12-1.png'
+"
+12,3,enqueued,
+12,4,enqueued,
+13,0,enqueued,
+13,1,enqueued,
+13,2,enqueued,
+13,0,error,"Traceback (most recent call last):
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/adt_generation.py"", line 184, in callback_adt_generation
+    adt_web_asset = adt_future.result()
+                    ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.11/concurrent/futures/thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/async_tasks/adt_generation/task_adt_generation.py"", line 118, in generate_adt
+    img_b64 = image_helpers.get_b64_from_path(image_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/image_utils/image_helpers.py"", line 77, in get_b64_from_path
+    with open(path, ""rb"") as f:
+         ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'extraction_outputs/images_cropped/13_img-13-1.png'
+"
+14,0,enqueued,
+14,1,enqueued,
+15,0,enqueued,
+15,1,enqueued,
+15,0,error,"Traceback (most recent call last):
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/adt_generation.py"", line 184, in callback_adt_generation
+    adt_web_asset = adt_future.result()
+                    ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.11/concurrent/futures/thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/async_tasks/adt_generation/task_adt_generation.py"", line 118, in generate_adt
+    img_b64 = image_helpers.get_b64_from_path(image_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/image_utils/image_helpers.py"", line 77, in get_b64_from_path
+    with open(path, ""rb"") as f:
+         ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'extraction_outputs/images_cropped/15_img-15-1.png'
+"
+16,0,enqueued,
+14,1,error,"Traceback (most recent call last):
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/adt_generation.py"", line 184, in callback_adt_generation
+    adt_web_asset = adt_future.result()
+                    ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.11/concurrent/futures/thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/async_tasks/adt_generation/task_adt_generation.py"", line 118, in generate_adt
+    img_b64 = image_helpers.get_b64_from_path(image_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/image_utils/image_helpers.py"", line 77, in get_b64_from_path
+    with open(path, ""rb"") as f:
+         ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'extraction_outputs/images_cropped/14_img-14-1.png'
+"
+16,1,enqueued,
+15,1,error,"Traceback (most recent call last):
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/adt_generation.py"", line 184, in callback_adt_generation
+    adt_web_asset = adt_future.result()
+                    ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.11/concurrent/futures/thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/async_tasks/adt_generation/task_adt_generation.py"", line 118, in generate_adt
+    img_b64 = image_helpers.get_b64_from_path(image_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/image_utils/image_helpers.py"", line 77, in get_b64_from_path
+    with open(path, ""rb"") as f:
+         ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'extraction_outputs/images_cropped/15_img-15-2.png'
+"
+16,2,enqueued,
+16,3,enqueued,
+17,0,enqueued,
+17,1,enqueued,
+17,2,enqueued,
+17,0,error,"Traceback (most recent call last):
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/adt_generation.py"", line 184, in callback_adt_generation
+    adt_web_asset = adt_future.result()
+                    ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.11/concurrent/futures/thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/async_tasks/adt_generation/task_adt_generation.py"", line 118, in generate_adt
+    img_b64 = image_helpers.get_b64_from_path(image_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/image_utils/image_helpers.py"", line 77, in get_b64_from_path
+    with open(path, ""rb"") as f:
+         ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'extraction_outputs/images_cropped/17_img-17-2.png'
+"
+18,0,enqueued,
+17,1,error,"Traceback (most recent call last):
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/adt_generation.py"", line 184, in callback_adt_generation
+    adt_web_asset = adt_future.result()
+                    ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.11/concurrent/futures/thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/async_tasks/adt_generation/task_adt_generation.py"", line 118, in generate_adt
+    img_b64 = image_helpers.get_b64_from_path(image_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/image_utils/image_helpers.py"", line 77, in get_b64_from_path
+    with open(path, ""rb"") as f:
+         ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'extraction_outputs/images_cropped/17_img-17-1.png'
+"
+18,1,enqueued,
+17,2,error,"Traceback (most recent call last):
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/adt_generation.py"", line 184, in callback_adt_generation
+    adt_web_asset = adt_future.result()
+                    ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.11/concurrent/futures/thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/async_tasks/adt_generation/task_adt_generation.py"", line 118, in generate_adt
+    img_b64 = image_helpers.get_b64_from_path(image_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/image_utils/image_helpers.py"", line 77, in get_b64_from_path
+    with open(path, ""rb"") as f:
+         ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'extraction_outputs/images_cropped/17_img-17-3.png'
+"
+18,0,error,"Traceback (most recent call last):
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/adt_generation.py"", line 184, in callback_adt_generation
+    adt_web_asset = adt_future.result()
+                    ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.11/concurrent/futures/thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/async_tasks/adt_generation/task_adt_generation.py"", line 118, in generate_adt
+    img_b64 = image_helpers.get_b64_from_path(image_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/image_utils/image_helpers.py"", line 77, in get_b64_from_path
+    with open(path, ""rb"") as f:
+         ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'extraction_outputs/images_cropped/18_img-18-1.png'
+"
+18,2,enqueued,
+19,0,enqueued,
+19,1,enqueued,
+19,2,enqueued,
+19,3,enqueued,
+19,0,error,"Traceback (most recent call last):
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/adt_generation.py"", line 184, in callback_adt_generation
+    adt_web_asset = adt_future.result()
+                    ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.11/concurrent/futures/thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/async_tasks/adt_generation/task_adt_generation.py"", line 118, in generate_adt
+    img_b64 = image_helpers.get_b64_from_path(image_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/image_utils/image_helpers.py"", line 77, in get_b64_from_path
+    with open(path, ""rb"") as f:
+         ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'extraction_outputs/images_cropped/19_img-19-2.png'
+"
+20,0,enqueued,
+19,2,error,"Traceback (most recent call last):
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/adt_generation.py"", line 184, in callback_adt_generation
+    adt_web_asset = adt_future.result()
+                    ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.11/concurrent/futures/thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/async_tasks/adt_generation/task_adt_generation.py"", line 118, in generate_adt
+    img_b64 = image_helpers.get_b64_from_path(image_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/image_utils/image_helpers.py"", line 77, in get_b64_from_path
+    with open(path, ""rb"") as f:
+         ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'extraction_outputs/images_cropped/19_img-19-3.png'
+"
+19,1,error,"Traceback (most recent call last):
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/adt_generation.py"", line 184, in callback_adt_generation
+    adt_web_asset = adt_future.result()
+                    ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.11/concurrent/futures/thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/async_tasks/adt_generation/task_adt_generation.py"", line 118, in generate_adt
+    img_b64 = image_helpers.get_b64_from_path(image_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/image_utils/image_helpers.py"", line 77, in get_b64_from_path
+    with open(path, ""rb"") as f:
+         ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'extraction_outputs/images_cropped/19_img-19-1.png'
+"
+20,1,enqueued,
+21,0,enqueued,
+21,1,enqueued,
+22,0,enqueued,
+22,1,enqueued,
+22,2,enqueued,
+21,0,error,"Traceback (most recent call last):
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/adt_generation.py"", line 184, in callback_adt_generation
+    adt_web_asset = adt_future.result()
+                    ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.11/concurrent/futures/thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/async_tasks/adt_generation/task_adt_generation.py"", line 118, in generate_adt
+    img_b64 = image_helpers.get_b64_from_path(image_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/image_utils/image_helpers.py"", line 77, in get_b64_from_path
+    with open(path, ""rb"") as f:
+         ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'extraction_outputs/images_cropped/21_img-21-1.png'
+"
+23,0,enqueued,
+23,1,enqueued,
+24,0,enqueued,
+24,1,enqueued,
+25,0,enqueued,
+23,1,error,"Traceback (most recent call last):
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/adt_generation.py"", line 184, in callback_adt_generation
+    adt_web_asset = adt_future.result()
+                    ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.11/concurrent/futures/thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/async_tasks/adt_generation/task_adt_generation.py"", line 118, in generate_adt
+    img_b64 = image_helpers.get_b64_from_path(image_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/image_utils/image_helpers.py"", line 77, in get_b64_from_path
+    with open(path, ""rb"") as f:
+         ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'extraction_outputs/images_cropped/23_img-23-1.png'
+"
+25,1,enqueued,
+25,0,error,"Traceback (most recent call last):
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/adt_generation.py"", line 184, in callback_adt_generation
+    adt_web_asset = adt_future.result()
+                    ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.11/concurrent/futures/thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/async_tasks/adt_generation/task_adt_generation.py"", line 118, in generate_adt
+    img_b64 = image_helpers.get_b64_from_path(image_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/image_utils/image_helpers.py"", line 77, in get_b64_from_path
+    with open(path, ""rb"") as f:
+         ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'extraction_outputs/images_cropped/25_img-25-2.png'
+"
+24,1,error,"Traceback (most recent call last):
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/adt_generation.py"", line 184, in callback_adt_generation
+    adt_web_asset = adt_future.result()
+                    ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.11/concurrent/futures/thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/async_tasks/adt_generation/task_adt_generation.py"", line 118, in generate_adt
+    img_b64 = image_helpers.get_b64_from_path(image_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/image_utils/image_helpers.py"", line 77, in get_b64_from_path
+    with open(path, ""rb"") as f:
+         ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'extraction_outputs/images_cropped/24_img-24-1.png'
+"
+26,0,enqueued,
+26,1,enqueued,
+26,2,enqueued,
+26,3,enqueued,
+26,4,enqueued,
+26,1,error,"Traceback (most recent call last):
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/adt_generation.py"", line 184, in callback_adt_generation
+    adt_web_asset = adt_future.result()
+                    ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.11/concurrent/futures/thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/async_tasks/adt_generation/task_adt_generation.py"", line 118, in generate_adt
+    img_b64 = image_helpers.get_b64_from_path(image_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/image_utils/image_helpers.py"", line 77, in get_b64_from_path
+    with open(path, ""rb"") as f:
+         ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'extraction_outputs/images_cropped/26_img-26-2.png'
+"
+26,2,error,"Traceback (most recent call last):
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/adt_generation.py"", line 184, in callback_adt_generation
+    adt_web_asset = adt_future.result()
+                    ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.11/concurrent/futures/thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/async_tasks/adt_generation/task_adt_generation.py"", line 118, in generate_adt
+    img_b64 = image_helpers.get_b64_from_path(image_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/image_utils/image_helpers.py"", line 77, in get_b64_from_path
+    with open(path, ""rb"") as f:
+         ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'extraction_outputs/images_cropped/26_img-26-3.png'
+"
+27,0,enqueued,
+27,1,enqueued,
+27,2,enqueued,
+27,0,error,"Traceback (most recent call last):
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/adt_generation.py"", line 184, in callback_adt_generation
+    adt_web_asset = adt_future.result()
+                    ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.11/concurrent/futures/thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/async_tasks/adt_generation/task_adt_generation.py"", line 118, in generate_adt
+    img_b64 = image_helpers.get_b64_from_path(image_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/image_utils/image_helpers.py"", line 77, in get_b64_from_path
+    with open(path, ""rb"") as f:
+         ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'extraction_outputs/images_cropped/27_img-27-1.png'
+"
+26,3,error,"Traceback (most recent call last):
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/adt_generation.py"", line 184, in callback_adt_generation
+    adt_web_asset = adt_future.result()
+                    ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.11/concurrent/futures/thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/async_tasks/adt_generation/task_adt_generation.py"", line 118, in generate_adt
+    img_b64 = image_helpers.get_b64_from_path(image_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/image_utils/image_helpers.py"", line 77, in get_b64_from_path
+    with open(path, ""rb"") as f:
+         ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'extraction_outputs/images_cropped/26_img-26-4.png'
+"
+28,0,enqueued,
+26,4,error,"Traceback (most recent call last):
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/adt_generation.py"", line 184, in callback_adt_generation
+    adt_web_asset = adt_future.result()
+                    ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.11/concurrent/futures/thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/async_tasks/adt_generation/task_adt_generation.py"", line 118, in generate_adt
+    img_b64 = image_helpers.get_b64_from_path(image_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/image_utils/image_helpers.py"", line 77, in get_b64_from_path
+    with open(path, ""rb"") as f:
+         ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'extraction_outputs/images_cropped/26_img-26-1.png'
+"
+28,1,enqueued,
+28,2,enqueued,
+28,3,enqueued,
+29,0,enqueued,
+29,1,enqueued,
+30,0,enqueued,
+29,1,error,"Traceback (most recent call last):
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/adt_generation.py"", line 184, in callback_adt_generation
+    adt_web_asset = adt_future.result()
+                    ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.11/concurrent/futures/thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/async_tasks/adt_generation/task_adt_generation.py"", line 118, in generate_adt
+    img_b64 = image_helpers.get_b64_from_path(image_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/image_utils/image_helpers.py"", line 77, in get_b64_from_path
+    with open(path, ""rb"") as f:
+         ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'extraction_outputs/images_cropped/29_img-29-2.png'
+"
+30,1,enqueued,
+29,0,error,"Traceback (most recent call last):
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/adt_generation.py"", line 184, in callback_adt_generation
+    adt_web_asset = adt_future.result()
+                    ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.11/concurrent/futures/thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/async_tasks/adt_generation/task_adt_generation.py"", line 118, in generate_adt
+    img_b64 = image_helpers.get_b64_from_path(image_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/image_utils/image_helpers.py"", line 77, in get_b64_from_path
+    with open(path, ""rb"") as f:
+         ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'extraction_outputs/images_cropped/29_img-29-1.png'
+"
+30,2,enqueued,
+30,3,enqueued,
+30,4,enqueued,
+30,2,error,"Traceback (most recent call last):
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/adt_generation.py"", line 184, in callback_adt_generation
+    adt_web_asset = adt_future.result()
+                    ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.11/concurrent/futures/thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/async_tasks/adt_generation/task_adt_generation.py"", line 118, in generate_adt
+    img_b64 = image_helpers.get_b64_from_path(image_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/image_utils/image_helpers.py"", line 77, in get_b64_from_path
+    with open(path, ""rb"") as f:
+         ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'extraction_outputs/images_cropped/30_img-30-3.png'
+"
+10,1,success,
+12,2,success,
+12,4,success,
+13,1,success,
+16,0,success,
+13,2,success,
+26,0,success,
+20,1,success,
+21,1,success,
+30,4,success,
+28,0,success,
+16,2,success,
+30,3,success,
+14,0,success,
+19,3,success,
+27,2,success,
+30,1,success,
+28,3,success,
+16,3,success,
+16,1,success,
+22,0,success,
+18,2,success,
+20,0,success,
+12,1,success,
+27,1,success,
+22,2,success,
+12,3,success,
+28,2,success,
+30,0,success,
+25,1,success,
+28,1,success,
+23,0,success,
+24,0,success,
+22,1,success,
+18,1,success,

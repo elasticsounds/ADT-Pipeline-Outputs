@@ -1,0 +1,506 @@
+page_index,id,language_code,text,type,section_id,section_type,translation_target
+10,text-10-0,es,Me gustaría conocer a tus mejores amigos.,boxed_text,0,activity_other,en
+10,text-10-11,es,y los ojos,activity_input_placeholder_text,0,activity_other,en
+10,text-10-10,es,Tiene el cabello,activity_input_placeholder_text,0,activity_other,en
+10,text-10-9,es,cuando está feliz.,activity_input_placeholder_text,0,activity_other,en
+10,text-10-8,es,si está triste.,activity_input_placeholder_text,0,activity_other,en
+10,text-10-7,es,Le desagrada,activity_input_placeholder_text,0,activity_other,en
+10,text-10-12,es,Escribe el retrato de tu amigo o amiga usando la información del esquema y otra información que quieras incluir.,instruction_text,1,activity_open_ended_answer,en
+10,text-10-5,es,Juega siempre con,activity_input_placeholder_text,0,activity_other,en
+10,text-10-4,es,Sus amigos lo/la llaman,activity_input_placeholder_text,0,activity_other,en
+10,text-10-3,es,Se llama,activity_input_placeholder_text,0,activity_other,en
+10,text-10-2,es,Completa los demás recuadros agregando información.,instruction_text,0,activity_other,en
+10,text-10-1,es,Dibuja a uno de tus amigos o amigas o pega su foto en el recuadro central.,instruction_text,0,activity_other,en
+10,text-10-6,es,es lo que más le gusta.,activity_input_placeholder_text,0,activity_other,en
+12,text-12-2,es,SELVA TROPICAL,image_label,0,text_and_images,en
+12,text-12-3,es,PRADERA,image_label,0,text_and_images,en
+12,text-12-4,es,BOSQUE TEMPLADO,image_label,0,text_and_images,en
+12,text-12-5,es,DESIERTO,image_label,0,text_and_images,en
+12,text-12-6,es,ESTEPA,image_label,0,text_and_images,en
+12,text-12-9,es,¿En qué se diferencia la selva tropical del desierto? ¿Y la tundra de la pradera?,instruction_text,1,activity_open_ended_answer,en
+12,text-12-8,es,TAIGA,image_label,0,text_and_images,en
+12,text-12-10,es,¿Y cuál es la diferencia entre un bosque templado y un bosque tropical?,instruction_text,2,activity_open_ended_answer,en
+12,text-12-12,es,¿Por qué algunos seres vivos habitan en una región y no en otra?,instruction_text,4,activity_open_ended_answer,en
+12,text-12-1,es,La explicación,section_heading,0,text_and_images,en
+12,text-12-7,es,TUNDRA,image_label,0,text_and_images,en
+12,text-12-0,es,A ciencia cierta,chapter_title,0,text_and_images,en
+12,text-12-11,es,¿Qué semejanzas tienen la pradera y la sabana?,instruction_text,3,activity_open_ended_answer,en
+13,text-13-19,es,El clima y el relieve tienen gran importancia en la formación de los biomas.,boxed_text,2,text_only,en
+13,text-13-17,es,"La transformación de la naturaleza es imprescindible para la vida humana, pero muchas veces se realiza sin tener los cuidados necesarios y se producen daños que pueden ser irreparables.",section_text,1,text_only,en
+13,text-13-16,es,"Los especialistas señalan que actualmente ya no existen ambientes completamente naturales, es decir, que no hayan sido modificados por la acción humana.",section_text,1,text_only,en
+13,text-13-15,es,"Por ejemplo, cultivan campos, construyen edificios, puentes, autopistas, entre otras transformaciones.",section_text,1,text_only,en
+13,text-13-14,es,"Para satisfacer sus necesidades, los humanos modifican el medio natural.",section_text,1,text_only,en
+13,text-13-13,es,Los seres humanos son parte de los seres vivos que habitan los biomas.,section_text,1,text_only,en
+13,text-13-12,es,LOS BIOMAS Y LA ACCIÓN DEL HOMBRE,section_heading,1,text_only,en
+13,text-13-11,es,"Por ejemplo: selvas, desiertos, bosques o praderas.",section_text,0,text_and_images,en
+13,text-13-18,es,Biomas del mundo,boxed_text,2,text_only,en
+13,text-13-10,es,Los ecosistemas pueden clasificarse en distintos tipos denominados biomas.,section_text,0,text_and_images,en
+13,text-13-8,es,En la Tierra encontramos ecosistemas similares en lugares muy distantes entre sí.,section_text,0,text_and_images,en
+13,text-13-7,es,Cada una de las regiones en las cuales los seres vivos interactúan entre sí y con el lugar en el que viven se denomina ecosistema.,section_text,0,text_and_images,en
+13,text-13-6,es,"Los seres vivos que habitan una región también se relacionan entre sí, por ejemplo, unos son alimento de otros.",section_text,0,text_and_images,en
+13,text-13-5,es,"Por ejemplo, en el desierto, tanto las plantas como los animales están adaptados a la escasa disponibilidad del agua.",section_text,0,text_and_images,en
+13,text-13-0,es,LOS BIOMAS,chapter_title,0,text_and_images,en
+13,text-13-1,es,"La vida en nuestro planeta depende de la energía del sol, de la disponibilidad de agua y de la existencia de nutrientes en los suelos, entre otros factores.",section_text,0,text_and_images,en
+13,text-13-2,es,Pero no todas las regiones del mundo poseen las mismas condiciones.,section_text,0,text_and_images,en
+13,text-13-9,es,"Por ejemplo, hay selvas o bosques tropicales en el centro de África, el norte de Sudamérica y el sudoeste de Asia.",section_text,0,text_and_images,en
+13,text-13-3,es,"En cada región del planeta existen distintos climas, formas de relieve y tipos de suelo, que generan las condiciones ambientales para el desarrollo de la vida en ese lugar.",section_text,0,text_and_images,en
+13,text-13-4,es,En cada región vive un conjunto de seres adaptados al lugar que habitan.,section_text,0,text_and_images,en
+13,text-13-20,es,"Por ejemplo, algunas cadenas montañosas son como enormes paredones interpuestos en el recorrido de los vientos húmedos provenientes del océano.",boxed_text,2,text_only,en
+13,text-13-22,es,"Asimismo, la altura es un factor determinante: en las montañas, los biomas se distribuyen en pisos, según la altura.",boxed_text,2,text_only,en
+13,text-13-21,es,"Al chocar contra la montaña, estos vientos descargan su humedad en la ladera enfrentada al mar, mientras que la otra ladera es árida.",boxed_text,2,text_only,en
+14,text-14-14,es,"Selva amazónica, Brasil",image_label,1,text_and_images,en
+14,text-14-15,es,Selva ecuatoriana,image_label,1,text_and_images,en
+14,text-14-11,es,"También presentan una gran cantidad y variedad de animales, por ejemplo, monos, reptiles, aves, insectos y mamíferos depredadores.",section_text,1,text_and_images,en
+14,text-14-12,es,Las actividades económicas están vinculadas con la explotación de recursos forestales y mineros.,section_text,1,text_and_images,en
+14,text-14-0,es,"La deforestación excesiva, la caza indiscriminada de algunas especies, la pesca intensiva (merluza, por ejemplo), la perforación de terrenos para la explotación minera (petróleo, carbón y otros minerales) son algunos ejemplos de actividades que pueden provocar daños en el planeta.",section_text,0,text_only,en
+14,text-14-9,es,Su extensión aproximada es de 7.000.000 de km².,section_text,1,text_and_images,en
+14,text-14-10,es,"Poseen una gran cantidad y variedad de vegetales: árboles de gran tamaño, medianos y pequeños, lianas, enredaderas, helechos, arbustos y vegetación herbácea, distribuidos en pisos (los árboles más altos forman un techo, bajo el cual las otras especies viven en forma desordenada y enmarañada).",section_text,1,text_and_images,en
+14,text-14-7,es,"Se extienden a ambos lados del ecuador en América Central, América del Sur, África, Asia y Australia.",section_text,1,text_and_images,en
+14,text-14-6,es,También se las llama bosques tropicales. Se desarrollan en zonas de altas temperaturas y lluvias abundantes durante gran parte del año.,section_text,1,text_and_images,en
+14,text-14-5,es,Selvas,section_heading,1,text_and_images,en
+14,text-14-4,es,TIPOS DE BIOMAS,section_heading,1,text_and_images,en
+14,text-14-3,es,La Comisión Mundial del Medio Ambiente de la Organización de las Naciones Unidas (ONU) define al desarrollo sostenible como «un desarrollo que satisfaga las necesidades del presente sin poner en peligro la capacidad de las generaciones futuras para atender sus propias necesidades».,section_text,0,text_only,en
+14,text-14-2,es,Este tipo de desarrollo recibe el nombre de desarrollo sostenible.,section_text,0,text_only,en
+14,text-14-1,es,Los especialistas en temas ambientales proponen que las actividades humanas se desarrollen teniendo en cuenta las necesidades de las generaciones futuras.,section_text,0,text_only,en
+14,text-14-8,es,La selva amazónica es la más grande y coincide con la cuenca del río Amazonas.,section_text,1,text_and_images,en
+14,text-14-13,es,"La deforestación o la tala de especies provoca graves consecuencias, por ejemplo, pérdida de la biodiversidad, cambios climáticos globales, desaparición de especies animales y vegetales, y pérdida de los suelos.",section_text,1,text_and_images,en
+15,text-15-3,es,y tienen una época de reposo durante el invierno.,section_text,0,text_and_images,en
+15,text-15-2,es,"Los árboles de los bosques se ubican formando un solo piso y muy distanciados entre sí,",section_text,0,text_and_images,en
+15,text-15-8,es,"como zorros, lobos, pumas y linces.",section_text,0,text_and_images,en
+15,text-15-5,es,"En las zonas templadas, los bosques son de árboles y arbustos de follaje caduco",section_text,0,text_and_images,en
+15,text-15-24,es,"Bosque de coníferas, Chile",image_label,0,text_and_images,en
+15,text-15-23,es,"Pradera, Uruguay",image_label,1,text_and_images,en
+15,text-15-21,es,"y las actividades ganaderas, por ejemplo, la cría de ganado vacuno.",section_text,1,text_and_images,en
+15,text-15-20,es,"como cultivos de cereales y oleaginosas,",section_text,1,text_and_images,en
+15,text-15-1,es,Se desarrollan en zonas de climas templados y fríos.,section_text,0,text_and_images,en
+15,text-15-19,es,"Son ideales para el desarrollo de las actividades agrícolas,",section_text,1,text_and_images,en
+15,text-15-18,es,Carecen casi por completo de árboles y tienen gran cantidad de pastos tiernos y parejos.,section_text,1,text_and_images,en
+15,text-15-17,es,Se desarrollan en zonas de clima templado y húmedo.,section_text,1,text_and_images,en
+15,text-15-4,es,Hay menor variedad de vegetales y animales que en la selva.,section_text,0,text_and_images,en
+15,text-15-16,es,Praderas,section_heading,1,text_and_images,en
+15,text-15-14,es,"alces, bisontes, lobos, osos, linces, ardillas, marmotas, castores y venados;",section_text,0,text_and_images,en
+15,text-15-13,es,Su fauna está compuesta por animales que resisten el frío:,section_text,0,text_and_images,en
+15,text-15-12,es,"Las especies características son los abetos, pinos, alerces y abedules.",section_text,0,text_and_images,en
+15,text-15-11,es,se desarrolla en Canadá y Siberia.,section_text,0,text_and_images,en
+15,text-15-10,es,La taiga es un bosque característico de los climas fríos del hemisferio norte;,section_text,0,text_and_images,en
+15,text-15-9,es,"En los bosques templados, los desmontes para utilizar la madera o para el desarrollo de la agricultura y la ganadería provocan la pérdida de especies animales y vegetales.",section_text,0,text_and_images,en
+15,text-15-7,es,"La fauna de los bosques está formada principalmente por predadores,",section_text,0,text_and_images,en
+15,text-15-6,es,"y los de las regiones más frías son de coníferas, árboles de follaje perenne.",section_text,0,text_and_images,en
+15,text-15-15,es,muchos de ellos hibernan.,section_text,0,text_and_images,en
+15,text-15-0,es,Bosques,section_heading,0,text_and_images,en
+16,text-16-19,es,Completa:,instruction_text,3,activity_open_ended_answer,en
+16,text-16-5,es,Segundo subtítulo,image_label,0,activity_fill_in_a_table,en
+16,text-16-0,es,¿Cuál es el tema?,section_heading,0,activity_fill_in_a_table,en
+16,text-16-1,es,Observa las partes que componen el texto que has leído.,instruction_text,0,activity_fill_in_a_table,en
+16,text-16-2,es,Completa este esquema:,instruction_text,0,activity_fill_in_a_table,en
+16,text-16-3,es,Título principal,image_label,0,activity_fill_in_a_table,en
+16,text-16-4,es,Primer subtítulo,image_label,0,activity_fill_in_a_table,en
+16,text-16-6,es,Primer subtítulo,image_label,0,activity_fill_in_a_table,en
+16,text-16-7,es,Segundo subtítulo,image_label,0,activity_fill_in_a_table,en
+16,text-16-8,es,Tercer subtítulo,image_label,0,activity_fill_in_a_table,en
+16,text-16-10,es,Completa esta conclusión:,instruction_text,1,activity_open_ended_answer,en
+16,text-16-9,es,La palabra que más se repite en el título y los subtítulos te anuncia cuál es el tema que se desarrolla.,image_caption,0,activity_fill_in_a_table,en
+16,text-16-12,es,Biomas del mundo,boxed_text,2,text_only,en
+16,text-16-13,es,El clima y el relieve tienen gran importancia en la formación de los biomas.,boxed_text,2,text_only,en
+16,text-16-14,es,"Por ejemplo, algunas cadenas montañosas son como enormes paredes interpuestas en el recorrido de los vientos húmedos provenientes del océano.",boxed_text,2,text_only,en
+16,text-16-15,es,"Al chocar contra la montaña, estos vientos descargan su humedad en la ladera enfrentada al mar, mientras que la otra ladera es árida.",boxed_text,2,text_only,en
+16,text-16-16,es,"Asimismo, la altura es un factor determinante: en las montañas, los biomas se distribuyen en pisos, según la altura.",boxed_text,2,text_only,en
+16,text-16-17,es,En la página 12 aparece este recuadro que aporta otra información relacionada con el tema principal.,instruction_text,3,activity_open_ended_answer,en
+16,text-16-18,es,Subraya el enunciado que resume el tema.,instruction_text,3,activity_open_ended_answer,en
+16,text-16-20,es,El recuadro informativo explica que,instruction_text,3,activity_open_ended_answer,en
+16,text-16-11,es,El tema que se desarrolla en este texto es,instruction_text,1,activity_open_ended_answer,en
+17,text-17-16,es,El aparato digestivo,activity_option,1,activity_matching,en
+17,text-17-14,es,La Revolución oriental,activity_option,1,activity_matching,en
+17,text-17-13,es,Las clases de polígonos,activity_option,1,activity_matching,en
+17,text-17-15,es,Los mitos y las leyendas,activity_option,1,activity_matching,en
+17,text-17-17,es,Encierrca con dos colores diferentes las áreas de estudio que pertenecen a las ciencias naturales y a las ciencias sociales.,instruction_text,2,activity_sorting,en
+17,text-17-24,es,biología,image_label,2,activity_sorting,en
+17,text-17-19,es,química,image_label,2,activity_sorting,en
+17,text-17-21,es,geología,image_label,2,activity_sorting,en
+17,text-17-22,es,astronomía,image_label,2,activity_sorting,en
+17,text-17-23,es,física,image_label,2,activity_sorting,en
+17,text-17-12,es,Los biomas,activity_option,1,activity_matching,en
+17,text-17-18,es,geografía,image_label,2,activity_sorting,en
+17,text-17-11,es,Ríos del Uruguay,activity_option,1,activity_matching,en
+17,text-17-20,es,historia,image_label,2,activity_sorting,en
+17,text-17-9,es,La imagen digital,activity_option,1,activity_matching,en
+17,text-17-0,es,Fuente: el manual de estudio,section_heading,0,text_and_images,en
+17,text-17-10,es,Homónimos,activity_option,1,activity_matching,en
+17,text-17-2,es,Explica para qué utilizas cada uno de los que aparecen ilustrados.,instruction_text,0,text_and_images,en
+17,text-17-3,es,Diccionario,image_label,0,text_and_images,en
+17,text-17-1,es,En la escuela circulan diversos recursos para estudiar.,section_text,0,text_and_images,en
+17,text-17-5,es,Mis Apuntes,image_label,0,text_and_images,en
+17,text-17-6,es,"Los manuales generalmente se organizan por áreas de estudio: ciencias naturales, ciencias sociales, lengua, matemática y otras más.",boxed_text,0,text_and_images,en
+17,text-17-7,es,"Si tienes que estudiar estos temas, ¿en qué estantes de la biblioteca buscas los libros?",instruction_text,1,activity_matching,en
+17,text-17-8,es,Únelos con el área que corresponde.,instruction_text,1,activity_matching,en
+17,text-17-4,es,Ciencias,image_label,0,text_and_images,en
+18,text-18-10,es,B,image_label,0,activity_multiselect,en
+18,text-18-16,es,Ladera húmeda,image_label,1,activity_labeling,en
+18,text-18-17,es,Ladera árida,image_label,1,activity_labeling,en
+18,text-18-15,es,Agrega estos datos en la imagen y lugar correctos:,instruction_text,1,activity_labeling,en
+18,text-18-14,es,Valle,image_overlay,0,activity_multiselect,en
+18,text-18-13,es,Pie,image_overlay,0,activity_multiselect,en
+18,text-18-12,es,Ladera,image_overlay,0,activity_multiselect,en
+18,text-18-11,es,Cima,image_overlay,0,activity_multiselect,en
+18,text-18-8,es,Aire seco y cálido,image_overlay,0,activity_multiselect,en
+18,text-18-9,es,Vegetación de zonas áridas,image_overlay,0,activity_multiselect,en
+18,text-18-6,es,Bosques húmedos,image_overlay,0,activity_multiselect,en
+18,text-18-5,es,Vientos cálidos y húmedos,image_overlay,0,activity_multiselect,en
+18,text-18-4,es,Lluvia,image_overlay,0,activity_multiselect,en
+18,text-18-3,es,Condensación,image_overlay,0,activity_multiselect,en
+18,text-18-2,es,A,image_label,0,activity_multiselect,en
+18,text-18-1,es,Señala la imagen más adecuada para ilustrar la información del recuadro «Biomas del mundo».,instruction_text,0,activity_multiselect,en
+18,text-18-18,es,Justifica tu elección.,instruction_text,2,activity_open_ended_answer,en
+18,text-18-19,es,Completa una de las dos explicaciones.,instruction_text,2,activity_open_ended_answer,en
+18,text-18-7,es,Sin lluvias,image_overlay,0,activity_multiselect,en
+18,text-18-0,es,¿Cuáles son las relaciones?,section_heading,0,activity_multiselect,en
+19,text-19-11,es,Compártelas con tus compañeros.,instruction_text,1,activity_open_ended_answer,en
+19,text-19-12,es,1.,activity_number,1,activity_open_ended_answer,en
+19,text-19-13,es,2.,activity_number,1,activity_open_ended_answer,en
+19,text-19-14,es,3.,activity_number,1,activity_open_ended_answer,en
+19,text-19-15,es,Copia dos preguntas que hayan escrito tus compañeros y redacta sus respuestas.,instruction_text,2,activity_open_ended_answer,en
+19,text-19-20,es,"¿Te diste cuenta!? A veces, para encontrar una respuesta es necesario leer más de una vez.",image_label,3,text_only,en
+19,text-19-17,es,Respuesta:,instruction_text,2,activity_open_ended_answer,en
+19,text-19-18,es,Pregunta:,instruction_text,2,activity_open_ended_answer,en
+19,text-19-19,es,Respuesta:,instruction_text,2,activity_open_ended_answer,en
+19,text-19-21,es,Ciencias Sociales,image_label,3,text_only,en
+19,text-19-16,es,Pregunta:,instruction_text,2,activity_open_ended_answer,en
+19,text-19-10,es,Escribe tres preguntas que puedas contestar leyendo el apartado «Tipos de biomas».,instruction_text,1,activity_open_ended_answer,en
+19,text-19-3,es,Señala cuáles de estas preguntas pueden contestarse después de leer «Los biomas».,instruction_text,0,activity_other,en
+19,text-19-8,es,4. ¿En qué zonas del planeta existen selvas?,activity_number,0,activity_other,en
+19,text-19-0,es,Interrogantes,section_heading,0,activity_other,en
+19,text-19-1,es,No sé si entendí bien esto.,image_label,3,text_only,en
+19,text-19-2,es,Mejor voy a releer.,image_label,3,text_only,en
+19,text-19-9,es,5. ¿Qué tipos de biomas se encuentran en Uruguay?,activity_number,0,activity_other,en
+19,text-19-4,es,Escribe sí o no sobre la línea punteada.,instruction_text,0,activity_other,en
+19,text-19-5,es,1. ¿Cómo surgió la vida en nuestro planeta?,activity_number,0,activity_other,en
+19,text-19-6,es,2. ¿De qué manera el hombre modifica el medio ambiente?,activity_number,0,activity_other,en
+19,text-19-7,es,3. ¿Cuál es la definición de desarrollo sostenible?,activity_number,0,activity_other,en
+20,text-20-6,es,VEGETACIÓN,boxed_text,0,activity_fill_in_a_table,en
+20,text-20-7,es,FAUNA,boxed_text,0,activity_fill_in_a_table,en
+20,text-20-8,es,ACTIVIDADES ECONÓMICAS,boxed_text,0,activity_fill_in_a_table,en
+20,text-20-4,es,TIPO DE BIOMA,boxed_text,0,activity_fill_in_a_table,en
+20,text-20-14,es,Completa el esquema de la derecha que resume los factores que caracterizan a los biomas.,instruction_text,1,activity_fill_in_a_table,en
+20,text-20-9,es,Selvas,boxed_text,0,activity_fill_in_a_table,en
+20,text-20-10,es,Bosques,boxed_text,0,activity_fill_in_a_table,en
+20,text-20-3,es,Puedes subrayar en el texto los datos que luego trasladarás al cuadro.,hint,0,activity_fill_in_a_table,en
+20,text-20-13,es,climas fríos,boxed_text,0,activity_fill_in_a_table,en
+20,text-20-5,es,CLIMA,boxed_text,0,activity_fill_in_a_table,en
+20,text-20-15,es,Emplea todos los conceptos de la lista.,instruction_text,1,activity_fill_in_a_table,en
+20,text-20-12,es,Praderas,boxed_text,0,activity_fill_in_a_table,en
+20,text-20-2,es,Completa el cuadro con la caracterización de los distintos biomas.,instruction_text,0,activity_fill_in_a_table,en
+20,text-20-1,es,Relee el apartado «Tipos de biomas».,instruction_text,0,activity_fill_in_a_table,en
+20,text-20-0,es,Del texto al cuadro,chapter_title,0,activity_fill_in_a_table,en
+20,text-20-11,es,climas templados,boxed_text,0,activity_fill_in_a_table,en
+20,text-20-32,es,tipo de suelo,image_label,1,activity_fill_in_a_table,en
+20,text-20-33,es,temperatura,image_label,1,activity_fill_in_a_table,en
+20,text-20-31,es,Factores que caracterizan a los biomas,image_caption,1,activity_fill_in_a_table,en
+21,text-21-13,es,Carecen casi por completo de árboles y tienen gran cantidad de pastos tiernos y parejos.,section_text,1,activity_open_ended_answer,en
+21,text-21-14,es,"Son ideales para el desarrollo de las actividades agrícolas, como cultivos de cereales y oleaginosas, y las actividades ganaderas, por ejemplo, la cría de ganado vacuno.",section_text,1,activity_open_ended_answer,en
+21,text-21-15,es,Reescribe el texto anterior incluyendo la información de los apuntes de las libretas.,instruction_text,1,activity_open_ended_answer,en
+21,text-21-16,es,"Al modificarlo, revisa el uso de los signos de puntuación.",instruction_text,1,activity_open_ended_answer,en
+21,text-21-17,es,Praderas del Uruguay,section_heading,1,activity_open_ended_answer,en
+21,text-21-12,es,Se desarrollan en zonas de clima templado y húmedo.,section_text,1,activity_open_ended_answer,en
+21,text-21-3,es,"La vegetación de la pradera está compuesta por gramíneas, leguminosas y arbustos, como por ejemplo, la chirca.",section_text,0,text_and_images,en
+21,text-21-9,es,Relee el apartado «Praderas» y presta atención a las tres marcas que señalan los lugares donde insertar nueva información.,instruction_text,1,activity_open_ended_answer,en
+21,text-21-0,es,Ideas en expansión,section_heading,0,text_and_images,en
+21,text-21-1,es,Lee estos apuntes que luego te servirán para escribir sobre las praderas del Uruguay.,instruction_text,0,text_and_images,en
+21,text-21-2,es,Vegetación,image_label,0,text_and_images,en
+21,text-21-4,es,Actividades económicas,image_label,0,text_and_images,en
+21,text-21-10,es,Une cada marca con el apunte que sirve para expandir el texto.,instruction_text,1,activity_open_ended_answer,en
+21,text-21-6,es,"Por este motivo, las actividades agropecuarias constituyen el principal rubro productivo del país.",section_text,0,text_and_images,en
+21,text-21-7,es,Clima,image_label,0,text_and_images,en
+21,text-21-8,es,Las praderas se caracterizan por tener temperaturas promedio de 15 °C y precipitaciones de entre 500 y 1000 mm.,section_text,0,text_and_images,en
+21,text-21-5,es,En Uruguay la pradera natural ocupa el 80 % del territorio.,section_text,0,text_and_images,en
+22,text-22-14,es,Definición extraída de,section_text,0,activity_fill_in_the_blank,en
+22,text-22-22,es,", una",section_text,1,activity_fill_in_the_blank,en
+22,text-22-21,es,.........................................,math,1,activity_fill_in_the_blank,en
+22,text-22-20,es,y,section_text,1,activity_fill_in_the_blank,en
+22,text-22-19,es,.........................................,math,1,activity_fill_in_the_blank,en
+22,text-22-18,es,que está definida por unos factores,section_text,1,activity_fill_in_the_blank,en
+22,text-22-17,es,.........................................,math,1,activity_fill_in_the_blank,en
+22,text-22-16,es,Bioma: comunidad de,section_text,1,activity_fill_in_the_blank,en
+22,text-22-15,es,..................................................................................,math,0,activity_fill_in_the_blank,en
+22,text-22-13,es,característicos que habitan e interactúan en ella forman un conjunto al que llamamos bioma.,section_text,0,activity_fill_in_the_blank,en
+22,text-22-8,es,.........................................,math,0,activity_fill_in_the_blank,en
+22,text-22-11,es,y,section_text,0,activity_fill_in_the_blank,en
+22,text-22-10,es,.........................................,math,0,activity_fill_in_the_blank,en
+22,text-22-9,es,y los,section_text,0,activity_fill_in_the_blank,en
+22,text-22-23,es,.........................................,math,1,activity_fill_in_the_blank,en
+22,text-22-7,es,de una,section_text,0,activity_fill_in_the_blank,en
+22,text-22-6,es,........................,math,0,activity_fill_in_the_blank,en
+22,text-22-5,es,", el",section_text,0,activity_fill_in_the_blank,en
+22,text-22-3,es,"El clima, el",section_text,0,activity_fill_in_the_blank,en
+22,text-22-2,es,"Escribe en el recuadro, debajo de cada definición, cuál de ellas se extrajo de un manual de estudio y cuál de un diccionario.",instruction_text,0,activity_fill_in_the_blank,en
+22,text-22-1,es,Completa estas definiciones de bioma con las palabras de la lista.,instruction_text,0,activity_fill_in_the_blank,en
+22,text-22-0,es,Para definir mejor,section_heading,0,activity_fill_in_the_blank,en
+22,text-22-12,es,.........................................,math,0,activity_fill_in_the_blank,en
+22,text-22-24,es,y una,section_text,1,activity_fill_in_the_blank,en
+22,text-22-28,es,Definición extraída de,section_text,1,activity_fill_in_the_blank,en
+22,text-22-26,es,"característicos: la selva ecuatorial, la sabana y la tundra son",section_text,1,activity_fill_in_the_blank,en
+22,text-22-50,es,..................................................................................,math,2,activity_open_ended_answer,en
+22,text-22-49,es,..................................................................................,math,2,activity_open_ended_answer,en
+22,text-22-48,es,...................................,math,2,activity_open_ended_answer,en
+22,text-22-47,es,"Las praderas son ideales para el cultivo de oleaginosas, es decir,",section_text,2,activity_open_ended_answer,en
+22,text-22-46,es,..................................................................................,math,2,activity_open_ended_answer,en
+22,text-22-45,es,...................................,math,2,activity_open_ended_answer,en
+22,text-22-44,es,"La fauna de los bosques está formada principalmente por predadores, es decir,",section_text,2,activity_open_ended_answer,en
+22,text-22-43,es,hojas que caen durante la estación fría.,section_text,2,activity_open_ended_answer,en
+22,text-22-42,es,"En las zonas templadas, los bosques tienen árboles y arbustos de follaje caduco, es decir,",section_text,2,activity_open_ended_answer,en
+22,text-22-41,es,Explica sobre las líneas punteadas el significado de los términos destacados.,instruction_text,2,activity_open_ended_answer,en
+22,text-22-25,es,.........................................,math,1,activity_fill_in_the_blank,en
+22,text-22-40,es,fauna,boxed_text,0,activity_fill_in_the_blank,en
+22,text-22-38,es,biomas,boxed_text,0,activity_fill_in_the_blank,en
+22,text-22-37,es,climáticos,boxed_text,0,activity_fill_in_the_blank,en
+22,text-22-36,es,suelo,boxed_text,0,activity_fill_in_the_blank,en
+22,text-22-35,es,animales,boxed_text,0,activity_fill_in_the_blank,en
+22,text-22-34,es,seres vivos,boxed_text,0,activity_fill_in_the_blank,en
+22,text-22-33,es,vegetación,boxed_text,0,activity_fill_in_the_blank,en
+22,text-22-32,es,región,boxed_text,0,activity_fill_in_the_blank,en
+22,text-22-31,es,vegetales,boxed_text,0,activity_fill_in_the_blank,en
+22,text-22-30,es,relieve,boxed_text,0,activity_fill_in_the_blank,en
+22,text-22-29,es,.................................................................................,math,1,activity_fill_in_the_blank,en
+22,text-22-27,es,..................................................................................,math,1,activity_fill_in_the_blank,en
+22,text-22-39,es,geológicos,boxed_text,0,activity_fill_in_the_blank,en
+23,text-23-26,es,pérdida de los suelos,image_label,1,activity_fill_in_a_table,en
+23,text-23-27,es,pérdida de la biodiversidad,image_label,1,activity_fill_in_a_table,en
+23,text-23-25,es,deforestación,image_label,1,activity_fill_in_a_table,en
+23,text-23-10,es,"Sin embargo, los cambios que se producen en el medio ambiente por la acción humana",section_text,0,activity_fill_in_the_blank,en
+23,text-23-23,es,Puedes extraer información del texto o consultar otras fuentes.,instruction_text,1,activity_fill_in_a_table,en
+23,text-23-0,es,En otras palabras,section_heading,0,activity_fill_in_the_blank,en
+23,text-23-1,es,Completa este fragmento basado en «Los biomas y la acción del hombre» con las expresiones que aparecen debajo.,instruction_text,0,activity_fill_in_the_blank,en
+23,text-23-2,es,Selecciona las que mantienen el sentido de la explicación original.,instruction_text,0,activity_fill_in_the_blank,en
+23,text-23-3,es,LOS BIOMAS Y LA ACCIÓN DEL HOMBRE,section_heading,0,activity_fill_in_the_blank,en
+23,text-23-4,es,Los seres humanos,section_text,0,activity_fill_in_the_blank,en
+23,text-23-5,es,forman parte del bioma que habitan,math,0,activity_fill_in_the_blank,en
+23,text-23-6,es,Para satisfacer sus necesidades,section_text,0,activity_fill_in_the_blank,en
+23,text-23-7,es,"Por ejemplo, siembran la tierra o construyen edificios.",section_text,0,activity_fill_in_the_blank,en
+23,text-23-8,es,Los especialistas afirman que,section_text,0,activity_fill_in_the_blank,en
+23,text-23-9,es,"En realidad, transformar la naturaleza",section_text,0,activity_fill_in_the_blank,en
+23,text-23-11,es,es necesario para la vida humana.,activity_option,0,activity_fill_in_the_blank,en
+23,text-23-24,es,Actividades que pueden dañar el planeta,image_label,1,activity_fill_in_a_table,en
+23,text-23-18,es,solo pueden ser beneficiosos para el medio ambiente.,activity_option,0,activity_fill_in_the_blank,en
+23,text-23-13,es,no están relacionados con los biomas.,activity_option,0,activity_fill_in_the_blank,en
+23,text-23-14,es,forman parte del bioma que habitan.,activity_option,0,activity_fill_in_the_blank,en
+23,text-23-15,es,modifican el entorno natural.,activity_option,0,activity_fill_in_the_blank,en
+23,text-23-16,es,no necesitan modificar el medio ambiente.,activity_option,0,activity_fill_in_the_blank,en
+23,text-23-17,es,pueden provocar daños irreparables.,activity_option,0,activity_fill_in_the_blank,en
+23,text-23-22,es,En los últimos recuadros escribe algunas de las consecuencias de esas actividades.,instruction_text,1,activity_fill_in_a_table,en
+23,text-23-21,es,Completa este esquema sobre las actividades humanas que pueden dañar los ambientes naturales.,instruction_text,1,activity_fill_in_a_table,en
+23,text-23-20,es,todos los ambientes han sido modificados de alguna manera por el hombre.,activity_option,0,activity_fill_in_the_blank,en
+23,text-23-19,es,hay amplias zonas del planeta sin explorar.,activity_option,0,activity_fill_in_the_blank,en
+23,text-23-12,es,es absolutamente innecesario para la vida humana.,activity_option,0,activity_fill_in_the_blank,en
+24,text-24-8,es,-ciervo,boxed_text,0,activity_fill_in_a_table,en
+24,text-24-7,es,-jaguar,boxed_text,0,activity_fill_in_a_table,en
+24,text-24-6,es,-se distinguen una estación seca y una lluviosa,boxed_text,0,activity_fill_in_a_table,en
+24,text-24-5,es,-clima tropical,boxed_text,0,activity_fill_in_a_table,en
+24,text-24-28,es,Planta u hongo adaptado a un aporte limitado de agua y que es capaz de resistir la sequía.,boxed_text,1,activity_open_ended_answer,en
+24,text-24-2,es,Escribe los encabezados y la información que falta para completar el cuadro sobre algunos de los biomas de América.,instruction_text,0,activity_fill_in_a_table,en
+24,text-24-1,es,Biomas de América,section_heading,0,activity_fill_in_a_table,en
+24,text-24-0,es,Del cuadro al texto,chapter_title,0,activity_fill_in_a_table,en
+24,text-24-9,es,-oso hormiguero,boxed_text,0,activity_fill_in_a_table,en
+24,text-24-3,es,TIPO DE BIOMA,boxed_text,0,activity_fill_in_a_table,en
+24,text-24-11,es,-coatí,boxed_text,0,activity_fill_in_a_table,en
+24,text-24-4,es,Sabana,boxed_text,0,activity_fill_in_a_table,en
+24,text-24-10,es,-liebre,boxed_text,0,activity_fill_in_a_table,en
+24,text-24-27,es,Xerófila.,boxed_text,1,activity_open_ended_answer,en
+24,text-24-26,es,En el párrafo que corresponda incluye la definición de plantas xerófilas usando el dato que aparece abajo.,instruction_text,1,activity_open_ended_answer,en
+24,text-24-25,es,Describe estos biomas en un texto de dos párrafos.,instruction_text,1,activity_open_ended_answer,en
+24,text-24-24,es,-explotación de recursos mineros,boxed_text,0,activity_fill_in_a_table,en
+24,text-24-23,es,-plantas xerófilas (cactus),boxed_text,0,activity_fill_in_a_table,en
+24,text-24-22,es,-alta variación térmica,boxed_text,0,activity_fill_in_a_table,en
+24,text-24-12,es,-mulita,boxed_text,0,activity_fill_in_a_table,en
+24,text-24-21,es,-escasez de lluvias,boxed_text,0,activity_fill_in_a_table,en
+24,text-24-19,es,-clima árido,boxed_text,0,activity_fill_in_a_table,en
+24,text-24-18,es,Desierto,boxed_text,0,activity_fill_in_a_table,en
+24,text-24-17,es,-explotación de recursos mineros,boxed_text,0,activity_fill_in_a_table,en
+24,text-24-16,es,-ganadería,boxed_text,0,activity_fill_in_a_table,en
+24,text-24-15,es,-agricultura,boxed_text,0,activity_fill_in_a_table,en
+24,text-24-14,es,ACTIVIDADES ECONOMICAS,boxed_text,0,activity_fill_in_a_table,en
+24,text-24-13,es,-lagarto,boxed_text,0,activity_fill_in_a_table,en
+24,text-24-20,es,-temperatura elevada,boxed_text,0,activity_fill_in_a_table,en
+25,text-25-12,es,árboles,activity_option,0,activity_matching,en
+25,text-25-13,es,templado,activity_option,0,activity_matching,en
+25,text-25-14,es,perenne,activity_option,0,activity_matching,en
+25,text-25-17,es,frío,activity_option,0,activity_matching,en
+25,text-25-16,es,bosques,activity_option,0,activity_matching,en
+25,text-25-11,es,montaña,activity_option,0,activity_matching,en
+25,text-25-18,es,caduco,activity_option,0,activity_matching,en
+25,text-25-15,es,ladera,activity_option,0,activity_matching,en
+25,text-25-10,es,¿Cuál es la relación que encontraste en cada caso?,image_overlay,0,activity_matching,en
+25,text-25-19,es,pumas,activity_option,0,activity_matching,en
+25,text-25-8,es,húmedo,image_label,0,activity_matching,en
+25,text-25-7,es,arbustos,image_label,0,activity_matching,en
+25,text-25-6,es,linces,image_label,0,activity_matching,en
+25,text-25-5,es,Sudamérica,image_label,0,activity_matching,en
+25,text-25-4,es,pradera,image_label,0,activity_matching,en
+25,text-25-3,es,suelo,image_label,0,activity_matching,en
+25,text-25-1,es,Ubica cada una de estas palabras junto al par con el cual se relaciona.,instruction_text,0,activity_matching,en
+25,text-25-0,es,Sumapalabras,section_heading,0,activity_matching,en
+25,text-25-9,es,follaje,image_label,0,activity_matching,en
+25,text-25-2,es,relieve,image_label,0,activity_matching,en
+25,text-25-20,es,desiertos,activity_option,0,activity_matching,en
+25,text-25-30,es,enredadas,activity_option,1,activity_fill_in_the_blank,en
+25,text-25-37,es,exagerado,activity_option,1,activity_fill_in_the_blank,en
+25,text-25-36,es,indiscriminado,activity_option,1,activity_fill_in_the_blank,en
+25,text-25-35,es,transformado,activity_option,1,activity_fill_in_the_blank,en
+25,text-25-34,es,modificado,activity_option,1,activity_fill_in_the_blank,en
+25,text-25-33,es,araucarias,activity_option,1,activity_fill_in_the_blank,en
+25,text-25-29,es,gaseosa,activity_option,1,activity_fill_in_the_blank,en
+25,text-25-32,es,árboles,activity_option,1,activity_fill_in_the_blank,en
+25,text-25-31,es,enmarañadas,activity_option,1,activity_fill_in_the_blank,en
+25,text-25-22,es,África,activity_option,0,activity_matching,en
+25,text-25-23,es,zorros,activity_option,0,activity_matching,en
+25,text-25-24,es,selvas,activity_option,0,activity_matching,en
+25,text-25-25,es,agua,activity_option,0,activity_matching,en
+25,text-25-26,es,Asia,activity_option,0,activity_matching,en
+25,text-25-27,es,Escribe una palabra que se relacione con las otras dos.,instruction_text,1,activity_fill_in_the_blank,en
+25,text-25-28,es,líquida,activity_option,1,activity_fill_in_the_blank,en
+25,text-25-21,es,sol,activity_option,0,activity_matching,en
+26,text-26-10,es,Foto: Stephen Eggleston,image_label,3,text_and_images,en
+26,text-26-11,es,Jacques-Yves Cousteau fue un explorador francés que recorrió el mundo investigando los biomas marinos.,boxed_text,3,text_and_images,en
+26,text-26-9,es,"Los hacendados perjudicados por su lucha lo mataron, pero él generó conciencia ambiental en Brasil, América y el mundo entero.",boxed_text,2,text_and_images,en
+26,text-26-3,es,Para hacerlo comenzó a plantar árboles e invitó a otros a imitar la iniciativa.,boxed_text,1,text_and_images,en
+26,text-26-7,es,Chico Mendes fue un trabajador recolector de caucho que luchó pacíficamente por la preservación de la selva húmeda brasilera.,boxed_text,2,text_and_images,en
+26,text-26-6,es,Foto: Miranda Smith,image_label,2,text_and_images,en
+26,text-26-5,es,En 2004 recibió el premio Nobel de la Paz por su defensa del desarrollo sostenible y del medio ambiente.,boxed_text,1,text_and_images,en
+26,text-26-4,es,"Así, con su proyecto Cinturón Verde, promovió la siembra de más de 47 millones de árboles en África.",boxed_text,1,text_and_images,en
+26,text-26-12,es,Filmó documentales submarinos y divulgó el conocimiento de las distintas formas de vida que habitan el mar.,boxed_text,3,text_and_images,en
+26,text-26-2,es,La bióloga keniana Wangari Maathai quiso combatir la pobreza que la deforestación generaba en su país.,boxed_text,1,text_and_images,en
+26,text-26-0,es,Comprometidos con el medio ambiente,section_heading,0,text_and_images,en
+26,text-26-8,es,Denunció el daño de la tala indiscriminada y logró movilizar a muchas personas que se sumaron a su causa.,boxed_text,2,text_and_images,en
+26,text-26-13,es,"Organizó campañas para detener el vertido de residuos radioactivos al mar y, con el apoyo de muchas personas, lo logró en más de una oportunidad.",boxed_text,3,text_and_images,en
+26,text-26-1,es,Foto: Martin Rowe,image_label,1,text_and_images,en
+26,text-26-15,es,"Los inuit, pobladores del Ártico, conocen la magnífica biodiversidad de la zona que habitan y son testigos directos del daño ambiental en la región.",boxed_text,4,text_and_images,en
+26,text-26-14,es,Foto: Goldman Environmental Foundation,image_label,4,text_and_images,en
+26,text-26-16,es,"Caroline Cannon, integrante de esta comunidad, ha enfrentado durante años a poderosas empresas interesadas en la riqueza petrolera de la región ártica.",boxed_text,4,text_and_images,en
+26,text-26-17,es,Trabaja junto a grupos de científicos para frenar la destrucción del medio ambiente en el que habita.,boxed_text,4,text_and_images,en
+27,text-27-22,es,Se usa en publicidad y propaganda.,boxed_text,2,text_only,en
+27,text-27-18,es,Esta parte del texto informa los datos de los responsables de la campaña.,section_text,1,activity_matching,en
+27,text-27-17,es,Esta parte del texto invita a la gente a plantar árboles.,section_text,1,activity_matching,en
+27,text-27-21,es,Un eslogan es una frase breve y llamativa.,boxed_text,2,text_only,en
+27,text-27-15,es,Numera el cuadro de acuerdo con la función que cumple cada parte del afiche.,instruction_text,1,activity_matching,en
+27,text-27-14,es,Cooperativa Eléctrica,image_label,0,text_and_images,en
+27,text-27-13,es,4,image_label,0,text_and_images,en
+27,text-27-12,es,"Sumate, plantá un árbol. Sé parte de la solución.",image_label,0,text_and_images,en
+27,text-27-11,es,3,image_label,0,text_and_images,en
+27,text-27-10,es,2,image_label,0,text_and_images,en
+27,text-27-9,es,"Secuestran el dióxido de carbono (CO2) y absorben ozono, monóxido de carbono y dióxido de sulfuro.",image_label,0,text_and_images,en
+27,text-27-7,es,Generan oxígeno.,image_label,0,text_and_images,en
+27,text-27-6,es,1,image_label,0,text_and_images,en
+27,text-27-5,es,sos el AIRE que respiro,image_label,0,text_and_images,en
+27,text-27-4,es,Día del Árbol,image_label,0,text_and_images,en
+27,text-27-3,es,29 DE AGOSTO,image_label,0,text_and_images,en
+27,text-27-2,es,Lee este afiche en el que están señaladas sus partes.,instruction_text,0,text_and_images,en
+27,text-27-1,es,El verbo y los pronombres personales,section_heading,0,text_and_images,en
+27,text-27-0,es,Pensar la lengua escrita,section_heading,0,text_and_images,en
+27,text-27-23,es,El eslogan nos hace asociar ideas.,boxed_text,2,text_only,en
+27,text-27-8,es,Reducen el calentamiento de la atmósfera y ayudan a regular el clima del planeta.,image_label,0,text_and_images,en
+27,text-27-16,es,Esta parte del texto explica las funciones ambientales de los árboles.,section_text,1,activity_matching,en
+27,text-27-20,es,2,activity_number,1,activity_matching,en
+27,text-27-19,es,Esta parte del texto es el eslogan de la campaña.,section_text,1,activity_matching,en
+27,text-27-24,es,"En este caso, «Sos el aire que respiro» nos invita a pensar en la necesidad de plantar árboles.",boxed_text,2,text_only,en
+28,text-28-34,es,Busca y escribe otros tres verbos y sus infinitivos:,instruction_text,3,activity_fill_in_the_blank,en
+28,text-28-29,es,Busca en el afiche la forma conjugada de los siguientes verbos en infinitivo:,instruction_text,3,activity_fill_in_the_blank,en
+28,text-28-28,es,Este cuadro resume las distintas formas de los pronombres personales.,boxed_text,2,text_only,en
+28,text-28-27,es,Los pronombres personales hacen referencia a las personas de la comunicación.,boxed_text,2,text_only,en
+28,text-28-26,es,solos!,image_overlay,1,activity_fill_in_the_blank,en
+28,text-28-25,es,..........................,image_overlay,1,activity_fill_in_the_blank,en
+28,text-28-24,es,(poder),activity_input_placeholder_text,1,activity_fill_in_the_blank,en
+28,text-28-23,es,¡Ellos ya,image_overlay,1,activity_fill_in_the_blank,en
+28,text-28-22,es,(traer) el agua.,activity_input_placeholder_text,1,activity_fill_in_the_blank,en
+28,text-28-21,es,"Dale, nosotros ..........................",image_overlay,1,activity_fill_in_the_blank,en
+28,text-28-20,es,(ayudar),activity_input_placeholder_text,1,activity_fill_in_the_blank,en
+28,text-28-19,es,¿Vos me .................?,image_overlay,1,activity_fill_in_the_blank,en
+28,text-28-35,es,generan,math,3,activity_fill_in_the_blank,en
+28,text-28-16,es,(hacer),activity_input_placeholder_text,1,activity_fill_in_the_blank,en
+28,text-28-15,es,¿Ustedes qué....?,image_overlay,1,activity_fill_in_the_blank,en
+28,text-28-14,es,del pozo!,image_overlay,1,activity_fill_in_the_blank,en
+28,text-28-13,es,(encargarse),activity_input_placeholder_text,1,activity_fill_in_the_blank,en
+28,text-28-12,es,¡Yo me encargo!,image_overlay,1,activity_fill_in_the_blank,en
+28,text-28-11,es,"En cada globo de diálogo, presta atención a los pronombres personales.",instruction_text,1,activity_fill_in_the_blank,en
+28,text-28-10,es,Completa la siguiente historieta conjugando los verbos según corresponda.,instruction_text,1,activity_fill_in_the_blank,en
+28,text-28-9,es,generan,image_overlay,0,activity_fill_in_a_table,en
+28,text-28-8,es,sumate,image_overlay,0,activity_fill_in_a_table,en
+28,text-28-1,es,Escribe los verbos del afiche debajo del pronombre personal con el que concuerdan.,instruction_text,0,activity_fill_in_a_table,en
+28,text-28-0,es,Pensar la lengua escrita,section_heading,0,activity_fill_in_a_table,en
+28,text-28-17,es,¡Yo ................. agua!,image_overlay,1,activity_fill_in_the_blank,en
+28,text-28-18,es,(traer),activity_input_placeholder_text,1,activity_fill_in_the_blank,en
+28,text-28-36,es,generar,math,3,activity_fill_in_the_blank,en
+29,text-29-40,es,No debe quedar muy apretada ni muy floja.,section_text,1,activity_fill_in_the_blank,en
+29,text-29-24,es,proteger,activity_option,1,activity_fill_in_the_blank,en
+29,text-29-25,es,1,activity_number,1,activity_fill_in_the_blank,en
+29,text-29-26,es,Aflojá la tierra en una superficie de unos 40 x 40 cm.,section_text,1,activity_fill_in_the_blank,en
+29,text-29-27,es,2,activity_number,1,activity_fill_in_the_blank,en
+29,text-29-28,es,En el centro...,section_text,1,activity_fill_in_the_blank,en
+29,text-29-29,es,un hueco donde ubicar la raíz del árbol.,section_text,1,activity_fill_in_the_blank,en
+29,text-29-30,es,3,activity_number,1,activity_fill_in_the_blank,en
+29,text-29-31,es,el árbol de la parte más baja del tallo.,section_text,1,activity_fill_in_the_blank,en
+29,text-29-32,es,No lo...,section_text,1,activity_fill_in_the_blank,en
+29,text-29-33,es,ni...,section_text,1,activity_fill_in_the_blank,en
+29,text-29-34,es,la raíz.,section_text,1,activity_fill_in_the_blank,en
+29,text-29-35,es,4,activity_number,1,activity_fill_in_the_blank,en
+29,text-29-36,es,que el árbol quede a ras del suelo y...,section_text,1,activity_fill_in_the_blank,en
+29,text-29-37,es,la raíz con tierra.,section_text,1,activity_fill_in_the_blank,en
+29,text-29-38,es,5,activity_number,1,activity_fill_in_the_blank,en
+29,text-29-23,es,agregar,activity_option,1,activity_fill_in_the_blank,en
+29,text-29-22,es,apretar,activity_option,1,activity_fill_in_the_blank,en
+29,text-29-21,es,cubrir,activity_option,1,activity_fill_in_the_blank,en
+29,text-29-20,es,cuidar,activity_option,1,activity_fill_in_the_blank,en
+29,text-29-4,es,Sé parte de la solución.,boxed_text,0,text_and_images,en
+29,text-29-5,es,Te piden que plantes un árbol.,section_text,0,text_and_images,en
+29,text-29-6,es,Te explican cómo plantar árboles.,section_text,0,text_and_images,en
+29,text-29-7,es,Te ordenan plantar un árbol.,section_text,0,text_and_images,en
+29,text-29-8,es,Te preguntan cómo plantar árboles.,section_text,0,text_and_images,en
+29,text-29-9,es,En conclusión:,section_text,0,text_and_images,en
+29,text-29-10,es,cuando un hablante le...,section_text,0,text_and_images,en
+29,text-29-39,es,la tierra con las manos.,section_text,1,activity_fill_in_the_blank,en
+29,text-29-11,es,o le...,section_text,0,text_and_images,en
+29,text-29-13,es,Completa la guía para plantar árboles.,instruction_text,1,activity_fill_in_the_blank,en
+29,text-29-14,es,Escribe los verbos de la lista en modo imperativo siguiendo el ejemplo.,instruction_text,1,activity_fill_in_the_blank,en
+29,text-29-15,es,aflojar,activity_option,1,activity_fill_in_the_blank,en
+29,text-29-16,es,abrir,activity_option,1,activity_fill_in_the_blank,en
+29,text-29-17,es,tomar,activity_option,1,activity_fill_in_the_blank,en
+29,text-29-18,es,maltratar,activity_option,1,activity_fill_in_the_blank,en
+29,text-29-19,es,tocar,activity_option,1,activity_fill_in_the_blank,en
+29,text-29-12,es,"algo a otro, usa verbos en modo imperativo.",section_text,0,text_and_images,en
+29,text-29-2,es,Indica qué expresan los verbos destacados.,instruction_text,0,text_and_images,en
+29,text-29-3,es,"Sumate, plantá un árbol.",boxed_text,0,text_and_images,en
+29,text-29-42,es,"Si el suelo es pobre,",section_text,1,activity_fill_in_the_blank,en
+29,text-29-43,es,abono orgánico.,section_text,1,activity_fill_in_the_blank,en
+29,text-29-44,es,7,activity_number,1,activity_fill_in_the_blank,en
+29,text-29-45,es,"Después de plantar,",section_text,1,activity_fill_in_the_blank,en
+29,text-29-46,es,el árbol de la acción de herbívoros o de animales domésticos.,section_text,1,activity_fill_in_the_blank,en
+29,text-29-1,es,El verbo,section_heading,0,text_and_images,en
+29,text-29-41,es,6,activity_number,1,activity_fill_in_the_blank,en
+29,text-29-0,es,Pensar la lengua escrita,section_heading,0,text_and_images,en
+30,text-30-18,es,bibliobús,activity_option,2,activity_matching,en
+30,text-30-19,es,bilingüe,activity_option,2,activity_matching,en
+30,text-30-20,es,biblioteca,activity_option,2,activity_matching,en
+30,text-30-21,es,bicolor,activity_option,2,activity_matching,en
+30,text-30-22,es,bibliomanía,activity_option,2,activity_matching,en
+30,text-30-25,es,Por ejemplo: la palabra bibliografía se forma así: biblio + grafía y la palabra bimesual con bi+ mensual.,section_text,3,text_only,en
+30,text-30-24,es,Al combinarse con otros elementos forman nuevas palabras.,section_text,3,text_only,en
+30,text-30-17,es,bimotor,activity_option,2,activity_matching,en
+30,text-30-26,es,Bi- y biblio- se escriben siempre con b.,section_text,3,text_only,en
+30,text-30-27,es,Escribe el significado de los siguientes elementos compositivos con tus palabras:,instruction_text,4,activity_open_ended_answer,en
+30,text-30-29,es,biblio-:,activity_input_placeholder_text,4,activity_open_ended_answer,en
+30,text-30-23,es,Las partes que esas palabras comparten se llaman elementos compositivos; bi- y biblio- tienen significado propio.,section_text,3,text_only,en
+30,text-30-16,es,Une cada una de estas palabras con su dibujo.,instruction_text,2,activity_matching,en
+30,text-30-12,es,5. Historia de la vida de una persona.,section_text,0,activity_other,en
+30,text-30-14,es,¿Qué conclusión puedes sacar en relación con su ortografía?,instruction_text,1,activity_open_ended_answer,en
+30,text-30-13,es,¿Qué tienen en común todas estas palabras?,instruction_text,1,activity_open_ended_answer,en
+30,text-30-11,es,"4. Cada una de las comunidades ecológicas en la que domina un tipo de vegetación, por ejemplo, selva tropical, desierto, tundra.",section_text,0,activity_other,en
+30,text-30-10,es,3. Combustible obtenido mediante el tratamiento físico o químico de materia vegetal o de residuos orgánicos.,section_text,0,activity_other,en
+30,text-30-9,es,"2. Organismo unicelular solo visible al microscopio, como por ejemplo las bacterias.",section_text,0,activity_other,en
+30,text-30-8,es,1. Ciencia que trata de los seres vivos.,section_text,0,activity_other,en
+30,text-30-7,es,Referencias,section_heading,0,activity_other,en
+30,text-30-6,es,5.,activity_number,0,activity_other,en
+30,text-30-5,es,4.,activity_number,0,activity_other,en
+30,text-30-4,es,3.,activity_number,0,activity_other,en
+30,text-30-3,es,2.,activity_number,0,activity_other,en
+30,text-30-2,es,1.,activity_number,0,activity_other,en
+30,text-30-1,es,Resuelve el crucigrama según las referencias.,instruction_text,0,activity_other,en
+30,text-30-0,es,Para escribir correctamente,section_heading,0,activity_other,en
+30,text-30-15,es,Escribe con tus palabras qué significa esta parte de la palabra que comparten:,instruction_text,1,activity_open_ended_answer,en
+30,text-30-28,es,bi-:,activity_input_placeholder_text,4,activity_open_ended_answer,en

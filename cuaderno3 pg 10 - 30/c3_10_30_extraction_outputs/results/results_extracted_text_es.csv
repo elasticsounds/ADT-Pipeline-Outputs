@@ -1,0 +1,342 @@
+page_index,id,language_code,text,type,section_id,section_type,translation_target
+10,text-10-0,es,Dibuja y escribe aquí qué te gusta hacer en tu tiempo libre.,instruction_text,0,activity_open_ended_answer,en
+10,text-10-1,es,Dibuja y escribe aquellas cosas que sabes hacer muy bien.,instruction_text,1,activity_open_ended_answer,en
+12,text-12-0,es,LUCES Y SOMBRAS,chapter_title,0,text_and_images,en
+12,text-12-1,es,¿CON QUIÉN CORRE ELENA?,section_heading,0,text_and_images,en
+12,text-12-2,es,No es un niño.,section_text,0,text_and_images,en
+12,text-12-3,es,No es una mascota.,section_text,0,text_and_images,en
+12,text-12-4,es,No es un atleta.,section_text,0,text_and_images,en
+12,text-12-5,es,"Solo corre, si Elena corre iluminada por una luz.",section_text,0,text_and_images,en
+12,text-12-6,es,Elena corre con,section_text,0,text_and_images,en
+13,text-13-14,es,Quizás fue por eso que Elena hizo pucheros cuando la mamá y el papá le dijeron que tenía que pasar toda la tarde y la noche en casa del abuelo Enrique.,section_text,4,text_only,en
+13,text-13-15,es,—No quiero ir a lo del abuelo —dijo Elena—.,section_text,4,text_only,en
+13,text-13-16,es,Me aburro.,section_text,4,text_only,en
+13,text-13-17,es,—Pero si tiene una casa con un jardín precioso —contestó el papá.,section_text,4,text_only,en
+13,text-13-18,es,"—Me aburro —dijo Elena, con capricho y cara de trompa—.",section_text,5,text_only,en
+13,text-13-23,es,Y la vecina de al lado también es vieja.,section_text,6,text_only,en
+13,text-13-20,es,"¿Quién va a jugar conmigo? No tiene perros ni gatos, ni siquiera una tortuga.",section_text,5,text_only,en
+13,text-13-22,es,—A mí me gusta correr.,section_text,6,text_only,en
+13,text-13-13,es,Ni los libros dibujados.,section_text,3,text_only,en
+13,text-13-24,es,—No le hagas caso —intervino la mamá.,section_text,6,text_only,en
+13,text-13-19,es,El abuelo apenas si puede caminar.,section_text,5,text_only,en
+13,text-13-12,es,Ni los helados.,section_text,3,text_only,en
+13,text-13-8,es,Y no tenía miedo de correr contra su papá.,section_text,2,text_only,en
+13,text-13-10,es,No había nada en el mundo que le gustara más que correr carreras.,section_text,3,text_only,en
+13,text-13-9,es,—¡Perdí!,section_text,2,text_only,en
+13,text-13-25,es,"—Vamos, Elena, a casa del abuelo Enrique y… ¡a pasarla bien!",section_text,6,text_only,en
+13,text-13-7,es,—¡¡Gané!!,section_text,2,text_only,en
+13,text-13-6,es,Desafiaba a su tortuga.,section_text,2,text_only,en
+13,text-13-5,es,—¡¡Perdí!!,section_text,1,text_only,en
+13,text-13-4,es,También corría contra su perro.,section_text,1,text_only,en
+13,text-13-3,es,—¡¡Gané!!,section_text,1,text_only,en
+13,text-13-2,es,Corría contra su hermano que gateaba.,section_text,1,text_only,en
+13,text-13-1,es,A Elena le encantaba correr carreras.,section_text,1,text_only,en
+13,text-13-0,es,¿QUIÉN CORRE CONMIGO?,chapter_title,0,text_only,en
+13,text-13-11,es,Ni la tele.,section_text,3,text_only,en
+13,text-13-26,es,Que los chicos que nunca juegan solos cuando sean grandes van a ser grandes tontos.,section_text,6,text_only,en
+13,text-13-21,es,"—Tiene unos libros fabulosos —dijo el papá, que era el hijo del abuelo Enrique y se había puesto triste con las palabras de Elena.",section_text,5,text_only,en
+14,text-14-14,es,"Elena corrió veloz, más veloz que las liebres en el campo.",section_text,3,text_only,en
+14,text-14-25,es,La sombra se apuró.,section_text,6,text_only,en
+14,text-14-24,es,"La sombra corrió ligero, más ligero que las nubes en el cielo.",section_text,6,text_only,en
+14,text-14-23,es,"Elena corrió veloz, más veloz que el rayo.",section_text,6,text_only,en
+14,text-14-22,es,"Rápido, rápido, rápido.",section_text,5,text_only,en
+14,text-14-21,es,"Corrieron, corrieron, corrieron.",section_text,5,text_only,en
+14,text-14-20,es,"—¡Ahora corran hacia acá! —gritó el abuelo—. A sus marcas, listas, ¡ya!",section_text,5,text_only,en
+14,text-14-19,es,A Elena no le gustaba perder.,section_text,4,text_only,en
+14,text-14-18,es,"—¡Perdí!, ¡perdí contra mi propia sombra! —refunfuñó enojada.",section_text,4,text_only,en
+14,text-14-17,es,Pero la sombra siempre iba un pasito adelante.,section_text,3,text_only,en
+14,text-14-16,es,Elena se apuró.,section_text,3,text_only,en
+14,text-14-15,es,"La sombra corrió ligero, más ligero que los leones en la selva.",section_text,3,text_only,en
+14,text-14-26,es,Pero Elena siempre iba un pasito adelante.,section_text,6,text_only,en
+14,text-14-0,es,Así fue como Elena tuvo que ir igual a casa de su abuelo.,section_text,0,text_only,en
+14,text-14-12,es,"Corrieron, corrieron, corrieron.",section_text,2,text_only,en
+14,text-14-11,es,"—A sus marcas, listas, ¡ya!",section_text,2,text_only,en
+14,text-14-10,es,El abuelo dio la señal de largada:,section_text,2,text_only,en
+14,text-14-9,es,"—¿Miedo, mi sombra? —respondió Elena, orgullosa—. ¡Estoy lista para correr!",section_text,1,text_only,en
+14,text-14-8,es,—¿Te da miedo? —la desafió el abuelo.,section_text,1,text_only,en
+14,text-14-7,es,—¿Contra mi sombra?,section_text,1,text_only,en
+14,text-14-6,es,—¿Por qué no corrés contra tu sombra?,section_text,1,text_only,en
+14,text-14-5,es,"—Me aburro, no tengo contra quién correr.",section_text,1,text_only,en
+14,text-14-4,es,"—¿Qué pasa, Elena, que tenés esa trompa? —le preguntó el abuelo.",section_text,1,text_only,en
+14,text-14-3,es,A ella le gustaba el desafío de las carreras.,section_text,0,text_only,en
+14,text-14-2,es,Pero pronto se aburrió.,section_text,0,text_only,en
+14,text-14-1,es,"Al principio dio unas vueltas al jardín, corriendo.",section_text,0,text_only,en
+14,text-14-13,es,"Rápido, rápido, rápido.",section_text,2,text_only,en
+14,text-14-27,es,—¡Gané! —festejó Elena—. ¡Soy más rápida que mi sombra!,section_text,6,text_only,en
+15,text-15-36,es,Al principio todo estaba oscuro.,section_text,3,text_only,en
+15,text-15-9,es,—Siempre ganarás —aseguró el abuelo—.,section_text,0,text_only,en
+15,text-15-35,es,"Cuando Elena se durmió, su abuelo salió al jardín.",section_text,3,text_only,en
+15,text-15-34,es,"Al final, la tarde en casa del abuelo había resultado de lo más emocionante.",section_text,3,text_only,en
+15,text-15-33,es,"¿Quién no habría tenido sueño, después de tantas carreras?",section_text,3,text_only,en
+15,text-15-32,es,"Pero Elena estaba tan cansada que después de comer cinco bocados apoyó la cabeza en el plato, con la tortilla de almohada.",section_text,3,text_only,en
+15,text-15-8,es,"—¿Nunca? —preguntó Elena, ilusionada.",section_text,0,text_only,en
+15,text-15-7,es,"Quien lo conoce, nunca más pierde una carrera contra ellas.",section_text,0,text_only,en
+15,text-15-6,es,—Ahora que has ganado y has perdido muchas veces te voy a enseñar el Gran Secreto para Vencer a las Sombras.,section_text,0,text_only,en
+15,text-15-5,es,"Al rato, el abuelo se acercó y le dijo:",section_text,0,text_only,en
+15,text-15-4,es,"Cada vez que ganaba, una sonrisa enorme les sacaba lustre a los dientes.",section_text,0,text_only,en
+15,text-15-3,es,"Cada vez que perdía, algunas lágrimas le hacían brillar los ojos.",section_text,0,text_only,en
+15,text-15-2,es,Corrió varias carreras.,section_text,0,text_only,en
+15,text-15-1,es,A Elena le encantaba ganar.,section_text,0,text_only,en
+15,text-15-11,es,GRAN SECRETO PARA VENCER A LAS SOMBRAS,standalone_text,1,text_only,en
+15,text-15-12,es,"Cuando al sol la cara pones,",section_text,1,text_only,en
+15,text-15-13,es,sombra muerde tus talones.,section_text,1,text_only,en
+15,text-15-14,es,"Corras lento o ligero,",section_text,1,text_only,en
+15,text-15-15,es,siempre llegarás primero.,section_text,1,text_only,en
+15,text-15-16,es,"Cuando el sol está a tu espalda,",section_text,1,text_only,en
+15,text-15-17,es,"sombra ante ti se alarga,",section_text,1,text_only,en
+15,text-15-18,es,"y aunque corras mucho y duro,",section_text,1,text_only,en
+15,text-15-19,es,ella ganará seguro.,section_text,1,text_only,en
+15,text-15-20,es,Elena repitió los versos una vez y otra hasta que los aprendió de memoria.,section_text,2,text_only,en
+15,text-15-21,es,—Ahora sí —dijo el abuelo—.,section_text,2,text_only,en
+15,text-15-22,es,Estás lista para vencer.,section_text,2,text_only,en
+15,text-15-23,es,"Como conocía el Gran Secreto para Vencer a las Sombras, Elena solamente corrió con el sol de frente.",section_text,2,text_only,en
+15,text-15-24,es,"—¡Gané!, ¡gané! y ¡gané! —gritó después de cada carrera.",section_text,2,text_only,en
+15,text-15-25,es,A Elena le encantaba ganar.,section_text,3,text_only,en
+15,text-15-26,es,"En total, el abuelo contó ochenta y siete victorias.",section_text,3,text_only,en
+15,text-15-27,es,Hasta que llegó la noche.,section_text,3,text_only,en
+15,text-15-28,es,"Y, de un momento a otro, todas las sombras desaparecieron del jardín.",section_text,3,text_only,en
+15,text-15-29,es,La sombra de Elena también.,section_text,3,text_only,en
+15,text-15-30,es,"Como no tenía contra quién correr, Elena entró en la casa.",section_text,3,text_only,en
+15,text-15-31,es,El abuelo había cocinado una inmensa tortilla de papas.,section_text,3,text_only,en
+15,text-15-10,es,El secreto dice así:,section_text,0,text_only,en
+15,text-15-37,es,"Pero, de repente, salió la luna.",section_text,3,text_only,en
+15,text-15-38,es,"No bien asomó su hocico blanco por detrás de los árboles, todas las cosas recuperaron su sombra.",section_text,3,text_only,en
+16,text-16-12,es,Le gusta,activity_input_placeholder_text,1,activity_open_ended_answer,en
+16,text-16-11,es,Cuando corre,activity_input_placeholder_text,1,activity_open_ended_answer,en
+16,text-16-10,es,Usa,activity_input_placeholder_text,1,activity_open_ended_answer,en
+16,text-16-9,es,Tiene,activity_input_placeholder_text,1,activity_open_ended_answer,en
+16,text-16-8,es,Elena es una niña que vive con su familia.,section_text,1,activity_open_ended_answer,en
+16,text-16-7,es,Escribe un retrato de Elena utilizando la información del esquema y otros datos del cuento.,instruction_text,1,activity_open_ended_answer,en
+16,text-16-6,es,Championes.,image_label,0,activity_labeling,en
+16,text-16-5,es,Rodillas lastimadas.,image_label,0,activity_labeling,en
+16,text-16-4,es,Piernas muy veloces.,image_label,0,activity_labeling,en
+16,text-16-3,es,Corazón que late rápido cuando corre.,image_label,0,activity_labeling,en
+16,text-16-2,es,Melena despeinada por correr.,image_label,0,activity_labeling,en
+16,text-16-1,es,Completa los cuadros vacíos agregando información sobre ella.,instruction_text,0,activity_labeling,en
+16,text-16-0,es,Esta es Elena.,section_heading,0,activity_labeling,en
+17,text-17-4,es,"Me aburro, no tengo con quién correr.",image_overlay,0,activity_fill_in_the_blank,en
+17,text-17-0,es,¿QUÉ DIJERON?,section_heading,0,activity_fill_in_the_blank,en
+17,text-17-8,es,¡Ahora sí estás lista para vencer!,image_overlay,0,activity_fill_in_the_blank,en
+17,text-17-7,es,El abuelo le enseñó un secreto.,section_text,0,activity_fill_in_the_blank,en
+17,text-17-6,es,"Pero no siempre ganaba, entonces refunfuñó:",section_text,0,activity_fill_in_the_blank,en
+17,text-17-5,es,¿Por qué no corres contra tu sombra?,image_overlay,0,activity_fill_in_the_blank,en
+17,text-17-1,es,Completa los globos de acuerdo con el cuento.,instruction_text,0,activity_fill_in_the_blank,en
+17,text-17-3,es,El abuelo le dio una idea.,section_text,0,activity_fill_in_the_blank,en
+17,text-17-2,es,"Un día, Elena fue a la casa de su abuelo.",section_text,0,activity_fill_in_the_blank,en
+18,text-18-5,es,Elena corrió contra la sombra,section_text,0,activity_fill_in_the_blank,en
+18,text-18-6,es,"Al rato, el abuelo, al ver que estaba malhumorada,",section_text,0,activity_fill_in_the_blank,en
+18,text-18-7,es,"Como ya conocía el gran secreto para vencer a la sombra, Elena nunca más perdió, porque",section_text,0,activity_fill_in_the_blank,en
+18,text-18-3,es,"En la casa del abuelo,",instruction_text,0,activity_fill_in_the_blank,en
+18,text-18-0,es,Completa el resumen del cuento.,instruction_text,0,activity_fill_in_the_blank,en
+18,text-18-1,es,"Leer el cuento otra vez, te puede ayudar.",hint,0,activity_fill_in_the_blank,en
+18,text-18-4,es,El abuelo le dio una idea para no aburrirse:,instruction_text,0,activity_fill_in_the_blank,en
+18,text-18-2,es,Un día Elena se tuvo que quedar a dormir en la casa de su abuelo Enrique.,section_text,0,activity_fill_in_the_blank,en
+19,text-19-18,es,El abuelo Enrique contó ochenta y siete victorias.,section_text,1,activity_open_ended_answer,en
+19,text-19-17,es,Te puede ser útil:,boxed_text,2,other,en
+19,text-19-11,es,El abuelo Enrique,activity_option,0,activity_matching,en
+19,text-19-15,es,ochenta y siete victorias.,activity_option,0,activity_matching,en
+19,text-19-0,es,El abuelo Enrique,section_heading,0,activity_matching,en
+19,text-19-1,es,Une con una flecha las expresiones de cada columna para formar enunciados.,instruction_text,0,activity_matching,en
+19,text-19-2,es,Escribe los enunciados que has formado.,instruction_text,1,activity_open_ended_answer,en
+19,text-19-3,es,Numéralos teniendo en cuenta el orden de los acontecimientos en la historia.,instruction_text,1,activity_open_ended_answer,en
+19,text-19-4,es,Elena,activity_option,0,activity_matching,en
+19,text-19-5,es,cocinó,activity_option,0,activity_matching,en
+19,text-19-16,es,Escribe en letra cursiva.,instruction_text,2,other,en
+19,text-19-6,es,el secreto para vencer a las sombras.,activity_option,0,activity_matching,en
+19,text-19-8,es,una inmensa tortilla de papas.,activity_option,0,activity_matching,en
+19,text-19-9,es,aprendió,activity_option,0,activity_matching,en
+19,text-19-10,es,más veloz que las liebres en el campo.,activity_option,0,activity_matching,en
+19,text-19-12,es,contó,activity_option,0,activity_matching,en
+19,text-19-13,es,al abuelo Enrique.,activity_option,0,activity_matching,en
+19,text-19-14,es,visitó,activity_option,0,activity_matching,en
+19,text-19-7,es,corrió,activity_option,0,activity_matching,en
+20,text-20-17,es,El enfado de Elena.,activity_option,2,activity_matching,en
+20,text-20-19,es,Las victorias de Elena.,activity_option,3,activity_matching,en
+20,text-20-18,es,El desafío del abuelo.,activity_option,3,activity_matching,en
+20,text-20-16,es,Las carreras de Elena.,activity_option,1,activity_matching,en
+20,text-20-1,es,Elige el enunciado de la derecha que lo resume mejor.,instruction_text,3,activity_matching,en
+20,text-20-14,es,Los juegos de Elena.,activity_option,1,activity_matching,en
+20,text-20-0,es,Lee el texto de cada libretita donde se presenta un episodio del cuento.,instruction_text,3,activity_matching,en
+20,text-20-2,es,Escribe un enunciado que resuma el episodio.,instruction_text,4,activity_open_ended_answer,en
+20,text-20-15,es,El aburrimiento de Elena.,activity_option,1,activity_matching,en
+20,text-20-4,es,Ella estaba muy disgustada.,section_text,0,activity_matching,en
+20,text-20-5,es,"En la casa de su abuelo, Elena no tenía contra quién correr y se aburrió.",section_text,1,activity_matching,en
+20,text-20-6,es,El abuelo la desafió a correr contra su sombra.,section_text,2,activity_matching,en
+20,text-20-3,es,"Una niña, llamada Elena, a quien le encantaba jugar carreras, fue llevada por sus padres a la casa de su abuelo.",section_text,0,activity_matching,en
+20,text-20-8,es,"A veces perdía y otras, ganaba.",section_text,2,activity_matching,en
+20,text-20-9,es,El abuelo le enseñó un secreto para vencer a la sombra.,section_text,3,activity_matching,en
+20,text-20-10,es,Elena lo aprendió de memoria.,section_text,3,activity_matching,en
+20,text-20-11,es,La llegada de Elena a casa del abuelo.,activity_option,0,activity_matching,en
+20,text-20-12,es,El viaje de Elena con sus padres.,activity_option,0,activity_matching,en
+20,text-20-13,es,El disfraz de Elena.,activity_option,0,activity_matching,en
+20,text-20-7,es,Elena aceptó el desafío.,section_text,2,activity_matching,en
+21,text-21-11,es,desprolijo,activity_input_placeholder_text,1,activity_fill_in_the_blank,en
+21,text-21-18,es,"Bla, bla, bla.",image_caption,1,activity_fill_in_the_blank,en
+21,text-21-17,es,habla rápido / habla,activity_option,1,activity_fill_in_the_blank,en
+21,text-21-16,es,salta bajo / salta,activity_option,1,activity_fill_in_the_blank,en
+21,text-21-15,es,lee mucho / lee,activity_option,1,activity_fill_in_the_blank,en
+21,text-21-14,es,corre ligero / corre,activity_option,1,activity_fill_in_the_blank,en
+21,text-21-13,es,"¡Arf, arf!",image_caption,1,activity_fill_in_the_blank,en
+21,text-21-12,es,ladra suave / ladra,activity_option,1,activity_fill_in_the_blank,en
+21,text-21-10,es,pinta prolijo / pinta,activity_option,1,activity_fill_in_the_blank,en
+21,text-21-0,es,Lee la primera estrofa del gran secreto para vencer a las sombras:,instruction_text,0,text_only,en
+21,text-21-8,es,- Los antónimos son palabras que expresan ideas opuestas o contrarias.,instruction_text,1,activity_fill_in_the_blank,en
+21,text-21-7,es,Recuerda que:,instruction_text,1,activity_fill_in_the_blank,en
+21,text-21-6,es,Completa los espacios con antónimos.,instruction_text,1,activity_fill_in_the_blank,en
+21,text-21-5,es,¿Qué relación hay entre las palabras lento y ligero?,hint,0,text_only,en
+21,text-21-4,es,siempre llegarás primero.,section_text,0,text_only,en
+21,text-21-3,es,"Corras lento o ligero,",section_text,0,text_only,en
+21,text-21-2,es,sombra muerde tus talones.,section_text,0,text_only,en
+21,text-21-1,es,"Cuando al sol la cara pones,",section_text,0,text_only,en
+21,text-21-9,es,- Los sinónimos son palabras que tienen significado igual o muy parecido.,instruction_text,1,activity_fill_in_the_blank,en
+22,text-22-14,es,como,activity_input_placeholder_text,0,activity_fill_in_the_blank,en
+22,text-22-13,es,El abuelo de Elena es,activity_input_placeholder_text,0,activity_fill_in_the_blank,en
+22,text-22-9,es,Manos,activity_input_placeholder_text,0,activity_fill_in_the_blank,en
+22,text-22-11,es,Piernas,activity_input_placeholder_text,0,activity_fill_in_the_blank,en
+22,text-22-10,es,como,activity_input_placeholder_text,0,activity_fill_in_the_blank,en
+22,text-22-15,es,Completa el último enunciado con una característica de su personalidad.,instruction_text,0,activity_fill_in_the_blank,en
+22,text-22-12,es,como,activity_input_placeholder_text,0,activity_fill_in_the_blank,en
+22,text-22-16,es,"Por ejemplo: alegre, nervioso, paciente, cascarrabias, gritón.",instruction_text,0,activity_fill_in_the_blank,en
+22,text-22-22,es,Los labios son como,activity_input_placeholder_text,1,activity_open_ended_answer,en
+22,text-22-19,es,El abuelo de Elena,activity_input_placeholder_text,1,activity_open_ended_answer,en
+22,text-22-20,es,Tiene el pelo,activity_input_placeholder_text,1,activity_open_ended_answer,en
+22,text-22-21,es,Los ojos,activity_input_placeholder_text,1,activity_open_ended_answer,en
+22,text-22-23,es,y cuando sonríe parecen,activity_input_placeholder_text,1,activity_open_ended_answer,en
+22,text-22-24,es,Sus manos,activity_input_placeholder_text,1,activity_open_ended_answer,en
+22,text-22-25,es,Le gusta,activity_input_placeholder_text,1,activity_open_ended_answer,en
+22,text-22-26,es,A veces se,activity_input_placeholder_text,1,activity_open_ended_answer,en
+22,text-22-8,es,como,activity_input_placeholder_text,0,activity_fill_in_the_blank,en
+22,text-22-17,es,Inventa una descripción que cuente cómo es el abuelo.,instruction_text,1,activity_open_ended_answer,en
+22,text-22-7,es,Labios,activity_input_placeholder_text,0,activity_fill_in_the_blank,en
+22,text-22-18,es,Usa las comparaciones que escribiste arriba.,instruction_text,1,activity_open_ended_answer,en
+22,text-22-5,es,Ojos,activity_input_placeholder_text,0,activity_fill_in_the_blank,en
+22,text-22-4,es,el humo.,activity_input_placeholder_text,0,activity_fill_in_the_blank,en
+22,text-22-3,es,como,activity_input_placeholder_text,0,activity_fill_in_the_blank,en
+22,text-22-2,es,gris,activity_input_placeholder_text,0,activity_fill_in_the_blank,en
+22,text-22-1,es,Pelo,activity_input_placeholder_text,0,activity_fill_in_the_blank,en
+22,text-22-0,es,"Escribe algunos rasgos del abuelo de Elena, empleando comparaciones.",instruction_text,0,activity_fill_in_the_blank,en
+22,text-22-6,es,como,activity_input_placeholder_text,0,activity_fill_in_the_blank,en
+23,text-23-1,es,"—¿Qué pasa, Elena, que tenés esa trompa?",section_text,0,text_only,en
+23,text-23-3,es,"—Me aburro, no tengo contra quién correr.",section_text,0,text_only,en
+23,text-23-4,es,—¿Por qué no corrés contra tu sombra?,section_text,0,text_only,en
+23,text-23-5,es,—¿Contra mi sombra?,section_text,0,text_only,en
+23,text-23-6,es,—¿Te da miedo?,section_text,0,text_only,en
+23,text-23-7,es,—la desafió el abuelo.,section_text,0,text_only,en
+23,text-23-2,es,—le preguntó el abuelo.,section_text,0,text_only,en
+23,text-23-0,es,Observa las palabras subrayadas en este diálogo del cuento:,instruction_text,0,text_only,en
+23,text-23-9,es,Puedes ayudarte con el diccionario.,hint,1,activity_fill_in_a_table,en
+23,text-23-10,es,trompa,instruction_text,1,activity_fill_in_a_table,en
+23,text-23-11,es,sombra,instruction_text,1,activity_fill_in_a_table,en
+23,text-23-12,es,Descubre en esta escena los objetos cuyos nombres se escriben también con mp y mb.,instruction_text,2,activity_open_ended_answer,en
+23,text-23-13,es,Enciérralos y escríbelos debajo.,instruction_text,2,activity_open_ended_answer,en
+23,text-23-8,es,Completa los cuadros con palabras de la familia de trompa y sombra.,instruction_text,1,activity_fill_in_a_table,en
+24,text-24-16,es,"—Tiene unos libros fabulosos —dijo él, que era el hijo del abuelo Enrique y se había puesto triste con las palabras de ella.",standalone_text,1,activity_other,en
+24,text-24-15,es,Ella hizo pucheros cuando ellos le dijeron que tenía que ir a la casa de él.,standalone_text,1,activity_other,en
+24,text-24-14,es,A ella le encantaba correr carreras.,standalone_text,1,activity_other,en
+24,text-24-13,es,Reemplaza los pronombres resaltados por expresiones o palabras que nombran a los personajes.,instruction_text,1,activity_other,en
+24,text-24-12,es,papá.,activity_input_placeholder_text,0,activity_fill_in_the_blank,en
+24,text-24-11,es,Y no tenía miedo de correr contra,section_text,0,activity_fill_in_the_blank,en
+24,text-24-10,es,¡¡Gané!!,standalone_text,0,activity_fill_in_the_blank,en
+24,text-24-1,es,A Elena le encantaba correr carreras.,section_text,0,activity_fill_in_the_blank,en
+24,text-24-8,es,Desafiaba a,section_text,0,activity_fill_in_the_blank,en
+24,text-24-6,es,perro.,activity_input_placeholder_text,0,activity_fill_in_the_blank,en
+24,text-24-5,es,También corría contra,section_text,0,activity_fill_in_the_blank,en
+24,text-24-4,es,¡¡Gané!!,standalone_text,0,activity_fill_in_the_blank,en
+24,text-24-3,es,hermano que gateaba.,activity_input_placeholder_text,0,activity_fill_in_the_blank,en
+24,text-24-2,es,Corría contra,section_text,0,activity_fill_in_the_blank,en
+24,text-24-9,es,tortuga.,activity_input_placeholder_text,0,activity_fill_in_the_blank,en
+24,text-24-7,es,¡¡Perdí!!,standalone_text,0,activity_fill_in_the_blank,en
+24,text-24-0,es,Escribe en la línea punteada el pronombre que corresponde.,instruction_text,0,activity_fill_in_the_blank,en
+25,text-25-9,es,"Los cuerpos opacos no permiten el paso de la luz y producen una sombra, como sucede con el cartón.",section_text,1,text_and_images,en
+25,text-25-0,es,ENCICLOPEDIA,chapter_title,0,text_and_images,en
+25,text-25-1,es,LA LUZ Y LA SOMBRA*,section_heading,0,text_and_images,en
+25,text-25-2,es,"El Sol es una estrella, una bola de gases explosivos.",section_text,0,text_and_images,en
+25,text-25-3,es,Es la fuente natural de luz y calor de la Tierra.,section_text,0,text_and_images,en
+25,text-25-5,es,La mayoría de los objetos que vemos no tienen luz propia.,section_text,0,text_and_images,en
+25,text-25-6,es,Podemos verlos porque la reciben de un cuerpo luminoso.,section_text,0,text_and_images,en
+25,text-25-7,es,LOS CUERPOS Y SU RELACIÓN CON LA LUZ,section_heading,1,text_and_images,en
+25,text-25-8,es,"Los cuerpos pueden clasificarse en opacos, traslúcidos y transparentes.",section_text,1,text_and_images,en
+25,text-25-4,es,"Hay otras fuentes de luz que son artificiales, como las lamparitas eléctricas o las velas.",section_text,0,text_and_images,en
+25,text-25-11,es,Algunos ejemplos son el vidrio esmerilado y el nailon.,section_text,1,text_and_images,en
+25,text-25-12,es,"Los transparentes permiten el paso de la luz y se distingue con nitidez a través de ellos, tal como sucede con el vidrio de algunas ventanas o el cristal de los lentes.",section_text,1,text_and_images,en
+25,text-25-13,es,LA FORMA DE LAS SOMBRAS,section_heading,2,text_and_images,en
+25,text-25-14,es,Las sombras producidas por la luz del sol varían su forma a lo largo del día.,section_text,2,text_and_images,en
+25,text-25-15,es,"Por la mañana, las sombras son alargadas, al mediodía se acortan o desaparecen y en las últimas horas de la tarde vuelven a ser alargadas.",section_text,2,text_and_images,en
+25,text-25-16,es,La luz del sol se propaga en línea recta; esto explica la deformación de la sombra.,section_text,2,text_and_images,en
+25,text-25-17,es,*Texto elaborado por ProLEE para este cuaderno a partir de diversas fuentes enciclopédicas.,boxed_text,3,text_only,en
+25,text-25-10,es,"Los cuerpos traslúcidos permiten el paso de la luz, pero no es posible ver claramente a través de ellos.",section_text,1,text_and_images,en
+26,text-26-6,es,Es lo mismo que decir,instruction_text,0,activity_multiple_choice,en
+26,text-26-5,es,El Sol es la fuente natural de luz y calor de la Tierra.,section_text,0,activity_multiple_choice,en
+26,text-26-4,es,Luego escribe en la línea punteada cómo puedes explicarlos de otra manera.,instruction_text,2,activity_multiple_choice,en
+26,text-26-0,es,EL TEXTO SOBRE LUZ Y SOMBRA DICE...,section_heading,2,activity_multiple_choice,en
+26,text-26-2,es,Presta atención a las expresiones destacadas.,instruction_text,2,activity_multiple_choice,en
+26,text-26-1,es,Lee los siguientes enunciados.,instruction_text,2,activity_multiple_choice,en
+26,text-26-7,es,El Sol es el origen natural de la luz y el calor que existen en la Tierra.,activity_option,0,activity_multiple_choice,en
+26,text-26-3,es,Marca la opción correcta.,instruction_text,2,activity_multiple_choice,en
+26,text-26-8,es,El Sol es un manantial del que sale luz.,activity_option,0,activity_multiple_choice,en
+26,text-26-9,es,Los cuerpos opacos no permiten el paso de la luz.,section_text,1,activity_multiple_choice,en
+26,text-26-10,es,Es lo mismo que decir,instruction_text,1,activity_multiple_choice,en
+26,text-26-11,es,Los cuerpos opacos dejan pasar la luz.,activity_option,1,activity_multiple_choice,en
+26,text-26-12,es,Los cuerpos opacos obstaculizan el paso de la luz.,activity_option,1,activity_multiple_choice,en
+26,text-26-13,es,La luz del Sol se propaga en línea recta.,section_text,2,activity_multiple_choice,en
+26,text-26-14,es,Es lo mismo que decir,instruction_text,2,activity_multiple_choice,en
+26,text-26-15,es,La luz del Sol se prepara en línea recta.,activity_option,2,activity_multiple_choice,en
+26,text-26-16,es,La luz del Sol recorre la distancia entre la fuente luminosa y el objeto en línea recta.,activity_option,2,activity_multiple_choice,en
+27,text-27-0,es,Lee estos apuntes con definiciones de algunas palabras que aparecen en el artículo: «La luz y la sombra».,instruction_text,0,text_and_images,en
+27,text-27-1,es,Insértalos en el fragmento del artículo para ampliar la información.,instruction_text,0,text_and_images,en
+27,text-27-8,es,El Sol es una estrella.,section_text,0,text_and_images,en
+27,text-27-12,es,Podemos verlos porque la reciben de un cuerpo luminoso.,section_text,0,text_and_images,en
+27,text-27-16,es,"Utiliza paréntesis o conectores (es decir, o sea) para ampliar la información.",instruction_text,1,activity_open_ended_answer,en
+27,text-27-14,es,Esta tarea puedes realizarla en tu cuaderno de clase.,instruction_text,1,activity_open_ended_answer,en
+27,text-27-15,es,"El Sol es una estrella, o sea, un cuerpo celeste que brilla con luz propia.",standalone_text,1,activity_open_ended_answer,en
+27,text-27-11,es,La mayoría de objetos que vemos no tienen luz propia.,section_text,0,text_and_images,en
+27,text-27-17,es,Revisa los signos de puntuación.,instruction_text,1,activity_open_ended_answer,en
+27,text-27-13,es,Reescribe el texto anterior incluyendo la información de los apuntes de las libretas.,instruction_text,1,activity_open_ended_answer,en
+27,text-27-10,es,Hay otras fuentes de luz que son artificiales como las lamparitas eléctricas o las velas.,section_text,0,text_and_images,en
+27,text-27-9,es,Es la fuente natural de luz y calor de la Tierra.,section_text,0,text_and_images,en
+28,text-28-5,es,sol,boxed_text,0,activity_fill_in_a_table,en
+28,text-28-0,es,Relee el artículo «La luz y la sombra».,instruction_text,0,activity_fill_in_a_table,en
+28,text-28-1,es,Completa el cuadro con las palabras de la lista.,instruction_text,0,activity_fill_in_a_table,en
+28,text-28-2,es,FUENTES DE LUZ,section_heading,0,activity_fill_in_a_table,en
+28,text-28-3,es,NATURAL,section_text,0,activity_fill_in_a_table,en
+28,text-28-4,es,ARTIFICIAL,section_text,0,activity_fill_in_a_table,en
+28,text-28-6,es,estrellas,boxed_text,0,activity_fill_in_a_table,en
+28,text-28-7,es,vela,boxed_text,0,activity_fill_in_a_table,en
+28,text-28-8,es,linterna,boxed_text,0,activity_fill_in_a_table,en
+28,text-28-9,es,fuego,boxed_text,0,activity_fill_in_a_table,en
+28,text-28-10,es,luciérnagas,boxed_text,0,activity_fill_in_a_table,en
+28,text-28-11,es,rayos,boxed_text,0,activity_fill_in_a_table,en
+28,text-28-12,es,lámpara eléctrica,boxed_text,0,activity_fill_in_a_table,en
+28,text-28-13,es,Completa el cuadro que resume información sobre el tema.,instruction_text,1,activity_fill_in_a_table,en
+28,text-28-14,es,TIPO DE CUERPO,section_heading,1,activity_fill_in_a_table,en
+28,text-28-15,es,CARACTERÍSTICAS,section_heading,1,activity_fill_in_a_table,en
+28,text-28-16,es,EJEMPLOS,section_heading,1,activity_fill_in_a_table,en
+28,text-28-17,es,opaco,section_text,1,activity_fill_in_a_table,en
+28,text-28-18,es,Permiten el paso de la luz y se puede ver a través de ellos con nitidez.,section_text,1,activity_fill_in_a_table,en
+28,text-28-19,es,vidrio esmerilado,section_text,1,activity_fill_in_a_table,en
+29,text-29-2,es,Controla que hayas cumplido con:,instruction_text,0,activity_other,en
+29,text-29-3,es,"separar las palabras que aparecen juntas,",instruction_text,0,activity_other,en
+29,text-29-4,es,"colocar las mayúsculas al comienzo de los enunciados y de los nombres propios,",instruction_text,0,activity_other,en
+29,text-29-5,es,colocar los signos de puntuación.,instruction_text,0,activity_other,en
+29,text-29-10,es,recuerda utilizar losbrazosdesnudos y practicarhasta lograrlo,instruction_text,0,activity_other,en
+29,text-29-7,es,apagatodaslas luces de la habitación enciende una lámpara y colócala para que ilumine una pared desnuda,instruction_text,0,activity_other,en
+29,text-29-1,es,Realiza las correcciones.,instruction_text,0,activity_other,en
+29,text-29-8,es,"ubica tus manos a 1 metro de la luz y a 1 metroymedio de la pared, aproximadamente",instruction_text,0,activity_other,en
+29,text-29-9,es,"cuanto máscerca estés de la luz, más grandes serán las sombras",instruction_text,0,activity_other,en
+29,text-29-11,es,Escribe aquí el texto corregido.,instruction_text,0,activity_other,en
+29,text-29-6,es,Instrucciones para hacer sombras chinescas,instruction_text,0,activity_other,en
+29,text-29-0,es,La computadora tenía problemas y cometió algunos errores.,section_text,0,activity_other,en
+30,text-30-2,es,Las sombras chinescas son un juego muy antiguo y muy bello.,section_text,0,activity_open_ended_answer,en
+30,text-30-1,es,Tacha las palabras que están repetidas.,instruction_text,0,activity_open_ended_answer,en
+30,text-30-5,es,"Se pueden lograr sombras chinescas de patos,",section_text,0,activity_open_ended_answer,en
+30,text-30-3,es,Las sombras chinescas se crean al enlazar los dedos de las manos de distintas maneras frente a una fuente de luz,section_text,0,activity_open_ended_answer,en
+30,text-30-4,es,y formar figuras sobre una pared.,section_text,0,activity_open_ended_answer,en
+30,text-30-12,es,Escríbelas en el mismo texto a modo de borrador.,instruction_text,1,activity_open_ended_answer,en
+30,text-30-13,es,Escribe aquí el texto corregido.,activity_input_placeholder_text,1,activity_open_ended_answer,en
+30,text-30-9,es,Se pueden lograr figuras estáticas dejando las manos quietas,section_text,0,activity_open_ended_answer,en
+30,text-30-8,es,entre muchas otras sombras chinescas.,section_text,0,activity_open_ended_answer,en
+30,text-30-10,es,o se pueden lograr figuras dinámicas al mover algunos dedos.,section_text,0,activity_open_ended_answer,en
+30,text-30-7,es,"sombras chinescas de serpientes,",section_text,0,activity_open_ended_answer,en
+30,text-30-6,es,sombras chinescas de conejos y,section_text,0,activity_open_ended_answer,en
+30,text-30-0,es,Lee atentamente este texto.,instruction_text,0,activity_open_ended_answer,en
+30,text-30-11,es,Vuelve a leer el texto y discute con tus compañeros qué modificaciones deben realizar para mejorarlo.,instruction_text,1,activity_open_ended_answer,en

@@ -1,0 +1,342 @@
+page_index,id,language_code_orig,type,section_id,section_type,language_code,text,status
+10,text-10-0,es,instruction_text,0,activity_open_ended_answer,en,Draw and write here what you like to do in your free time.,success
+10,text-10-1,es,instruction_text,1,activity_open_ended_answer,en,Draw and write those things that you know how to do very well.,success
+12,text-12-0,es,chapter_title,0,text_and_images,en,LIGHTS AND SHADOWS,success
+12,text-12-1,es,section_heading,0,text_and_images,en,WHO IS ELENA RUNNING WITH?,success
+12,text-12-2,es,section_text,0,text_and_images,en,He is not a child.,success
+12,text-12-3,es,section_text,0,text_and_images,en,It is not a pet.,success
+12,text-12-4,es,section_text,0,text_and_images,en,He is not an athlete.,success
+12,text-12-5,es,section_text,0,text_and_images,en,"Just run, if Elena runs illuminated by a light.",success
+12,text-12-6,es,section_text,0,text_and_images,en,Elena runs with,success
+17,text-17-0,es,section_heading,0,activity_fill_in_the_blank,en,WHAT DID THEY SAY?,success
+17,text-17-1,es,instruction_text,0,activity_fill_in_the_blank,en,Complete the balloons according to the story.,success
+17,text-17-2,es,section_text,0,activity_fill_in_the_blank,en,"One day, Elena went to her grandfather's house.",success
+17,text-17-3,es,section_text,0,activity_fill_in_the_blank,en,The grandfather gave him an idea.,success
+17,text-17-4,es,image_overlay,0,activity_fill_in_the_blank,en,"I'm bored, I have no one to run with.",success
+17,text-17-5,es,image_overlay,0,activity_fill_in_the_blank,en,Why don't you run against your shadow?,success
+17,text-17-6,es,section_text,0,activity_fill_in_the_blank,en,"But he did not always win, so he grumbled:",success
+17,text-17-7,es,section_text,0,activity_fill_in_the_blank,en,The grandfather taught him a secret.,success
+17,text-17-8,es,image_overlay,0,activity_fill_in_the_blank,en,Now you are ready to conquer!,success
+18,text-18-0,es,instruction_text,0,activity_fill_in_the_blank,en,Complete the summary of the story.,success
+18,text-18-1,es,hint,0,activity_fill_in_the_blank,en,"Read the story again, it might help you.",success
+18,text-18-2,es,section_text,0,activity_fill_in_the_blank,en,"One day, Elena had to stay overnight at her grandfather Enrique's house.",success
+18,text-18-3,es,instruction_text,0,activity_fill_in_the_blank,en,"In the grandfather's house,",success
+18,text-18-4,es,instruction_text,0,activity_fill_in_the_blank,en,The grandfather gave him an idea so as not to get bored.,success
+19,text-19-0,es,section_heading,0,activity_matching,en,Grandfather Enrique,success
+19,text-19-1,es,instruction_text,0,activity_matching,en,Connect with an arrow the expressions from each column to form statements.,success
+19,text-19-2,es,instruction_text,1,activity_open_ended_answer,en,Write the sentences you have formed.,success
+19,text-19-3,es,instruction_text,1,activity_open_ended_answer,en,Number them considering the order of events in history.,success
+19,text-19-4,es,activity_option,0,activity_matching,en,Elena,success
+19,text-19-5,es,activity_option,0,activity_matching,en,cooked,success
+19,text-19-6,es,activity_option,0,activity_matching,en,the secret to overcoming the shadows.,success
+19,text-19-7,es,activity_option,0,activity_matching,en,ran,success
+19,text-19-8,es,activity_option,0,activity_matching,en,an immense potato tortilla.,success
+19,text-19-9,es,activity_option,0,activity_matching,en,learned,success
+19,text-19-10,es,activity_option,0,activity_matching,en,faster than the hares in the field.,success
+19,text-19-11,es,activity_option,0,activity_matching,en,Grandfather Enrique,success
+19,text-19-12,es,activity_option,0,activity_matching,en,counted/told,success
+19,text-19-13,es,activity_option,0,activity_matching,en,to grandfather Enrique.,success
+19,text-19-14,es,activity_option,0,activity_matching,en,visited,success
+19,text-19-15,es,activity_option,0,activity_matching,en,eighty-seven victories.,success
+19,text-19-16,es,instruction_text,2,other,en,Write in italics.,success
+19,text-19-17,es,boxed_text,2,other,en,It can be useful to you.,success
+19,text-19-18,es,section_text,1,activity_open_ended_answer,en,Grandfather Enrique counted eighty-seven victories.,success
+18,text-18-5,es,section_text,0,activity_fill_in_the_blank,en,Elena ran against the shadow,success
+18,text-18-6,es,section_text,0,activity_fill_in_the_blank,en,"After a while, the grandfather, upon seeing that she was in a bad mood,",success
+18,text-18-7,es,section_text,0,activity_fill_in_the_blank,en,"As Elena already knew the great secret to defeating the shadow, she never lost again, because",success
+20,text-20-0,es,instruction_text,3,activity_matching,en,Read the text of each notebook where an episode of the story is presented.,success
+20,text-20-1,es,instruction_text,3,activity_matching,en,Choose the statement on the right that summarizes it best.,success
+20,text-20-2,es,instruction_text,4,activity_open_ended_answer,en,Write a statement that summarizes the episode.,success
+20,text-20-3,es,section_text,0,activity_matching,en,"A girl named Elena, who loved to play races, was taken by her parents to her grandfather's house.",success
+20,text-20-4,es,section_text,0,activity_matching,en,She was very upset.,success
+20,text-20-5,es,section_text,1,activity_matching,en,"At her grandfather's house, Elena had no one to race against and got bored.",success
+20,text-20-6,es,section_text,2,activity_matching,en,The grandfather challenged her to race against her shadow.,success
+20,text-20-7,es,section_text,2,activity_matching,en,Elena accepted the challenge.,success
+20,text-20-8,es,section_text,2,activity_matching,en,"Sometimes I lost, and other times I won.",success
+20,text-20-9,es,section_text,3,activity_matching,en,The grandfather taught him a secret to defeat the shadow.,success
+20,text-20-10,es,section_text,3,activity_matching,en,Elena learned it by heart.,success
+20,text-20-11,es,activity_option,0,activity_matching,en,The arrival of Elena at the grandfather's house.,success
+20,text-20-12,es,activity_option,0,activity_matching,en,Elena's trip with her parents.,success
+20,text-20-13,es,activity_option,0,activity_matching,en,Elena's costume.,success
+20,text-20-14,es,activity_option,1,activity_matching,en,Elena's games.,success
+20,text-20-15,es,activity_option,1,activity_matching,en,Elena's boredom.,success
+20,text-20-16,es,activity_option,1,activity_matching,en,Elena's races.,success
+20,text-20-17,es,activity_option,2,activity_matching,en,Elena's anger.,success
+20,text-20-18,es,activity_option,3,activity_matching,en,The grandfather's challenge.,success
+20,text-20-19,es,activity_option,3,activity_matching,en,Elena's victories.,success
+16,text-16-0,es,section_heading,0,activity_labeling,en,This is Elena.,success
+16,text-16-1,es,instruction_text,0,activity_labeling,en,Complete the empty boxes by adding information about her.,success
+16,text-16-2,es,image_label,0,activity_labeling,en,Hair tousled by running.,success
+16,text-16-3,es,image_label,0,activity_labeling,en,A heart that beats fast when running.,success
+16,text-16-4,es,image_label,0,activity_labeling,en,Very fast legs.,success
+16,text-16-5,es,image_label,0,activity_labeling,en,Injured knees.,success
+16,text-16-6,es,image_label,0,activity_labeling,en,Champions,success
+16,text-16-7,es,instruction_text,1,activity_open_ended_answer,en,Write a portrait of Elena using the information from the outline and other data from the story.,success
+16,text-16-8,es,section_text,1,activity_open_ended_answer,en,Elena is a girl who lives with her family.,success
+16,text-16-9,es,activity_input_placeholder_text,1,activity_open_ended_answer,en,Has,success
+16,text-16-10,es,activity_input_placeholder_text,1,activity_open_ended_answer,en,Use,success
+16,text-16-11,es,activity_input_placeholder_text,1,activity_open_ended_answer,en,When he/she/it runs,success
+16,text-16-12,es,activity_input_placeholder_text,1,activity_open_ended_answer,en,likes it,success
+27,text-27-0,es,instruction_text,0,text_and_images,en,"Read these notes with definitions of some words that appear in the article: ""The light and the shadow.""",success
+27,text-27-1,es,instruction_text,0,text_and_images,en,Insert them into the article fragment to expand the information.,success
+27,text-27-8,es,section_text,0,text_and_images,en,The Sun is a star.,success
+27,text-27-9,es,section_text,0,text_and_images,en,It is the natural source of light and heat for Earth.,success
+27,text-27-10,es,section_text,0,text_and_images,en,"There are other sources of light that are artificial, such as electric lamps or candles.",success
+27,text-27-11,es,section_text,0,text_and_images,en,Most objects that we see do not have their own light.,success
+27,text-27-12,es,section_text,0,text_and_images,en,We can see them because they receive it from a luminous body.,success
+27,text-27-13,es,instruction_text,1,activity_open_ended_answer,en,Rewrite the previous text including the information from the notebooks.,success
+27,text-27-14,es,instruction_text,1,activity_open_ended_answer,en,This task you can do in your class notebook.,success
+27,text-27-15,es,standalone_text,1,activity_open_ended_answer,en,"The Sun is a star, that is, a celestial body that shines with its own light.",success
+27,text-27-16,es,instruction_text,1,activity_open_ended_answer,en,"Use parentheses or connectors (that is, in other words) to expand the information.",success
+27,text-27-17,es,instruction_text,1,activity_open_ended_answer,en,Check the punctuation marks.,success
+29,text-29-0,es,section_text,0,activity_other,en,The computer was having problems and made some errors.,success
+29,text-29-1,es,instruction_text,0,activity_other,en,Make the corrections.,success
+29,text-29-2,es,instruction_text,0,activity_other,en,Make sure you have fulfilled:,success
+29,text-29-3,es,instruction_text,0,activity_other,en,Separate the words that appear together.,success
+29,text-29-4,es,instruction_text,0,activity_other,en,"capitalize the beginning of sentences and proper nouns,",success
+29,text-29-5,es,instruction_text,0,activity_other,en,Place the punctuation marks.,success
+29,text-29-6,es,instruction_text,0,activity_other,en,Instructions for making shadow puppets,success
+29,text-29-7,es,instruction_text,0,activity_other,en,"turn off all the lights in the room, turn on a lamp, and place it so that it illuminates a bare wall",success
+29,text-29-8,es,instruction_text,0,activity_other,en,"place your hands 1 meter from the light and 1 and a half meters from the wall, approximately",success
+29,text-29-9,es,instruction_text,0,activity_other,en,"The closer you are to the light, the bigger the shadows will be.",success
+29,text-29-10,es,instruction_text,0,activity_other,en,Remember to use bare arms and practice until you achieve it.,success
+29,text-29-11,es,instruction_text,0,activity_other,en,Write the corrected text here.,success
+24,text-24-0,es,instruction_text,0,activity_fill_in_the_blank,en,Write the corresponding pronoun on the dotted line.,success
+24,text-24-1,es,section_text,0,activity_fill_in_the_blank,en,Elena loved to run races.,success
+24,text-24-2,es,section_text,0,activity_fill_in_the_blank,en,Ran against,success
+24,text-24-3,es,activity_input_placeholder_text,0,activity_fill_in_the_blank,en,Brother crawling.,success
+24,text-24-4,es,standalone_text,0,activity_fill_in_the_blank,en,I won!!,success
+24,text-24-5,es,section_text,0,activity_fill_in_the_blank,en,I was also running against,success
+24,text-24-6,es,activity_input_placeholder_text,0,activity_fill_in_the_blank,en,dog.,success
+24,text-24-7,es,standalone_text,0,activity_fill_in_the_blank,en,I lost!!,success
+24,text-24-8,es,section_text,0,activity_fill_in_the_blank,en,Challenged,success
+24,text-24-9,es,activity_input_placeholder_text,0,activity_fill_in_the_blank,en,turtle,success
+24,text-24-10,es,standalone_text,0,activity_fill_in_the_blank,en,I won!!,success
+24,text-24-11,es,section_text,0,activity_fill_in_the_blank,en,And was not afraid to run against,success
+24,text-24-12,es,activity_input_placeholder_text,0,activity_fill_in_the_blank,en,Dad.,success
+24,text-24-13,es,instruction_text,1,activity_other,en,Replace the highlighted pronouns with expressions or words that name the characters.,success
+24,text-24-14,es,standalone_text,1,activity_other,en,She loved running races.,success
+24,text-24-15,es,standalone_text,1,activity_other,en,She pouted when they told her she had to go to his house.,success
+24,text-24-16,es,standalone_text,1,activity_other,en,"""He has some fabulous books,"" he said, who was the son of grandfather Enrique and had become sad with her words.",success
+28,text-28-0,es,instruction_text,0,activity_fill_in_a_table,en,Reread the article «La luz y la sombra».,success
+28,text-28-1,es,instruction_text,0,activity_fill_in_a_table,en,Complete the table with the words from the list.,success
+28,text-28-2,es,section_heading,0,activity_fill_in_a_table,en,SOURCES OF LIGHT,success
+28,text-28-3,es,section_text,0,activity_fill_in_a_table,en,NATURAL,success
+28,text-28-4,es,section_text,0,activity_fill_in_a_table,en,Artificial,success
+28,text-28-5,es,boxed_text,0,activity_fill_in_a_table,en,sun,success
+28,text-28-6,es,boxed_text,0,activity_fill_in_a_table,en,stars,success
+28,text-28-7,es,boxed_text,0,activity_fill_in_a_table,en,candle,success
+28,text-28-8,es,boxed_text,0,activity_fill_in_a_table,en,flashlight,success
+28,text-28-9,es,boxed_text,0,activity_fill_in_a_table,en,fire,success
+28,text-28-10,es,boxed_text,0,activity_fill_in_a_table,en,fireflies,success
+28,text-28-11,es,boxed_text,0,activity_fill_in_a_table,en,rays,success
+28,text-28-12,es,boxed_text,0,activity_fill_in_a_table,en,electric lamp,success
+28,text-28-13,es,instruction_text,1,activity_fill_in_a_table,en,Complete the table that summarizes information about the topic.,success
+28,text-28-14,es,section_heading,1,activity_fill_in_a_table,en,Body Type,success
+28,text-28-15,es,section_heading,1,activity_fill_in_a_table,en,FEATURES,success
+28,text-28-16,es,section_heading,1,activity_fill_in_a_table,en,Examples,success
+28,text-28-17,es,section_text,1,activity_fill_in_a_table,en,opaque,success
+28,text-28-18,es,section_text,1,activity_fill_in_a_table,en,They allow the passage of light and can be seen through clearly.,success
+28,text-28-19,es,section_text,1,activity_fill_in_a_table,en,frosted glass,success
+26,text-26-0,es,section_heading,2,activity_multiple_choice,en,THE TEXT ABOUT LIGHT AND SHADOW SAYS...,success
+26,text-26-1,es,instruction_text,2,activity_multiple_choice,en,Read the following statements.,success
+26,text-26-2,es,instruction_text,2,activity_multiple_choice,en,Pay attention to the highlighted expressions.,success
+26,text-26-3,es,instruction_text,2,activity_multiple_choice,en,Mark the correct option.,success
+26,text-26-4,es,instruction_text,2,activity_multiple_choice,en,Then write on the dotted line how you can explain them in another way.,success
+26,text-26-5,es,section_text,0,activity_multiple_choice,en,The Sun is the natural source of light and heat for the Earth.,success
+26,text-26-6,es,instruction_text,0,activity_multiple_choice,en,It's the same as saying,success
+26,text-26-7,es,activity_option,0,activity_multiple_choice,en,The Sun is the natural origin of the light and heat that exist on Earth.,success
+26,text-26-8,es,activity_option,0,activity_multiple_choice,en,The Sun is a spring from which light emerges.,success
+26,text-26-9,es,section_text,1,activity_multiple_choice,en,Opaque bodies do not allow the passage of light.,success
+26,text-26-10,es,instruction_text,1,activity_multiple_choice,en,It's the same as saying,success
+26,text-26-11,es,activity_option,1,activity_multiple_choice,en,Opaque bodies let the light pass through.,success
+26,text-26-12,es,activity_option,1,activity_multiple_choice,en,Opaque bodies obstruct the passage of light.,success
+26,text-26-13,es,section_text,2,activity_multiple_choice,en,Sunlight travels in a straight line.,success
+26,text-26-14,es,instruction_text,2,activity_multiple_choice,en,It's the same as saying,success
+26,text-26-15,es,activity_option,2,activity_multiple_choice,en,Sunlight travels in a straight line.,success
+26,text-26-16,es,activity_option,2,activity_multiple_choice,en,Sunlight travels the distance between the light source and the object in a straight line.,success
+30,text-30-0,es,instruction_text,0,activity_open_ended_answer,en,Read this text carefully.,success
+30,text-30-1,es,instruction_text,0,activity_open_ended_answer,en,Cross out the words that are repeated.,success
+30,text-30-2,es,section_text,0,activity_open_ended_answer,en,Chinese shadows are a very old and beautiful game.,success
+30,text-30-3,es,section_text,0,activity_open_ended_answer,en,Chinese shadows are created by linking the fingers of the hands in different ways in front of a light source.,success
+30,text-30-4,es,section_text,0,activity_open_ended_answer,en,and form figures on a wall.,success
+30,text-30-5,es,section_text,0,activity_open_ended_answer,en,"Chinese shadow puppets of ducks can be achieved,",success
+30,text-30-6,es,section_text,0,activity_open_ended_answer,en,Chinese shadows of rabbits and,success
+30,text-30-7,es,section_text,0,activity_open_ended_answer,en,"Chinese shadow puppets of snakes,",success
+30,text-30-8,es,section_text,0,activity_open_ended_answer,en,among many other Chinese shadows.,success
+30,text-30-9,es,section_text,0,activity_open_ended_answer,en,Static figures can be achieved by keeping the hands still.,success
+30,text-30-10,es,section_text,0,activity_open_ended_answer,en,dynamic figures can be achieved by moving some fingers.,success
+30,text-30-11,es,instruction_text,1,activity_open_ended_answer,en,Reread the text and discuss with your colleagues what modifications should be made to improve it.,success
+30,text-30-12,es,instruction_text,1,activity_open_ended_answer,en,Write them in the same text as a draft.,success
+30,text-30-13,es,activity_input_placeholder_text,1,activity_open_ended_answer,en,Write the corrected text here.,success
+21,text-21-0,es,instruction_text,0,text_only,en,Read the first stanza of the great secret to overcome the shadows:,success
+21,text-21-1,es,section_text,0,text_only,en,"When you turn your face to the sun,",success
+21,text-21-2,es,section_text,0,text_only,en,shadow bites your heels.,success
+21,text-21-3,es,section_text,0,text_only,en,"Run slowly or lightly,",success
+21,text-21-4,es,section_text,0,text_only,en,you will always arrive first.,success
+21,text-21-5,es,hint,0,text_only,en,What is the relationship between the words slow and light?,success
+21,text-21-6,es,instruction_text,1,activity_fill_in_the_blank,en,Complete the spaces with antonyms.,success
+21,text-21-7,es,instruction_text,1,activity_fill_in_the_blank,en,Remember that:,success
+21,text-21-8,es,instruction_text,1,activity_fill_in_the_blank,en,Antonyms are words that express opposite or contrary ideas.,success
+21,text-21-9,es,instruction_text,1,activity_fill_in_the_blank,en,Synonyms are words that have the same or very similar meaning.,success
+21,text-21-10,es,activity_option,1,activity_fill_in_the_blank,en,looks tidy / appearance,success
+21,text-21-11,es,activity_input_placeholder_text,1,activity_fill_in_the_blank,en,untidy,success
+21,text-21-12,es,activity_option,1,activity_fill_in_the_blank,en,bark softly / bark,success
+21,text-21-13,es,image_caption,1,activity_fill_in_the_blank,en,"Arf, arf!",success
+21,text-21-14,es,activity_option,1,activity_fill_in_the_blank,en,run lightly / run,success
+21,text-21-15,es,activity_option,1,activity_fill_in_the_blank,en,reads a lot / reads,success
+21,text-21-16,es,activity_option,1,activity_fill_in_the_blank,en,jump low / jump,success
+21,text-21-17,es,activity_option,1,activity_fill_in_the_blank,en,speak quickly / speak,success
+21,text-21-18,es,image_caption,1,activity_fill_in_the_blank,en,"Blah, blah, blah.",success
+23,text-23-0,es,instruction_text,0,text_only,en,Observe the underlined words in this dialogue from the story:,success
+23,text-23-1,es,section_text,0,text_only,en,"""What's wrong, Elena, why do you have that pout?""",success
+23,text-23-2,es,section_text,0,text_only,en,—asked the grandfather.,success
+23,text-23-3,es,section_text,0,text_only,en,"I'm bored, I have no one to race against.",success
+23,text-23-4,es,section_text,0,text_only,en,Why don't you run against your shadow?,success
+23,text-23-5,es,section_text,0,text_only,en,Against my shadow?,success
+23,text-23-6,es,section_text,0,text_only,en,Are you scared?,success
+23,text-23-7,es,section_text,0,text_only,en,—challenged her the grandfather.,success
+23,text-23-8,es,instruction_text,1,activity_fill_in_a_table,en,Complete the boxes with words from the family of trunk and shadow.,success
+23,text-23-9,es,hint,1,activity_fill_in_a_table,en,You can help yourself with the dictionary.,success
+23,text-23-10,es,instruction_text,1,activity_fill_in_a_table,en,trunk,success
+23,text-23-11,es,instruction_text,1,activity_fill_in_a_table,en,shadow,success
+23,text-23-12,es,instruction_text,2,activity_open_ended_answer,en,Discover in this scene the objects whose names are also spelled with mp and mb.,success
+23,text-23-13,es,instruction_text,2,activity_open_ended_answer,en,Enclose them and write them below.,success
+22,text-22-0,es,instruction_text,0,activity_fill_in_the_blank,en,"Write some traits of Elena's grandfather, using comparisons.",success
+22,text-22-1,es,activity_input_placeholder_text,0,activity_fill_in_the_blank,en,Hair,success
+22,text-22-2,es,activity_input_placeholder_text,0,activity_fill_in_the_blank,en,gray,success
+22,text-22-3,es,activity_input_placeholder_text,0,activity_fill_in_the_blank,en,how,success
+22,text-22-4,es,activity_input_placeholder_text,0,activity_fill_in_the_blank,en,the smoke.,success
+22,text-22-5,es,activity_input_placeholder_text,0,activity_fill_in_the_blank,en,Eyes,success
+22,text-22-6,es,activity_input_placeholder_text,0,activity_fill_in_the_blank,en,how,success
+22,text-22-7,es,activity_input_placeholder_text,0,activity_fill_in_the_blank,en,Lips,success
+22,text-22-8,es,activity_input_placeholder_text,0,activity_fill_in_the_blank,en,how,success
+22,text-22-9,es,activity_input_placeholder_text,0,activity_fill_in_the_blank,en,Hands,success
+22,text-22-10,es,activity_input_placeholder_text,0,activity_fill_in_the_blank,en,how,success
+22,text-22-11,es,activity_input_placeholder_text,0,activity_fill_in_the_blank,en,Legs,success
+22,text-22-12,es,activity_input_placeholder_text,0,activity_fill_in_the_blank,en,how,success
+22,text-22-13,es,activity_input_placeholder_text,0,activity_fill_in_the_blank,en,The grandfather of Elena is,success
+22,text-22-14,es,activity_input_placeholder_text,0,activity_fill_in_the_blank,en,how,success
+22,text-22-15,es,instruction_text,0,activity_fill_in_the_blank,en,Complete the last sentence with a characteristic of their personality.,success
+22,text-22-16,es,instruction_text,0,activity_fill_in_the_blank,en,"For example: cheerful, nervous, patient, grumpy, loudmouth.",success
+22,text-22-17,es,instruction_text,1,activity_open_ended_answer,en,Invent a description that tells what the grandfather is like.,success
+22,text-22-18,es,instruction_text,1,activity_open_ended_answer,en,Use the comparisons you wrote above.,success
+22,text-22-19,es,activity_input_placeholder_text,1,activity_open_ended_answer,en,Elena's grandfather,success
+22,text-22-20,es,activity_input_placeholder_text,1,activity_open_ended_answer,en,He/She has hair,success
+22,text-22-21,es,activity_input_placeholder_text,1,activity_open_ended_answer,en,The eyes,success
+22,text-22-22,es,activity_input_placeholder_text,1,activity_open_ended_answer,en,The lips are like,success
+22,text-22-23,es,activity_input_placeholder_text,1,activity_open_ended_answer,en,and when he/she smiles they seem,success
+22,text-22-24,es,activity_input_placeholder_text,1,activity_open_ended_answer,en,His/Her/Their hands,success
+22,text-22-25,es,activity_input_placeholder_text,1,activity_open_ended_answer,en,He/She likes,success
+22,text-22-26,es,activity_input_placeholder_text,1,activity_open_ended_answer,en,Sometimes,success
+14,text-14-0,es,section_text,0,text_only,en,That's how Elena had to go to her grandfather's house anyway.,success
+14,text-14-1,es,section_text,0,text_only,en,"At first, he ran around the garden a few times.",success
+14,text-14-2,es,section_text,0,text_only,en,But soon he got bored.,success
+14,text-14-3,es,section_text,0,text_only,en,She liked the challenge of races.,success
+14,text-14-4,es,section_text,1,text_only,en,"""What's wrong, Elena, why do you have that pout?"" asked the grandfather.",success
+14,text-14-5,es,section_text,1,text_only,en,"""I'm bored, I have no one to run against.""",success
+14,text-14-6,es,section_text,1,text_only,en,Why don't you run against your shadow?,success
+14,text-14-7,es,section_text,1,text_only,en,Against my shadow?,success
+14,text-14-8,es,section_text,1,text_only,en,"""Are you scared?"" the grandfather challenged her.",success
+14,text-14-9,es,section_text,1,text_only,en,"""Fear, my shadow?"" replied Elena, proudly. ""I am ready to run!""",success
+14,text-14-10,es,section_text,2,text_only,en,The grandfather gave the starting signal.,success
+14,text-14-11,es,section_text,2,text_only,en,"On your marks, get set, go!",success
+14,text-14-12,es,section_text,2,text_only,en,"They ran, they ran, they ran.",success
+14,text-14-13,es,section_text,2,text_only,en,"Quick, quick, quick.",success
+14,text-14-14,es,section_text,3,text_only,en,"Elena ran fast, faster than the hares in the field.",success
+14,text-14-15,es,section_text,3,text_only,en,"The shadow ran fast, faster than the lions in the jungle.",success
+14,text-14-16,es,section_text,3,text_only,en,Elena hurried.,success
+14,text-14-17,es,section_text,3,text_only,en,But the shadow was always a step ahead.,success
+14,text-14-18,es,section_text,4,text_only,en,"""I lost! I lost against my own shadow!"" she grumbled angrily.",success
+14,text-14-19,es,section_text,4,text_only,en,Elena did not like to lose.,success
+14,text-14-20,es,section_text,5,text_only,en,"—Now run this way! —shouted the grandfather—. On your marks, get set, go!",success
+14,text-14-21,es,section_text,5,text_only,en,"They ran, they ran, they ran.",success
+14,text-14-22,es,section_text,5,text_only,en,"Fast, fast, fast.",success
+14,text-14-23,es,section_text,6,text_only,en,"Elena ran fast, faster than lightning.",success
+14,text-14-24,es,section_text,6,text_only,en,"The shadow ran fast, faster than the clouds in the sky.",success
+14,text-14-25,es,section_text,6,text_only,en,The shadow hurried.,success
+14,text-14-26,es,section_text,6,text_only,en,But Elena was always one step ahead.,success
+14,text-14-27,es,section_text,6,text_only,en,—I won! —celebrated Elena—. I am faster than my shadow!,success
+13,text-13-0,es,chapter_title,0,text_only,en,WHO RUNS WITH ME?,success
+13,text-13-1,es,section_text,1,text_only,en,Elena loved to run races.,success
+13,text-13-2,es,section_text,1,text_only,en,He was running against his brother who was crawling.,success
+13,text-13-3,es,section_text,1,text_only,en,I won!!,success
+13,text-13-4,es,section_text,1,text_only,en,He also ran against his dog.,success
+13,text-13-5,es,section_text,1,text_only,en,—I lost!!,success
+13,text-13-6,es,section_text,2,text_only,en,He challenged his turtle.,success
+13,text-13-7,es,section_text,2,text_only,en,I won!!,success
+13,text-13-8,es,section_text,2,text_only,en,And he wasn't afraid to run against his dad.,success
+13,text-13-9,es,section_text,2,text_only,en,—I lost!,success
+13,text-13-10,es,section_text,3,text_only,en,There was nothing in the world he liked more than running races.,success
+13,text-13-11,es,section_text,3,text_only,en,Not even the TV.,success
+13,text-13-12,es,section_text,3,text_only,en,Not even the ice creams.,success
+13,text-13-13,es,section_text,3,text_only,en,Nor the drawn books.,success
+13,text-13-14,es,section_text,4,text_only,en,Maybe that's why Elena pouted when mom and dad told her she had to spend the whole afternoon and night at grandpa Enrique's house.,success
+13,text-13-15,es,section_text,4,text_only,en,"""I don't want to go to grandfather's,"" said Elena.",success
+13,text-13-16,es,section_text,4,text_only,en,I'm bored.,success
+13,text-13-17,es,section_text,4,text_only,en,"""But he has a house with a beautiful garden,"" replied the father.",success
+13,text-13-18,es,section_text,5,text_only,en,"""I'm bored,"" said Elena, pouting whimsically.",success
+13,text-13-19,es,section_text,5,text_only,en,The grandfather can hardly walk.,success
+13,text-13-20,es,section_text,5,text_only,en,"Who is going to play with me? They have no dogs or cats, not even a turtle.",success
+13,text-13-21,es,section_text,5,text_only,en,"""He has some fabulous books,"" said the dad, who was the son of grandfather Enrique and had become sad at Elena's words.",success
+13,text-13-22,es,section_text,6,text_only,en,I like to run.,success
+13,text-13-23,es,section_text,6,text_only,en,And the next-door neighbor is also old.,success
+13,text-13-24,es,section_text,6,text_only,en,"""Don't pay attention to him,"" the mom intervened.",success
+13,text-13-25,es,section_text,6,text_only,en,"Let's go, Elena, to Grandpa Enrique's house and... have a great time!",success
+13,text-13-26,es,section_text,6,text_only,en,Children who never play alone when they are young will become great fools when they grow up.,success
+25,text-25-0,es,chapter_title,0,text_and_images,en,ENCYCLOPEDIA,success
+25,text-25-1,es,section_heading,0,text_and_images,en,THE LIGHT AND THE SHADOW,success
+25,text-25-2,es,section_text,0,text_and_images,en,"The Sun is a star, a ball of explosive gases.",success
+25,text-25-3,es,section_text,0,text_and_images,en,It is the natural source of light and heat for the Earth.,success
+25,text-25-4,es,section_text,0,text_and_images,en,"There are other sources of light that are artificial, such as electric lamps or candles.",success
+25,text-25-5,es,section_text,0,text_and_images,en,Most of the objects we see do not have their own light.,success
+25,text-25-6,es,section_text,0,text_and_images,en,We can see them because they receive it from a luminous body.,success
+25,text-25-7,es,section_heading,1,text_and_images,en,BODIES AND THEIR RELATIONSHIP WITH LIGHT,success
+25,text-25-8,es,section_text,1,text_and_images,en,"Bodies can be classified as opaque, translucent, and transparent.",success
+25,text-25-9,es,section_text,1,text_and_images,en,"Opaque bodies do not allow light to pass through and produce a shadow, as happens with cardboard.",success
+25,text-25-10,es,section_text,1,text_and_images,en,"Translucent bodies allow the passage of light, but it is not possible to see clearly through them.",success
+25,text-25-11,es,section_text,1,text_and_images,en,Some examples are frosted glass and nylon.,success
+25,text-25-12,es,section_text,1,text_and_images,en,"The transparent ones allow the passage of light and can be seen through clearly, just as with the glass of some windows or the lenses' crystal.",success
+25,text-25-13,es,section_heading,2,text_and_images,en,The Shape of the Shadows,success
+25,text-25-14,es,section_text,2,text_and_images,en,The shadows produced by sunlight vary in shape throughout the day.,success
+25,text-25-15,es,section_text,2,text_and_images,en,"In the morning, shadows are elongated, at noon they shorten or disappear, and in the late afternoon, they become elongated again.",success
+25,text-25-16,es,section_text,2,text_and_images,en,Sunlight propagates in a straight line; this explains the deformation of the shadow.,success
+25,text-25-17,es,boxed_text,3,text_only,en,*Text prepared by ProLEE for this notebook from various encyclopedic sources.,success
+15,text-15-1,es,section_text,0,text_only,en,Elena loved to win.,success
+15,text-15-2,es,section_text,0,text_only,en,Ran several races.,success
+15,text-15-3,es,section_text,0,text_only,en,"Every time he lost, some tears made his eyes shine.",success
+15,text-15-4,es,section_text,0,text_only,en,"Every time he won, a huge smile polished his teeth.",success
+15,text-15-5,es,section_text,0,text_only,en,"Later, the grandfather approached and said to him:",success
+15,text-15-6,es,section_text,0,text_only,en,"Now that you have won and lost many times, I will teach you the Great Secret to Defeat the Shadows.",success
+15,text-15-7,es,section_text,0,text_only,en,"Whoever knows it, never again loses a race against them.",success
+15,text-15-8,es,section_text,0,text_only,en,"""Never?"" asked Elena, excitedly.",success
+15,text-15-9,es,section_text,0,text_only,en,"""You will always win,"" assured the grandfather.",success
+15,text-15-10,es,section_text,0,text_only,en,The secret says like this:,success
+15,text-15-11,es,standalone_text,1,text_only,en,GREAT SECRET TO OVERCOME THE SHADOWS,success
+15,text-15-12,es,section_text,1,text_only,en,"When you face the sun,",success
+15,text-15-13,es,section_text,1,text_only,en,Shadow bites at your heels.,success
+15,text-15-14,es,section_text,1,text_only,en,"Run slow or fast,",success
+15,text-15-15,es,section_text,1,text_only,en,You will always arrive first.,success
+15,text-15-16,es,section_text,1,text_only,en,"When the sun is at your back,",success
+15,text-15-17,es,section_text,1,text_only,en,"a shadow stretches before you,",success
+15,text-15-18,es,section_text,1,text_only,en,"and even if you run a lot and hard,",success
+15,text-15-19,es,section_text,1,text_only,en,She will surely win.,success
+15,text-15-20,es,section_text,2,text_only,en,Elena repeated the verses over and over until she learned them by heart.,success
+15,text-15-21,es,section_text,2,text_only,en,"""Now then,"" said the grandfather.",success
+15,text-15-22,es,section_text,2,text_only,en,You are ready to win.,success
+15,text-15-23,es,section_text,2,text_only,en,"Since she knew the Great Secret to Overcome the Shadows, Elena only ran with the sun in front of her.",success
+15,text-15-24,es,section_text,2,text_only,en,"""I won!, I won! and I won!"" he shouted after each race.",success
+15,text-15-25,es,section_text,3,text_only,en,Elena loved to win.,success
+15,text-15-26,es,section_text,3,text_only,en,"In total, the grandfather counted eighty-seven victories.",success
+15,text-15-27,es,section_text,3,text_only,en,Until the night came.,success
+15,text-15-28,es,section_text,3,text_only,en,"And, from one moment to another, all the shadows disappeared from the garden.",success
+15,text-15-29,es,section_text,3,text_only,en,Elena's shadow too.,success
+15,text-15-30,es,section_text,3,text_only,en,"Since she had no one to race against, Elena entered the house.",success
+15,text-15-31,es,section_text,3,text_only,en,The grandfather had cooked a huge potato omelette.,success
+15,text-15-32,es,section_text,3,text_only,en,"But Elena was so tired that after taking five bites, she rested her head on the plate, using the omelette as a pillow.",success
+15,text-15-33,es,section_text,3,text_only,en,Who wouldn't have been sleepy after so many races?,success
+15,text-15-34,es,section_text,3,text_only,en,"In the end, the afternoon at grandfather's house turned out to be the most exciting.",success
+15,text-15-35,es,section_text,3,text_only,en,"When Elena fell asleep, her grandfather went out to the garden.",success
+15,text-15-36,es,section_text,3,text_only,en,"In the beginning, everything was dark.",success
+15,text-15-37,es,section_text,3,text_only,en,"But, suddenly, the moon came out.",success
+15,text-15-38,es,section_text,3,text_only,en,No sooner had its white snout peeked out from behind the trees than all things regained their shadows.,success

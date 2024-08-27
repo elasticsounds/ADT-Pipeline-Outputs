@@ -1,0 +1,41 @@
+page_index,section_id,status,error
+17,0,enqueued,
+17,0,success,
+22,0,enqueued,
+18,0,enqueued,
+26,1,enqueued,
+22,0,success,
+26,2,enqueued,
+26,0,enqueued,
+26,1,success,
+26,2,success,
+24,0,enqueued,
+26,0,success,
+24,0,success,
+18,0,error,"Traceback (most recent call last):
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/async_tasks/adt_generation/task_adt_generate_answers.py"", line 114, in generate_answers_in_adt
+    raise ADTGenerateAnswersException(
+accessible_digital_textbooks.async_tasks.adt_generation.task_adt_generate_answers.ADTGenerateAnswersException: Failed to validate generated answers for page index 18: The number of answers generated does not match the number of answers expected. Expected these answer options: [], but got ['text-18-3', 'text-18-4', 'text-18-5', 'text-18-6', 'text-18-7']. Try generating everything again.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/adt_generation.py"", line 226, in callback_adt_generate_answers
+    adt_answers = adt_future.result()
+                  ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.11/concurrent/futures/thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/accesssible_digital_textbooks/accessible_digital_textbooks/async_tasks/adt_generation/task_adt_generate_answers.py"", line 131, in generate_answers_in_adt
+    raise ADTGenerateAnswersException(
+accessible_digital_textbooks.async_tasks.adt_generation.task_adt_generate_answers.ADTGenerateAnswersException: Failed to generate ADT ANSWERS from page index 18
+Task input: page=page 18 of accessible_digital_textbooks/few_shot/adt_examples/textbooks/cuaderno3.pdf html_path='c3_10_30_web_assets_result/intermediate_outputs/18_0_adt.html' page_index=18 section_id=0 section_type=<SectionType.activity_fill_in_the_blank: 'activity_fill_in_the_blank'>
+Client response: ParsedChatCompletion[ActivityFillInTheBlankAnswersResponseFormat](id='chatcmpl-A0n7NasOiPhqnqKlG38jWHc4vUlkA', choices=[ParsedChoice[ActivityFillInTheBlankAnswersResponseFormat](finish_reason='stop', index=0, logprobs=None, message=ParsedChatCompletionMessage[ActivityFillInTheBlankAnswersResponseFormat](content='{""reasoning"":""The exercise involves completing a story about Elena\'s stay at her grandfather\'s house. Each blank requires details about her experiences there."",""answers"":[{""option"":""text-18-3"",""answer"":""Elena encontró un rincón lleno de libros antiguos.""},{""option"":""text-18-4"",""answer"":""dibujar y contar historias.""},{""option"":""text-18-5"",""answer"":""y se maravilló con las formas.""},{""option"":""text-18-6"",""answer"":""sugirió salir a jugar.""},{""option"":""text-18-7"",""answer"":""comprendió la magia de las sombras.""}]}', refusal=None, role='assistant', function_call=None, tool_calls=[], parsed=ActivityFillInTheBlankAnswersResponseFormat(reasoning=""The exercise involves completing a story about Elena's stay at her grandfather's house. Each blank requires details about her experiences there."", answers=[ActivityFillIntheBlankAnswerData(option='text-18-3', answer='Elena encontró un rincón lleno de libros antiguos.'), ActivityFillIntheBlankAnswerData(option='text-18-4', answer='dibujar y contar historias.'), ActivityFillIntheBlankAnswerData(option='text-18-5', answer='y se maravilló con las formas.'), ActivityFillIntheBlankAnswerData(option='text-18-6', answer='sugirió salir a jugar.'), ActivityFillIntheBlankAnswerData(option='text-18-7', answer='comprendió la magia de las sombras.')])))], created=1724752173, model='gpt-4o-2024-08-06', object='chat.completion', service_tier=None, system_fingerprint='fp_845eaabc1f', usage=CompletionUsage(completion_tokens=129, prompt_tokens=3334, total_tokens=3463))
+"
+21,1,enqueued,
+21,1,success,

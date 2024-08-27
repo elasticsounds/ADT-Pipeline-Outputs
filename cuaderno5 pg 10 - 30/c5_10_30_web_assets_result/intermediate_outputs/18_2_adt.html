@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>¿Cuáles son las relaciones?</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"></script>
+<!-- Mathjax script to use for rendering math. -->
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<meta content="18_2" name="page-section-id"/></head>
+<body class="bg-gray-100 lg:p-5 md:p-5 sm:p-0 mb-12 font-sans text-lg">
+<!-- The main interface components -->
+<!-- Contains the bottom bar, next back buttons, submit button, right sidebar, ai language, eli5 and tts toggles -->
+<div id="interface-container"></div>
+<!-- Contains the left nav bar, html page list -->
+<div id="nav-container"></div>
+<!-- The main content container -->
+<main class="container interactive content border-t-4 border-green-700 mx-auto bg-white mt-auto max-w-5xl p-5 rounded-lg shadow-lg lg:px-24 md:px-12 sm:px-6" id="content">
+<h1 class="text-3xl font-bold text-left mb-4" role="heading" tabindex="0">¿Cuáles son las relaciones?</h1>
+<!-- THERE MUST ALWAYS BE A SECTION TAG -->
+<section data-id="sectioneli5-18-2" data-section-type="activity_open_ended_answer" role="activity">
+<div class="flex flex-wrap mt-4 mb-8">
+<div class="w-full flex justify-around">
+<!-- Placeholder images can be replaced with real images -->
+<div class="flex flex-col items-center">
+<div class="bg-gray-300 w-72 h-48 mb-2 flex items-center justify-center">Imagen A</div>
+<input aria-label="Select Image A" type="checkbox"/>
+</div>
+<div class="flex flex-col items-center">
+<div class="bg-gray-300 w-72 h-48 mb-2 flex items-center justify-center">Imagen B</div>
+<input aria-label="Select Image B" type="checkbox"/>
+</div>
+</div>
+</div>
+<p class="text-lg mb-2"><i class="fas fa-pen-to-square text-green-700 mr-2"></i><span data-id="text-18-18">Justifica tu elección.</span></p>
+<p class="text-md mb-4" data-id="text-18-19">Completa una de las dos explicaciones.</p>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<div>
+<label class="font-semibold block mb-2" for="elegi-text">Elegí la imagen porque</label>
+<textarea class="w-full p-4 border border-gray-300 rounded resize-none" id="elegi-text" placeholder="Escribe tu razonamiento aquí..." rows="5"></textarea>
+</div>
+<div>
+<label class="font-semibold block mb-2" for="descarte-text">Descarté la imagen porque</label>
+<textarea class="w-full p-4 border border-gray-300 rounded resize-none" id="descarte-text" placeholder="Escribe tu razonamiento aquí..." rows="5"></textarea>
+</div>
+</div>
+</section>
+</main>
+</body>
+</html>
