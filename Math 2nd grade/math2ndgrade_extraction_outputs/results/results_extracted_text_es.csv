@@ -1,0 +1,167 @@
+page_index,id,language_code_orig,type,section_id,section_type,language_code,text,status
+12,text-12-0,en,section_heading,0.0,text_only,es,Lección 3: Sumar o Restar para Resolver Problemas de Historia,success
+12,text-12-1,en,instruction_text,0.0,text_only,es,Resolvamos problemas de historia.,success
+12,text-12-2,en,section_heading,1.0,activity_open_ended_answer,es,Calentamiento: ¿Cuántos ves? Diagrama de base diez,success
+12,text-12-3,en,instruction_text,1.0,activity_open_ended_answer,es,¿Cuántos ves? ¿Cómo los ves?,success
+23,text-23-0,en,activity_number,0.0,activity_open_ended_answer,es,Tyler usó ecuaciones para mostrar su pensamiento.,success
+23,text-23-1,en,math,0.0,activity_open_ended_answer,es,82 - 9,success
+23,text-23-2,en,math,0.0,activity_open_ended_answer,es,82 = 70 + 12,success
+23,text-23-3,en,math,0.0,activity_open_ended_answer,es,12 - 9 = 3,success
+23,text-23-4,en,math,0.0,activity_open_ended_answer,es,70 + 3 = 73,success
+23,text-23-5,en,instruction_text,0.0,activity_open_ended_answer,es,Diego dice que el trabajo de Tyler coincide con su diagrama.,success
+23,text-23-6,en,instruction_text,0.0,activity_open_ended_answer,es,Elena dice que el trabajo de Tyler coincide con su diagrama.,success
+23,text-23-7,en,instruction_text,0.0,activity_open_ended_answer,es,¿Con quién estás de acuerdo? Explica.,success
+25,text-25-0,en,section_heading,1.0,activity_open_ended_answer,es,7.1: ¿Cuál es la diferencia?,success
+25,text-25-1,en,instruction_text,1.0,activity_open_ended_answer,es,Encuentra el valor de cada diferencia.,success
+25,text-25-2,en,instruction_text,1.0,activity_open_ended_answer,es,Muestra tu pensamiento.,success
+25,text-25-3,en,instruction_text,1.0,activity_open_ended_answer,es,Usa bloques si eso ayuda.,success
+25,text-25-4,en,activity_number,0.0,activity_open_ended_answer,es,1.,success
+25,text-25-5,en,math,0.0,activity_open_ended_answer,es,46 - 28 =,success
+25,text-25-6,en,activity_input_placeholder_text,0.0,activity_open_ended_answer,es,______,success
+25,text-25-7,en,activity_number,1.0,activity_open_ended_answer,es,2.,success
+25,text-25-8,en,math,1.0,activity_open_ended_answer,es,93 - 54 =,success
+25,text-25-9,en,activity_input_placeholder_text,1.0,activity_open_ended_answer,nan,nan,translation_error
+16,text-16-0,en,chapter_title,0.0,text_only,es,Lección 4: Centro Día 1,success
+16,text-16-1,en,instruction_text,0.0,text_only,es,Juguemos juegos para practicar sumas y restas.,success
+16,text-16-2,en,section_heading,1.0,activity_other,es,Calentamiento: Charla de Números: Resta de 2 Dígitos,success
+16,text-16-3,en,instruction_text,1.0,activity_other,es,Encuentra el valor de cada expresión mentalmente.,success
+16,text-16-4,en,math,1.0,activity_other,es,6 - 3,success
+16,text-16-5,en,math,1.0,activity_other,es,66 - 3,success
+16,text-16-6,en,math,1.0,activity_other,es,66 - 30,success
+16,text-16-7,en,math,1.0,activity_other,es,66 - 33,success
+19,text-19-0,en,section_heading,1.0,activity_other,es,5.2: Resta con bloques de base diez,success
+19,text-19-1,en,section_text,0.0,activity_other,es,Diego comenzó con 5 decenas y 5 unidades.,success
+19,text-19-2,en,instruction_text,0.0,activity_other,es,Representa los bloques de Diego con los bloques de base diez.,success
+19,text-19-3,en,instruction_text,0.0,activity_other,es,¿Cuántos tiene él?,success
+19,text-19-4,en,section_text,1.0,activity_other,es,Diego se llevó 2 decenas.,success
+19,text-19-5,en,instruction_text,1.0,activity_other,es,a. Dibuja una representación para mostrar qué pasó con los bloques de Diego.,success
+19,text-19-6,en,instruction_text,1.0,activity_other,es,b. Escribe una ecuación para mostrar cuántos tiene Diego ahora.,success
+18,text-18-0,en,section_heading,0.0,activity_open_ended_answer,es,¿Cómo encuentras el valor?,success
+18,text-18-1,en,instruction_text,0.0,activity_open_ended_answer,es,Encuentra el valor de,success
+18,text-18-2,en,math,0.0,activity_open_ended_answer,es,82 - 9,success
+18,text-18-3,en,instruction_text,0.0,activity_open_ended_answer,es,Muestra tu pensamiento.,success
+18,text-18-4,en,instruction_text,0.0,activity_open_ended_answer,es,Usa bloques si ayuda.,success
+15,text-15-0,en,section_heading,0.0,text_and_images,es,Resumen de la sección,success
+15,text-15-1,en,section_text,0.0,text_and_images,es,Resumen de la Sección,success
+15,text-15-2,en,section_text,0.0,text_and_images,es,"En esta sección, utilizamos la suma y la resta para comparar y encontrar valores desconocidos.",success
+15,text-15-3,en,section_text,0.0,text_and_images,es,Usamos diferentes herramientas para mostrar cómo sumar y restar números de dos dígitos.,success
+15,text-15-4,en,section_text,0.0,text_and_images,es,Aprendimos que cuando restas 2 números de dos cifras puedes pensar en restar las decenas de las decenas y las unidades de las unidades.,success
+15,text-15-5,en,math,0.0,text_and_images,es,50 - 30 = 20,success
+15,text-15-6,en,math,0.0,text_and_images,es,5 - 4 = 1,success
+15,text-15-7,en,math,0.0,text_and_images,es,20 + 1 = 21,success
+11,text-11-0,en,section_heading,1.0,activity_fill_in_the_blank,es,"Tú ve por este camino, yo iré por ese camino.",success
+11,text-11-1,en,section_text,0.0,activity_fill_in_the_blank,es,Han y Mai usan bloques para encontrar el número que hace verdadera la ecuación.,success
+11,text-11-2,en,math,0.0,activity_fill_in_the_blank,es,17 + \_ = 48,success
+11,text-11-3,en,instruction_text,0.0,activity_fill_in_the_blank,es,1. Han empieza usando bloques para mostrar 17.,success
+11,text-11-4,en,instruction_text,0.0,activity_fill_in_the_blank,es,Muéstrale cómo podría encontrar el número que hace la ecuación verdadera.,success
+11,text-11-5,en,instruction_text,0.0,activity_fill_in_the_blank,es,2. Mai comienza usando bloques para mostrar 48.,success
+11,text-11-6,en,instruction_text,0.0,activity_fill_in_the_blank,es,Muestra cómo ella podría encontrar el número que hace verdadera la ecuación.,success
+11,text-11-7,en,instruction_text,1.0,activity_fill_in_the_blank,es,Intenta este por tu cuenta.,success
+11,text-11-8,en,instruction_text,1.0,activity_fill_in_the_blank,es,Elija quién comenzará con 21 y quién comenzará con 96.,success
+11,text-11-9,en,math,1.0,activity_fill_in_the_blank,es,21 + \_ = 96,success
+11,text-11-10,en,instruction_text,1.0,activity_fill_in_the_blank,es,4. Muéstrale a tu compañero cómo encontraste el número que hace que la ecuación sea verdadera.,success
+28,text-28-0,en,section_heading,0.0,activity_open_ended_answer,es,¿No te falta algo?,success
+28,text-28-1,en,section_text,0.0,activity_open_ended_answer,es,Lin y Clare hicieron diagramas de base-diez para encontrar el valor de,success
+28,text-28-2,en,math,0.0,activity_open_ended_answer,es,71 - 56.,success
+28,text-28-3,en,image_label,0.0,activity_open_ended_answer,es,Lin,success
+28,text-28-4,en,image_label,0.0,activity_open_ended_answer,es,Clare,success
+28,text-28-5,en,instruction_text,0.0,activity_open_ended_answer,es,1. ¿Qué notas acerca de su trabajo? ¿Qué te preguntas?,success
+21,text-21-0,en,section_heading,0.0,foreword,es,Lección 6: Comparar Métodos para la Resta,success
+21,text-21-1,en,section_text,0.0,foreword,es,Comparemos métodos de resta.,success
+21,text-21-2,en,instruction_text,3.0,activity_true_false,es,Calentamiento: Verdadero o Falso: ¿Cuántas Decenas? ¿Cuántas Unidades?,success
+21,text-21-3,en,instruction_text,3.0,activity_true_false,es,Decide si cada afirmación es verdadera o falsa. Prepárate para explicar tu razonamiento.,success
+21,text-21-4,en,math,1.0,activity_true_false,es,64 = 60 + 4,success
+21,text-21-5,en,math,2.0,activity_true_false,es,64 = 50 + 14,success
+21,text-21-6,en,math,3.0,activity_true_false,es,64 = 30 + 24,success
+17,text-17-0,en,section_heading,0.0,text_only,es,Lección 5: Resta a tu manera,success
+17,text-17-1,en,instruction_text,0.0,text_only,es,Restemos números de un dígito de números de dos dígitos.,success
+17,text-17-2,en,section_heading,1.0,activity_other,es,Calentamiento: Conversación sobre Números: Resta un Poco Más,success
+17,text-17-3,en,instruction_text,1.0,activity_other,es,Encuentra el valor de cada expresión mentalmente.,success
+17,text-17-4,en,math,1.0,activity_other,es,17 - 7,success
+17,text-17-5,en,math,1.0,activity_other,es,17 - 8,success
+17,text-17-6,en,math,1.0,activity_other,es,26 - 6,success
+17,text-17-7,en,math,1.0,activity_other,es,26 - 8,success
+14,text-14-0,en,chapter_title,2.0,activity_open_ended_answer,es,Más diversión en el zoológico,success
+14,text-14-1,en,instruction_text,2.0,activity_open_ended_answer,es,Resuelve cada problema de historia. Muestra tu pensamiento.,success
+14,text-14-2,en,activity_number,0.0,activity_open_ended_answer,es,1,success
+14,text-14-3,en,section_text,0.0,activity_open_ended_answer,es,Había 65 estudiantes en la casa de los monos.,success
+14,text-14-4,en,section_text,0.0,activity_open_ended_answer,es,23 se fueron a ver a los hipopótamos.,success
+14,text-14-5,en,section_text,0.0,activity_open_ended_answer,es,¿Cuántos quedan en la casa de los monos?,success
+14,text-14-6,en,activity_number,1.0,activity_open_ended_answer,es,2.,success
+14,text-14-7,en,section_text,1.0,activity_open_ended_answer,es,58 estudiantes fueron a ver los osos.,success
+14,text-14-8,en,section_text,1.0,activity_open_ended_answer,es,27 estudiantes fueron a ver los leones.,success
+14,text-14-9,en,section_text,1.0,activity_open_ended_answer,es,¿Cuántos estudiantes más fueron a ver los osos que los leones?,success
+14,text-14-10,en,activity_number,2.0,activity_open_ended_answer,es,3.,success
+14,text-14-11,en,section_text,2.0,activity_open_ended_answer,es,Algunos pájaros estaban en jaulas fuera de la pajarera.,success
+14,text-14-12,en,section_text,2.0,activity_open_ended_answer,es,Había 34 pájaros dentro de la casa de pájaros.,success
+14,text-14-13,en,section_text,2.0,activity_open_ended_answer,es,"En total, había 88 pájaros.",success
+14,text-14-14,en,section_text,2.0,activity_open_ended_answer,es,¿Cuántos había en las jaulas afuera?,success
+22,text-22-0,en,section_heading,0.0,activity_open_ended_answer,es,6.1: Diferentes maneras de descomponer,success
+22,text-22-1,en,section_text,0.0,activity_open_ended_answer,es,Diego y Elena dibujaron diagramas de base diez para encontrar el valor de,success
+22,text-22-2,en,math,0.0,activity_open_ended_answer,es,82 - 9,success
+22,text-22-3,en,image_label,0.0,activity_open_ended_answer,es,Diego,success
+22,text-22-4,en,image_label,0.0,activity_open_ended_answer,es,Elena,success
+22,text-22-5,en,instruction_text,0.0,activity_open_ended_answer,es,1. Compara el trabajo de Deigo con el de Elena.,success
+22,text-22-6,en,instruction_text,0.0,activity_open_ended_answer,es,a. ¿Qué es lo mismo?,success
+22,text-22-7,en,instruction_text,0.0,activity_open_ended_answer,es,b. ¿Qué es diferente?,success
+30,text-30-1,en,section_heading,0.0,text_and_images,es,8.2: Diferentes formas de descomponer,success
+30,text-30-2,en,section_text,0.0,text_and_images,es,Andre encontró el valor de,success
+30,text-30-3,en,math,0.0,text_and_images,es,65 - 28,success
+30,text-30-4,en,section_text,0.0,text_and_images,es,Él hizo un diagrama en base diez y escribió ecuaciones para mostrar su pensamiento.,success
+30,text-30-5,en,math,0.0,text_and_images,es,65 - 28,success
+30,text-30-6,en,math,0.0,text_and_images,es,65 - 20 = 45,success
+30,text-30-7,en,math,0.0,text_and_images,es,45 = 30 + 15,success
+30,text-30-8,en,math,0.0,text_and_images,es,15 - 8 = 7,success
+30,text-30-9,en,math,0.0,text_and_images,es,30 + 7 = 37,success
+30,text-30-10,en,instruction_text,1.0,activity_open_ended_answer,es,¿Crees que el método de Andre es más parecido al de Clare o al de Lin?,success
+30,text-30-11,en,instruction_text,1.0,activity_open_ended_answer,es,Explicar,success
+30,text-30-12,en,instruction_text,2.0,activity_open_ended_answer,es,2. Encuentra el valor de cada diferencia.,success
+30,text-30-13,en,instruction_text,2.0,activity_open_ended_answer,es,Muestra tu pensamiento.,success
+30,text-30-14,en,math,2.0,activity_open_ended_answer,es,a. 34 - 18,success
+24,text-24-0,en,section_heading,0.0,text_only,es,Lección 7: Restar dos dígitos,success
+24,text-24-1,en,section_text,0.0,text_only,es,Vamos a restar con números de dos dígitos.,success
+24,text-24-2,en,section_heading,1.0,activity_open_ended_answer,es,Calentamiento: ¿Cuántos ves? Componer un Diez,success
+24,text-24-3,en,instruction_text,1.0,activity_open_ended_answer,es,¿Cuántos ves? ¿Cómo los ves?,success
+26,text-26-0,en,section_heading,0.0,activity_other,es,7.2: Usa bloques para quitar,success
+26,text-26-1,en,instruction_text,0.0,activity_other,es,1. Elige una carta de jugador. Mezcla las otras cartas y colócalas boca abajo.,success
+26,text-26-2,en,activity_input_placeholder_text,0.0,activity_other,es,Nombre del jugador: ________________________________,success
+26,text-26-3,en,instruction_text,0.0,activity_other,es,2. Representa tu número inicial con bloques de base diez.,success
+26,text-26-4,en,activity_input_placeholder_text,0.0,activity_other,es,Número inicial: ____________________________,success
+26,text-26-5,en,instruction_text,0.0,activity_other,es,3. Tomen turnos para elegir una carta. Lean la carta al grupo.,success
+26,text-26-6,en,instruction_text,0.0,activity_other,es,4. Escucha el nombre de tu jugador. Usa los bloques para mostrar el cambio.,success
+26,text-26-7,en,instruction_text,0.0,activity_other,es,5. Explica tu pensamiento a tu grupo.,success
+26,text-26-8,en,instruction_text,0.0,activity_other,es,6. Escribe una ecuación para mostrar el nuevo número.,success
+26,text-26-9,en,activity_input_placeholder_text,0.0,activity_other,es,Ecuación 1: ________________________________,success
+26,text-26-10,en,activity_input_placeholder_text,0.0,activity_other,es,Ecuación 2: ________________________________,success
+26,text-26-11,en,activity_input_placeholder_text,0.0,activity_other,es,Mi jugador ahora tiene ____________ decenas y ____________ unidades.,success
+26,text-26-12,en,activity_input_placeholder_text,0.0,activity_other,es,Número final: _____________________________,success
+26,text-26-13,en,instruction_text,0.0,activity_other,es,Comparte este número con tu grupo.,success
+26,text-26-14,en,instruction_text,0.0,activity_other,es,7. Escribe una ecuación para mostrar la suma de los números finales en tu grupo.,success
+29,text-29-0,en,instruction_text,0.0,activity_open_ended_answer,es,Lin y Clare cada una escribió ecuaciones para mostrar su pensamiento.,success
+29,text-29-1,en,instruction_text,0.0,activity_open_ended_answer,es,Explica cómo sabes qué grupo de ecuaciones corresponde al trabajo de Lin y cuál corresponde al trabajo de Clare.,success
+29,text-29-3,en,math,0.0,activity_open_ended_answer,es,71 - 50 = 21,success
+29,text-29-4,en,math,0.0,activity_open_ended_answer,es,21 = 10 + 11,success
+29,text-29-5,en,math,0.0,activity_open_ended_answer,es,11 - 6 = 5,success
+29,text-29-6,en,math,0.0,activity_open_ended_answer,es,10 + 5 = 15,success
+29,text-29-8,en,math,0.0,activity_open_ended_answer,es,71 = 60 + 11,success
+29,text-29-9,en,math,0.0,activity_open_ended_answer,es,11 - 6 = 5,success
+29,text-29-10,en,math,0.0,activity_open_ended_answer,es,60 - 50 = 10,success
+29,text-29-11,en,math,0.0,activity_open_ended_answer,es,10 + 5 = 15,success
+29,text-29-12,en,instruction_text,1.0,activity_open_ended_answer,es,3. ¿En qué se parecen los métodos de Lin y Clare? ¿En qué se diferencian?,success
+27,text-27-0,en,section_heading,0.0,text_only,es,Lección 8: Diferentes Maneras de Descomponer,success
+27,text-27-1,en,instruction_text,0.0,text_only,es,Comparemos diferentes maneras de restar.,success
+27,text-27-2,en,section_heading,1.0,activity_other,es,Charla de Números: Múltiplos de 10,success
+27,text-27-3,en,instruction_text,1.0,activity_other,es,Encuentra el valor de cada expresión mentalmente.,success
+27,text-27-4,en,math,1.0,activity_other,es,18 + 10 + 10,success
+27,text-27-5,en,math,1.0,activity_other,es,18 + 20 + 10,success
+27,text-27-6,en,math,1.0,activity_other,es,38 - 20,success
+27,text-27-7,en,math,1.0,activity_other,es,48 - 30,success
+13,text-13-0,en,section_heading,0.0,text_and_images,es,3.1: Diversión en el zoológico,success
+13,text-13-1,en,section_text,0.0,text_and_images,es,Algunos estudiantes estaban esperando en el autobús para ir al zoológico.,success
+13,text-13-2,en,section_text,0.0,text_and_images,es,Luego subieron 34 estudiantes más.,success
+13,text-13-3,en,section_text,0.0,text_and_images,es,Ahora hay 55 estudiantes en el autobús.,success
+13,text-13-4,en,section_text,0.0,text_and_images,es,¿Cuántos estudiantes había en el autobús al principio?,success
+20,text-20-0,en,instruction_text,0.0,activity_other,es,"3. Luego, Diego se llevó 8 unidades.",success
+20,text-20-1,en,instruction_text,0.0,activity_other,es,a. Dibuja un diagrama para mostrar lo que le pasó a los bloques de Diego.,success
+20,text-20-2,en,instruction_text,0.0,activity_other,es,b. Escribe una ecuación para mostrar cuántos tiene Diego ahora.,success
+20,text-20-3,en,instruction_text,0.0,activity_other,es,Esté preparado para explicar su razonamiento.,success

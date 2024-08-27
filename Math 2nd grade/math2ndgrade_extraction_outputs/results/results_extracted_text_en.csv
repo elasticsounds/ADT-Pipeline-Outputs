@@ -1,0 +1,167 @@
+page_index,id,language_code,text,type,section_id,section_type,translation_target
+11,text-11-0,en,"2.2: You Go This Way, I'll Go That Way",section_heading,1.0,activity_fill_in_the_blank,es
+11,text-11-2,en,17 + \_ = 48,math,0.0,activity_fill_in_the_blank,es
+11,text-11-3,en,1. Han starts by using blocks to show 17.,instruction_text,0.0,activity_fill_in_the_blank,es
+11,text-11-4,en,Show how he could find the number that makes the equation true.,instruction_text,0.0,activity_fill_in_the_blank,es
+11,text-11-5,en,2. Mai starts by using blocks to show 48.,instruction_text,0.0,activity_fill_in_the_blank,es
+11,text-11-6,en,Show how she could find the number that makes the equation true.,instruction_text,0.0,activity_fill_in_the_blank,es
+11,text-11-7,en,3. Try this one on your own.,instruction_text,1.0,activity_fill_in_the_blank,es
+11,text-11-8,en,Choose who will start with 21 and who will start with 96.,instruction_text,1.0,activity_fill_in_the_blank,es
+11,text-11-9,en,21 + \_ = 96,math,1.0,activity_fill_in_the_blank,es
+11,text-11-10,en,4. Show your partner how you found the number that makes the equation true.,instruction_text,1.0,activity_fill_in_the_blank,es
+11,text-11-1,en,Han and Mai use blocks to find the number that makes the equation true.,section_text,0.0,activity_fill_in_the_blank,es
+12,text-12-0,en,Lesson 3: Add or Subtract to Solve Story Problems,section_heading,0.0,text_only,es
+12,text-12-1,en,Let's solve story problems.,instruction_text,0.0,text_only,es
+12,text-12-2,en,Warm-up: How Many Do You See: Base-ten Diagram,section_heading,1.0,activity_open_ended_answer,es
+12,text-12-3,en,How many do you see? How do you see them?,instruction_text,1.0,activity_open_ended_answer,es
+13,text-13-4,en,How many students were on the bus at first?,section_text,0.0,text_and_images,es
+13,text-13-3,en,Now there are 55 students on the bus.,section_text,0.0,text_and_images,es
+13,text-13-2,en,Then 34 more students got on.,section_text,0.0,text_and_images,es
+13,text-13-1,en,Some students were waiting on the bus to go to the zoo.,section_text,0.0,text_and_images,es
+13,text-13-0,en,3.1: Fun at the Zoo,section_heading,0.0,text_and_images,es
+14,text-14-11,en,Some birds were in cages outside of the bird house.,section_text,2.0,activity_open_ended_answer,es
+14,text-14-14,en,How many were in the cages outside?,section_text,2.0,activity_open_ended_answer,es
+14,text-14-1,en,Solve each story problem. Show your thinking.,instruction_text,2.0,activity_open_ended_answer,es
+14,text-14-2,en,1.,activity_number,0.0,activity_open_ended_answer,es
+14,text-14-3,en,There were 65 students in the monkey house.,section_text,0.0,activity_open_ended_answer,es
+14,text-14-4,en,23 left to see the hippos.,section_text,0.0,activity_open_ended_answer,es
+14,text-14-5,en,How many are still in the monkey house?,section_text,0.0,activity_open_ended_answer,es
+14,text-14-6,en,2.,activity_number,1.0,activity_open_ended_answer,es
+14,text-14-13,en,"In all, there were 88 birds.",section_text,2.0,activity_open_ended_answer,es
+14,text-14-8,en,27 students went to see the lions.,section_text,1.0,activity_open_ended_answer,es
+14,text-14-9,en,How many more students went to see the bears than the lions?,section_text,1.0,activity_open_ended_answer,es
+14,text-14-10,en,3.,activity_number,2.0,activity_open_ended_answer,es
+14,text-14-12,en,34 birds were inside the bird house.,section_text,2.0,activity_open_ended_answer,es
+14,text-14-7,en,58 students went to see the bears.,section_text,1.0,activity_open_ended_answer,es
+14,text-14-0,en,3.2: More Fun at the Zoo,chapter_title,2.0,activity_open_ended_answer,es
+15,text-15-3,en,We used different tools to show how to add and subtract two-digit numbers.,section_text,0.0,text_and_images,es
+15,text-15-7,en,20 + 1 = 21,math,0.0,text_and_images,es
+15,text-15-0,en,Section Summary,section_heading,0.0,text_and_images,es
+15,text-15-1,en,Section Summary,section_text,0.0,text_and_images,es
+15,text-15-2,en,"In this section, we used addition and subtraction to compare and to find unknown values.",section_text,0.0,text_and_images,es
+15,text-15-6,en,5 - 4 = 1,math,0.0,text_and_images,es
+15,text-15-4,en,We learned that when you subtract 2 two-digit numbers you can think about subtracting tens from tens and ones from ones.,section_text,0.0,text_and_images,es
+15,text-15-5,en,50 - 30 = 20,math,0.0,text_and_images,es
+16,text-16-4,en,6 - 3,math,1.0,activity_other,es
+16,text-16-3,en,Find the value of each expression mentally.,instruction_text,1.0,activity_other,es
+16,text-16-2,en,Warm-up: Number Talk: Subtract 2 Digits,section_heading,1.0,activity_other,es
+16,text-16-1,en,Let's play games to practice adding and subtracting.,instruction_text,0.0,text_only,es
+16,text-16-0,en,Lesson 4: Center Day 1,chapter_title,0.0,text_only,es
+16,text-16-7,en,66 - 33,math,1.0,activity_other,es
+16,text-16-6,en,66 - 30,math,1.0,activity_other,es
+16,text-16-5,en,66 - 3,math,1.0,activity_other,es
+17,text-17-7,en,26 - 8,math,1.0,activity_other,es
+17,text-17-6,en,26 - 6,math,1.0,activity_other,es
+17,text-17-5,en,17 - 8,math,1.0,activity_other,es
+17,text-17-4,en,17 - 7,math,1.0,activity_other,es
+17,text-17-3,en,Find the value of each expression mentally.,instruction_text,1.0,activity_other,es
+17,text-17-2,en,Warm-up: Number Talk: Subtract a Little More,section_heading,1.0,activity_other,es
+17,text-17-0,en,Lesson 5: Subtract Your Way,section_heading,0.0,text_only,es
+17,text-17-1,en,Let's subtract one-digit numbers from two-digit numbers.,instruction_text,0.0,text_only,es
+18,text-18-4,en,Use blocks if it helps.,instruction_text,0.0,activity_open_ended_answer,es
+18,text-18-3,en,Show your thinking.,instruction_text,0.0,activity_open_ended_answer,es
+18,text-18-2,en,82 - 9,math,0.0,activity_open_ended_answer,es
+18,text-18-1,en,Find the value of,instruction_text,0.0,activity_open_ended_answer,es
+18,text-18-0,en,5.1: How Do You Find the Value?,section_heading,0.0,activity_open_ended_answer,es
+19,text-19-0,en,5.2: Subtract with Base-ten Blocks,section_heading,1.0,activity_other,es
+19,text-19-1,en,1. Diego started with 5 tens and 5 ones.,section_text,0.0,activity_other,es
+19,text-19-2,en,Represent Diego’s blocks with the base-ten blocks.,instruction_text,0.0,activity_other,es
+19,text-19-4,en,2. Diego took away 2 tens.,section_text,1.0,activity_other,es
+19,text-19-3,en,How many does he have?,instruction_text,0.0,activity_other,es
+19,text-19-6,en,b. Write an equation to show how many Diego has now.,instruction_text,1.0,activity_other,es
+19,text-19-5,en,a. Draw a representation to show what happened to Diego’s blocks.,instruction_text,1.0,activity_other,es
+20,text-20-1,en,a. Draw a diagram to show what happened to Diego’s blocks.,instruction_text,0.0,activity_other,es
+20,text-20-0,en,"3. Then, Diego took away 8 ones.",instruction_text,0.0,activity_other,es
+20,text-20-2,en,b. Write an equation to show how many Diego has now.,instruction_text,0.0,activity_other,es
+20,text-20-3,en,Be prepared to explain your reasoning.,instruction_text,0.0,activity_other,es
+21,text-21-5,en,64 = 50 + 14,math,2.0,activity_true_false,es
+21,text-21-4,en,64 = 60 + 4,math,1.0,activity_true_false,es
+21,text-21-3,en,Decide if each statement is true or false. Be prepared to explain your reasoning.,instruction_text,3.0,activity_true_false,es
+21,text-21-2,en,Warm-up: True or False: How many Tens? How many Ones?,instruction_text,3.0,activity_true_false,es
+21,text-21-1,en,Let’s compare subtraction methods.,section_text,0.0,foreword,es
+21,text-21-0,en,Lesson 6: Compare Methods for Subtraction,section_heading,0.0,foreword,es
+21,text-21-6,en,64 = 30 + 24,math,3.0,activity_true_false,es
+22,text-22-7,en,b. What is different?,instruction_text,0.0,activity_open_ended_answer,es
+22,text-22-6,en,a. What is the same?,instruction_text,0.0,activity_open_ended_answer,es
+22,text-22-5,en,1. Compare Deigo’s work to Elena’s.,instruction_text,0.0,activity_open_ended_answer,es
+22,text-22-4,en,Elena,image_label,0.0,activity_open_ended_answer,es
+22,text-22-2,en,82 - 9.,math,0.0,activity_open_ended_answer,es
+22,text-22-1,en,Diego and Elena drew base-ten diagrams to find the value of,section_text,0.0,activity_open_ended_answer,es
+22,text-22-0,en,6.1: Different Ways to Decompose,section_heading,0.0,activity_open_ended_answer,es
+22,text-22-3,en,Diego,image_label,0.0,activity_open_ended_answer,es
+23,text-23-0,en,2. Tyler used equations to show his thinking.,activity_number,0.0,activity_open_ended_answer,es
+23,text-23-1,en,82 - 9,math,0.0,activity_open_ended_answer,es
+23,text-23-2,en,82 = 70 + 12,math,0.0,activity_open_ended_answer,es
+23,text-23-7,en,Who do you agree with? Explain.,instruction_text,0.0,activity_open_ended_answer,es
+23,text-23-6,en,Elena says Tyler’s work matches her diagram.,instruction_text,0.0,activity_open_ended_answer,es
+23,text-23-5,en,Diego says Tyler’s work matches his diagram.,instruction_text,0.0,activity_open_ended_answer,es
+23,text-23-3,en,12 - 9 = 3,math,0.0,activity_open_ended_answer,es
+23,text-23-4,en,70 + 3 = 73,math,0.0,activity_open_ended_answer,es
+24,text-24-1,en,Let's subtract with two-digit numbers.,section_text,0.0,text_only,es
+24,text-24-3,en,How many do you see? How do you see them?,instruction_text,1.0,activity_open_ended_answer,es
+24,text-24-2,en,Warm-up: How Many Do You See: Compose a Ten,section_heading,1.0,activity_open_ended_answer,es
+24,text-24-0,en,Lesson 7: Subtract Two Digits,section_heading,0.0,text_only,es
+25,text-25-4,en,1.,activity_number,0.0,activity_open_ended_answer,es
+25,text-25-3,en,Use blocks if it helps.,instruction_text,1.0,activity_open_ended_answer,es
+25,text-25-2,en,Show your thinking.,instruction_text,1.0,activity_open_ended_answer,es
+25,text-25-1,en,Find the value of each difference.,instruction_text,1.0,activity_open_ended_answer,es
+25,text-25-0,en,7.1: What's the Difference?,section_heading,1.0,activity_open_ended_answer,es
+25,text-25-5,en,46 - 28 =,math,0.0,activity_open_ended_answer,es
+25,text-25-6,en,______,activity_input_placeholder_text,0.0,activity_open_ended_answer,es
+25,text-25-8,en,93 - 54 =,math,1.0,activity_open_ended_answer,es
+25,text-25-7,en,2.,activity_number,1.0,activity_open_ended_answer,es
+25,text-25-9,en,______,activity_input_placeholder_text,1.0,activity_open_ended_answer,es
+26,text-26-11,en,My player now has ____________ tens and ____________ones.,activity_input_placeholder_text,0.0,activity_other,es
+26,text-26-5,en,3. Take turns picking a card. Read the card to the group.,instruction_text,0.0,activity_other,es
+26,text-26-6,en,4. Listen for your player’s name. Use the blocks to show the change.,instruction_text,0.0,activity_other,es
+26,text-26-7,en,5. Explain your thinking to your group.,instruction_text,0.0,activity_other,es
+26,text-26-10,en,Equation 2: ________________________________,activity_input_placeholder_text,0.0,activity_other,es
+26,text-26-9,en,Equation 1: ________________________________,activity_input_placeholder_text,0.0,activity_other,es
+26,text-26-3,en,2. Represent your starting number with base-ten blocks.,instruction_text,0.0,activity_other,es
+26,text-26-12,en,Ending number: _____________________________,activity_input_placeholder_text,0.0,activity_other,es
+26,text-26-13,en,Share this number with your group.,instruction_text,0.0,activity_other,es
+26,text-26-14,en,7. Write an equation to show the sum of the ending numbers in your group.,instruction_text,0.0,activity_other,es
+26,text-26-8,en,6. Write an equation to show the new number.,instruction_text,0.0,activity_other,es
+26,text-26-2,en,Player name: ________________________________,activity_input_placeholder_text,0.0,activity_other,es
+26,text-26-4,en,Starting number: ____________________________,activity_input_placeholder_text,0.0,activity_other,es
+26,text-26-0,en,7.2: Use Blocks to Take Away,section_heading,0.0,activity_other,es
+26,text-26-1,en,1. Choose a player card. Mix up the other cards and put them face down.,instruction_text,0.0,activity_other,es
+27,text-27-7,en,48 - 30,math,1.0,activity_other,es
+27,text-27-6,en,38 - 20,math,1.0,activity_other,es
+27,text-27-5,en,18 + 20 + 10,math,1.0,activity_other,es
+27,text-27-4,en,18 + 10 + 10,math,1.0,activity_other,es
+27,text-27-3,en,Find the value of each expression mentally.,instruction_text,1.0,activity_other,es
+27,text-27-2,en,Warm-up: Number Talk: Multiples of 10,section_heading,1.0,activity_other,es
+27,text-27-1,en,Let's compare different ways to subtract.,instruction_text,0.0,text_only,es
+27,text-27-0,en,Lesson 8: Different Ways to Decompose,section_heading,0.0,text_only,es
+28,text-28-0,en,8.1: Aren’t You Missing Something?,section_heading,0.0,activity_open_ended_answer,es
+28,text-28-1,en,Lin and Clare made base-ten diagrams to find the value of,section_text,0.0,activity_open_ended_answer,es
+28,text-28-4,en,Clare,image_label,0.0,activity_open_ended_answer,es
+28,text-28-2,en,71 - 56.,math,0.0,activity_open_ended_answer,es
+28,text-28-5,en,1. What do you notice about their work? What do you wonder?,instruction_text,0.0,activity_open_ended_answer,es
+28,text-28-3,en,Lin,image_label,0.0,activity_open_ended_answer,es
+29,text-29-0,en,2. Lin and Clare each wrote equations to show their thinking.,instruction_text,0.0,activity_open_ended_answer,es
+29,text-29-12,en,3. How are Lin and Clare’s methods the same? How are they different?,instruction_text,1.0,activity_open_ended_answer,es
+29,text-29-11,en,10 + 5 = 15,math,0.0,activity_open_ended_answer,es
+29,text-29-10,en,60 - 50 = 10,math,0.0,activity_open_ended_answer,es
+29,text-29-9,en,11 - 6 = 5,math,0.0,activity_open_ended_answer,es
+29,text-29-8,en,71 = 60 + 11,math,0.0,activity_open_ended_answer,es
+29,text-29-6,en,10 + 5 = 15,math,0.0,activity_open_ended_answer,es
+29,text-29-5,en,11 - 6 = 5,math,0.0,activity_open_ended_answer,es
+29,text-29-1,en,Explain how you know which group of equations matches Lin’s work and which matches Clare’s work.,instruction_text,0.0,activity_open_ended_answer,es
+29,text-29-4,en,21 = 10 + 11,math,0.0,activity_open_ended_answer,es
+29,text-29-3,en,71 - 50 = 21,math,0.0,activity_open_ended_answer,es
+30,text-30-1,en,8.2: Different Ways to Decompose,section_heading,0.0,text_and_images,es
+30,text-30-2,en,Andre found the value of,section_text,0.0,text_and_images,es
+30,text-30-3,en,65 - 28,math,0.0,text_and_images,es
+30,text-30-4,en,He made a base-ten diagram and wrote equations to show his thinking.,section_text,0.0,text_and_images,es
+30,text-30-5,en,65 - 28,math,0.0,text_and_images,es
+30,text-30-13,en,Show your thinking.,instruction_text,2.0,activity_open_ended_answer,es
+30,text-30-7,en,45 = 30 + 15,math,0.0,text_and_images,es
+30,text-30-12,en,2. Find the value of each difference.,instruction_text,2.0,activity_open_ended_answer,es
+30,text-30-11,en,Explain.,instruction_text,1.0,activity_open_ended_answer,es
+30,text-30-10,en,1. Do you think Andre’s method is more like Clare’s or Lin’s method?,instruction_text,1.0,activity_open_ended_answer,es
+30,text-30-6,en,65 - 20 = 45,math,0.0,text_and_images,es
+30,text-30-8,en,15 - 8 = 7,math,0.0,text_and_images,es
+30,text-30-14,en,a. 34 - 18,math,2.0,activity_open_ended_answer,es
+30,text-30-9,en,30 + 7 = 37,math,0.0,text_and_images,es

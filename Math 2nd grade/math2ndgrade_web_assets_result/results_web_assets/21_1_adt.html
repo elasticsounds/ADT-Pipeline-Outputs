@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>True or False Activity</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"></script>
+<!-- Mathjax script to use for rendering math. -->
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<meta content="21_1" name="page-section-id"/>
+</head>
+<body class="bg-gray-100 lg:p-5 md:p-5 sm:p-0 mb-12 font-sans text-lg">
+<!-- The main interface components -->
+<!-- DO NOT EDIT Contains the bottom bar, next back buttons, submit button, right sidebar, ai language, eli5 and tts toggles -->
+<div id="interface-container"></div>
+<!-- DO NOT EDIT Contains the left nav bar, html page list -->
+<div id="nav-container"></div>
+<!-- The main content container, EVERYTHING CAN BE EDITED, DELETED, OR ADDITIONAL ELEMENTS ADDED AS REQUIRED but there must always be a section tag -->
+<main class="container content mx-auto bg-white mt-auto max-w-5xl p-5 rounded-lg shadow-lg lg:px-24 md:px-12 sm:px-6" id="content">
+<!-- THERE MUST ALWAYS BE A SECTION TAG -->
+<section aria-labelledby="main-heading" data-id="sectioneli5-21-1" data-section-type="activity_true_false" role="activity">
+<h1 class="text-2xl font-bold mb-4" tab-index="1">Lesson 6: Compare Methods for Subtraction</h1>
+<p aria-describedby="true-false-desc" class="mb-4"><i class="fas fa-book-open text-blue-700 mr-2"></i>
+                Warm-up: True or False: How many Tens? How many Ones? Decide if each statement is true or false.
+            </p>
+<p class="text-lg mb-6" id="true-false-desc">Be prepared to explain your reasoning.</p>
+<div class="flex flex-col space-y-4 mb-6" role="list">
+<div class="flex items-center space-x-4" role="listitem">
+<span class="text-xl" data-id="text-21-4">64 = 60 + 4</span>
+<button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" onclick="alert('You selected True')" type="button">True</button>
+<button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" onclick="alert('You selected False')" type="button">False</button>
+</div>
+<!-- Additional items can be placed here -->
+</div>
+</section>
+</main>
+
+<script src="assets/base.js"></script>
+</body>
+</html>

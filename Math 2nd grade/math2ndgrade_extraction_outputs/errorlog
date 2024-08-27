@@ -1,0 +1,983 @@
+│   119 │   │   user_messages.extend(                                                              │
+│   120 │   │   │   [                                                                              │
+│   121 │   │   │   │   {                                                                          │
+│                                                                                                  │
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/image_utils/image_helpers.py:77 in   │
+│ get_b64_from_path                                                                                │
+│                                                                                                  │
+│    74                                                                                            │
+│    75                                                                                            │
+│    76 def get_b64_from_path(path: str) -> str:                                                   │
+│ ❱  77 │   with open(path, "rb") as f:                                                            │
+│    78 │   │   img_bytes = f.read()                                                               │
+│    79 │   img_b64 = base64.b64encode(img_bytes).decode("utf-8")                                  │
+│    80 │   return img_b64                                                                         │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────╯
+⠸ ADT generation tasks       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╺━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 19/53
+⠸ ADT generate answers tasks ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0/0  ╭─────────────────────────────── Traceback (most recent call last) ────────────────────────────────╮
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/adt_generation.py:184 in             │
+│ callback_adt_generation                                                                          │
+│                                                                                                  │
+│   181 │   │   """                                                                                │
+│   182 │   │   task_data = self.futures_adt_generation[adt_future]                                │
+│   183 │   │   try:                                                                               │
+│ ❱ 184 │   │   │   adt_web_asset = adt_future.result()                                            │
+│   185 │   │   │   self._output_adt_generation_writer.write_row(                                  │
+│   186 │   │   │   │   [                                                                          │
+│   187 │   │   │   │   │   task_data.page_index,                                                  │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/_base.py:449 in result                              │
+│                                                                                                  │
+│   446 │   │   │   │   if self._state in [CANCELLED, CANCELLED_AND_NOTIFIED]:                     │
+│   447 │   │   │   │   │   raise CancelledError()                                                 │
+│   448 │   │   │   │   elif self._state == FINISHED:                                              │
+│ ❱ 449 │   │   │   │   │   return self.__get_result()                                             │
+│   450 │   │   │   │                                                                              │
+│   451 │   │   │   │   self._condition.wait(timeout)                                              │
+│   452                                                                                            │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/_base.py:401 in __get_result                        │
+│                                                                                                  │
+│   398 │   def __get_result(self):                                                                │
+│   399 │   │   if self._exception:                                                                │
+│   400 │   │   │   try:                                                                           │
+│ ❱ 401 │   │   │   │   raise self._exception                                                      │
+│   402 │   │   │   finally:                                                                       │
+│   403 │   │   │   │   # Break a reference cycle with the exception in self._exception            │
+│   404 │   │   │   │   self = None                                                                │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/thread.py:58 in run                                 │
+│                                                                                                  │
+│    55 │   │   │   return                                                                         │
+│    56 │   │                                                                                      │
+│    57 │   │   try:                                                                               │
+│ ❱  58 │   │   │   result = self.fn(*self.args, **self.kwargs)                                    │
+│    59 │   │   except BaseException as exc:                                                       │
+│    60 │   │   │   self.future.set_exception(exc)                                                 │
+│    61 │   │   │   # Break a reference cycle with the exception 'exc'                             │
+│                                                                                                  │
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/async_tasks/adt_generation/task_adt_ │
+│ generation.py:118 in generate_adt                                                                │
+│                                                                                                  │
+│   115 │   for img in images:                                                                     │
+│   116 │   │   img_id = img.id                                                                    │
+│   117 │   │   image_path = img.image_path                                                        │
+│ ❱ 118 │   │   img_b64 = image_helpers.get_b64_from_path(image_path)                              │
+│   119 │   │   user_messages.extend(                                                              │
+│   120 │   │   │   [                                                                              │
+│   121 │   │   │   │   {                                                                          │
+│                                                                                                  │
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/image_utils/image_helpers.py:77 in   │
+│ get_b64_from_path                                                                                │
+│                                                                                                  │
+│    74                                                                                            │
+│    75                                                                                            │
+│    76 def get_b64_from_path(path: str) -> str:                                                   │
+│ ❱  77 │   with open(path, "rb") as f:                                                            │
+│    78 │   │   img_bytes = f.read()                                                               │
+│    79 │   img_b64 = base64.b64encode(img_bytes).decode("utf-8")                                  │
+│    80 │   return img_b64                                                                         │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────╯
+FileNotFoundError: [Errno 2] No such file or directory: 'extraction_outputs/images_cropped/26_img-26-4.png'
+╭─────────────────────────────── Traceback (most recent call last) ────────────────────────────────╮
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/adt_generation.py:184 in             │
+│ callback_adt_generation                                                                          │
+│                                                                                                  │
+│   181 │   │   """                                                                                │
+│   182 │   │   task_data = self.futures_adt_generation[adt_future]                                │
+│   183 │   │   try:                                                                               │
+│ ❱ 184 │   │   │   adt_web_asset = adt_future.result()                                            │
+│   185 │   │   │   self._output_adt_generation_writer.write_row(                                  │
+│   186 │   │   │   │   [                                                                          │
+│   187 │   │   │   │   │   task_data.page_index,                                                  │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/_base.py:449 in result                              │
+│                                                                                                  │
+│   446 │   │   │   │   if self._state in [CANCELLED, CANCELLED_AND_NOTIFIED]:                     │
+│   447 │   │   │   │   │   raise CancelledError()                                                 │
+│   448 │   │   │   │   elif self._state == FINISHED:                                              │
+│ ❱ 449 │   │   │   │   │   return self.__get_result()                                             │
+│   450 │   │   │   │                                                                              │
+│   451 │   │   │   │   self._condition.wait(timeout)                                              │
+│   452                                                                                            │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/_base.py:401 in __get_result                        │
+│                                                                                                  │
+│   398 │   def __get_result(self):                                                                │
+│   399 │   │   if self._exception:                                                                │
+│   400 │   │   │   try:                                                                           │
+│ ❱ 401 │   │   │   │   raise self._exception                                                      │
+│   402 │   │   │   finally:                                                                       │
+│   403 │   │   │   │   # Break a reference cycle with the exception in self._exception            │
+│   404 │   │   │   │   self = None                                                                │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/thread.py:58 in run                                 │
+│                                                                                                  │
+│    55 │   │   │   return                                                                         │
+│    56 │   │                                                                                      │
+│    57 │   │   try:                                                                               │
+│ ❱  58 │   │   │   result = self.fn(*self.args, **self.kwargs)                                    │
+│    59 │   │   except BaseException as exc:                                                       │
+│    60 │   │   │   self.future.set_exception(exc)                                                 │
+│    61 │   │   │   # Break a reference cycle with the exception 'exc'                             │
+│                                                                                                  │
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/async_tasks/adt_generation/task_adt_ │
+│ generation.py:118 in generate_adt                                                                │
+│                                                                                                  │
+│   115 │   for img in images:                                                                     │
+│   116 │   │   img_id = img.id                                                                    │
+│   117 │   │   image_path = img.image_path                                                        │
+│ ❱ 118 │   │   img_b64 = image_helpers.get_b64_from_path(image_path)                              │
+│   119 │   │   user_messages.extend(                                                              │
+│   120 │   │   │   [                                                                              │
+│   121 │   │   │   │   {                                                                          │
+│                                                                                                  │
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/image_utils/image_helpers.py:77 in   │
+│ get_b64_from_path                                                                                │
+│                                                                                                  │
+│    74                                                                                            │
+│    75                                                                                            │
+│    76 def get_b64_from_path(path: str) -> str:                                                   │
+│ ❱  77 │   with open(path, "rb") as f:                                                            │
+│    78 │   │   img_bytes = f.read()                                                               │
+│    79 │   img_b64 = base64.b64encode(img_bytes).decode("utf-8")                                  │
+│    80 │   return img_b64                                                                         │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────╯
+⠙ ADT generation tasks       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╺━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 22/56
+⠙ ADT generate answers tasks ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0/0  ╭─────────────────────────────── Traceback (most recent call last) ────────────────────────────────╮
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/adt_generation.py:184 in             │
+│ callback_adt_generation                                                                          │
+│                                                                                                  │
+│   181 │   │   """                                                                                │
+│   182 │   │   task_data = self.futures_adt_generation[adt_future]                                │
+│   183 │   │   try:                                                                               │
+│ ❱ 184 │   │   │   adt_web_asset = adt_future.result()                                            │
+│   185 │   │   │   self._output_adt_generation_writer.write_row(                                  │
+│   186 │   │   │   │   [                                                                          │
+│   187 │   │   │   │   │   task_data.page_index,                                                  │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/_base.py:449 in result                              │
+│                                                                                                  │
+│   446 │   │   │   │   if self._state in [CANCELLED, CANCELLED_AND_NOTIFIED]:                     │
+│   447 │   │   │   │   │   raise CancelledError()                                                 │
+│   448 │   │   │   │   elif self._state == FINISHED:                                              │
+│ ❱ 449 │   │   │   │   │   return self.__get_result()                                             │
+│   450 │   │   │   │                                                                              │
+│   451 │   │   │   │   self._condition.wait(timeout)                                              │
+│   452                                                                                            │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/_base.py:401 in __get_result                        │
+│                                                                                                  │
+│   398 │   def __get_result(self):                                                                │
+│   399 │   │   if self._exception:                                                                │
+│   400 │   │   │   try:                                                                           │
+│ ❱ 401 │   │   │   │   raise self._exception                                                      │
+│   402 │   │   │   finally:                                                                       │
+│   403 │   │   │   │   # Break a reference cycle with the exception in self._exception            │
+│   404 │   │   │   │   self = None                                                                │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/thread.py:58 in run                                 │
+│                                                                                                  │
+│    55 │   │   │   return                                                                         │
+│    56 │   │                                                                                      │
+│    57 │   │   try:                                                                               │
+│ ❱  58 │   │   │   result = self.fn(*self.args, **self.kwargs)                                    │
+│    59 │   │   except BaseException as exc:                                                       │
+│    60 │   │   │   self.future.set_exception(exc)                                                 │
+│    61 │   │   │   # Break a reference cycle with the exception 'exc'                             │
+│                                                                                                  │
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/async_tasks/adt_generation/task_adt_ │
+│ generation.py:118 in generate_adt                                                                │
+│                                                                                                  │
+│   115 │   for img in images:                                                                     │
+│   116 │   │   img_id = img.id                                                                    │
+│   117 │   │   image_path = img.image_path                                                        │
+│ ❱ 118 │   │   img_b64 = image_helpers.get_b64_from_path(image_path)                              │
+│   119 │   │   user_messages.extend(                                                              │
+│   120 │   │   │   [                                                                              │
+│   121 │   │   │   │   {                                                                          │
+│                                                                                                  │
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/image_utils/image_helpers.py:77 in   │
+│ get_b64_from_path                                                                                │
+│                                                                                                  │
+│    74                                                                                            │
+│    75                                                                                            │
+│    76 def get_b64_from_path(path: str) -> str:                                                   │
+│ ❱  77 │   with open(path, "rb") as f:                                                            │
+│    78 │   │   img_bytes = f.read()                                                               │
+│    79 │   img_b64 = base64.b64encode(img_bytes).decode("utf-8")                                  │
+│    80 │   return img_b64                                                                         │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────╯
+⠸ ADT generation tasks       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 23/58
+⠸ ADT generate answers tasks ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0/0  ╭─────────────────────────────── Traceback (most recent call last) ────────────────────────────────╮
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/adt_generation.py:184 in             │
+│ callback_adt_generation                                                                          │
+│                                                                                                  │
+│   181 │   │   """                                                                                │
+│   182 │   │   task_data = self.futures_adt_generation[adt_future]                                │
+│   183 │   │   try:                                                                               │
+│ ❱ 184 │   │   │   adt_web_asset = adt_future.result()                                            │
+│   185 │   │   │   self._output_adt_generation_writer.write_row(                                  │
+│   186 │   │   │   │   [                                                                          │
+│   187 │   │   │   │   │   task_data.page_index,                                                  │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/_base.py:449 in result                              │
+│                                                                                                  │
+│   446 │   │   │   │   if self._state in [CANCELLED, CANCELLED_AND_NOTIFIED]:                     │
+│   447 │   │   │   │   │   raise CancelledError()                                                 │
+│   448 │   │   │   │   elif self._state == FINISHED:                                              │
+│ ❱ 449 │   │   │   │   │   return self.__get_result()                                             │
+│   450 │   │   │   │                                                                              │
+│   451 │   │   │   │   self._condition.wait(timeout)                                              │
+│   452                                                                                            │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/_base.py:401 in __get_result                        │
+│                                                                                                  │
+│   398 │   def __get_result(self):                                                                │
+│   399 │   │   if self._exception:                                                                │
+│   400 │   │   │   try:                                                                           │
+│ ❱ 401 │   │   │   │   raise self._exception                                                      │
+│   402 │   │   │   finally:                                                                       │
+│   403 │   │   │   │   # Break a reference cycle with the exception in self._exception            │
+│   404 │   │   │   │   self = None                                                                │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/thread.py:58 in run                                 │
+│                                                                                                  │
+│    55 │   │   │   return                                                                         │
+│    56 │   │                                                                                      │
+│    57 │   │   try:                                                                               │
+│ ❱  58 │   │   │   result = self.fn(*self.args, **self.kwargs)                                    │
+│    59 │   │   except BaseException as exc:                                                       │
+│    60 │   │   │   self.future.set_exception(exc)                                                 │
+│    61 │   │   │   # Break a reference cycle with the exception 'exc'                             │
+│                                                                                                  │
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/async_tasks/adt_generation/task_adt_ │
+│ generation.py:118 in generate_adt                                                                │
+│                                                                                                  │
+│   115 │   for img in images:                                                                     │
+│   116 │   │   img_id = img.id                                                                    │
+│   117 │   │   image_path = img.image_path                                                        │
+│ ❱ 118 │   │   img_b64 = image_helpers.get_b64_from_path(image_path)                              │
+│   119 │   │   user_messages.extend(                                                              │
+│   120 │   │   │   [                                                                              │
+│   121 │   │   │   │   {                                                                          │
+│                                                                                                  │
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/image_utils/image_helpers.py:77 in   │
+│ get_b64_from_path                                                                                │
+│                                                                                                  │
+│    74                                                                                            │
+│    75                                                                                            │
+│    76 def get_b64_from_path(path: str) -> str:                                                   │
+│ ❱  77 │   with open(path, "rb") as f:                                                            │
+│    78 │   │   img_bytes = f.read()                                                               │
+│    79 │   img_b64 = base64.b64encode(img_bytes).decode("utf-8")                                  │
+│    80 │   return img_b64                                                                         │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────╯
+⠦ ADT generation tasks       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╺━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 24/60
+⠦ ADT generate answers tasks ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0/0  ╭─────────────────────────────── Traceback (most recent call last) ────────────────────────────────╮
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/adt_generation.py:184 in             │
+│ callback_adt_generation                                                                          │
+│                                                                                                  │
+│   181 │   │   """                                                                                │
+│   182 │   │   task_data = self.futures_adt_generation[adt_future]                                │
+│   183 │   │   try:                                                                               │
+│ ❱ 184 │   │   │   adt_web_asset = adt_future.result()                                            │
+│   185 │   │   │   self._output_adt_generation_writer.write_row(                                  │
+│   186 │   │   │   │   [                                                                          │
+│   187 │   │   │   │   │   task_data.page_index,                                                  │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/_base.py:449 in result                              │
+│                                                                                                  │
+│   446 │   │   │   │   if self._state in [CANCELLED, CANCELLED_AND_NOTIFIED]:                     │
+│   447 │   │   │   │   │   raise CancelledError()                                                 │
+│   448 │   │   │   │   elif self._state == FINISHED:                                              │
+│ ❱ 449 │   │   │   │   │   return self.__get_result()                                             │
+│   450 │   │   │   │                                                                              │
+│   451 │   │   │   │   self._condition.wait(timeout)                                              │
+│   452                                                                                            │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/_base.py:401 in __get_result                        │
+│                                                                                                  │
+│   398 │   def __get_result(self):                                                                │
+│   399 │   │   if self._exception:                                                                │
+│   400 │   │   │   try:                                                                           │
+│ ❱ 401 │   │   │   │   raise self._exception                                                      │
+│   402 │   │   │   finally:                                                                       │
+│   403 │   │   │   │   # Break a reference cycle with the exception in self._exception            │
+│   404 │   │   │   │   self = None                                                                │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/thread.py:58 in run                                 │
+│                                                                                                  │
+│    55 │   │   │   return                                                                         │
+│    56 │   │                                                                                      │
+│    57 │   │   try:                                                                               │
+│ ❱  58 │   │   │   result = self.fn(*self.args, **self.kwargs)                                    │
+│    59 │   │   except BaseException as exc:                                                       │
+│    60 │   │   │   self.future.set_exception(exc)                                                 │
+│    61 │   │   │   # Break a reference cycle with the exception 'exc'                             │
+│                                                                                                  │
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/async_tasks/adt_generation/task_adt_ │
+│ generation.py:118 in generate_adt                                                                │
+│                                                                                                  │
+│   115 │   for img in images:                                                                     │
+│   116 │   │   img_id = img.id                                                                    │
+│   117 │   │   image_path = img.image_path                                                        │
+│ ❱ 118 │   │   img_b64 = image_helpers.get_b64_from_path(image_path)                              │
+│   119 │   │   user_messages.extend(                                                              │
+│   120 │   │   │   [                                                                              │
+│   121 │   │   │   │   {                                                                          │
+│                                                                                                  │
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/image_utils/image_helpers.py:77 in   │
+│ get_b64_from_path                                                                                │
+│                                                                                                  │
+│    74                                                                                            │
+│    75                                                                                            │
+│    76 def get_b64_from_path(path: str) -> str:                                                   │
+│ ❱  77 │   with open(path, "rb") as f:                                                            │
+│    78 │   │   img_bytes = f.read()                                                               │
+│    79 │   img_b64 = base64.b64encode(img_bytes).decode("utf-8")                                  │
+│    80 │   return img_b64                                                                         │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────╯
+  ADT generation tasks       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 60/60
+  ADT generate answers tasks ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6/6  
+[09:44:36] ADT Generation completed.                                                                    adt_generation.py:295
+           ADT Generation Pipeline completed.                                                           adt_generation.py:302
+root@6b92c76374b9:/accesssible_digital_textbooks# mkdir c3_10_30_tts_output
+root@6b92c76374b9:/accesssible_digital_textbooks# python adt.py --pdf_path accessible_digital_textbooks/few_shot/adt_examples/textbooks/cuaderno3.pdf --input_dir extraction_outputs --output_dir c3_10_30_web_assets_result --base_language es --languages en --overwrite --start 10 --end 30 --tts_input_dir c3_10_30_tts_output
+[09:46:30] Output directory c3_10_30_web_assets_result does not exist. Creating directory.                          adt.py:85
+           Input directory extraction_outputs does not exist. Exiting.                                              adt.py:89
+Usage: adt.py [OPTIONS]
+Try 'adt.py --help' for help.
+
+Error: Invalid value: Input directory extraction_outputs does not exist.
+root@6b92c76374b9:/accesssible_digital_textbooks# python adt.py --pdf_path accessible_digital_textbooks/few_shot/adt_examples/textbooks/cuaderno3.pdf --input_dir c3_10_30_extraction_outputs --output_dir c3_10_30_web_assets_result --base_language es --languages en --overwrite --start 10 --end 30 --tts_input_dir c3_10_30_tts_output
+[09:46:54] Overwrite flag set. Deleting existing files in c3_10_30_web_assets_result.                               adt.py:82
+           Output directory c3_10_30_web_assets_result does not exist. Creating directory.                          adt.py:85
+[09:46:54] Copying image assets to HTML output directory...                                             adt_generation.py:329
+           Copied image assets from c3_10_30_extraction_outputs/images_cropped to HTML output           adt_generation.py:341
+           directory: c3_10_30_web_assets_result/results_web_assets/images.                                                  
+           Copying default web assets to HTML output directory...                                       adt_generation.py:307
+           Copied default web assets from                                                               adt_generation.py:322
+           /accesssible_digital_textbooks/accessible_digital_textbooks/assets to HTML output directory:                      
+           c3_10_30_web_assets_result/results_web_assets/assets.                                                             
+           Starting ADT generation.                                                                                adt.py:107
+⠇ ADT generation tasks       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸━━━━━━━━━━━━━━ 47/56
+⠇ ADT generate answers tasks ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╺━━━━━━━━━━━━ 6/7  ╭─────────────────────────────── Traceback (most recent call last) ────────────────────────────────╮
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/async_tasks/adt_generation/task_adt_ │
+│ generate_answers.py:114 in generate_answers_in_adt                                               │
+│                                                                                                  │
+│   111 │   │   │   │   final_messages.append(                                                     │
+│   112 │   │   │   │   │   {"role": datatypes.MessageRole.USER, "content": validation_retry_mes   │
+│   113 │   │   │   │   )                                                                          │
+│ ❱ 114 │   │   │   │   raise ADTGenerateAnswersException(                                         │
+│   115 │   │   │   │   │   f"Failed to validate generated answers for page index {page_index}:    │
+│   116 │   │   │   │   )                                                                          │
+│   117                                                                                            │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────╯
+ADTGenerateAnswersException: Failed to validate generated answers for page index 18: The number of answers generated does not
+match the number of answers expected. Expected these answer options: [], but got ['text-18-3', 'text-18-4', 'text-18-5', 
+'text-18-6', 'text-18-7']. Try generating everything again.
+
+The above exception was the direct cause of the following exception:
+
+╭─────────────────────────────── Traceback (most recent call last) ────────────────────────────────╮
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/adt_generation.py:226 in             │
+│ callback_adt_generate_answers                                                                    │
+│                                                                                                  │
+│   223 │   │   """                                                                                │
+│   224 │   │   task_data = self.futures_adt_generate_answers[adt_future]                          │
+│   225 │   │   try:                                                                               │
+│ ❱ 226 │   │   │   adt_answers = adt_future.result()                                              │
+│   227 │   │   │   answer_string = ",".join(                                                      │
+│   228 │   │   │   │   [answer.model_dump_json() for answer in adt_answers.data.answers]          │
+│   229 │   │   │   )                                                                              │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/_base.py:449 in result                              │
+│                                                                                                  │
+│   446 │   │   │   │   if self._state in [CANCELLED, CANCELLED_AND_NOTIFIED]:                     │
+│   447 │   │   │   │   │   raise CancelledError()                                                 │
+│   448 │   │   │   │   elif self._state == FINISHED:                                              │
+│ ❱ 449 │   │   │   │   │   return self.__get_result()                                             │
+│   450 │   │   │   │                                                                              │
+│   451 │   │   │   │   self._condition.wait(timeout)                                              │
+│   452                                                                                            │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/_base.py:401 in __get_result                        │
+│                                                                                                  │
+│   398 │   def __get_result(self):                                                                │
+│   399 │   │   if self._exception:                                                                │
+│   400 │   │   │   try:                                                                           │
+│ ❱ 401 │   │   │   │   raise self._exception                                                      │
+│   402 │   │   │   finally:                                                                       │
+│   403 │   │   │   │   # Break a reference cycle with the exception in self._exception            │
+│   404 │   │   │   │   self = None                                                                │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/thread.py:58 in run                                 │
+│                                                                                                  │
+│    55 │   │   │   return                                                                         │
+│    56 │   │                                                                                      │
+│    57 │   │   try:                                                                               │
+│ ❱  58 │   │   │   result = self.fn(*self.args, **self.kwargs)                                    │
+│    59 │   │   except BaseException as exc:                                                       │
+│    60 │   │   │   self.future.set_exception(exc)                                                 │
+│    61 │   │   │   # Break a reference cycle with the exception 'exc'                             │
+│                                                                                                  │
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/async_tasks/adt_generation/task_adt_ │
+│ generate_answers.py:131 in generate_answers_in_adt                                               │
+│                                                                                                  │
+│   128 │   │   │   │   adt_logger.critical(                                                       │
+│   129 │   │   │   │   │   f"Failed to generate ADT ANSWERS after {retries} attempts for page i   │
+│   130 │   │   │   │   )                                                                          │
+│ ❱ 131 │   │   │   │   raise ADTGenerateAnswersException(                                         │
+│   132 │   │   │   │   │   f"Failed to generate ADT ANSWERS from page index {page_index}\nTask    │
+│   133 │   │   │   │   ) from e                                                                   │
+│   134 │   │   │   adt_logger.info(f"Retrying to generate ADT ANSWERS for page index {page_inde   │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────╯
+ADTGenerateAnswersException: Failed to generate ADT ANSWERS from page index 18
+Task input: page=page 18 of accessible_digital_textbooks/few_shot/adt_examples/textbooks/cuaderno3.pdf 
+html_path='c3_10_30_web_assets_result/intermediate_outputs/18_0_adt.html' page_index=18 section_id=0 
+section_type=<SectionType.activity_fill_in_the_blank: 'activity_fill_in_the_blank'>
+Client response: 
+ParsedChatCompletion[ActivityFillInTheBlankAnswersResponseFormat](id='chatcmpl-A0n7NasOiPhqnqKlG38jWHc4vUlkA', 
+choices=[ParsedChoice[ActivityFillInTheBlankAnswersResponseFormat](finish_reason='stop', index=0, logprobs=None, 
+message=ParsedChatCompletionMessage[ActivityFillInTheBlankAnswersResponseFormat](content='{"reasoning":"The exercise involves
+completing a story about Elena\'s stay at her grandfather\'s house. Each blank requires details about her experiences 
+there.","answers":[{"option":"text-18-3","answer":"Elena encontró un rincón lleno de libros 
+antiguos."},{"option":"text-18-4","answer":"dibujar y contar historias."},{"option":"text-18-5","answer":"y se maravilló con 
+las formas."},{"option":"text-18-6","answer":"sugirió salir a jugar."},{"option":"text-18-7","answer":"comprendió la magia de
+las sombras."}]}', refusal=None, role='assistant', function_call=None, tool_calls=[], 
+parsed=ActivityFillInTheBlankAnswersResponseFormat(reasoning="The exercise involves completing a story about Elena's stay at 
+her grandfather's house. Each blank requires details about her experiences there.", 
+answers=[ActivityFillIntheBlankAnswerData(option='text-18-3', answer='Elena encontró un rincón lleno de libros antiguos.'), 
+ActivityFillIntheBlankAnswerData(option='text-18-4', answer='dibujar y contar historias.'), 
+ActivityFillIntheBlankAnswerData(option='text-18-5', answer='y se maravilló con las formas.'), 
+ActivityFillIntheBlankAnswerData(option='text-18-6', answer='sugirió salir a jugar.'), 
+ActivityFillIntheBlankAnswerData(option='text-18-7', answer='comprendió la magia de las sombras.')])))], created=1724752173, 
+model='gpt-4o-2024-08-06', object='chat.completion', service_tier=None, system_fingerprint='fp_845eaabc1f', 
+  ADT generation tasks       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 56/56
+  ADT generate answers tasks ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8/8  
+[09:50:22] ADT Generation completed.                                                                    adt_generation.py:295
+           ADT Generation Pipeline completed.                                                           adt_generation.py:302
+root@6b92c76374b9:/accesssible_digital_textbooks# python main.py --textbook accessible_digital_textbooks/few_shot/adt_examples/textbooks/LivingUruguay1.pdf --output_dir lu_1_extraction_outputs --translation_targets en --base_language es --start 10 --end 30
+[09:55:13] Output directory lu_1_extraction_outputs does not exist. Creating it now.                               main.py:77
+           Overwriting existing files in lu_1_extraction_outputs                                                   main.py:85
+[09:55:13] Initializing textbook extraction pipeline...                                             textbook_processor.py:106
+           Data Extraction pipeline initialized with base language: es                              textbook_processor.py:149
+           Translation targets set: English                                                         textbook_processor.py:159
+           Running with concurrent threads 64, output directory:                                    textbook_processor.py:164
+           /accesssible_digital_textbooks/lu_1_extraction_outputs                                                            
+           Initializing output and log writers...                                                   textbook_processor.py:200
+           Starting tasks...                                                                        textbook_processor.py:965
+           Starting text and image extraction tasks...                                              textbook_processor.py:966
+           Translation and Image captioning will run concurrently in the background.                textbook_processor.py:967
+[09:56:12] Text and image extraction tasks complete. Starting sectioning...                        textbook_processor.py:1015
+  task_extract_text     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21/21    
+  task_image_extraction ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21/21    
+  task_translation      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 560/560  
+  task_image_caption    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 128/128  
+⠼ task_sectioning       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╺━━━━━━━━ 19/21    
+⠼ task_section_eli5     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0/0      
+  task_easy_read        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1120/1120╭─────────────────────────────── Traceback (most recent call last) ────────────────────────────────╮
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/textbook_processor.py:817 in         │
+│ callback_sectioning                                                                              │
+│                                                                                                  │
+│    814 │   │   adt_logger.info(f"Sectioning callback for page {task_data.page_index}")           │
+│    815 │   │   try:                                                                              │
+│    816 │   │   │   inferred_sections = future.result()                                           │
+  task_extract_text     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21/21    
+  task_image_extraction ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21/21    
+  task_translation      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 560/560  
+  task_image_caption    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 128/128  
+⠋ task_sectioning       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸━━━━ 20/21    
+⠋ task_section_eli5     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0/0      
+  task_easy_read        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1120/1120╭─────────────────────────────── Traceback (most recent call last) ────────────────────────────────╮
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/textbook_processor.py:817 in         │
+│ callback_sectioning                                                                              │
+│                                                                                                  │
+│    814 │   │   adt_logger.info(f"Sectioning callback for page {task_data.page_index}")           │
+│    815 │   │   try:                                                                              │
+│    816 │   │   │   inferred_sections = future.result()                                           │
+[10:00:27] Sectioning tasks complete, starting section eli5 tasks...                               textbook_processor.py:1028
+[10:00:49]  Image captioning, translation, eli5, and easy read tasks complete.                     textbook_processor.py:1052
+           Cleaning up multithreaded executor and progress bars...                                 textbook_processor.py:1055
+  task_extract_text     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21/21    
+  task_image_extraction ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21/21    
+  task_translation      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 632/632  
+  task_image_caption    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 128/128  
+  task_sectioning       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21/21    
+  task_section_eli5     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 72/72    
+  task_easy_read        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1120/1120
+[10:00:49] All tasks completed.                                                                    textbook_processor.py:1060
+           Sorting all outputs and returning...                                                    textbook_processor.py:1061
+            54 extracted text entries do not have a section id from sectioning.                    textbook_processor.py:1231
+            27 image caption entries do not have a section id from sectioning.                     textbook_processor.py:1243
+           Saving final extracted text...                                                          textbook_processor.py:1252
+           Saving final meaningful cropped images...                                               textbook_processor.py:1293
+           Saving section_eli5 explanations...                                                     textbook_processor.py:1319
+           All outputs saved successfully.                                                         textbook_processor.py:1063
+root@6b92c76374b9:/accesssible_digital_textbooks# python main.py --textbook accessible_digital_textbooks/few_shot/adt_examples/textbooks/LivingUruguay1.pdf --output_dir lu_1_extraction_outputs --translation_targets en --base_language es --start 10 --end 30 --retry_errored_or_enqueued
+Usage: main.py [OPTIONS]
+Try 'main.py --help' for help.
+
+Error: No such option: --retry_errored_or_enqueued Did you mean --retry_errored_and_enqueued?
+root@6b92c76374b9:/accesssible_digital_textbooks# python main.py --textbook accessible_digital_textbooks/few_shot/adt_examples/textbooks/LivingUruguay1.pdf --output_dir lu_1_extraction_outputs --translation_targets en --base_language es --start 10 --end 30 --retry_errored_and_enqueued
+[10:03:09] --retry_errored_and_enqueued flag set. Retrying errored and enqueued tasks based on log files.          main.py:81
+           IMPORTANT: section-level tasks will still be completely retried and overwritten: ELI5 and sectioning.             
+[10:03:09] Initializing textbook extraction pipeline...                                             textbook_processor.py:106
+           Data Extraction pipeline initialized with base language: es                              textbook_processor.py:149
+           Translation targets set: English                                                         textbook_processor.py:159
+           Running with concurrent threads 64, output directory:                                    textbook_processor.py:164
+           /accesssible_digital_textbooks/lu_1_extraction_outputs                                                            
+           Initializing output and log writers...                                                   textbook_processor.py:200
+           Starting tasks...                                                                        textbook_processor.py:965
+           Starting text and image extraction tasks...                                              textbook_processor.py:966
+           Translation and Image captioning will run concurrently in the background.                textbook_processor.py:967
+[10:03:09] Text and image extraction tasks complete. Starting sectioning...                        textbook_processor.py:1015
+⠏ task_extract_text     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0/0  
+⠏ task_image_extraction ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0/0  
+⠏ task_translation      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0/0  
+⠏ task_image_caption    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0/0  
+⠏ task_sectioning       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸━━━━ 20/21
+⠏ task_section_eli5     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0/0  
+⠏ task_easy_read        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0/0  ╭─────────────────────────────── Traceback (most recent call last) ────────────────────────────────╮
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/textbook_processor.py:817 in         │
+│ callback_sectioning                                                                              │
+│                                                                                                  │
+│    814 │   │   adt_logger.info(f"Sectioning callback for page {task_data.page_index}")           │
+│    815 │   │   try:                                                                              │
+│    816 │   │   │   inferred_sections = future.result()                                           │
+[10:07:31] Sectioning tasks complete, starting section eli5 tasks...                               textbook_processor.py:1028
+[10:08:05]  Image captioning, translation, eli5, and easy read tasks complete.                     textbook_processor.py:1052
+           Cleaning up multithreaded executor and progress bars...                                 textbook_processor.py:1055
+⠏ task_extract_text     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0/0  
+⠏ task_image_extraction ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0/0  
+  task_translation      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 74/74
+⠏ task_image_caption    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0/0  
+  task_sectioning       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21/21
+  task_section_eli5     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 74/74
+⠏ task_easy_read        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0/0  
+[10:08:05] All tasks completed.                                                                    textbook_processor.py:1060
+           Sorting all outputs and returning...                                                    textbook_processor.py:1061
+            31 extracted text entries do not have a section id from sectioning.                    textbook_processor.py:1231
+            10 image caption entries do not have a section id from sectioning.                     textbook_processor.py:1243
+           Saving final extracted text...                                                          textbook_processor.py:1252
+           Saving final meaningful cropped images...                                               textbook_processor.py:1293
+           Saving section_eli5 explanations...                                                     textbook_processor.py:1319
+           All outputs saved successfully.                                                         textbook_processor.py:1063
+root@6b92c76374b9:/accesssible_digital_textbooks# mkdir lu_1_tts_output
+root@6b92c76374b9:/accesssible_digital_textbooks# python adt.py --pdf_path accessible_digital_textbooks/few_shot/adt_examples/textbooks/LivingUruguay1.pdf --input_dir lu_1_extraction_outputs --output_dir lu_1_web_assets_result --base_language es --languages en --overwrite --start 10 --end 30 --tts_input_dir lu_1_tts_output
+[10:10:59] Output directory lu_1_web_assets_result does not exist. Creating directory.                              adt.py:85
+[10:10:59] Copying image assets to HTML output directory...                                             adt_generation.py:329
+           Copied image assets from lu_1_extraction_outputs/images_cropped to HTML output directory:    adt_generation.py:341
+           lu_1_web_assets_result/results_web_assets/images.                                                                 
+           Copying default web assets to HTML output directory...                                       adt_generation.py:307
+           Copied default web assets from                                                               adt_generation.py:322
+           /accesssible_digital_textbooks/accessible_digital_textbooks/assets to HTML output directory:                      
+           lu_1_web_assets_result/results_web_assets/assets.                                                                 
+           Starting ADT generation.                                                                                adt.py:107
+  ADT generation tasks       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 74/74
+  ADT generate answers tasks ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6/6  
+[10:15:17] ADT Generation completed.                                                                    adt_generation.py:295
+           ADT Generation Pipeline completed.                                                           adt_generation.py:302
+root@6b92c76374b9:/accesssible_digital_textbooks# python main.py --textbook accessible_digital_textbooks/few_shot/adt_examples/textbooks/science5thgrade.pdf --output_dir science5thgrade_extraction_outputs --translation_targets en --base_language es --start 10 --end 30
+[10:17:26] Output directory science5thgrade_extraction_outputs does not exist. Creating it now.                    main.py:77
+           Overwriting existing files in science5thgrade_extraction_outputs                                        main.py:85
+[10:17:26] Initializing textbook extraction pipeline...                                             textbook_processor.py:106
+           Data Extraction pipeline initialized with base language: es                              textbook_processor.py:149
+           Translation targets set: English                                                         textbook_processor.py:159
+           Running with concurrent threads 64, output directory:                                    textbook_processor.py:164
+           /accesssible_digital_textbooks/science5thgrade_extraction_outputs                                                 
+           Initializing output and log writers...                                                   textbook_processor.py:200
+           Starting tasks...                                                                        textbook_processor.py:965
+           Starting text and image extraction tasks...                                              textbook_processor.py:966
+           Translation and Image captioning will run concurrently in the background.                textbook_processor.py:967
+[10:18:34] Text and image extraction tasks complete. Starting sectioning...                        textbook_processor.py:1015
+  task_extract_text     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21/21  
+  task_image_extraction ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21/21  
+  task_translation      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 268/268
+  task_image_caption    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44/44  
+⠏ task_sectioning       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╺━━━━━━━━ 19/21  
+⠏ task_section_eli5     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0/0    
+  task_easy_read        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 536/536╭─────────────────────────────── Traceback (most recent call last) ────────────────────────────────╮
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/textbook_processor.py:817 in         │
+│ callback_sectioning                                                                              │
+│                                                                                                  │
+│    814 │   │   adt_logger.info(f"Sectioning callback for page {task_data.page_index}")           │
+│    815 │   │   try:                                                                              │
+│    816 │   │   │   inferred_sections = future.result()                                           │
+  task_extract_text     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21/21  
+  task_image_extraction ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21/21  
+  task_translation      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 268/268
+  task_image_caption    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44/44  
+⠧ task_sectioning       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸━━━━ 20/21  
+⠧ task_section_eli5     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0/0    
+  task_easy_read        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 536/536╭─────────────────────────────── Traceback (most recent call last) ────────────────────────────────╮
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/textbook_processor.py:817 in         │
+│ callback_sectioning                                                                              │
+│                                                                                                  │
+│    814 │   │   adt_logger.info(f"Sectioning callback for page {task_data.page_index}")           │
+│    815 │   │   try:                                                                              │
+│    816 │   │   │   inferred_sections = future.result()                                           │
+[10:21:31] Sectioning tasks complete, starting section eli5 tasks...                               textbook_processor.py:1028
+[10:21:50]  Image captioning, translation, eli5, and easy read tasks complete.                     textbook_processor.py:1052
+           Cleaning up multithreaded executor and progress bars...                                 textbook_processor.py:1055
+  task_extract_text     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21/21  
+  task_image_extraction ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21/21  
+  task_translation      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 308/308
+  task_image_caption    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44/44  
+  task_sectioning       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21/21  
+  task_section_eli5     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40/40  
+  task_easy_read        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 536/536
+[10:21:50] All tasks completed.                                                                    textbook_processor.py:1060
+           Sorting all outputs and returning...                                                    textbook_processor.py:1061
+            10 image caption entries do not have a section id from sectioning.                     textbook_processor.py:1243
+           Saving final extracted text...                                                          textbook_processor.py:1252
+           Saving final meaningful cropped images...                                               textbook_processor.py:1293
+           Saving section_eli5 explanations...                                                     textbook_processor.py:1319
+           All outputs saved successfully.                                                         textbook_processor.py:1063
+root@6b92c76374b9:/accesssible_digital_textbooks# python main.py --textbook accessible_digital_textbooks/few_shot/adt_examples/textbooks/science5thgrade.pdf --output_dir science5thgrade_extraction_outputs --translation_targets en --base_language es --start 10 --end 30
+[10:32:42] Output directory science5thgrade_extraction_outputs does not exist. Creating it now.                    main.py:77
+           Overwriting existing files in science5thgrade_extraction_outputs                                        main.py:85
+[10:32:42] Initializing textbook extraction pipeline...                                             textbook_processor.py:106
+           Data Extraction pipeline initialized with base language: es                              textbook_processor.py:149
+           Translation targets set: English                                                         textbook_processor.py:159
+           Running with concurrent threads 64, output directory:                                    textbook_processor.py:164
+           /accesssible_digital_textbooks/science5thgrade_extraction_outputs                                                 
+           Initializing output and log writers...                                                   textbook_processor.py:200
+           Starting tasks...                                                                        textbook_processor.py:965
+           Starting text and image extraction tasks...                                              textbook_processor.py:966
+           Translation and Image captioning will run concurrently in the background.                textbook_processor.py:967
+[10:33:45] Text and image extraction tasks complete. Starting sectioning...                        textbook_processor.py:1015
+  task_extract_text     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21/21  
+  task_image_extraction ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21/21  
+  task_translation      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 261/261
+  task_image_caption    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40/40  
+⠏ task_sectioning       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸━━━━━━━━━━━━━ 18/21  
+⠏ task_section_eli5     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0/0    
+  task_easy_read        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 522/522╭─────────────────────────────── Traceback (most recent call last) ────────────────────────────────╮
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/textbook_processor.py:817 in         │
+│ callback_sectioning                                                                              │
+│                                                                                                  │
+│    814 │   │   adt_logger.info(f"Sectioning callback for page {task_data.page_index}")           │
+│    815 │   │   try:                                                                              │
+│    816 │   │   │   inferred_sections = future.result()                                           │
+  task_extract_text     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21/21  
+  task_image_extraction ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21/21  
+  task_translation      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 261/261
+  task_image_caption    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40/40  
+⠸ task_sectioning       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╺━━━━━━━━ 19/21  
+⠸ task_section_eli5     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0/0    
+  task_easy_read        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 522/522╭─────────────────────────────── Traceback (most recent call last) ────────────────────────────────╮
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/textbook_processor.py:817 in         │
+│ callback_sectioning                                                                              │
+│                                                                                                  │
+│    814 │   │   adt_logger.info(f"Sectioning callback for page {task_data.page_index}")           │
+│    815 │   │   try:                                                                              │
+│    816 │   │   │   inferred_sections = future.result()                                           │
+  task_extract_text     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21/21  
+  task_image_extraction ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21/21  
+  task_translation      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 261/261
+  task_image_caption    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40/40  
+⠴ task_sectioning       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸━━━━ 20/21  
+⠴ task_section_eli5     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0/0    
+  task_easy_read        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 522/522╭─────────────────────────────── Traceback (most recent call last) ────────────────────────────────╮
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/textbook_processor.py:817 in         │
+│ callback_sectioning                                                                              │
+│                                                                                                  │
+│    814 │   │   adt_logger.info(f"Sectioning callback for page {task_data.page_index}")           │
+│    815 │   │   try:                                                                              │
+│    816 │   │   │   inferred_sections = future.result()                                           │
+[10:36:46] Sectioning tasks complete, starting section eli5 tasks...                               textbook_processor.py:1028
+[10:37:04]  Image captioning, translation, eli5, and easy read tasks complete.                     textbook_processor.py:1052
+           Cleaning up multithreaded executor and progress bars...                                 textbook_processor.py:1055
+  task_extract_text     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21/21  
+  task_image_extraction ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21/21  
+  task_translation      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 303/303
+  task_image_caption    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40/40  
+  task_sectioning       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21/21  
+  task_section_eli5     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 42/42  
+  task_easy_read        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 522/522
+[10:37:04] All tasks completed.                                                                    textbook_processor.py:1060
+           Sorting all outputs and returning...                                                    textbook_processor.py:1061
+            10 image caption entries do not have a section id from sectioning.                     textbook_processor.py:1243
+           Saving final extracted text...                                                          textbook_processor.py:1252
+           Saving final meaningful cropped images...                                               textbook_processor.py:1293
+           Saving section_eli5 explanations...                                                     textbook_processor.py:1319
+           All outputs saved successfully.                                                         textbook_processor.py:1063
+root@6b92c76374b9:/accesssible_digital_textbooks# mkdir science5thgrade_tts_output
+root@6b92c76374b9:/accesssible_digital_textbooks# python adt.py --pdf_path accessible_digital_textbooks/few_shot/adt_examples/textbooks/science5thgrade.pdf --input_dir science5thgrade_extraction_outputs --output_dir science5thgrade_web_assets_result --base_language es --languages en --overwrite --tts_input_dir science5thgrade_tts_output
+[10:39:35] Output directory science5thgrade_web_assets_result does not exist. Creating directory.                   adt.py:85
+[10:39:35] Copying image assets to HTML output directory...                                             adt_generation.py:329
+           Copied image assets from science5thgrade_extraction_outputs/images_cropped to HTML output    adt_generation.py:341
+           directory: science5thgrade_web_assets_result/results_web_assets/images.                                           
+           Copying default web assets to HTML output directory...                                       adt_generation.py:307
+           Copied default web assets from                                                               adt_generation.py:322
+           /accesssible_digital_textbooks/accessible_digital_textbooks/assets to HTML output directory:                      
+           science5thgrade_web_assets_result/results_web_assets/assets.                                                      
+           Starting ADT generation.                                                                                adt.py:107
+  ADT generation tasks       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 42/42
+⠏ ADT generate answers tasks ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0/0  
+[10:41:58] ADT Generation completed.                                                                    adt_generation.py:295
+           ADT Generation Pipeline completed.                                                           adt_generation.py:302
+root@6b92c76374b9:/accesssible_digital_textbooks# python main.py --textbook accessible_digital_textbooks/few_shot/adt_examples/textbooks/science5thgrade.pdf --output_dir science5thgrade_extraction_outputs --translation_targets es --base_language en --start 10 --end 30
+[13:08:02] Output directory science5thgrade_extraction_outputs does not exist. Creating it now.                    main.py:77
+           Overwriting existing files in science5thgrade_extraction_outputs                                        main.py:85
+[13:08:02] Initializing textbook extraction pipeline...                                             textbook_processor.py:106
+           Data Extraction pipeline initialized with base language: en                              textbook_processor.py:149
+           Translation targets set: Spanish                                                         textbook_processor.py:159
+           Running with concurrent threads 64, output directory:                                    textbook_processor.py:164
+           /accesssible_digital_textbooks/science5thgrade_extraction_outputs                                                 
+           Initializing output and log writers...                                                   textbook_processor.py:200
+           Starting tasks...                                                                        textbook_processor.py:965
+           Starting text and image extraction tasks...                                              textbook_processor.py:966
+           Translation and Image captioning will run concurrently in the background.                textbook_processor.py:967
+[13:09:10] Text and image extraction tasks complete. Starting sectioning...                        textbook_processor.py:1015
+  task_extract_text     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21/21  
+  task_image_extraction ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21/21  
+  task_translation      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 272/272
+  task_image_caption    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40/40  
+⠦ task_sectioning       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╺━━━━━━━━━━━━━━━━━ 17/21  
+⠦ task_section_eli5     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0/0    
+  task_easy_read        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 544/544╭─────────────────────────────── Traceback (most recent call last) ────────────────────────────────╮
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/textbook_processor.py:817 in         │
+│ callback_sectioning                                                                              │
+│                                                                                                  │
+│    814 │   │   adt_logger.info(f"Sectioning callback for page {task_data.page_index}")           │
+│    815 │   │   try:                                                                              │
+│    816 │   │   │   inferred_sections = future.result()                                           │
+│ ❱  817 │   │   │   for inferred_section in inferred_sections:                                    │
+│    818 │   │   │   │   row = [                                                                   │
+│    819 │   │   │   │   │   task_data.page_index,                                                 │
+│    820 │   │   │   │   │   inferred_section.section_id,                                          │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────╯
+TypeError: 'NoneType' object is not iterable
+╭─────────────────────────────── Traceback (most recent call last) ────────────────────────────────╮
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/textbook_processor.py:817 in         │
+│ callback_sectioning                                                                              │
+│                                                                                                  │
+│    814 │   │   adt_logger.info(f"Sectioning callback for page {task_data.page_index}")           │
+│    815 │   │   try:                                                                              │
+│    816 │   │   │   inferred_sections = future.result()                                           │
+  task_extract_text     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21/21  
+  task_image_extraction ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21/21  
+  task_translation      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 272/272
+  task_image_caption    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40/40  
+⠇ task_sectioning       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╺━━━━━━━━ 19/21  
+⠇ task_section_eli5     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0/0    
+  task_easy_read        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 544/544╭─────────────────────────────── Traceback (most recent call last) ────────────────────────────────╮
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/textbook_processor.py:817 in         │
+│ callback_sectioning                                                                              │
+│                                                                                                  │
+│    814 │   │   adt_logger.info(f"Sectioning callback for page {task_data.page_index}")           │
+│    815 │   │   try:                                                                              │
+│    816 │   │   │   inferred_sections = future.result()                                           │
+  task_extract_text     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21/21  
+  task_image_extraction ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21/21  
+  task_translation      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 272/272
+  task_image_caption    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40/40  
+⠹ task_sectioning       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸━━━━ 20/21  
+⠹ task_section_eli5     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0/0    
+  task_easy_read        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 544/544╭─────────────────────────────── Traceback (most recent call last) ────────────────────────────────╮
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/textbook_processor.py:817 in         │
+│ callback_sectioning                                                                              │
+│                                                                                                  │
+│    814 │   │   adt_logger.info(f"Sectioning callback for page {task_data.page_index}")           │
+│    815 │   │   try:                                                                              │
+│    816 │   │   │   inferred_sections = future.result()                                           │
+[13:12:10] Sectioning tasks complete, starting section eli5 tasks...                               textbook_processor.py:1028
+[13:12:27]  Image captioning, translation, eli5, and easy read tasks complete.                     textbook_processor.py:1052
+           Cleaning up multithreaded executor and progress bars...                                 textbook_processor.py:1055
+  task_extract_text     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21/21  
+  task_image_extraction ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21/21  
+  task_translation      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 310/310
+  task_image_caption    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40/40  
+  task_sectioning       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21/21  
+  task_section_eli5     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 38/38  
+  task_easy_read        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 544/544
+[13:12:27] All tasks completed.                                                                    textbook_processor.py:1060
+           Sorting all outputs and returning...                                                    textbook_processor.py:1061
+            11 image caption entries do not have a section id from sectioning.                     textbook_processor.py:1243
+           Saving final extracted text...                                                          textbook_processor.py:1252
+           Saving final meaningful cropped images...                                               textbook_processor.py:1293
+           Saving section_eli5 explanations...                                                     textbook_processor.py:1319
+           All outputs saved successfully.                                                         textbook_processor.py:1063
+root@6b92c76374b9:/accesssible_digital_textbooks# mkdir science5thgrade_tts_output
+root@6b92c76374b9:/accesssible_digital_textbooks# python adt.py --pdf_path accessible_digital_textbooks/few_shot/adt_examples/textbooks/science5thgrade.pdf --input_dir science5thgrade_extraction_outputs --output_dir science5thgrade_web_assets_result --base_language en --languages es --overwrite --tts_input_dir science5thgrade_tts_output
+[13:13:11] Output directory science5thgrade_web_assets_result does not exist. Creating directory.                   adt.py:85
+[13:13:11] Copying image assets to HTML output directory...                                             adt_generation.py:329
+           Copied image assets from science5thgrade_extraction_outputs/images_cropped to HTML output    adt_generation.py:341
+           directory: science5thgrade_web_assets_result/results_web_assets/images.                                           
+           Copying default web assets to HTML output directory...                                       adt_generation.py:307
+           Copied default web assets from                                                               adt_generation.py:322
+           /accesssible_digital_textbooks/accessible_digital_textbooks/assets to HTML output directory:                      
+           science5thgrade_web_assets_result/results_web_assets/assets.                                                      
+           Starting ADT generation.                                                                                adt.py:107
+  ADT generation tasks       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 38/38
+⠼ ADT generate answers tasks ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0/0  
+[13:15:14] ADT Generation completed.                                                                    adt_generation.py:295
+[13:15:15] ADT Generation Pipeline completed.                                                           adt_generation.py:302
+root@6b92c76374b9:/accesssible_digital_textbooks# python main.py --textbook accessible_digital_textbooks/few_shot/adt_examples/textbooks/LivingUruguay1.pdf --output_dir lu_1_extraction_outputs --translation_targets es --base_language en --start 10 --end 30
+[13:17:01] Output directory lu_1_extraction_outputs does not exist. Creating it now.                               main.py:77
+           Overwriting existing files in lu_1_extraction_outputs                                                   main.py:85
+[13:17:01] Initializing textbook extraction pipeline...                                             textbook_processor.py:106
+           Data Extraction pipeline initialized with base language: en                              textbook_processor.py:149
+           Translation targets set: Spanish                                                         textbook_processor.py:159
+           Running with concurrent threads 64, output directory:                                    textbook_processor.py:164
+           /accesssible_digital_textbooks/lu_1_extraction_outputs                                                            
+           Initializing output and log writers...                                                   textbook_processor.py:200
+           Starting tasks...                                                                        textbook_processor.py:965
+           Starting text and image extraction tasks...                                              textbook_processor.py:966
+           Translation and Image captioning will run concurrently in the background.                textbook_processor.py:967
+[13:17:54] Text and image extraction tasks complete. Starting sectioning...                        textbook_processor.py:1015
+  task_extract_text     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21/21    
+  task_image_extraction ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21/21    
+  task_translation      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 569/569  
+  task_image_caption    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 130/130  
+⠋ task_sectioning       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸━━━━ 20/21    
+⠋ task_section_eli5     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0/0      
+  task_easy_read        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1138/1138╭─────────────────────────────── Traceback (most recent call last) ────────────────────────────────╮
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/textbook_processor.py:817 in         │
+│ callback_sectioning                                                                              │
+│                                                                                                  │
+│    814 │   │   adt_logger.info(f"Sectioning callback for page {task_data.page_index}")           │
+│    815 │   │   try:                                                                              │
+│    816 │   │   │   inferred_sections = future.result()                                           │
+[13:22:39] Sectioning tasks complete, starting section eli5 tasks...                               textbook_processor.py:1028
+[13:23:01]  Image captioning, translation, eli5, and easy read tasks complete.                     textbook_processor.py:1052
+           Cleaning up multithreaded executor and progress bars...                                 textbook_processor.py:1055
+  task_extract_text     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21/21    
+  task_image_extraction ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21/21    
+  task_translation      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 648/648  
+  task_image_caption    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 130/130  
+  task_sectioning       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21/21    
+  task_section_eli5     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 79/79    
+  task_easy_read        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1138/1138
+[13:23:01] All tasks completed.                                                                    textbook_processor.py:1060
+           Sorting all outputs and returning...                                                    textbook_processor.py:1061
+            25 extracted text entries do not have a section id from sectioning.                    textbook_processor.py:1231
+            14 image caption entries do not have a section id from sectioning.                     textbook_processor.py:1243
+           Saving final extracted text...                                                          textbook_processor.py:1252
+           Saving final meaningful cropped images...                                               textbook_processor.py:1293
+           Saving section_eli5 explanations...                                                     textbook_processor.py:1319
+           All outputs saved successfully.                                                         textbook_processor.py:1063
+root@6b92c76374b9:/accesssible_digital_textbooks# mkdir lu_1_tts_output
+root@6b92c76374b9:/accesssible_digital_textbooks# python adt.py --pdf_path accessible_digital_textbooks/few_shot/adt_examples/textbooks/LivingUruguay1.pdf --input_dir lu_1_extraction_outputs --output_dir lu_1_web_assets_result --base_language en --languages es --overwrite --start 10 --end 30 --tts_input_dir lu_1_tts_output
+[13:25:29] Output directory lu_1_web_assets_result does not exist. Creating directory.                              adt.py:85
+[13:25:29] Copying image assets to HTML output directory...                                             adt_generation.py:329
+           Copied image assets from lu_1_extraction_outputs/images_cropped to HTML output directory:    adt_generation.py:341
+           lu_1_web_assets_result/results_web_assets/images.                                                                 
+           Copying default web assets to HTML output directory...                                       adt_generation.py:307
+           Copied default web assets from                                                               adt_generation.py:322
+           /accesssible_digital_textbooks/accessible_digital_textbooks/assets to HTML output directory:                      
+           lu_1_web_assets_result/results_web_assets/assets.                                                                 
+           Starting ADT generation.                                                                                adt.py:107
+  ADT generation tasks       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 79/79
+  ADT generate answers tasks ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5/5  
+[13:30:09] ADT Generation completed.                                                                    adt_generation.py:295
+           ADT Generation Pipeline completed.                                                           adt_generation.py:302
+root@6b92c76374b9:/accesssible_digital_textbooks# python main.py --textbook accessible_digital_textbooks/few_shot/adt_examples/textbooks/math2ndgrade.pdf --output_dir math2ndgrade_extraction_outputs --translation_targets es --base_language en --start 10 --end 30
+[13:32:49] Output directory math2ndgrade_extraction_outputs does not exist. Creating it now.                       main.py:77
+           Overwriting existing files in math2ndgrade_extraction_outputs                                           main.py:85
+[13:32:49] Initializing textbook extraction pipeline...                                             textbook_processor.py:106
+           Data Extraction pipeline initialized with base language: en                              textbook_processor.py:149
+           Translation targets set: Spanish                                                         textbook_processor.py:159
+           Running with concurrent threads 64, output directory:                                    textbook_processor.py:164
+           /accesssible_digital_textbooks/math2ndgrade_extraction_outputs                                                    
+           Initializing output and log writers...                                                   textbook_processor.py:200
+           Starting tasks...                                                                        textbook_processor.py:965
+           Starting text and image extraction tasks...                                              textbook_processor.py:966
+           Translation and Image captioning will run concurrently in the background.                textbook_processor.py:967
+  task_extract_text     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21/21  
+⠦ task_image_extraction ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╺━━━━━━━━━━━━━━━━━ 17/21  
+⠦ task_translation      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╺━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 107/235
+⠦ task_image_caption    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0/0    
+⠦ task_sectioning       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0/0    
+⠦ task_section_eli5     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0/0    
+⠦ task_easy_read        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╺━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 208/470╭─────────────────────────────── Traceback (most recent call last) ────────────────────────────────╮
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/textbook_processor.py:920 in         │
+│ callback_translation                                                                             │
+│                                                                                                  │
+│    917 │   │   │   f"Translation callback for text ID {task_data.id} on page {task_data.page_in  │
+│    918 │   │   )                                                                                 │
+│    919 │   │   try:                                                                              │
+│ ❱  920 │   │   │   translated_text = future.result()                                             │
+│    921 │   │   │   self.output_translation.write_row(                                            │
+│    922 │   │   │   │   [                                                                         │
+│    923 │   │   │   │   │   task_data.page_index,                                                 │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/_base.py:449 in result                              │
+│                                                                                                  │
+│   446 │   │   │   │   if self._state in [CANCELLED, CANCELLED_AND_NOTIFIED]:                     │
+│   447 │   │   │   │   │   raise CancelledError()                                                 │
+│   448 │   │   │   │   elif self._state == FINISHED:                                              │
+│ ❱ 449 │   │   │   │   │   return self.__get_result()                                             │
+│   450 │   │   │   │                                                                              │
+│   451 │   │   │   │   self._condition.wait(timeout)                                              │
+│   452                                                                                            │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/_base.py:401 in __get_result                        │
+│                                                                                                  │
+│   398 │   def __get_result(self):                                                                │
+│   399 │   │   if self._exception:                                                                │
+│   400 │   │   │   try:                                                                           │
+│ ❱ 401 │   │   │   │   raise self._exception                                                      │
+│   402 │   │   │   finally:                                                                       │
+│   403 │   │   │   │   # Break a reference cycle with the exception in self._exception            │
+│   404 │   │   │   │   self = None                                                                │
+│                                                                                                  │
+│ /usr/local/lib/python3.11/concurrent/futures/thread.py:58 in run                                 │
+│                                                                                                  │
+│    55 │   │   │   return                                                                         │
+│    56 │   │                                                                                      │
+│    57 │   │   try:                                                                               │
+│ ❱  58 │   │   │   result = self.fn(*self.args, **self.kwargs)                                    │
+│    59 │   │   except BaseException as exc:                                                       │
+│    60 │   │   │   self.future.set_exception(exc)                                                 │
+│    61 │   │   │   # Break a reference cycle with the exception 'exc'                             │
+│                                                                                                  │
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/async_tasks/task_translation.py:98   │
+│ in translate_text                                                                                │
+│                                                                                                  │
+│    95 │   │   adt_logger.critical(                                                               │
+│    96 │   │   │   f"Failed to translate text after {retries} attempts.\nTask input: {task_data   │
+│    97 │   │   )                                                                                  │
+│ ❱  98 │   │   raise TranslationException(                                                        │
+│    99 │   │   │   f"Failed to translate text after {retries} attempts.\nTask input: {task_data   │
+│   100 │   │   )                                                                                  │
+│   101                                                                                            │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────╯
+TranslationException: Failed to translate text after 7 attempts.
+Task input: id='text-25-9' text='______' page_index=25 base_language_code='en' target_language_code='es'
+Client response: ParsedChatCompletion[TranslationResponseFormat](id='chatcmpl-A0qbiMcHD7T4vrNZquinDpGpAMdYy', 
+[13:33:19] Text and image extraction tasks complete. Starting sectioning...                        textbook_processor.py:1015
+  task_extract_text     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21/21  
+  task_image_extraction ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21/21  
+  task_translation      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 235/235
+  task_image_caption    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8/8    
+⠏ task_sectioning       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸━━━━ 20/21  
+⠏ task_section_eli5     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0/0    
+  task_easy_read        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 470/470╭─────────────────────────────── Traceback (most recent call last) ────────────────────────────────╮
+│ /accesssible_digital_textbooks/accessible_digital_textbooks/textbook_processor.py:817 in         │
+│ callback_sectioning                                                                              │
+│                                                                                                  │
+│    814 │   │   adt_logger.info(f"Sectioning callback for page {task_data.page_index}")           │
+│    815 │   │   try:                                                                              │
+│    816 │   │   │   inferred_sections = future.result()                                           │
+[13:35:57] Sectioning tasks complete, starting section eli5 tasks...                               textbook_processor.py:1028
+[13:36:14]  Image captioning, translation, eli5, and easy read tasks complete.                     textbook_processor.py:1052
+           Cleaning up multithreaded executor and progress bars...                                 textbook_processor.py:1055
+  task_extract_text     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21/21  
+  task_image_extraction ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21/21  
+  task_translation      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 271/271
+  task_image_caption    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8/8    
+  task_sectioning       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21/21  
+  task_section_eli5     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 36/36  
+  task_easy_read        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 470/470
+[13:36:14] All tasks completed.                                                                    textbook_processor.py:1060
+           Sorting all outputs and returning...                                                    textbook_processor.py:1061
+            5 extracted text entries do not have a section id from sectioning.                     textbook_processor.py:1231
+            1 image caption entries do not have a section id from sectioning.                      textbook_processor.py:1243
+           Saving final extracted text...                                                          textbook_processor.py:1252
+           Saving final meaningful cropped images...                                               textbook_processor.py:1293
+           Saving section_eli5 explanations...                                                     textbook_processor.py:1319
+           All outputs saved successfully.   
