@@ -5,7 +5,7 @@ Demo for all pipeline outputs
 
 ## Cuaderno 5 Full Book
 
-python main.py --textbook accessible_digital_textbooks/few_shot/adt_examples/textbooks/cuaderno5.pdf --output_dir c5_10_30_extraction_outputs --translation_targets en --base_language es --start 10 --end 30
+python main.py --textbook accessible_digital_textbooks/few_shot/adt_examples/textbooks/cuaderno5.pdf --output_dir c5_10_30_extraction_outputs --translation_targets en --base_language es
 ### result failed
 
 ## Cuaderno 5 page 10 - 30
